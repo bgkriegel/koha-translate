@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:44-0300\n"
-"PO-Revision-Date: 2020-02-19 11:25+0000\n"
+"POT-Creation-Date: 2020-03-19 07:37-0300\n"
+"PO-Revision-Date: 2020-03-23 14:41+0000\n"
 "Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
 "Language-Team: Ukrainian Linux Team <translation@linux.org.ua>\n"
 "Language: uk\n"
@@ -21,7 +21,7 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1582111527.996176\n"
+"X-POOTLE-MTIME: 1584974495.022211\n"
 "X-Pootle-Path: /uk/18.05/uk-UA-marc-MARC21.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -2440,7 +2440,7 @@ msgstr "вірменська"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:34
 #, c-format
 msgid "Aromanian"
-msgstr ""
+msgstr "арумунська"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:509
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:923
@@ -2472,13 +2472,13 @@ msgstr "Стаття, складова частина"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:35
 #, c-format
 msgid "Artificial (Other)"
-msgstr ""
+msgstr "штучні мови (інші)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:36
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:36
 #, c-format
 msgid "Assamese"
-msgstr ""
+msgstr "ассамі"
 
 #. SCRIPT
 #: intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:73
@@ -2489,7 +2489,7 @@ msgstr "Призначити наступний"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:37
 #, c-format
 msgid "Athapascan (Other)"
-msgstr ""
+msgstr "атапаскські (атабаскські) мови (інші)"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:11
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:274
@@ -2518,7 +2518,7 @@ msgstr "австралійські мови"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:39
 #, c-format
 msgid "Austronesian (Other)"
-msgstr ""
+msgstr "аустронезійські мови (інші)"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:133
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:483
@@ -2551,7 +2551,7 @@ msgstr "Наявність: "
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:40
 #, c-format
 msgid "Avaric"
-msgstr ""
+msgstr "аварська"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:41
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:41
@@ -2635,9 +2635,9 @@ msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:46
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:46
-#, fuzzy, c-format
+#, c-format
 msgid "Balinese"
-msgstr "китайський"
+msgstr "балійська"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:339
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:752
@@ -2660,13 +2660,13 @@ msgstr "повітряна куля"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:47
 #, c-format
 msgid "Baltic (Other)"
-msgstr ""
+msgstr "балтійські мови (інші)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:48
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:48
 #, c-format
 msgid "Baluchi"
-msgstr ""
+msgstr "балучі"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:49
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:49
@@ -2676,15 +2676,15 @@ msgstr "бамбара"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:50
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:50
-#, fuzzy, c-format
+#, c-format
 msgid "Bamileke languages"
-msgstr "багато мов"
+msgstr "бамілеке"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:51
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:51
-#, fuzzy, c-format
+#, c-format
 msgid "Banda languages"
-msgstr "знакові мови"
+msgstr "банда"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:52
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:52
@@ -2710,7 +2710,7 @@ msgstr "тактова риска над тактовою рискою"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:53
 #, c-format
 msgid "Basa"
-msgstr ""
+msgstr "баса"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:356
 #, c-format
@@ -2732,7 +2732,7 @@ msgstr "Основа плівки."
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:54
 #, c-format
 msgid "Bashkir"
-msgstr ""
+msgstr "башкірська"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:669
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:1156
@@ -8860,7 +8860,7 @@ msgstr "інформація відсутня"
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1231
 #, c-format
 msgid "No items available "
-msgstr "Немає наявних примірників "
+msgstr "Немає доступних примірників "
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:322
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:342

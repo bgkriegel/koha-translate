@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:45-0300\n"
-"PO-Revision-Date: 2019-10-14 07:21+0000\n"
-"Last-Translator: GI_Hanoi <bibliothek-hanoi@goethe.de>\n"
+"POT-Creation-Date: 2020-03-19 07:38-0300\n"
+"PO-Revision-Date: 2020-03-20 04:03+0000\n"
+"Last-Translator: Nghĩa Zer <nghia.zer.7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1571037699.724822\n"
+"X-POOTLE-MTIME: 1584677019.637879\n"
 "X-Pootle-Path: /vi/18.05/vi-VN-opac-bootstrap.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -113,11 +113,11 @@ msgstr "%s %s %s Koha online %s catalog %s &rsaquo; %s %s "
 #. %20$s:  i = i + 1 
 #. %21$s:  END 
 #: opac-tmpl/bootstrap/en/includes/biblio-title-head.inc:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s No title %s %s%s,%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s "
 msgstr ""
-"%s Thêm %s bởi bạn %s %s Thêm %s bởi %s %s %s %s %s %s %s %s %s %s %s %s %s "
-"%s %s %s %s "
+"%s %s %s Không có tiêu đề %s %s%s,%s %s %s %s %s %s %s %s %s %s %s %s %s %s %"
+"s "
 
 #. %1$s:  END 
 #. %2$s:  END # / FOREACH ERROR 
@@ -196,9 +196,9 @@ msgstr "%s %s (không được chấp nhận) %s"
 #. %1$s:  END 
 #. %2$s:  IF ( koha_spsuggest ) 
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:119
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Did you mean: "
-msgstr "%s Bạn muốn tìm: "
+msgstr "%s %s Ý bạn là: "
 
 #. For the first occurrence,
 #. %1$s:  END 
@@ -330,9 +330,9 @@ msgstr "%s %s Tác giả: %s%s"
 #. %1$s:  r.firstname | html 
 #. %2$s:  r.surname | html 
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt:433
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s currently owes fines and charges amounting to:"
-msgstr "Bạn đang nợ tiền phạt và các khoản phí lên tới:"
+msgstr "%s %s đang nợ tiền phạt và các khoản phí lên tới::"
 
 #. %1$s:  firstname | $raw 
 #. %2$s:  surname | $raw 
@@ -354,9 +354,9 @@ msgstr "%s %s Xin gửi tới bạn thông tin về tài liệu trong giá sách
 #. %1$s:  r.patron.firstname | html 
 #. %2$s:  r.patron.surname | html 
 #: opac-tmpl/bootstrap/en/includes/account-table.inc:86
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s's fines and charges"
-msgstr "Tiền phạt của bạn"
+msgstr "Tiền phạt của %s %s"
 
 #. %1$s:  SWITCH type 
 #. %2$s:  CASE 'earlier' 
@@ -689,9 +689,9 @@ msgstr "%s Không có kết quả, Hãy thay đổi bộ lọc. %s "
 #. %4$s:  IF Koha.Preference('marcflavour')=='UNIMARC' 
 #. %5$s:  END 
 #: opac-tmpl/bootstrap/en/includes/biblio-title.inc:2
-#, fuzzy, c-format
+#, c-format
 msgid "%s No title %s %s%s,%s "
-msgstr "%s %s %s%s%sKhông có nhan đề%s %s %s%s "
+msgstr "%s Không có tựa đề %s %s%s,%s "
 
 #. %1$s:  ELSIF ( OVERDUE.norenew_overdue ) 
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt:585
@@ -1476,27 +1476,27 @@ msgstr "%s%s%sDanh mục tài liệu trực tuyến%s Koha &rsaquo; Các khóa h
 #. %4$s:  END 
 #. %5$s:  INCLUDE 'biblio-title-head.inc' 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt:33
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Details for: %s"
-msgstr "%s %s %s%s%sKoha online%s  &rsaquo; Ảnh bìa của: %s %s %s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Chi tiết cho: %s"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-discharge.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Discharge"
-msgstr "%s %s %s%s%s%sKoha online%s  &rsaquo; Từ khóa %s %s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Biên nhận"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt:2
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Download cart"
-msgstr "%s%s%s%sKoha online%s  &rsaquo; Tải giỏ tài liệu %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Tải xuống giỏ tài liệu"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -1504,9 +1504,9 @@ msgstr "%s%s%s%sKoha online%s  &rsaquo; Tải giỏ tài liệu %s %s%s "
 #. %4$s:  END 
 #. %5$s:  shelf.shelfname | html 
 #: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Download list %s"
-msgstr "%s%s%s%sKoha online%s  &rsaquo; Tải giỏ tài liệu %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Tải xuống giá sách ảo %s"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -1514,18 +1514,18 @@ msgstr "%s%s%s%sKoha online%s  &rsaquo; Tải giỏ tài liệu %s %s%s "
 #. %4$s:  END 
 #. %5$s:  authtypetext | html 
 #: opac-tmpl/bootstrap/en/modules/opac-auth-MARCdetail.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Entry %s"
-msgstr "%s %s %s%s%s%sKoha online%s  &rsaquo; Truy cập %s %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Mục truy cập %s"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Forgotten password recovery"
-msgstr "%s %s%s%s%sKoha online%s  &rsaquo; Đổi mật khẩu %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Khôi phục mật khẩu"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -1533,18 +1533,18 @@ msgstr "%s %s%s%s%sKoha online%s  &rsaquo; Đổi mật khẩu %s %s%s "
 #. %4$s:  END 
 #. %5$s:  bibliotitle | html 
 #: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:5
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Full subscription history for %s"
-msgstr "%s %s %s%s%s%sKoha online%s  &rsaquo; Hiển thị đầy đủ ÂPĐK %s %s %s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Lịch sử đăng ký đầy đủ cho %s"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; ISBD view"
-msgstr "%s %s%s%s%sKoha online%s  &rsaquo; Hiển thị ISBD %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Hiển thị ISBD "
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -1552,18 +1552,18 @@ msgstr "%s %s%s%s%sKoha online%s  &rsaquo; Hiển thị ISBD %s %s%s "
 #. %4$s:  END 
 #. %5$s:  INCLUDE 'biblio-title-head.inc' 
 #: opac-tmpl/bootstrap/en/modules/opac-imageviewer.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Images for: %s"
-msgstr "%s %s %s%s%sKoha online%s  &rsaquo; Ảnh bìa của: %s %s %s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Ảnh bìa của: %s"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-serial-issues.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Issues for a subscription"
-msgstr "%s %s%s%s%sKoha online%s  &rsaquo; Thông tin ấn phẩm định kỳ %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Ấn phẩm cho phép đăng ký"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -1571,19 +1571,20 @@ msgstr "%s %s%s%s%sKoha online%s  &rsaquo; Thông tin ấn phẩm định kỳ %
 #. %4$s:  END 
 #. %5$s:  biblio.biblionumber | html 
 #: opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; MARC details for record no. %s"
 msgstr ""
-"%s %s%s%s%sKoha online%s  &rsaquo; Hiển thị MARC của biểu ghi số %s %s %s%s "
+"%s%s%sKoha online%s catalog &rsaquo; Hiển thị chi tiết MARC của biểu ghi số "
+"%s"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-topissues.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Most popular titles"
-msgstr "%s %s%s%s%sKoha online%s  &rsaquo; Tài liệu ghi mượn nhiều nhất %s %s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Tài liệu ghi mượn nhiều nhất"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -1591,37 +1592,37 @@ msgstr "%s %s%s%s%sKoha online%s  &rsaquo; Tài liệu ghi mượn nhiều nhấ
 #. %4$s:  END 
 #. %5$s:  q | html 
 #: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt:5
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; OverDrive search for '%s'"
-msgstr "%s %s %s%s%sKoha online%s &rsaquo; Tìm kiếm OverDrive cho '%s' %s %s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Tìm kiếm OverDrive cho '%s'"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt:8
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Placing a hold"
-msgstr "%s %s %s %s%s%sKoha online%s &rsaquo; Đặt mượn tài liệu %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Đặt mượn tài liệu"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-registration-email-sent.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Please confirm your registration"
 msgstr ""
-"%s %s %s%s%sKoha online%s  &rsaquo; Xác nhận đăng ký tài khoản %s %s%s "
+"%s%s%sKoha online%s catalog &rsaquo; Vui lòng xác nhận việc đăng ký của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:5
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Recent comments"
-msgstr "%s %s %s%s%s%sKoha online%s  &rsaquo; Bình luận mới nhất  %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Bình luận mới nhất"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -1629,121 +1630,117 @@ msgstr "%s %s %s%s%s%sKoha online%s  &rsaquo; Bình luận mới nhất  %s %s%s
 #. %4$s:  END 
 #. %5$s:  q | html 
 #: opac-tmpl/bootstrap/en/modules/opac-recordedbooks-search.tt:5
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; RecordedBooks search for '%s'"
-msgstr "%s %s %s%s%sKoha online%s &rsaquo; Tìm kiếm OverDrive cho '%s' %s %s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Tìm kiếm RecordedBooks cho '%s'"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-request-article.tt:5
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Request article"
-msgstr "%s %s %s %s%s%sKoha online%s  &rsaquo; Giỏ tài liệu của bạn %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Yêu cầu bài viết"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasketform.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Sending your cart"
-msgstr ""
-"%s%s%s%sKoha online%s  &rsaquo; Gửi giỏ tài liệu tới thư điện tử %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Gửi giỏ tài liệu của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-sendshelfform.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Sending your list"
-msgstr ""
-"%s%s%s%sKoha online%s  &rsaquo; Gửi giá sách ảo tới thư điện tử %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Gửi giá sách ảo của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Share a list"
-msgstr "%s %s%s%s%sKoha online%s &rsaquo; Chia sẻ giá sách ảo %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Chia sẻ giá sách ảo"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-tags_subject.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Subject cloud"
-msgstr "%s %s %s%s%sKoha online%s &rsaquo; Mây chủ đề %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Mây chủ đề"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-tags.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Tags"
-msgstr "%s %s %s%s%s%sKoha online%s  &rsaquo; Từ khóa %s %s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Thẻ"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Updates submitted"
-msgstr ""
-"%s %s %s%s%sKoha online%s  &rsaquo; Cập nhật tài khoản thành công. %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Các cập nhật đã được gửi"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-basket.tt:9
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your cart"
-msgstr "%s %s %s %s%s%sKoha online%s  &rsaquo; Giỏ tài liệu của bạn %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Giỏ tài liệu của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-account.tt:10
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your charges"
-msgstr "%s %s %s %s%s%sKoha online%s  &rsaquo; Giỏ tài liệu của bạn %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Chi phí của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:5
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your checkout history"
-msgstr "%s %s %s %s%s%sKoha online%s &rsaquo; Lịch sử ghi mượn %s %s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Lịch sử thanh toán của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your consents"
-msgstr "%s %s %s %s%s%sKoha online%s  &rsaquo; Giỏ tài liệu của bạn %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Sự đồng ý của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your interlibrary loan requests"
-msgstr ""
-"%s %s %s %s%s%sKoha online%s  &rsaquo; Thông tin chung của bạn đọc %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Yêu cầu mượn liên thư viện của bạn"
 
 #. For the first occurrence,
 #. %1$s:  IF ( LibraryNameTitle ) 
@@ -1752,28 +1749,27 @@ msgstr ""
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:5
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your library home"
-msgstr ""
-"%s %s %s %s%s%sKoha online%s  &rsaquo; Thông tin chung của bạn đọc %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Thư viện chính của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-privacy.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your privacy management"
-msgstr "%s %s%s%s%sKoha online%s  &rsaquo; Quản lý chính sách cá nhân %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Quản lý thông tin cá nhân của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-routing-lists.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your routing lists"
-msgstr "%s %s %s %s%s%sKoha online%s  &rsaquo; Giỏ tài liệu của bạn %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Danh sách định tuyến của bạn"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -1781,24 +1777,23 @@ msgstr "%s %s %s %s%s%sKoha online%s  &rsaquo; Giỏ tài liệu của bạn %s 
 #. %4$s:  END 
 #. %5$s:  unimarc3 | html 
 #: opac-tmpl/bootstrap/en/modules/opac-idref.tt:2
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your search IDREF for ppn %s"
-msgstr "%s %s %s %s%s%sKoha online%s  &rsaquo; Lịch sử tìm kiếm %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Tìm kiếm IDREF của bạn cho ppn %s"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your search history"
-msgstr "%s %s %s %s%s%sKoha online%s  &rsaquo; Lịch sử tìm kiếm %s %s%s "
+msgstr "%s%s%sKoha online%s catalog &rsaquo; Lịch sử tìm kiếm của bạn"
 
 #. LINK
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:8
-#, fuzzy
 msgid "%s%s%sKoha online%s catalog recent comments"
-msgstr "%s %s %s%s%s%sKoha online%s  &rsaquo; Bình luận mới nhất  %s %s%s "
+msgstr "%s%s%sKoha online%s catalog bình luận mới nhất"
 
 #. %1$s:  IF ( SEARCH_RESULT.BiblioDefaultViewmarc ) 
 #. %2$s:  OPACBaseURL | html 
@@ -1882,9 +1877,9 @@ msgstr "%s/cgi-bin/koha/opac-detail.pl?biblionumber=%s&amp;reviewid=%s"
 
 #. %1$s:  OPACBaseURL | html 
 #: opac-tmpl/bootstrap/en/modules/opac-news-rss.tt:7
-#, fuzzy, c-format
+#, c-format
 msgid "%s/cgi-bin/koha/opac-main.pl"
-msgstr "%s/cgi-bin/koha/opac-detail.pl?biblionumber=%s"
+msgstr "%s/cgi-bin/koha/opac-main.pl"
 
 #. %1$s:  OPACBaseURL | html 
 #. %2$s:  newsitem.idnew | html 
@@ -1912,9 +1907,9 @@ msgstr "%s/cgi-bin/koha/opac-search.pl?%s%s&amp;format=rss2"
 #. %1$s:  OPACBaseURL | html 
 #. %2$s:  shelf.shelfnumber | html 
 #: opac-tmpl/bootstrap/en/modules/opac-shelves-rss.tt:7
-#, fuzzy, c-format
+#, c-format
 msgid "%s/cgi-bin/koha/opac-shelves.pl?rss=1&amp;viewshelf=%s"
-msgstr "%s/cgi-bin/koha/opac-showreviews.pl&amp;format=rss2"
+msgstr "%s/cgi-bin/koha/opac-shelves.pl?rss=1&amp;viewshelf=%s"
 
 #. %1$s:  OPACBaseURL | html 
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews-rss.tt:5
@@ -1925,25 +1920,30 @@ msgstr "%s/cgi-bin/koha/opac-showreviews.pl&amp;format=rss2"
 #. %1$s:  ELSE 
 #. %2$s:  END 
 #: opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt:95
-#, fuzzy, c-format
+#, c-format
 msgid "%s0 biblios%s "
-msgstr "%s biểu ghi"
+msgstr "%s0 biểu ghi%s "
 
-#. %1$s:  IF ( starting_homebranch ) 
+#. %1$s: - IF ( starting_homebranch ) 
 #. %2$s:  starting_homebranch | html 
-#. %3$s:  END 
-#. %4$s:  IF ( starting_location ) 
-#. %5$s:  starting_location | html 
-#. %6$s:  END 
-#. %7$s:  IF ( starting_ccode ) 
-#. %8$s:  starting_ccode | html 
-#. %9$s:  END 
+#. %3$s:  END -
+#. %4$s: - IF ( starting_homebranch && starting_location ) 
+#. %5$s:  END 
+#. %6$s: - IF ( starting_location ) 
+#. %7$s: - starting_location | html -
+#. %8$s:  END -
+#. %9$s: - IF ( starting_homebranch && starting_ccode ) 
+#. %10$s:  END 
+#. %11$s: - IF ( starting_ccode ) 
+#. %12$s: - starting_ccode | html -
+#. %13$s:  END -
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:4
-#, fuzzy, c-format
+#, c-format
 msgid ""
-"%sBrowsing %s Shelves%s %s, Shelving location: %s%s %s, Collection code: %s"
-"%s "
-msgstr "%sThư viện: %s %s %s, Kho tài liệu: %s%s %s, Mã bộ sưu tập: %s%s "
+"%sBrowsing %s shelves%s %s, %s %sShelving location: %s%s %s, %s "
+"%sCollection: %s%s "
+msgstr ""
+"%sĐang duyệt %s kho%s %s, %s %sKho tài liệu: %s%s %s, %s %sBộ sưu tập: %s%s "
 
 #. %1$s:  IF ( ccodesearch ) 
 #. %2$s:  ELSE 
@@ -4508,7 +4508,7 @@ msgstr "Kích để xem trong Google Books"
 msgid "Close"
 msgstr "Thoát"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:8
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:10
 #, c-format
 msgid "Close shelf browser"
 msgstr "Thoát"
@@ -4778,7 +4778,7 @@ msgid "Courses"
 msgstr "Khóa học"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:66
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:68
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:155
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:327
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:329
@@ -5153,12 +5153,12 @@ msgid ""
 "arrives?"
 msgstr "Bạn muốn nhận được thông báo qua hòm thư khi có ấn phẩm định kỳ mới?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
 #, c-format
 msgid "Don't have a library card?"
 msgstr "Bạn chưa có thẻ thư viện?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:181
 #, c-format
 msgid "Don't have a password yet?"
 msgstr "Quên mật khẩu đăng nhập?"
@@ -5296,7 +5296,7 @@ msgstr "Lần xuất bản:"
 msgid "Editions"
 msgstr "Ấn bảo"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt:41
 #, c-format
 msgid "Email"
@@ -5707,7 +5707,7 @@ msgstr ""
 "phép bạn đọc lưu giữ tất cả lịch sử ghi mượn của bạn."
 
 #: opac-tmpl/bootstrap/en/includes/masthead.inc:362
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:175
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:174
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt:180
 #, fuzzy, c-format
 msgid "Forgot your password?"
@@ -6353,13 +6353,13 @@ msgid ""
 msgstr ""
 "Bạn có thể sử dụng tài khoản thư viện thay cho tài khoản CAS để đăng nhập :  "
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:185
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
 #, fuzzy, c-format
 msgid ""
 "If you don't have a library card, stop by your local library to sign up."
 msgstr "Nếu bạn không có thẻ thư viện, bạn có thể gặp thủ thư để đăng ký."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
 #, c-format
 msgid ""
 "If you don't have a password yet, stop by the circulation desk the next time "
@@ -7119,7 +7119,7 @@ msgstr ""
 msgid "Log out from your OverDrive account"
 msgstr "Đăng nhập"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:195
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:194
 #, c-format
 msgid "Logging on to the catalog has not been enabled by the library."
 msgstr "Quá trình đăng nhập hiện tại không thực hiện được."
@@ -7502,7 +7502,7 @@ msgstr "Từ khóa:"
 msgid "Next"
 msgstr "Tiếp tục"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:76
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:78
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:17
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt:1112
 #, fuzzy, c-format
@@ -7549,10 +7549,10 @@ msgstr ""
 msgid "No checkouts"
 msgstr "Ghi mượn"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:31
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:40
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:49
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:33
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:42
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:51
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:63
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:110
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:229
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:237
@@ -8714,7 +8714,7 @@ msgstr "Trước"
 msgid "Preview"
 msgstr "Xem trước"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:16
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:18
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:122
 #: opac-tmpl/bootstrap/en/includes/datatables.inc:4
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:7
@@ -9713,7 +9713,7 @@ msgid "Section:"
 msgstr "Thành phần:"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:59
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:148
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:307
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:318
@@ -11306,7 +11306,7 @@ msgstr "Để thay đổi thông tin cá nhân hãy liên hệ với thư viện
 msgid "To report this error, please contact the Koha Administrator. "
 msgstr "Để thay đổi thông tin cá nhân hãy liên hệ với thư viện."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #, fuzzy, c-format
 msgid "To report this error, you can email the Koha Administrator."
 msgstr "Để thay đổi thông tin cá nhân hãy liên hệ với thư viện."
@@ -11508,7 +11508,7 @@ msgstr ""
 msgid "Updates to your record"
 msgstr "Cập nhật thông tin cá nhân thành công"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:198
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
 #, c-format
 msgid "Use top menu bar to navigate to another part of Koha."
 msgstr ""
@@ -12112,7 +12112,7 @@ msgid ""
 "available."
 msgstr ""
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:188
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:187
 #, fuzzy, c-format
 msgid "You may register here."
 msgstr "đăng ký tại đây."

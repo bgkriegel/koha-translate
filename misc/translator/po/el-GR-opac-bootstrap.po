@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 14:57-0300\n"
+"POT-Creation-Date: 2020-03-19 07:07-0300\n"
 "PO-Revision-Date: 2020-01-24 15:07+0000\n"
 "Last-Translator: Dimitris Antonakis <dimantonak@gmail.com>\n"
 "Language-Team: Koha Translation Team <koha-translate@nongnu.org>\n"
@@ -1946,20 +1946,24 @@ msgstr "%s/cgi-bin/koha/opac-showreviews.pl&amp;format=rss2"
 msgid "%s0 biblios%s "
 msgstr "%s0 εγγραφές%s "
 
-#. %1$s:  IF ( starting_homebranch ) 
+#. %1$s: - IF ( starting_homebranch ) 
 #. %2$s:  starting_homebranch | html 
-#. %3$s:  END 
-#. %4$s:  IF ( starting_location ) 
-#. %5$s:  starting_location | html 
-#. %6$s:  END 
-#. %7$s:  IF ( starting_ccode ) 
-#. %8$s:  starting_ccode | html 
-#. %9$s:  END 
+#. %3$s:  END -
+#. %4$s: - IF ( starting_homebranch && starting_location ) 
+#. %5$s:  END 
+#. %6$s: - IF ( starting_location ) 
+#. %7$s: - starting_location | html -
+#. %8$s:  END -
+#. %9$s: - IF ( starting_homebranch && starting_ccode ) 
+#. %10$s:  END 
+#. %11$s: - IF ( starting_ccode ) 
+#. %12$s: - starting_ccode | html -
+#. %13$s:  END -
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:4
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"%sBrowsing %s Shelves%s %s, Shelving location: %s%s %s, Collection code: %s"
-"%s "
+"%sBrowsing %s shelves%s %s, %s %sShelving location: %s%s %s, %s "
+"%sCollection: %s%s "
 msgstr ""
 "%sΠεριήγηση %s Ράφια%s %s, Τοποθεσία στα ράφια: %s%s %s, Κωδικός συλλογής: %s"
 "%s "
@@ -4559,7 +4563,7 @@ msgstr "Κάντε κλικ για προβολή στο Google Books"
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:8
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:10
 #, c-format
 msgid "Close shelf browser"
 msgstr "Κλείσιμο της περιήγησης στο ράφι"
@@ -4829,7 +4833,7 @@ msgid "Courses"
 msgstr "Μαθήματα"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:66
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:68
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:155
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:327
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:329
@@ -5204,12 +5208,12 @@ msgid ""
 "arrives?"
 msgstr "Θέλετε να λαβετε email όταν παραληφθεί νέο τεύχος αυτής της συνδρομής;"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
 #, c-format
 msgid "Don't have a library card?"
 msgstr "Δεν έχετε κάρτα μέλους;"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:181
 #, c-format
 msgid "Don't have a password yet?"
 msgstr "Δεν έχετε κωδικό πρόσβασης;"
@@ -5347,7 +5351,7 @@ msgstr "Δήλωση έκδοσης:"
 msgid "Editions"
 msgstr "Εκδόσεις"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt:41
 #, c-format
 msgid "Email"
@@ -5756,7 +5760,7 @@ msgstr ""
 "αναγνώσεών τους."
 
 #: opac-tmpl/bootstrap/en/includes/masthead.inc:362
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:175
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:174
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt:180
 #, c-format
 msgid "Forgot your password?"
@@ -6412,7 +6416,7 @@ msgstr ""
 "Αν δεν διαθέτετε Shibboleth λογαριασμό αλλά ένα τοπικό λογαριασμό, μπορείτε "
 "να συνδεθείτε παρακάτω."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:185
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
 #, c-format
 msgid ""
 "If you don't have a library card, stop by your local library to sign up."
@@ -6420,7 +6424,7 @@ msgstr ""
 "Αν δεν έχετε κάρτα βιβλιοθήκης, μπορείτε να μεταβείτε στη βιβλιοθήκη για να "
 "εγγραφείτε."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
 #, c-format
 msgid ""
 "If you don't have a password yet, stop by the circulation desk the next time "
@@ -7186,7 +7190,7 @@ msgstr "Αποσυνδεθείτε και προσπαθήστε ξανά με �
 msgid "Log out from your OverDrive account"
 msgstr "Συνδεθείτε στο λογαριασμό σας"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:195
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:194
 #, c-format
 msgid "Logging on to the catalog has not been enabled by the library."
 msgstr "Η σύνδεση στον κατάλογο δεν έχει επιτραπεί από τη βιβλιοθήκη."
@@ -7568,7 +7572,7 @@ msgstr "Νέα από %s%s%sτη βιβλιοθήκη%s"
 msgid "Next"
 msgstr "Επόμενο"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:76
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:78
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:17
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt:1112
 #, c-format
@@ -7615,10 +7619,10 @@ msgstr "Δεν έγινε καμία τροποποίηση."
 msgid "No checkouts"
 msgstr "Δεν υπάρχουν δανεισμοί"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:31
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:40
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:49
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:33
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:42
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:51
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:63
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:110
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:229
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:237
@@ -8808,7 +8812,7 @@ msgstr "Προηγ"
 msgid "Preview"
 msgstr "Προεπισκόπηση"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:16
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:18
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:122
 #: opac-tmpl/bootstrap/en/includes/datatables.inc:4
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:7
@@ -9807,7 +9811,7 @@ msgid "Section:"
 msgstr "Τομέας:"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:59
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:148
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:307
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:318
@@ -11428,7 +11432,7 @@ msgstr ""
 "Για να δηλώσετε αυτό το σφάλμα, παρακαλώ επικοινωνήστε με τον Διαχειριστή "
 "του Koha."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #, c-format
 msgid "To report this error, you can email the Koha Administrator."
 msgstr ""
@@ -11630,7 +11634,7 @@ msgstr "Ενημέρωση"
 msgid "Updates to your record"
 msgstr "Ενημερώσεις στην εγγραφή σας "
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:198
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
 #, c-format
 msgid "Use top menu bar to navigate to another part of Koha."
 msgstr ""
@@ -12256,7 +12260,7 @@ msgstr ""
 "Χρησιμοποιήσατε ένα εξωτερικό σύνδεσμο προς ένα τεκμήριο του καταλόγου που "
 "δεν είναι πλέον διαθέσιμο."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:188
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:187
 #, c-format
 msgid "You may register here."
 msgstr "Μπορείτε να εγγραφείτε εδώ."

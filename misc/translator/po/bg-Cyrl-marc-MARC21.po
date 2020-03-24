@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 14:52-0300\n"
-"PO-Revision-Date: 2020-01-12 10:20+0000\n"
-"Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
+"POT-Creation-Date: 2020-03-19 07:03-0300\n"
+"PO-Revision-Date: 2020-03-08 09:31+0000\n"
+"Last-Translator: givanov <givanov.adm@gmail.com>\n"
 "Language-Team: Koha Translation Team <koha-translate@nongnu.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /bg/18.05/bg-Cyrl-marc-MARC21.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1578824430.922588\n"
+"X-POOTLE-MTIME: 1583659882.881672\n"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slimUtils-MODS31.xsl:12
 #, c-format
@@ -41,7 +41,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:689
 #, c-format
 msgid "#- National bibliographic agency"
-msgstr ""
+msgstr "# - Национална библиографска агенция"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -53,60 +53,60 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:109
 #, c-format
 msgid "#- No information provided"
-msgstr ""
+msgstr "#- Не е предоставена информация"
 
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
 msgid "#- No secondary support"
-msgstr ""
+msgstr "#- Няма вторична поддръжка"
 
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
 msgid "#- No sound (silent)"
-msgstr ""
+msgstr "#- Без звук (безшумен)"
 
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
 msgid "#- No specified braille music format"
-msgstr ""
+msgstr "#- Не е посочен брайлов музикален формат"
 
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
 msgid "#- No specified class of braille writing"
-msgstr ""
+msgstr "#- Не е посочен клас на брайлово писане"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:468
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:470
 #, c-format
 msgid "#- Not a government agency"
-msgstr ""
+msgstr "#- Не е държавна агенция"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:660
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:662
 #, c-format
 msgid "#- Not modified"
-msgstr ""
+msgstr "#- Не е променян"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:22
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:24
 #, c-format
 msgid "#- Not subdivided geographically"
-msgstr ""
+msgstr "#- Няма географско подразделяне"
 
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
 msgid "#- Undefined"
-msgstr ""
+msgstr "#- Неопределен"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:117
 #, c-format
 msgid "#record"
-msgstr "запис"
+msgstr "#запис"
 
 #. %1$s:  IF ( total ) 
 #. %2$s:  from | html 
@@ -117,7 +117,7 @@ msgstr "запис"
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:56
 #, c-format
 msgid "%sResults %s to %s of %s %sNo results found %s"
-msgstr ""
+msgstr "%sРезултати %s до %s от %s %sНе са намерени резултати %s"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1128
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1131
@@ -127,17 +127,17 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:986
 #, c-format
 msgid "&amp;biblionumber="
-msgstr ""
+msgstr "&amp;библиотечен_номер="
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:47
 #, c-format
 msgid "&lt;&lt; Previous"
-msgstr ""
+msgstr "&lt;&lt; Предишен"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:100
 #, c-format
 msgid "&lt;&lt; Previous "
-msgstr ""
+msgstr "&lt;&lt; Предишен"
 
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97

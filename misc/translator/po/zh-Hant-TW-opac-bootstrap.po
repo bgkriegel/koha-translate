@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-16 15:47-0300\n"
-"PO-Revision-Date: 2020-02-21 10:45+0000\n"
-"Last-Translator: Anthony MAO <mao@lins.fju.edu.tw>\n"
+"POT-Creation-Date: 2020-03-19 07:39-0300\n"
+"PO-Revision-Date: 2020-03-20 08:28+0000\n"
+"Last-Translator: Frank Chou <frank@sris.com.tw>\n"
 "Language-Team: koha_TW <kohataiwan@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1582281945.659012\n"
+"X-POOTLE-MTIME: 1584692881.318082\n"
 "X-Pootle-Path: /zh_TW/18.05/zh-Hans-TW-opac-bootstrap.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -165,9 +165,9 @@ msgid ""
 "fee %sRenewal of rental item %sRewewal of daily rental item %sHold fee "
 "%sHold waiting too long %s%s %s %s %s %s"
 msgstr ""
-"%s %s %s付款 %s豁免 %s免除 %s額度 %s重置費用 %s%s %s %s %s %s新增費用 %s續借費用 %s遺失館藏 %s人工費用 %"
-"s新增借書證 %s罰款 %s遺失館藏處理費 %s租金 %s日租金 %s續借館藏 %s續借日租館藏 %s預約費用 %s預約逾時 %s%s %s %s %s "
-"%s"
+"%s %s %s付款 %s豁免 %s免除 %s額度 %s重置費用 %s%s %s %s %s %s新增費用 %s續借"
+"費用 %s遺失館藏 %s人工費用 %s新增借書證 %s罰款 %s遺失館藏處理費 %s租金 %s日租"
+"金 %s續借館藏 %s續借日租館藏 %s預約費用 %s預約逾時 %s%s %s %s %s %s"
 
 #. %1$s:  END 
 #. %2$s:  IF ( ITEM_RESULT.itemcallnumber ) 
@@ -1888,21 +1888,25 @@ msgstr "%s/cgi-bin/koha/opac-showreviews.pl&amp;format=rss2"
 msgid "%s0 biblios%s "
 msgstr "%s0 biblios%s "
 
-#. %1$s:  IF ( starting_homebranch ) 
+#. %1$s: - IF ( starting_homebranch ) 
 #. %2$s:  starting_homebranch | html 
-#. %3$s:  END 
-#. %4$s:  IF ( starting_location ) 
-#. %5$s:  starting_location | html 
-#. %6$s:  END 
-#. %7$s:  IF ( starting_ccode ) 
-#. %8$s:  starting_ccode | html 
-#. %9$s:  END 
+#. %3$s:  END -
+#. %4$s: - IF ( starting_homebranch && starting_location ) 
+#. %5$s:  END 
+#. %6$s: - IF ( starting_location ) 
+#. %7$s: - starting_location | html -
+#. %8$s:  END -
+#. %9$s: - IF ( starting_homebranch && starting_ccode ) 
+#. %10$s:  END 
+#. %11$s: - IF ( starting_ccode ) 
+#. %12$s: - starting_ccode | html -
+#. %13$s:  END -
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:4
 #, c-format
 msgid ""
-"%sBrowsing %s Shelves%s %s, Shelving location: %s%s %s, Collection code: %s"
-"%s "
-msgstr "%s瀏覽 %s 書架%s%s, 書架位置: %s%s%s, 館藏代碼: %s%s "
+"%sBrowsing %s shelves%s %s, %s %sShelving location: %s%s %s, %s "
+"%sCollection: %s%s "
+msgstr "%s瀏覽 %s 書架%s %s, %s %s書架位置: %s%s %s, %s %s館藏代碼: %s%s "
 
 #. %1$s:  IF ( ccodesearch ) 
 #. %2$s:  ELSE 
@@ -2637,7 +2641,7 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISSN"
 #: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:50
 #, c-format
 msgid "&nbsp;&nbsp;&nbsp;&nbsp; Keyword phrase"
-msgstr "&nbsp;&nbsp;&nbsp;&nbsp; 鍵詞"
+msgstr "&nbsp;&nbsp;&nbsp;&nbsp; 關鍵詞"
 
 #: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:76
 #, c-format
@@ -3783,7 +3787,7 @@ msgstr "在館內："
 #: opac-tmpl/bootstrap/en/includes/item-status.inc:99
 #, c-format
 msgid "Available %s"
-msgstr "可用 %s"
+msgstr "可借 %s"
 
 #: opac-tmpl/bootstrap/en/modules/opac-serial-issues.tt:122
 #, c-format
@@ -4446,7 +4450,7 @@ msgstr "點選，檢視谷歌圖書的內容"
 msgid "Close"
 msgstr "關閉"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:8
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:10
 #, c-format
 msgid "Close shelf browser"
 msgstr "關閉書架瀏覽器"
@@ -4714,7 +4718,7 @@ msgid "Courses"
 msgstr "課程"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:66
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:68
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:155
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:327
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:329
@@ -5080,12 +5084,12 @@ msgid ""
 "arrives?"
 msgstr "當新的刊物到館，是否以 E-Mail 通知您？"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
 #, c-format
 msgid "Don't have a library card?"
 msgstr "沒有讀者證嗎？"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:181
 #, c-format
 msgid "Don't have a password yet?"
 msgstr "沒有密碼嗎？"
@@ -5222,7 +5226,7 @@ msgstr "版本敘述："
 msgid "Editions"
 msgstr "版本"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt:41
 #, c-format
 msgid "Email"
@@ -5616,7 +5620,7 @@ msgid ""
 msgstr "永久有效：永久保留您的閱讀記錄。這是讀者自己的選擇。"
 
 #: opac-tmpl/bootstrap/en/includes/masthead.inc:362
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:175
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:174
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt:180
 #, c-format
 msgid "Forgot your password?"
@@ -6244,13 +6248,13 @@ msgid ""
 "you may login below."
 msgstr "沒有 Shibboleth 帳號，但您有在地帳號，仍可以登入。"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:185
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
 #, c-format
 msgid ""
 "If you don't have a library card, stop by your local library to sign up."
 msgstr "還沒有讀者證的話，可以向就近的圖書館申請。"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
 #, c-format
 msgid ""
 "If you don't have a password yet, stop by the circulation desk the next time "
@@ -6448,7 +6452,7 @@ msgstr "館藏不能借出。"
 #. SCRIPT
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:122
 msgid "Item cannot be checked out. There are no available formats"
-msgstr "館藏不能借出。沒有可用的格式"
+msgstr "館藏不能借出。沒有可借的格式"
 
 #: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:201
 #, c-format
@@ -6540,7 +6544,7 @@ msgstr "可以取得的館藏在："
 #: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt:64
 #, c-format
 msgid "Items available:"
-msgstr "可用的館藏："
+msgstr "可借的館藏："
 
 #: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt:149
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt:147
@@ -6586,7 +6590,7 @@ msgstr "少年"
 #: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:48
 #, c-format
 msgid "Keyword"
-msgstr "鍵詞"
+msgstr "關鍵詞"
 
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:26
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:28
@@ -6749,7 +6753,7 @@ msgstr "讀者證號碼："
 #: opac-tmpl/bootstrap/en/includes/masthead.inc:187
 #, c-format
 msgid "Library catalog"
-msgstr "圖書館目錄"
+msgstr "所有欄位"
 
 #: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:234
 #: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:141
@@ -7004,7 +7008,7 @@ msgstr "登出後再以不同使用者再試。"
 msgid "Log out from your OverDrive account"
 msgstr "以您的 OverDrive 帳號登出"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:195
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:194
 #, c-format
 msgid "Logging on to the catalog has not been enabled by the library."
 msgstr "圖書館尚未啟用登入目錄功能。"
@@ -7384,7 +7388,7 @@ msgstr "來自 %s%s%s此圖書館%s 的最新消息"
 msgid "Next"
 msgstr "下一頁"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:76
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:78
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:17
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt:1112
 #, c-format
@@ -7399,7 +7403,7 @@ msgstr "下一頁&gt;&gt;"
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt:308
 #, c-format
 msgid "Next available item"
-msgstr "下個可用的館藏"
+msgstr "下個可借的館藏"
 
 #: opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:69
 #: opac-tmpl/bootstrap/en/modules/opac-privacy.tt:80
@@ -7430,10 +7434,10 @@ msgstr "沒有做任何變更。"
 msgid "No checkouts"
 msgstr "借出"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:31
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:40
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:49
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:33
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:42
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:51
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:63
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:110
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:229
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:237
@@ -7498,13 +7502,13 @@ msgstr "未選定館藏"
 #: opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt:158
 #, c-format
 msgid "No items available."
-msgstr "無可用的館藏。"
+msgstr "無可借的館藏。"
 
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:432
 #: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt:223
 #, c-format
 msgid "No items available:"
-msgstr "無可用的館藏："
+msgstr "無可借的館藏："
 
 #: opac-tmpl/bootstrap/en/includes/opac-topissues.inc:83
 #: opac-tmpl/bootstrap/en/includes/opac-topissues.inc:85
@@ -7729,7 +7733,7 @@ msgstr "說明："
 msgid ""
 "Note: Library policy does not allow hold/pickup of an item available "
 "locally. Please come to the library to retrieve these items %s %s "
-msgstr "說明：圖書館政策不允許預約/提取可用的館藏。請到本館取得該館藏 %s %s "
+msgstr "說明：圖書館政策不允許預約/提取可借的館藏。請到本館取得該館藏 %s %s "
 
 #: opac-tmpl/bootstrap/en/modules/opac-tags_subject.tt:47
 #, c-format
@@ -8559,7 +8563,7 @@ msgstr "上一頁"
 msgid "Preview"
 msgstr "預視"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:16
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:18
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:122
 #: opac-tmpl/bootstrap/en/includes/datatables.inc:4
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:7
@@ -9545,7 +9549,7 @@ msgid "Section:"
 msgstr "地點："
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:59
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:148
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:307
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:318
@@ -11106,7 +11110,7 @@ msgstr "請與圖書館連繫，更新您的記錄。"
 msgid "To report this error, please contact the Koha Administrator. "
 msgstr "請與 Koha 管理者連繫，報告此錯誤。"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #, c-format
 msgid "To report this error, you can email the Koha Administrator."
 msgstr "報告此錯誤，應電子郵件給 Koha 管理者。"
@@ -11256,7 +11260,7 @@ msgstr "不可得(遺失)"
 #: opac-tmpl/bootstrap/en/modules/opac-serial-issues.tt:127
 #, c-format
 msgid "Unavailable issues"
-msgstr "不可用的刊期"
+msgstr "不可借的刊期"
 
 #: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:38
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:174
@@ -11304,7 +11308,7 @@ msgstr "更新"
 msgid "Updates to your record"
 msgstr "更新您的記錄"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:198
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
 #, c-format
 msgid "Use top menu bar to navigate to another part of Koha."
 msgstr "使用上端的選單列，瀏覽Koha的其他部份。"
@@ -11881,7 +11885,7 @@ msgid ""
 "available."
 msgstr "您使用目錄之外已失效的連結。"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:188
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:187
 #, c-format
 msgid "You may register here."
 msgstr "在此登記。"
@@ -12843,9 +12847,7 @@ msgstr "show_loans"
 msgid ""
 "since %s %s Suspended %s until %s %s %s %s Pending for next available item "
 "of item type '%s' %s Pending %s %s %s "
-msgstr ""
-"自從 %s %s 暫停 %s 直到 %s %s %s %s 待決供下個可用館藏類型的館藏 '%s' %s 待"
-"決 %s %s %s "
+msgstr "自從 %s %s 暫停 %s 直到 %s %s %s %s 待決供下個可借館藏類型的館藏 '%s' %s 待決 %s %s %s "
 
 #: opac-tmpl/bootstrap/en/modules/maintenance.tt:35
 #, c-format

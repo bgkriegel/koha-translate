@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:24-0300\n"
+"POT-Creation-Date: 2020-03-19 07:24-0300\n"
 "PO-Revision-Date: 2016-12-10 03:27+0000\n"
 "Last-Translator: Pikri <slayerz.ninja@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1903,20 +1903,24 @@ msgstr "%s/cgi-bin/koha/opac-showreviews.pl&amp;format=rss2"
 msgid "%s0 biblios%s "
 msgstr "%s biblio"
 
-#. %1$s:  IF ( starting_homebranch ) 
+#. %1$s: - IF ( starting_homebranch ) 
 #. %2$s:  starting_homebranch | html 
-#. %3$s:  END 
-#. %4$s:  IF ( starting_location ) 
-#. %5$s:  starting_location | html 
-#. %6$s:  END 
-#. %7$s:  IF ( starting_ccode ) 
-#. %8$s:  starting_ccode | html 
-#. %9$s:  END 
+#. %3$s:  END -
+#. %4$s: - IF ( starting_homebranch && starting_location ) 
+#. %5$s:  END 
+#. %6$s: - IF ( starting_location ) 
+#. %7$s: - starting_location | html -
+#. %8$s:  END -
+#. %9$s: - IF ( starting_homebranch && starting_ccode ) 
+#. %10$s:  END 
+#. %11$s: - IF ( starting_ccode ) 
+#. %12$s: - starting_ccode | html -
+#. %13$s:  END -
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:4
 #, fuzzy, c-format
 msgid ""
-"%sBrowsing %s Shelves%s %s, Shelving location: %s%s %s, Collection code: %s"
-"%s "
+"%sBrowsing %s shelves%s %s, %s %sShelving location: %s%s %s, %s "
+"%sCollection: %s%s "
 msgstr "%sTampilan %s Rak%s%s, Lokasi Rak: %s%s%s, Kod Koleksi: %s%s "
 
 #. %1$s:  IF ( ccodesearch ) 
@@ -4518,7 +4522,7 @@ msgstr "Klik untuk paparkan di Google Books"
 msgid "Close"
 msgstr "Tutup"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:8
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:10
 #, c-format
 msgid "Close shelf browser"
 msgstr "Tutup paparan rak"
@@ -4788,7 +4792,7 @@ msgid "Courses"
 msgstr ""
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:66
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:68
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:155
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:327
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:329
@@ -5168,12 +5172,12 @@ msgid ""
 msgstr ""
 "Adakah anda mahu menerima email apabila isu baru untuk langganan ini tiba?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
 #, c-format
 msgid "Don't have a library card?"
 msgstr "Tiada kad perpustakaan?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:181
 #, c-format
 msgid "Don't have a password yet?"
 msgstr "Belum ada kata laluan?"
@@ -5311,7 +5315,7 @@ msgstr "Penyata edisi:"
 msgid "Editions"
 msgstr "Edisi"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt:41
 #, c-format
 msgid "Email"
@@ -5717,7 +5721,7 @@ msgstr ""
 "pengguna yang mahu memantau apa yang mereka baca."
 
 #: opac-tmpl/bootstrap/en/includes/masthead.inc:362
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:175
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:174
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt:180
 #, fuzzy, c-format
 msgid "Forgot your password?"
@@ -6388,7 +6392,7 @@ msgstr ""
 "Sekiranya anda tidak mempunyai akaun CAS, anda masih lagi boleh login "
 "menggunakan akaun local : "
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:185
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
 #, fuzzy, c-format
 msgid ""
 "If you don't have a library card, stop by your local library to sign up."
@@ -6396,7 +6400,7 @@ msgstr ""
 "Sekiranya anda tidak mempunyai kad perpustakaan, sila lawati perpustakaan "
 "untuk membuat pendaftaran."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
 #, c-format
 msgid ""
 "If you don't have a password yet, stop by the circulation desk the next time "
@@ -7157,7 +7161,7 @@ msgstr ""
 msgid "Log out from your OverDrive account"
 msgstr "Log masuk ke akaun anda"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:195
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:194
 #, c-format
 msgid "Logging on to the catalog has not been enabled by the library."
 msgstr "Fungsi log masuk ke katalog telah dimatikan oleh perpustakaan."
@@ -7541,7 +7545,7 @@ msgstr "Tag dari perpustakaan ini:"
 msgid "Next"
 msgstr "Seterusnya"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:76
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:78
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:17
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt:1112
 #, fuzzy, c-format
@@ -7588,10 +7592,10 @@ msgstr ""
 msgid "No checkouts"
 msgstr "Pinjaman"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:31
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:40
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:49
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:33
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:42
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:51
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:63
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:110
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:229
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:237
@@ -8758,7 +8762,7 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:16
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:18
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:122
 #: opac-tmpl/bootstrap/en/includes/datatables.inc:4
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:7
@@ -9772,7 +9776,7 @@ msgid "Section:"
 msgstr ""
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:59
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:148
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:307
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:318
@@ -11360,7 +11364,7 @@ msgstr "Sila hubungi perpustakaan untuk melakukan perubahan pada rekod anda."
 msgid "To report this error, please contact the Koha Administrator. "
 msgstr "Sila hubungi perpustakaan untuk melakukan perubahan pada rekod anda."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #, fuzzy, c-format
 msgid "To report this error, you can email the Koha Administrator."
 msgstr "Sila hubungi perpustakaan untuk melakukan perubahan pada rekod anda."
@@ -11566,7 +11570,7 @@ msgstr ""
 msgid "Updates to your record"
 msgstr "Tukar kata laluan anda"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:198
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
 #, c-format
 msgid "Use top menu bar to navigate to another part of Koha."
 msgstr "Gunakan bar menu atas untuk menelusuri bahagian lain Koha."
@@ -12165,7 +12169,7 @@ msgid ""
 "available."
 msgstr ""
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:188
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:187
 #, fuzzy, c-format
 msgid "You may register here."
 msgstr "Daftar"

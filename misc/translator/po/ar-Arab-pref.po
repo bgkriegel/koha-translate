@@ -4554,10 +4554,6 @@ msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system prefer
 msgstr "<br><strong>ملاحظة:</strong> يتطلب هذا التفضيل كرون <code>misc/cronjobs/holds/auto_unsuspend_holds.pl</code>. اطلب من مدير نظامك جدولته."
 
 # Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr " حساب (لكن لمراسلة الإدارة فقط)"
-
-# Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
 msgstr "حساب وتقاضي"
 

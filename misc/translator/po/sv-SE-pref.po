@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Koha 18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-20 11:46-0300\n"
-"PO-Revision-Date: 2019-06-11 07:21+0000\n"
-"Last-Translator: JesperSchmidt <jesper.schmidt@tidaholm.se>\n"
+"PO-Revision-Date: 2020-02-26 13:47+0000\n"
+"Last-Translator: Emma Ternrud <emma.gustafsson@ub.gu.se>\n"
 "Language-Team: \n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1560237708.085452\n"
+"X-POOTLE-MTIME: 1582724858.385234\n"
 "X-Pootle-Path: /sv/18.05/sv-SE-pref.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -3434,11 +3434,11 @@ msgstr ""
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueue# pickup library"
-msgstr "hämtningsbibliotek"
+msgstr "avhämtningsbibliotek"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueue# pickup library & itemtype"
-msgstr "hämtningsbibliotek & exemplartyp"
+msgstr "avhämtningsbibliotek & exemplartyp"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueueNumbering# 'virtual' priorities, where each group is numbered separately"
@@ -3607,7 +3607,7 @@ msgstr "matchar exemplarets"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#LocalHoldsPriority# pickup library"
-msgstr "hämtningsbibliotek "
+msgstr "avhämtningsbibliotek"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#LocalHoldsPriority# priority for filling holds to patrons whose"
@@ -4552,10 +4552,6 @@ msgstr ""
 # Circulation > Fines Policy
 msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/fines.pl</code> cronjob. Ask your system administrator to schedule it."
 msgstr ""
-
-# Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "Beräkna (men endast för att skicka e-postmeddelande till administratören)"
 
 # Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"

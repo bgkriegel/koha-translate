@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-16 15:35-0300\n"
-"PO-Revision-Date: 2019-10-16 10:03+0000\n"
-"Last-Translator: Viliam <viliam.polonec@gmail.com>\n"
+"POT-Creation-Date: 2020-03-19 07:31-0300\n"
+"PO-Revision-Date: 2020-03-24 13:44+0000\n"
+"Last-Translator: Kapustova_Danka <danka.kapustova@snk.sk>\n"
 "Language-Team: SVK\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1571220197.006261\n"
+"X-POOTLE-MTIME: 1585057492.873529\n"
 "X-Pootle-Path: /sk/18.05/sk-SK-marc-MARC21.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -2875,7 +2875,7 @@ msgstr "Životopis interpreta alebo dejiny súboru"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:66
 #, c-format
 msgid "Bislama"
-msgstr ""
+msgstr "Bislama"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:527
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:1014
@@ -2889,20 +2889,20 @@ msgstr "Dvojtýždenná"
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:551
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:627
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1121
-#, fuzzy, c-format
+#, c-format
 msgid "Black-and-white"
-msgstr "b- Black-and-white"
+msgstr "Čiernobiely"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:67
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:67
 #, c-format
 msgid "Blissymbolics"
-msgstr ""
+msgstr "Znakové písmo"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1145
-#, fuzzy, c-format
+#, c-format
 msgid "Blu-ray disc"
-msgstr "s- Blu-ray disc"
+msgstr "Blu-ray disc"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:742
 #, fuzzy, c-format
@@ -2946,7 +2946,7 @@ msgstr "Knihy"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:68
 #, c-format
 msgid "Bosnian"
-msgstr ""
+msgstr "Bosniačtina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:510
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:924
@@ -3004,43 +3004,43 @@ msgstr "06 Braille music format"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:69
 #, c-format
 msgid "Braj"
-msgstr ""
+msgstr "Bradžčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:70
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:70
 #, c-format
 msgid "Breton"
-msgstr ""
+msgstr "Bretónčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:561
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:587
-#, fuzzy, c-format
+#, c-format
 msgid "Bristol board"
-msgstr "b- Bristol board"
+msgstr "Lepenka"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:71
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:71
 #, c-format
 msgid "Bugis"
-msgstr ""
+msgstr "Bugijčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:72
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:72
 #, c-format
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bulharčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:73
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:73
 #, c-format
 msgid "Buriat"
-msgstr ""
+msgstr "Buriatčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:74
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:74
 #, c-format
 msgid "Burmese"
-msgstr ""
+msgstr "Barmčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:257
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:600
@@ -3145,9 +3145,9 @@ msgstr "Kantáty"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:560
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:586
-#, fuzzy, c-format
+#, c-format
 msgid "Canvas"
-msgstr "a- Canvas"
+msgstr "Plátno"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:356
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:769
@@ -3161,21 +3161,21 @@ msgid "Capture and storage technique"
 msgstr "13 Capture and storage technique"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:411
-#, fuzzy, c-format
+#, c-format
 msgid "Cardboard"
-msgstr "c- Cardboard"
+msgstr "Kartón"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:562
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:588
-#, fuzzy, c-format
+#, c-format
 msgid "Cardboard/illustration board"
-msgstr "c- kartón/ilustračná tabuľa"
+msgstr "Kartónová/ilustračná tabuľa"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:76
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:76
 #, c-format
 msgid "Carib"
-msgstr ""
+msgstr "Karibčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:352
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:765
@@ -3207,9 +3207,9 @@ msgstr "Obsadenie: "
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:77
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:77
-#, fuzzy, c-format
+#, c-format
 msgid "Catalan"
-msgstr "Katalógy"
+msgstr "Katalánčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:354
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:484
@@ -3250,21 +3250,21 @@ msgstr "Katalógy"
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1091
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1105
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1196
-#, fuzzy, c-format
+#, c-format
 msgid "Category of material"
-msgstr "00 Kategórie materiálov"
+msgstr "Kategórie materiálov"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:78
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:78
 #, c-format
 msgid "Caucasian (Other)"
-msgstr ""
+msgstr "Kaukazské jazyky (iné)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:79
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:79
 #, c-format
 msgid "Cebuano"
-msgstr ""
+msgstr "Cebuánčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:186
 #, fuzzy, c-format
@@ -3278,9 +3278,9 @@ msgstr "b- Cellulose nitrate"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:80
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:80
-#, fuzzy, c-format
+#, c-format
 msgid "Celtic (Other)"
-msgstr "Kónický, iný"
+msgstr "Keltské jazyky (iné)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:81
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:81
@@ -3298,7 +3298,7 @@ msgstr "Chaconnes"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:82
 #, c-format
 msgid "Chagatai"
-msgstr ""
+msgstr "Čagatajčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:228
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:571
@@ -3308,15 +3308,15 @@ msgstr "Chamberlin trimetric"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:83
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:83
-#, fuzzy, c-format
+#, c-format
 msgid "Chamic languages"
-msgstr "Posunkové reči"
+msgstr "Čamaské jazyky"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:84
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:84
 #, c-format
 msgid "Chamorro"
-msgstr ""
+msgstr "Čamorčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:353
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:766
@@ -3368,7 +3368,7 @@ msgstr "Grafy"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:85
 #, c-format
 msgid "Chechen"
-msgstr ""
+msgstr "Čečenčina"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1339
 #, c-format
@@ -3379,19 +3379,19 @@ msgstr "Vypožičané ("
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:86
 #, c-format
 msgid "Cherokee"
-msgstr ""
+msgstr "Čerokí"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:87
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:87
 #, c-format
 msgid "Cheyenne"
-msgstr ""
+msgstr "Šančina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:88
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:88
 #, c-format
 msgid "Chibcha"
-msgstr ""
+msgstr "Čibča"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:89
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:673
@@ -3412,7 +3412,7 @@ msgstr "Chinese, Japanese, Korean"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:90
 #, c-format
 msgid "Chinook jargon"
-msgstr ""
+msgstr "Činucký žargón"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:85
 #, fuzzy, c-format
@@ -3423,13 +3423,13 @@ msgstr "chip cartridge"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:91
 #, c-format
 msgid "Chipewyan"
-msgstr ""
+msgstr "Čipewjančina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:92
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:92
 #, c-format
 msgid "Choctaw"
-msgstr ""
+msgstr "Čoktčina"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:87
 #, c-format
@@ -3458,7 +3458,7 @@ msgstr "Zborové noty"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:93
 #, c-format
 msgid "Church Slavic"
-msgstr ""
+msgstr "Cirkevnoslovanské jazyky"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:94
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:94
@@ -3470,7 +3470,7 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:95
 #, c-format
 msgid "Chuvash"
-msgstr ""
+msgstr "Čuvaština"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:242
 #, fuzzy, c-format
@@ -3517,9 +3517,9 @@ msgid "Coats of arms"
 msgstr "Erby"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:526
-#, fuzzy, c-format
+#, c-format
 msgid "Collage"
-msgstr "koláž"
+msgstr "Koláž"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:135
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:333
@@ -3535,9 +3535,9 @@ msgstr "Kolektívny životopis"
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:549
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:626
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1119
-#, fuzzy, c-format
+#, c-format
 msgid "Color"
-msgstr "03 Farba"
+msgstr "Farba"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:626
 #, c-format
@@ -3551,14 +3551,14 @@ msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:346
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:549
-#, fuzzy, c-format
+#, c-format
 msgid "Color characteristics of the nonprojected graphic."
 msgstr "Dvoj-rozmerná nepremietateľná grafika"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:479
 #, c-format
 msgid "Color of the image for microforms."
-msgstr ""
+msgstr "Farba mikrofilmových snímkov"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:234
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:258
@@ -3598,9 +3598,9 @@ msgid "Comics/graphic novels"
 msgstr "Komixy/obrázkové romány"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:784
-#, fuzzy, c-format
+#, c-format
 msgid "Complete"
-msgstr "c- dokončený"
+msgstr "Dokončený"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:547
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:1034
@@ -3932,9 +3932,8 @@ msgstr "Prispievateľ(ia): "
 
 #. SCRIPT
 #: intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:73
-#, fuzzy
 msgid "Control number: "
-msgstr "Signatúra: "
+msgstr "Signatúra:"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MADS.xsl:255
 #, c-format
@@ -3956,7 +3955,7 @@ msgstr "Kooperatívny katalogizačný program"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:96
 #, c-format
 msgid "Coptic"
-msgstr ""
+msgstr "Koptčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl:274
 #: opac-tmpl/bootstrap/en/xslt/MARC21slimUtils.xsl:272
@@ -3974,13 +3973,13 @@ msgstr "Cordiform"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:97
 #, c-format
 msgid "Cornish"
-msgstr ""
+msgstr "Kornčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:98
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:98
 #, c-format
 msgid "Corsican"
-msgstr ""
+msgstr "Korzičtina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:355
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:768
@@ -3997,7 +3996,7 @@ msgstr "CreativeWork"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:99
 #, c-format
 msgid "Cree"
-msgstr ""
+msgstr "Krí"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:100
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:100
@@ -4009,43 +4008,43 @@ msgstr "gr- Greek"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:101
 #, c-format
 msgid "Creoles and Pidgins (Other)"
-msgstr ""
+msgstr "Kreolské jazyky a pidžiny (Iné)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:102
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:102
 #, c-format
 msgid "Creoles and Pidgins, English-based (Other)"
-msgstr ""
+msgstr "Kreolské jazyky a pidžiny, na báze angličtiny (Iné)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:103
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:103
 #, c-format
 msgid "Creoles and Pidgins, French-based (Other)"
-msgstr ""
+msgstr "Kreolské jazyky a pidžiny, na báze francúzštiny (Iné)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:104
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:104
 #, c-format
 msgid "Creoles and Pidgins, Portuguese-based (Other)"
-msgstr ""
+msgstr "Kreolské jazyky a pidžiny, na báze portugalčiny (Iné)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:105
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:105
 #, c-format
 msgid "Crimean Tatar"
-msgstr ""
+msgstr "Krimská Tatárčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:106
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:106
 #, c-format
 msgid "Croatian"
-msgstr ""
+msgstr "Chorvátčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:107
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:107
 #, c-format
 msgid "Cushitic (Other)"
-msgstr ""
+msgstr "Kušitské jazyky (Iné)"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:743
 #, fuzzy, c-format
@@ -4053,9 +4052,9 @@ msgid "Cyan strip"
 msgstr "i- Cyan strip"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:937
-#, fuzzy, c-format
+#, c-format
 msgid "Cylinder"
-msgstr "cylinder"
+msgstr "Valec"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:248
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:591
@@ -4082,7 +4081,7 @@ msgstr "cr- Cyrillic"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:108
 #, c-format
 msgid "Czech"
-msgstr ""
+msgstr "Čeština"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1142
 #, fuzzy, c-format
@@ -4110,7 +4109,7 @@ msgstr "Denný"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:109
 #, c-format
 msgid "Dakota"
-msgstr ""
+msgstr "Dakota"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1358
 #, c-format
@@ -4127,13 +4126,13 @@ msgstr "Dance forms"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:110
 #, c-format
 msgid "Danish"
-msgstr ""
+msgstr "Dánčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:111
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:111
 #, c-format
 msgid "Dargwa"
-msgstr ""
+msgstr "Darginčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:347
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:477
@@ -4389,7 +4388,7 @@ msgstr "Neznáme dátumy"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:112
 #, c-format
 msgid "Dayak"
-msgstr ""
+msgstr "Dajačtina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:113
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:113
@@ -5579,7 +5578,7 @@ msgstr "Gnomický"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:164
 #, c-format
 msgid "Gondi"
-msgstr ""
+msgstr "Gondi"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:233
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:576
@@ -5597,7 +5596,7 @@ msgstr "Goode's homolosine"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:165
 #, c-format
 msgid "Gorontalo"
-msgstr ""
+msgstr "Gorontalo"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:363
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:776
@@ -5609,7 +5608,7 @@ msgstr "Gospelová hudba"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:166
 #, c-format
 msgid "Gothic"
-msgstr ""
+msgstr "Gótčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:86
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:181
@@ -5652,9 +5651,9 @@ msgid "Graphic"
 msgstr "Grafika"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:919
-#, fuzzy, c-format
+#, c-format
 msgid "Gravity anomalies (general)"
-msgstr "ra- Gravity anomalies (general)"
+msgstr "Veľkosť poškodenia (všeobecne)"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:107
 #, fuzzy, c-format
@@ -5665,7 +5664,7 @@ msgstr "g- Gray scale"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:167
 #, c-format
 msgid "Grebo"
-msgstr ""
+msgstr "Grebo"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3-1.xsl:2300
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS32.xsl:2777
@@ -5680,30 +5679,30 @@ msgstr "gr- Greek"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:168
 #, c-format
 msgid "Greek, Ancient (to 1453)"
-msgstr ""
+msgstr "Gréčtina, Antická (do 1453)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:169
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:169
 #, c-format
 msgid "Greek, Modern (1453- )"
-msgstr ""
+msgstr "Gréčtina, Súčasná (1453- )"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:980
-#, fuzzy, c-format
+#, c-format
 msgid "Groove width/groove pitch"
-msgstr "05 Groove width/groove pitch"
+msgstr "Šírka drážok/výška drážok"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:170
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:170
 #, c-format
 msgid "Guarani"
-msgstr ""
+msgstr "Guarani"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:171
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:171
 #, c-format
 msgid "Gujarati"
-msgstr ""
+msgstr "Gudžarátčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:172
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:172
@@ -5733,7 +5732,7 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:174
 #, c-format
 msgid "Haitian French Creole"
-msgstr ""
+msgstr "Haitská francúzska kreolčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1016
 #, fuzzy, c-format
@@ -5744,9 +5743,9 @@ msgstr "b- Half (2) track"
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:553
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:629
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:755
-#, fuzzy, c-format
+#, c-format
 msgid "Hand colored"
-msgstr "h- Hand colored"
+msgstr "Ručne maľované"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:65
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:596
@@ -5763,21 +5762,21 @@ msgstr "Príručky"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:574
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:600
-#, fuzzy, c-format
+#, c-format
 msgid "Hardboard"
-msgstr "q- Hardboard"
+msgstr "Drevotrieska"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:175
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:175
 #, c-format
 msgid "Hausa"
-msgstr ""
+msgstr "Hauština"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:176
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:176
 #, c-format
 msgid "Hawaiian"
-msgstr ""
+msgstr "Havajčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:177
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3-1.xsl:2300
@@ -5794,7 +5793,7 @@ msgstr "Hebrew"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:178
 #, c-format
 msgid "Herero"
-msgstr ""
+msgstr "Herero"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1144
 #, fuzzy, c-format
@@ -5815,7 +5814,7 @@ msgstr "c- High reduction"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:179
 #, c-format
 msgid "Hiligaynon"
-msgstr ""
+msgstr "Hiligajnončina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1059
 #, fuzzy, c-format
@@ -5824,15 +5823,15 @@ msgstr "h- Hill-and-dale cutting"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:180
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:180
-#, fuzzy, c-format
+#, c-format
 msgid "Hindi"
-msgstr "nepriamy"
+msgstr "Hindčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:181
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:181
 #, c-format
 msgid "Hiri Motu"
-msgstr ""
+msgstr "Hiri Motu"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:474
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:888
@@ -5850,19 +5849,19 @@ msgstr "Výpis"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:182
 #, c-format
 msgid "Hittite"
-msgstr ""
+msgstr "Chetitčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:183
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:183
 #, c-format
 msgid "Hmong"
-msgstr ""
+msgstr "Hmong"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:1115
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1233
-#, fuzzy, c-format
+#, c-format
 msgid "Holdings: "
-msgstr "Poznámka o exemplároch: "
+msgstr "Exempláre: "
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:711
 #, c-format
@@ -6001,7 +6000,7 @@ msgstr "Ilustrácie - kód 4"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:191
 #, c-format
 msgid "Iloko"
-msgstr ""
+msgstr "Iloko"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:134
 #, fuzzy, c-format
@@ -6083,15 +6082,15 @@ msgstr "Indexy"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:1143
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1261
-#, fuzzy, c-format
+#, c-format
 msgid "Indexes: "
-msgstr "Indexy"
+msgstr "Indexy:"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:193
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:193
-#, fuzzy, c-format
+#, c-format
 msgid "Indic (Other)"
-msgstr "d- Ostatné"
+msgstr "Indické (Iné)"
 
 #. SPAN
 #: intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:41
@@ -6108,13 +6107,13 @@ msgstr "Individuálny životopis"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:194
 #, c-format
 msgid "Indo-European (Other)"
-msgstr ""
+msgstr "Indoeurópske jazyky (Iné)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:195
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:195
 #, c-format
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonézčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:900
 #, fuzzy, c-format
@@ -6209,9 +6208,9 @@ msgstr "Rozhovory"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:199
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:199
-#, fuzzy, c-format
+#, c-format
 msgid "Inuktitut"
-msgstr "constituent"
+msgstr "Inuktitut"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:200
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:200
@@ -6223,13 +6222,13 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:201
 #, c-format
 msgid "Iranian (Other)"
-msgstr ""
+msgstr "Iránske jazyky (Iné)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:202
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:202
 #, c-format
 msgid "Irish"
-msgstr ""
+msgstr "Írčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:203
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:203
@@ -6241,24 +6240,24 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:204
 #, c-format
 msgid "Irish, Old (to 1100)"
-msgstr ""
+msgstr "Írčina, stará (do r. 1100)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:205
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:205
 #, c-format
 msgid "Iroquoian (Other)"
-msgstr ""
+msgstr "Irokézske jazyky (Iné)"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:922
-#, fuzzy, c-format
+#, c-format
 msgid "Isostatic"
-msgstr "rd- Isostatic"
+msgstr "Izostatický"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:206
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:206
-#, fuzzy, c-format
+#, c-format
 msgid "Italian"
-msgstr "Realia"
+msgstr "Taliančina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:482
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:896
@@ -6291,9 +6290,9 @@ msgstr "Japonsky"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:208
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:208
-#, fuzzy, c-format
+#, c-format
 msgid "Javanese"
-msgstr "Japonsky"
+msgstr "Jávčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:365
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:778
@@ -6314,9 +6313,9 @@ msgid "Judeo-Persian"
 msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:323
-#, fuzzy, c-format
+#, c-format
 msgid "Jumbo or enlarged braille"
-msgstr "b- Jumbo or enlarged braille"
+msgstr "Obrovské alebo zväčšené braillové písmo"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:39
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:154
@@ -6446,26 +6445,26 @@ msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:229
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:229
-#, fuzzy, c-format
+#, c-format
 msgid "Khotanese"
-msgstr "Čínsky"
+msgstr "Kotčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:230
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:230
 #, c-format
 msgid "Kikuyu"
-msgstr ""
+msgstr "Kikuju"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:231
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:231
 #, c-format
 msgid "Kimbundu"
-msgstr ""
+msgstr "Kimbundu"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:759
-#, fuzzy, c-format
+#, c-format
 msgid "Kind of color stock or print"
-msgstr "14 Kind of color stock or print"
+msgstr "Druh farebného materiálu alebo tlače"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:164
 #, c-format
@@ -6475,24 +6474,24 @@ msgid ""
 msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1057
-#, fuzzy, c-format
+#, c-format
 msgid "Kind of cutting"
-msgstr "11 Kind of cutting"
+msgstr "Druh drážky"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1057
 #, c-format
 msgid "Kind of cutting of the grooves used on a disc."
-msgstr ""
+msgstr "Druhy drážky použitej na disku"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1026
-#, fuzzy, c-format
+#, c-format
 msgid "Kind of disc, cylinder or tape"
-msgstr "09 Kind of disc, cylinder or tape"
+msgstr "Druh disku, valca alebo pásky"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1040
-#, fuzzy, c-format
+#, c-format
 msgid "Kind of material"
-msgstr "10 Druh materiálu"
+msgstr "Druh materiálu"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1040
 #, c-format
@@ -6506,7 +6505,7 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:232
 #, c-format
 msgid "Kinyarwanda"
-msgstr ""
+msgstr "Kiňarwanda"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:87
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:498
@@ -6527,7 +6526,7 @@ msgstr "Sada"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:233
 #, c-format
 msgid "Klingon (Artificial language)"
-msgstr ""
+msgstr "Klingončina (Umelý jazyk)"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:3
 #, c-format
@@ -6573,25 +6572,25 @@ msgstr "Koha &rsaquo; Klasifikácie &rsaquo; Zostavovateľ 008"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:234
 #, c-format
 msgid "Komi"
-msgstr ""
+msgstr "Komijčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:235
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:235
 #, c-format
 msgid "Kongo"
-msgstr ""
+msgstr "Kongo"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:236
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:236
 #, c-format
 msgid "Konkani"
-msgstr ""
+msgstr "Kónkánčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:237
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:237
 #, c-format
 msgid "Kootenai"
-msgstr ""
+msgstr "Kutenajčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:238
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:679
@@ -6605,13 +6604,13 @@ msgstr "Kórejský"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:239
 #, c-format
 msgid "Kosraean"
-msgstr ""
+msgstr "Kusaie"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:240
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:240
 #, c-format
 msgid "Kpelle"
-msgstr ""
+msgstr "Kpelle"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:242
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:585
@@ -6621,39 +6620,39 @@ msgstr "Krovak"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:241
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:241
-#, fuzzy, c-format
+#, c-format
 msgid "Kru (Other)"
-msgstr "d- Ostatné"
+msgstr "Kru (Iné)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:242
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:242
 #, c-format
 msgid "Kuanyama"
-msgstr ""
+msgstr "Kuaňama"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:243
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:243
 #, c-format
 msgid "Kumyk"
-msgstr ""
+msgstr "Kumyčtina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:244
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:244
 #, c-format
 msgid "Kurdish"
-msgstr ""
+msgstr "Kurdčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:245
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:245
 #, c-format
 msgid "Kurukh"
-msgstr ""
+msgstr "Kuruchčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:246
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:246
 #, c-format
 msgid "Kyrgyz"
-msgstr ""
+msgstr "Kirgizština"
 
 #: intranet-tmpl/prog/en/xslt/oilsMARC21slim2HTML.xsl:38
 #, c-format
@@ -6662,22 +6661,22 @@ msgstr "LDR "
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:889
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:947
-#, fuzzy, c-format
+#, c-format
 msgid "LOC classification: "
-msgstr "Triedenie DDC: "
+msgstr "LOC triedenie:"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1041
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1058
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1066
-#, fuzzy, c-format
+#, c-format
 msgid "Lacquer coating"
-msgstr "a- Lacquer coating"
+msgstr "Lakovanie"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:247
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:247
-#, fuzzy, c-format
+#, c-format
 msgid "Ladino"
-msgstr "Načítavam..."
+msgstr "Ladinčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:248
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:248
@@ -6689,7 +6688,7 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:249
 #, c-format
 msgid "Lamba (Zambia and Congo)"
-msgstr ""
+msgstr "Lamba (Zambia a Congo)"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:264
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:607
@@ -6750,15 +6749,15 @@ msgstr "Jazykový materiál"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl:355
 #: opac-tmpl/bootstrap/en/xslt/MARC21slimUtils.xsl:319
-#, fuzzy, c-format
+#, c-format
 msgid "Language: "
-msgstr "Jazyk"
+msgstr "Jazyk:"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:250
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:250
 #, c-format
 msgid "Lao"
-msgstr ""
+msgstr "Laoština"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1096
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:47
@@ -6808,7 +6807,7 @@ msgstr "Latin"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:252
 #, c-format
 msgid "Latvian"
-msgstr ""
+msgstr "Lotyština"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:81
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:612
@@ -6832,9 +6831,9 @@ msgstr "Vovádzač:&nbsp;"
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:214
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:579
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:605
-#, fuzzy, c-format
+#, c-format
 msgid "Leather"
-msgstr "v- Koža"
+msgstr "Koža"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:494
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:908
@@ -6917,7 +6916,7 @@ msgstr "a- Optical sound track on motion picture film"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:253
 #, c-format
 msgid "Lezgian"
-msgstr ""
+msgstr "Lezginčina "
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:469
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:883
@@ -6929,7 +6928,7 @@ msgstr "Libretto alebo text"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:254
 #, c-format
 msgid "Limburgish"
-msgstr ""
+msgstr "Limburčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:272
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:291
@@ -6949,12 +6948,12 @@ msgstr "c- Line over line"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:255
 #, c-format
 msgid "Lingala"
-msgstr ""
+msgstr "Lingala"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:244
-#, fuzzy, c-format
+#, c-format
 msgid "Literary braille"
-msgstr "a- Literary braille"
+msgstr "Literatúra v braillovom písme"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:116
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:314
@@ -6972,7 +6971,7 @@ msgstr "Literárny text pre zvukové nahrávky"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:256
 #, c-format
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litovčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:774
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:1331
@@ -7009,7 +7008,7 @@ msgstr "Lokácia(e): "
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:257
 #, c-format
 msgid "Lojban (Artificial language)"
-msgstr ""
+msgstr "Lojban (Umelý jazyk)"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1098
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:325
@@ -7059,55 +7058,55 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:260
 #, c-format
 msgid "Lozi"
-msgstr ""
+msgstr "Lozi"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:261
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:261
 #, c-format
 msgid "Luba-Katanga"
-msgstr ""
+msgstr "Lubčina-katanžská"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:262
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:262
 #, c-format
 msgid "Luba-Lulua"
-msgstr ""
+msgstr "Lubčina-Luluánčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:263
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:263
 #, c-format
 msgid "Luiseño"
-msgstr ""
+msgstr "Luiseňo"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:264
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:264
 #, c-format
 msgid "Lule Sami"
-msgstr ""
+msgstr "Luleská saamčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:265
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:265
 #, c-format
 msgid "Lunda"
-msgstr ""
+msgstr "Lunda"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:266
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:266
 #, c-format
 msgid "Luo (Kenya and Tanzania)"
-msgstr ""
+msgstr "Luo (Keňa a Tanzánia)"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:267
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:267
 #, c-format
 msgid "Lushai"
-msgstr ""
+msgstr "Lušáí"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:268
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:268
 #, c-format
 msgid "Luxembourgish"
-msgstr ""
+msgstr "Luxemburčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1141
 #, fuzzy, c-format
@@ -7193,13 +7192,13 @@ msgstr "MX"
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:290
 #, c-format
 msgid "Maasai"
-msgstr ""
+msgstr "Masajčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:269
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:269
 #, c-format
 msgid "Macedonian"
-msgstr ""
+msgstr "Macedónčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:367
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:780
@@ -7209,15 +7208,15 @@ msgstr "Madrigals"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:270
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:270
-#, fuzzy, c-format
+#, c-format
 msgid "Madurese"
-msgstr "Hachures"
+msgstr "Madurčina"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:271
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:271
 #, c-format
 msgid "Magahi"
-msgstr ""
+msgstr "Magadhčina"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:744
 #, fuzzy, c-format

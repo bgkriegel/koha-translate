@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:10-0300\n"
-"PO-Revision-Date: 2020-02-14 18:39+0000\n"
+"POT-Creation-Date: 2020-03-19 07:15-0300\n"
+"PO-Revision-Date: 2020-03-21 20:45+0000\n"
 "Last-Translator: Jónás János <janosjonas@outlook.com>\n"
 "Language-Team: Koha Translation Team <koha-translate@nongnu.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1581705552.615559\n"
+"X-POOTLE-MTIME: 1584823542.629699\n"
 "X-Pootle-Path: /hu/18.05/hu-HU-marc-MARC21.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -3118,7 +3118,7 @@ msgstr "Naptárak"
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1318
 #, c-format
 msgid "Call number: "
-msgstr "Raktári jelzet: "
+msgstr "Leltári szám: "
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:324
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008.tt:24
@@ -5865,9 +5865,9 @@ msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:1115
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1233
-#, fuzzy, c-format
+#, c-format
 msgid "Holdings: "
-msgstr "Előjegyzési megjegyzések: "
+msgstr "Állomány: "
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:711
 #, c-format
@@ -6274,12 +6274,12 @@ msgstr "A tétel egy zenei felvétel"
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:27
 #, c-format
 msgid "Item type"
-msgstr "Tétel típusa"
+msgstr "Tétel típus"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1236
 #, c-format
 msgid "Items available for loan: "
-msgstr "Kölcsönözhető példányok könyvtáranként: "
+msgstr "Kölcsönözhető példányok: "
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1309
 #, c-format
@@ -15366,7 +15366,7 @@ msgid "au"
 msgstr "au"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1573
-#, fuzzy, c-format
+#, c-format
 msgid "author"
 msgstr "szerző"
 
@@ -15890,7 +15890,7 @@ msgstr "tágabb"
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:509
 #, c-format
 msgid "by "
-msgstr "Szerző: "
+msgstr "szerző "
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1572
 #, c-format
@@ -19900,7 +19900,7 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:298
 #, c-format
 msgid "print "
-msgstr "nyomat "
+msgstr "nyomat"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS32.xsl:982
 #, fuzzy, c-format

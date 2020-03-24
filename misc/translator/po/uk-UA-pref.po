@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2020-02-17 16:21+0000\n"
+"PO-Revision-Date: 2020-03-23 15:24+0000\n"
 "Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
 "Language-Team: Ukrainian Linux Team <translation@linux.org.ua>\n"
 "Language: uk\n"
@@ -13,7 +13,7 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1581956486.391420\n"
+"X-POOTLE-MTIME: 1584977081.232805\n"
 "X-Pootle-Path: /uk/18.05/uk-UA-pref.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -27,15 +27,17 @@ msgstr ""
 
 # Accounting > Policy
 msgid "accounting.pref#AccountAutoReconcile# Do"
-msgstr ""
+msgstr "Виконувати"
 
 # Accounting > Policy
 msgid "accounting.pref#AccountAutoReconcile# Do not"
-msgstr ""
+msgstr "Не виконувати"
 
 # Accounting > Policy
 msgid "accounting.pref#AccountAutoReconcile# reconcile patron balances automatically on each transaction adding debits or credits."
 msgstr ""
+" автоматичне узгодження балансу відвідувача за кожною операцією додавання "
+"дебету чи кредиту."
 
 # Accounting > Policy
 msgid "accounting.pref#FinePaymentAutoPopup# Do"
@@ -2519,11 +2521,11 @@ msgstr ""
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionOverride# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionOverride# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionOverride# staff to check out an item with age restriction."
@@ -2691,7 +2693,7 @@ msgstr "Не дозволяти"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowNotForLoanOverride# staff to override and check out items that are marked as not for loan."
-msgstr " працівникам бібліотеки обходити обмеження та видавати примірники, які позначені як „не для випожичання“."
+msgstr " працівникам бібліотеки обходити обмеження та видавати примірники, які позначені як „не для випозичання“."
 
 # Circulation > Interface
 msgid "circulation.pref#AllowOfflineCirculation# Do not enable"
@@ -3347,15 +3349,15 @@ msgstr ""
 
 # Circulation > Fines Policy
 msgid "circulation.pref#FinesIncludeGracePeriod# Don't include"
-msgstr ""
+msgstr "Не враховувати"
 
 # Circulation > Fines Policy
 msgid "circulation.pref#FinesIncludeGracePeriod# Include"
-msgstr ""
+msgstr "Враховувати"
 
 # Circulation > Fines Policy
 msgid "circulation.pref#FinesIncludeGracePeriod# the grace period when calculating the fine for an overdue item."
-msgstr ""
+msgstr "пільговий період при нарахуванні штрафу за прострочений примірник."
 
 # Circulation > Checkin Policy
 msgid "circulation.pref#HidePersonalPatronDetailOnCirculation# Don't hide"
@@ -4553,10 +4555,6 @@ msgstr ""
 # Circulation > Fines Policy
 msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/fines.pl</code> cronjob. Ask your system administrator to schedule it."
 msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/fines.pl</code>. Попросіть системного адміністратора запланувати його."
-
-# Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "Підраховувати (але лише для висилання адміністратору)"
 
 # Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
@@ -6431,7 +6429,7 @@ msgstr "Джерельна бібліотека"
 
 # OPAC > Appearance
 msgid "opac.pref#OPACHoldingsDefaultSortField# is the default sort field for the holdings table"
-msgstr " є полем сортування за умовчанням для таблиці наявних примірників."
+msgstr " є полем сортування за умовчанням для таблиці доступних примірників."
 
 # OPAC > Features
 msgid "opac.pref#OPACISBD# Use the following as the OPAC ISBD template:"
@@ -8243,15 +8241,15 @@ msgstr "<strong>ПРИМІТКА:</strong>: якщо параметр „autoMem
 
 # Patrons > General
 msgid "patrons.pref#autoMemberNum# Do"
-msgstr ""
+msgstr "Генерувати"
 
 # Patrons > General
 msgid "patrons.pref#autoMemberNum# Don't"
-msgstr ""
+msgstr "Не генерувати"
 
 # Patrons > General
 msgid "patrons.pref#autoMemberNum# default the card number field on the patron addition screen to the next available card number (for example, if the largest currently used card number is 26345000012941, then this field will default to 26345000012942)."
-msgstr ""
+msgstr "автоматично поле номера читацького квитка (на екрані реєстрації відвідувача) відповідно наступному до найбільшого номера читацького квитка (наприклад, якщо найбільший на даний час номер читацького квитка становить 26345000012941, тоді це поле автоматично міститиме 26345000012942)."
 
 # Patrons > General
 msgid "patrons.pref#borrowerRelationship# (input multiple choices separated by |). Leave empty to deactivate"
@@ -8291,7 +8289,7 @@ msgstr "Не дозволяти"
 
 # Patrons > General
 msgid "patrons.pref#patronimages# images to be uploaded and shown for patrons on the staff client."
-msgstr "вивантажувати і відображати зображення відвідувачів у бібліотечному інтерфейсі."
+msgstr "вивантажувати і відображати світлинин відвідувачів у бібліотечному інтерфейсі."
 
 # Patrons > General
 msgid "patrons.pref#uppercasesurnames# Do"

@@ -4554,10 +4554,6 @@ msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system prefer
 msgstr "<br><strong>NOTA:</strong> Esta preferência de sistema requer a inclusão da linha <code>misc/cronjobs/fines.pl</code> no cronjob. Peça ao administrador do sistema para avaliar."
 
 # Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "Calcule (mas apenas para envio de mensagem ao administrador)"
-
-# Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
 msgstr "Calcule e aplique multa"
 

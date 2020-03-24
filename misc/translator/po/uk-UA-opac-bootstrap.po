@@ -9,9 +9,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:44-0300\n"
-"PO-Revision-Date: 2020-02-17 16:55+0000\n"
-"Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
+"POT-Creation-Date: 2020-03-19 07:37-0300\n"
+"PO-Revision-Date: 2020-03-23 15:27+0000\n"
+"Last-Translator: biblio.center <solomioi@gmail.com>\n"
 "Language-Team: Ukrainian Linux Team <translation@linux.org.ua>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1581958506.737785\n"
+"X-POOTLE-MTIME: 1584977274.346148\n"
 "X-Pootle-Path: /uk/18.05/uk-UA-opac-bootstrap.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -918,7 +918,7 @@ msgstr ""
 "%s Система не розпізнає цей штрих-код. %s У Вас є видано занадто багато "
 "примірників і більше видавати не можна. %s Цей примірник видається комусь "
 "іншому. %s Ви не можете продовжити цей примірник ще раз. %s Цей примірник не "
-"для випожичання. %s Ви заборгували бібліотеці %s і не можете отримати "
+"для випозичання. %s Ви заборгували бібліотеці %s і не можете отримати "
 "видачу. %s Цей примірник був вилучений із зібрання. %s Цей примірник "
 "заблокований. %s Цей примірник знаходиться на резервуванні для іншого "
 "відвідувача. %s Цей примірник відноситься до іншого підрозділу. %s У Вашого "
@@ -2011,20 +2011,24 @@ msgstr "%s/cgi-bin/koha/opac-showreviews.pl&amp;format=rss2"
 msgid "%s0 biblios%s "
 msgstr "%s0 бібліотечних записів %s "
 
-#. %1$s:  IF ( starting_homebranch ) 
+#. %1$s: - IF ( starting_homebranch ) 
 #. %2$s:  starting_homebranch | html 
-#. %3$s:  END 
-#. %4$s:  IF ( starting_location ) 
-#. %5$s:  starting_location | html 
-#. %6$s:  END 
-#. %7$s:  IF ( starting_ccode ) 
-#. %8$s:  starting_ccode | html 
-#. %9$s:  END 
+#. %3$s:  END -
+#. %4$s: - IF ( starting_homebranch && starting_location ) 
+#. %5$s:  END 
+#. %6$s: - IF ( starting_location ) 
+#. %7$s: - starting_location | html -
+#. %8$s:  END -
+#. %9$s: - IF ( starting_homebranch && starting_ccode ) 
+#. %10$s:  END 
+#. %11$s: - IF ( starting_ccode ) 
+#. %12$s: - starting_ccode | html -
+#. %13$s:  END -
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:4
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"%sBrowsing %s Shelves%s %s, Shelving location: %s%s %s, Collection code: %s"
-"%s "
+"%sBrowsing %s shelves%s %s, %s %sShelving location: %s%s %s, %s "
+"%sCollection: %s%s "
 msgstr ""
 "%s Огляд полиць бібліотеки/підрозділу „%s“%s%s, загальне розташування "
 "полиці: %s%s%s, шифр зібрання: %s%s "
@@ -3606,7 +3610,7 @@ msgstr "Зміна вмісту дозволяється: "
 #: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:123
 #, c-format
 msgid "Allow your guarantor to view your current checkouts?"
-msgstr "Дозволити Вашому поручителю переглядати Ваші поточні випожичання?"
+msgstr "Дозволити Вашому поручителю переглядати Ваші поточні випозичання?"
 
 #: opac-tmpl/bootstrap/en/modules/opac-privacy.tt:89
 #: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:141
@@ -4725,7 +4729,7 @@ msgstr "Клацніть, щоб переглянути у Google Books"
 msgid "Close"
 msgstr "Закрити"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:8
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:10
 #, c-format
 msgid "Close shelf browser"
 msgstr "Зачинити оглядач полиці"
@@ -4995,7 +4999,7 @@ msgid "Courses"
 msgstr "Курси"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:66
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:68
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:155
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:327
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:329
@@ -5372,12 +5376,12 @@ msgstr ""
 "Чи Ви хочете отримувати електронну пошту, коли прибуватиме новий випуск для "
 "цієї підписки?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
 #, c-format
 msgid "Don't have a library card?"
 msgstr "Не маєте бібліотечного квитка?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:181
 #, c-format
 msgid "Don't have a password yet?"
 msgstr "Ще не маєте пароля?"
@@ -5514,7 +5518,7 @@ msgstr "Відомості про видання:"
 msgid "Editions"
 msgstr "Видання"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt:41
 #, c-format
 msgid "Email"
@@ -5925,7 +5929,7 @@ msgstr ""
 "користувачів, які хочуть відстежувати те, що вони читають."
 
 #: opac-tmpl/bootstrap/en/includes/masthead.inc:362
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:175
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:174
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt:180
 #, c-format
 msgid "Forgot your password?"
@@ -6595,7 +6599,7 @@ msgstr ""
 "Якщо у Вас немає облікового запису Шібболет, але є локальний обліковий "
 "запис, то Ви можете увійти з ним нижче."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:185
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
 #, c-format
 msgid ""
 "If you don't have a library card, stop by your local library to sign up."
@@ -6603,7 +6607,7 @@ msgstr ""
 "Якщо у Вас ще немає читацького квитка, зайдіть до Вашої місцевої бібліотеки "
 "та запишіться. "
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
 #, c-format
 msgid ""
 "If you don't have a password yet, stop by the circulation desk the next time "
@@ -7374,7 +7378,7 @@ msgstr "Вийдіть і спробуйте ще раз з іншим кори�
 msgid "Log out from your OverDrive account"
 msgstr "Вийти із свого облікового запису OverDrive"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:195
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:194
 #, c-format
 msgid "Logging on to the catalog has not been enabled by the library."
 msgstr "Вхід до каталогу не був дозволений бібліотекою."
@@ -7757,7 +7761,7 @@ msgstr "Новини з %s бібліотеки „%s“%s бібліотеки 
 msgid "Next"
 msgstr "Наступне"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:76
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:78
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:17
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt:1112
 #, c-format
@@ -7804,10 +7808,10 @@ msgstr "Не було зроблено жодних змін."
 msgid "No checkouts"
 msgstr "Немає видач"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:31
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:40
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:49
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:33
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:42
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:51
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:63
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:110
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:229
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:237
@@ -7872,13 +7876,13 @@ msgstr "Жодної одиниці не було відібрано"
 #: opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt:158
 #, c-format
 msgid "No items available."
-msgstr "Немає наявних примірників."
+msgstr "Немає доступних примірників."
 
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:432
 #: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt:223
 #, c-format
 msgid "No items available:"
-msgstr "Немає наявних примірників тут:"
+msgstr "Немає доступних примірників тут:"
 
 #: opac-tmpl/bootstrap/en/includes/opac-topissues.inc:83
 #: opac-tmpl/bootstrap/en/includes/opac-topissues.inc:85
@@ -8058,13 +8062,13 @@ msgstr "Не знайшли того за чим шукали? "
 #: opac-tmpl/bootstrap/en/includes/item-status.inc:74
 #, c-format
 msgid "Not for loan %s"
-msgstr "Не для випожичання %s"
+msgstr "Не для випозичання %s"
 
 #. %1$s:  itemLoo.notforloanvalue | html 
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt:400
 #, c-format
 msgid "Not for loan (%s)"
-msgstr "Не для випожичання (%s)"
+msgstr "Не для випозичання (%s)"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt:879
 #, c-format
@@ -8989,7 +8993,7 @@ msgstr "Попереднє"
 msgid "Preview"
 msgstr "Перегляд"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:16
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:18
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:122
 #: opac-tmpl/bootstrap/en/includes/datatables.inc:4
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:7
@@ -9496,7 +9500,7 @@ msgstr "Запит розміщено: "
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt:282
 #, c-format
 msgid "Request specific item type:"
-msgstr "Запит певного типу примірника: "
+msgstr "Запит визначеного типу примірника: "
 
 #: opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:120
 #, c-format
@@ -9993,7 +9997,7 @@ msgid "Section:"
 msgstr "Розділ: "
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:59
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:148
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:307
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:318
@@ -11615,7 +11619,7 @@ msgid "To report this error, please contact the Koha Administrator. "
 msgstr ""
 "Щоб повідомити про цю помилку, будь ласка, зверніться до адміністратора Коха."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #, c-format
 msgid "To report this error, you can email the Koha Administrator."
 msgstr ""
@@ -11816,7 +11820,7 @@ msgstr "Оновити"
 msgid "Updates to your record"
 msgstr "Поновлення Вашого запису"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:198
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
 #, c-format
 msgid "Use top menu bar to navigate to another part of Koha."
 msgstr ""
@@ -12432,7 +12436,7 @@ msgstr ""
 "Ви використали зовнішнє посилання на каталожний примірник, який більше не "
 "доступний."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:188
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:187
 #, c-format
 msgid "You may register here."
 msgstr "Ви можете зареєструватися тут."
@@ -13255,7 +13259,7 @@ msgstr "список системних ідентифікаторів запи�
 msgid "log in using a different account"
 msgstr "увійти в систему за допомогою іншого облікового запису"
 
-# змінна функції HoldTitle з ILS-DI
+# не перекладайте це, будуть зламані запити ILS-DI
 #: opac-tmpl/bootstrap/en/modules/ilsdi.tt:723
 #: opac-tmpl/bootstrap/en/modules/ilsdi.tt:754
 #, c-format
@@ -13667,7 +13671,7 @@ msgstr "повертати чи ні інформацію про запити р
 #: opac-tmpl/bootstrap/en/modules/ilsdi.tt:526
 #, c-format
 msgid "whether or not to return loan information in the response"
-msgstr "повертати чи ні інформацію про випожичання у відповідь"
+msgstr "повертати чи ні інформацію про випозичання у відповідь"
 
 #: opac-tmpl/bootstrap/en/modules/ilsdi.tt:520
 #, c-format

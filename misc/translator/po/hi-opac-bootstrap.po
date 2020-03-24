@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:08-0300\n"
-"PO-Revision-Date: 2020-01-17 14:20+0000\n"
+"POT-Creation-Date: 2020-03-19 07:14-0300\n"
+"PO-Revision-Date: 2020-03-15 02:49+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1579270857.952759\n"
+"X-POOTLE-MTIME: 1584240586.492296\n"
 "X-Pootle-Path: /hi/18.05/hi-opac-bootstrap.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -157,7 +157,7 @@ msgstr "%s %s %s नोट: इस विंडो स्वतः 5 सेक�
 #. %30$s: - SWITCH account.status -
 #. %31$s: - CASE 'UNRETURNED' -
 #: opac-tmpl/bootstrap/en/includes/account-table.inc:171
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s %sPayment %sWriteoff %sForgiven %sCredit %sLost item fee refund %s%s "
 "%s %s %s %sAccount creation fee %sAccount renewal fee %sLost item %sManual "
@@ -169,7 +169,7 @@ msgstr ""
 "%s %s %sखाता निर्माण शुल्क %sखाता नवीनीकरण शुल्क %sखोई आइटम %sमेन्यूल फी %sनया कार्ड "
 "%sफाइन %sखोई हुई वस्तु प्रसंस्करण शुल्क %sकिराया फी %sदैनिक किराया फीस %sकिराये की वस्तु "
 "का नवीनीकरण %sदैनिक किराये की वस्तु का नवीनीकरण %sहोल्ड फी %sहोल्ड प्रतीक्षा बहुत लंबा "
-"%s%s %s %s %s "
+"%s%s %s %s %s %s"
 
 #. %1$s:  END 
 #. %2$s:  IF ( ITEM_RESULT.itemcallnumber ) 
@@ -1913,21 +1913,25 @@ msgstr "%s/cgi-bin/koha/opac-showreviews.pl&amp;format=rss2"
 msgid "%s0 biblios%s "
 msgstr "%s0 बिब्लियोज%s "
 
-#. %1$s:  IF ( starting_homebranch ) 
+#. %1$s: - IF ( starting_homebranch ) 
 #. %2$s:  starting_homebranch | html 
-#. %3$s:  END 
-#. %4$s:  IF ( starting_location ) 
-#. %5$s:  starting_location | html 
-#. %6$s:  END 
-#. %7$s:  IF ( starting_ccode ) 
-#. %8$s:  starting_ccode | html 
-#. %9$s:  END 
+#. %3$s:  END -
+#. %4$s: - IF ( starting_homebranch && starting_location ) 
+#. %5$s:  END 
+#. %6$s: - IF ( starting_location ) 
+#. %7$s: - starting_location | html -
+#. %8$s:  END -
+#. %9$s: - IF ( starting_homebranch && starting_ccode ) 
+#. %10$s:  END 
+#. %11$s: - IF ( starting_ccode ) 
+#. %12$s: - starting_ccode | html -
+#. %13$s:  END -
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:4
 #, c-format
 msgid ""
-"%sBrowsing %s Shelves%s %s, Shelving location: %s%s %s, Collection code: %s"
-"%s "
-msgstr "%sब्राउजिग %s अलमारियों%s %s, शैल्विग स्थान: %s%s %s, संग्रह कोड: %s%s  "
+"%sBrowsing %s shelves%s %s, %s %sShelving location: %s%s %s, %s "
+"%sCollection: %s%s "
+msgstr "%sब्राउजिग %sअलमारियाँ%s %s, %s %sशैल्विग स्थान: %s%s %s, %s %sसंग्रह: %s%s "
 
 #. %1$s:  IF ( ccodesearch ) 
 #. %2$s:  ELSE 
@@ -4487,7 +4491,7 @@ msgstr "पर क्लिक करें Google Books में देखन�
 msgid "Close"
 msgstr "बंद करना"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:8
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:10
 #, c-format
 msgid "Close shelf browser"
 msgstr "बंद शेल्फ ब्राउज़र"
@@ -4755,7 +4759,7 @@ msgid "Courses"
 msgstr "कोर्स"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:66
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:68
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:155
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:327
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:329
@@ -5126,12 +5130,12 @@ msgid ""
 "arrives?"
 msgstr "तुम जब इस सदस्यता के लिए एक नया मुद्दा आता है एक ईमेल प्राप्त करना चाहते हैं?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
 #, c-format
 msgid "Don't have a library card?"
 msgstr "एक पुस्तकालय कार्ड नहीं है?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:181
 #, c-format
 msgid "Don't have a password yet?"
 msgstr "अभी तक एक कूटशब्द नहीं है?"
@@ -5268,7 +5272,7 @@ msgstr "संस्करण बयान:"
 msgid "Editions"
 msgstr "संस्करण"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt:41
 #, c-format
 msgid "Email"
@@ -5672,7 +5676,7 @@ msgstr ""
 "ट्रैक रखने के लिए चाहते हैं जो उपयोगकर्ताओं के लिए विकल्प है।"
 
 #: opac-tmpl/bootstrap/en/includes/masthead.inc:362
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:175
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:174
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt:180
 #, c-format
 msgid "Forgot your password?"
@@ -6320,14 +6324,14 @@ msgstr ""
 "आप एक Shibboleth खाता नहीं है, लेकिन आप एक स्थानीय लॉग इन करते हैं, तो आप नीचे दिए "
 "गए लॉगिन कर सकते हैं।"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:185
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
 #, c-format
 msgid ""
 "If you don't have a library card, stop by your local library to sign up."
 msgstr ""
 "यदि एक लाइब्रेरी कार्ड नहीं है.आप साइन अप करने के लिए स्थानीय पुस्तकालय द्वारा रोके  जाएगें"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
 #, c-format
 msgid ""
 "If you don't have a password yet, stop by the circulation desk the next time "
@@ -7085,7 +7089,7 @@ msgstr "लॉगआउट और एक अलग उपयोगकर्त�
 msgid "Log out from your OverDrive account"
 msgstr "अपने ओवरड्राइव अकाउंट से लॉग आउट करें"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:195
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:194
 #, c-format
 msgid "Logging on to the catalog has not been enabled by the library."
 msgstr "इस सूची पर Logging पुस्तकालय द्वारा सक्षम नहीं किया गया है."
@@ -7467,7 +7471,7 @@ msgstr "समाचार द्वारा %s%s%sपुस्तकालय%
 msgid "Next"
 msgstr "अगला"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:76
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:78
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:17
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt:1112
 #, c-format
@@ -7513,10 +7517,10 @@ msgstr "कोई परिवर्तन नहीं किए गए थे.
 msgid "No checkouts"
 msgstr "कोई चेकआउट नहीं"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:31
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:40
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:49
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:33
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:42
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:51
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:63
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:110
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:229
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:237
@@ -8674,7 +8678,7 @@ msgstr "पिछला"
 msgid "Preview"
 msgstr "पूर्वावलोकन"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:16
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:18
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:122
 #: opac-tmpl/bootstrap/en/includes/datatables.inc:4
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:7
@@ -9664,7 +9668,7 @@ msgid "Section:"
 msgstr "अनुभाग:"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:59
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:148
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:307
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:318
@@ -11244,13 +11248,13 @@ msgstr "अपने रिकॉर्ड में परिवर्तन �
 msgid "To report this error, please contact the Koha Administrator. "
 msgstr "इस त्रुटि की रिपोर्ट करने के लिए, कोहा प्रशासक से संपर्क करें।"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #, c-format
 msgid "To report this error, you can email the Koha Administrator."
 msgstr "इस त्रुटि की रिपोर्ट करने के लिए, कोहा प्रशासक को ईमेल कर सकते हैं. "
 
 #: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:95
-#, fuzzy, c-format
+#, c-format
 msgid "To reset your password, enter your login or your email address."
 msgstr "अपना पासवर्ड रीसेट करने के लिए, अपना लॉगिन या ईमेल पता दर्ज करें"
 
@@ -11442,7 +11446,7 @@ msgstr "अद्यतन"
 msgid "Updates to your record"
 msgstr "अपने रिकॉर्ड को अपडेट करें"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:198
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
 #, c-format
 msgid "Use top menu bar to navigate to another part of Koha."
 msgstr "इस्तेमाल शीर्ष मेनू बार Koha के दूसरे भाग में नेविगेट करने के लिए."
@@ -12039,7 +12043,7 @@ msgid ""
 msgstr ""
 "आपने एक बाहरी लिंक का इस्तेमाल किया जोकि एक सूची आइटम है कि अब और नहीं उपलब्ध नहीं हैं।"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:188
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:187
 #, c-format
 msgid "You may register here."
 msgstr "आप यहाँ पंजीकृत कर सकते हैं."

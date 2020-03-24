@@ -4555,10 +4555,6 @@ msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system prefer
 msgstr "<br><strong>POZNÁMKA:</strong> Toto systémové nastavenie vyžaduje cronjob <code>misc/cronjobs/fines.pl</code>. Požiadajte vášho administrátora, aby ho nastavil."
 
 # Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "Vypočítať (iba pre email adminovi)"
-
-# Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
 msgstr "Vypočítať a spoplatniť"
 

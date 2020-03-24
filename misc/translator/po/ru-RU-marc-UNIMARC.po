@@ -8,19 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-16 15:34-0300\n"
-"PO-Revision-Date: 2020-02-12 09:30+0000\n"
+"POT-Creation-Date: 2020-03-19 07:30-0300\n"
+"PO-Revision-Date: 2020-03-24 02:58+0000\n"
 "Last-Translator: Igor A. Sychev <Igor.A.Sychev@mail.ru>\n"
 "Language-Team: Ukrainian Linux Team <translation@linux.org.ua>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1581499823.483781\n"
+"X-POOTLE-MTIME: 1585018719.150987\n"
 "X-Pootle-Path: /ru/18.05/ru-RU-marc-UNIMARC.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -3779,9 +3779,9 @@ msgid "Serial type"
 msgstr "Тип сериального издания"
 
 #: intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:133
-#, fuzzy, c-format
+#, c-format
 msgid "Serial type: "
-msgstr "Тип периодического издания"
+msgstr "Тип периодического издания: "
 
 #: intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:131
 #: opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:125
@@ -3802,7 +3802,7 @@ msgid "Set Level"
 msgstr "Набор"
 
 #: intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:2
-#, fuzzy, c-format
+#, c-format
 msgid "Show coded information filters"
 msgstr "Показать фильтры кодированных данных"
 

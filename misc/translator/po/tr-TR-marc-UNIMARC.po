@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:43-0300\n"
-"PO-Revision-Date: 2019-07-03 11:41+0000\n"
+"POT-Creation-Date: 2020-03-19 07:36-0300\n"
+"PO-Revision-Date: 2020-03-09 06:55+0000\n"
 "Last-Translator: Onur Erdem <onurerdem@sdu.edu.tr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: tr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1562154105.576530\n"
+"X-POOTLE-MTIME: 1583736905.447988\n"
 "X-Pootle-Path: /tr/18.05/tr-TR-marc-UNIMARC.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -1200,7 +1200,7 @@ msgstr "Kullanıcı Grubu: "
 #: opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:508
 #, c-format
 msgid "Audio file"
-msgstr ""
+msgstr "Ses dosyası"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:45
 #, c-format
@@ -3366,9 +3366,9 @@ msgid "Plate Carree"
 msgstr "Plate Carree"
 
 #: opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:531
-#, fuzzy, c-format
+#, c-format
 msgid "Play this sample"
-msgstr "l - örnekler"
+msgstr "Bu örneği oynat"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:12
 #, c-format

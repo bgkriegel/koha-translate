@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:01-0300\n"
-"PO-Revision-Date: 2019-11-14 18:55+0000\n"
+"POT-Creation-Date: 2020-03-19 07:09-0300\n"
+"PO-Revision-Date: 2020-02-21 22:53+0000\n"
 "Last-Translator: Martín Longo <hilongo@gmail.com>\n"
 "Language-Team: Koha Translation Team <koha-translate@lists.koha-community."
 "org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1573757722.830682\n"
+"X-POOTLE-MTIME: 1582325608.982784\n"
 "X-Pootle-Path: /es/18.05/es-ES-marc-UNIMARC.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -12546,7 +12546,7 @@ msgstr "uu- desconocido"
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_105.tt:934
 #, c-format
 msgid "v - dissertation or thesis (revised)"
-msgstr "v- disertación o tesis (revisada)"
+msgstr "v - disertación o tesis (revisada)"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128a.tt:351
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128a.tt:353

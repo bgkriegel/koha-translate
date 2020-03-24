@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:10-0300\n"
-"PO-Revision-Date: 2018-06-14 15:33+0000\n"
-"Last-Translator: Hamar Zoltán <zhamarusa@gmail.com>\n"
+"POT-Creation-Date: 2020-03-19 07:15-0300\n"
+"PO-Revision-Date: 2020-03-19 08:44+0000\n"
+"Last-Translator: Jónás János <janosjonas@outlook.com>\n"
 "Language-Team: Koha Translation Team <koha-translate@nongnu.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1528990416.272618\n"
+"X-POOTLE-MTIME: 1584607471.116046\n"
 "X-Pootle-Path: /hu/18.05/hu-HU-marc-UNIMARC.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -1210,9 +1210,9 @@ msgid "Autre"
 msgstr "Más"
 
 #: opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:160
-#, fuzzy, c-format
+#, c-format
 msgid "Availability: "
-msgstr "Elérhetõség: "
+msgstr "Elérhetőség: "
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:112
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:114
@@ -2274,12 +2274,12 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:28
 #, c-format
 msgid "Heading A-Z"
-msgstr ""
+msgstr "Besorolási alak A-Zs"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:29
 #, c-format
 msgid "Heading Z-A"
-msgstr ""
+msgstr "Besorolási alak Zs-A"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:63
 #, c-format
@@ -2487,10 +2487,10 @@ msgstr "# Dokumentumok"
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:23
 #, c-format
 msgid "Item type:"
-msgstr ""
+msgstr "Tétel típus:"
 
 #: opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:197
-#, fuzzy, c-format
+#, c-format
 msgid "Items available for loan: "
 msgstr "Kölcsönözhető példányok: "
 
@@ -11753,7 +11753,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:33
 #, c-format
 msgid "starts with"
-msgstr "ezzel kezdődik:"
+msgstr "ezzel kezdődik"
 
 #: intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:102
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:259

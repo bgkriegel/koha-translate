@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:32-0300\n"
+"POT-Creation-Date: 2020-03-19 07:29-0300\n"
 "PO-Revision-Date: 2020-02-18 10:15+0000\n"
 "Last-Translator: vfernandes <vfernandes@keep.pt>\n"
 "Language-Team: <>\n"
@@ -170,8 +170,8 @@ msgid ""
 msgstr ""
 "%s %s %sPagamento %sAmortizar %sPerdoado %sCrédito %sTaxa de substituição de "
 "exemplar perdido %s%s %s %s %s %sTaxa de criação de conta %sTaxa de "
-"renovação de conta %sExemplar perdido %sMulta manual %sNovo cartão %sMulta %"
-"sTaxa de processamento de exemplar perdido %sTaxa de aluguer %sTaxa diária "
+"renovação de conta %sExemplar perdido %sMulta manual %sNovo cartão %sMulta "
+"%sTaxa de processamento de exemplar perdido %sTaxa de aluguer %sTaxa diária "
 "de aluguer %sTaxa de renovação %sTaxa de renovação de aluguer diária %sTaxa "
 "de rerva %sReserva à espera há demasiado %s%s %s %s %s %s"
 
@@ -1993,20 +1993,24 @@ msgstr "%s/cgi-bin/koha/opac-showreviews.pl&amp;format=rss2"
 msgid "%s0 biblios%s "
 msgstr "%s0 registos%s "
 
-#. %1$s:  IF ( starting_homebranch ) 
+#. %1$s: - IF ( starting_homebranch ) 
 #. %2$s:  starting_homebranch | html 
-#. %3$s:  END 
-#. %4$s:  IF ( starting_location ) 
-#. %5$s:  starting_location | html 
-#. %6$s:  END 
-#. %7$s:  IF ( starting_ccode ) 
-#. %8$s:  starting_ccode | html 
-#. %9$s:  END 
+#. %3$s:  END -
+#. %4$s: - IF ( starting_homebranch && starting_location ) 
+#. %5$s:  END 
+#. %6$s: - IF ( starting_location ) 
+#. %7$s: - starting_location | html -
+#. %8$s:  END -
+#. %9$s: - IF ( starting_homebranch && starting_ccode ) 
+#. %10$s:  END 
+#. %11$s: - IF ( starting_ccode ) 
+#. %12$s: - starting_ccode | html -
+#. %13$s:  END -
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:4
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"%sBrowsing %s Shelves%s %s, Shelving location: %s%s %s, Collection code: %s"
-"%s "
+"%sBrowsing %s shelves%s %s, %s %sShelving location: %s%s %s, %s "
+"%sCollection: %s%s "
 msgstr ""
 "%sNavegando %s Prateleiras%s %s, Localização na prateleira: %s%s %s, Código "
 "da coleção: %s%s "
@@ -4601,7 +4605,7 @@ msgid "Close"
 msgstr "Fechar"
 
 # Traduzido por Ricardo Dias Marques em 28-Mai-2009
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:8
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:10
 #, c-format
 msgid "Close shelf browser"
 msgstr "Fechar visualizador de prateleira"
@@ -4869,7 +4873,7 @@ msgid "Courses"
 msgstr "Cursos"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:66
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:68
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:155
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:327
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:329
@@ -5245,12 +5249,12 @@ msgstr ""
 "Quer receber uma mensagem de correio electrónico quando chegar um novo "
 "fascículo desta assinatura?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
 #, c-format
 msgid "Don't have a library card?"
 msgstr "Não tem cartão da Biblioteca?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:181
 #, c-format
 msgid "Don't have a password yet?"
 msgstr "Ainda não tem uma palavra-passe?"
@@ -5389,7 +5393,7 @@ msgstr "Declaração da edição:"
 msgid "Editions"
 msgstr "Edição"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt:41
 #, c-format
 msgid "Email"
@@ -5803,7 +5807,7 @@ msgstr ""
 "utilizadores que querem manter o histórico de leitura."
 
 #: opac-tmpl/bootstrap/en/includes/masthead.inc:362
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:175
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:174
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt:180
 #, c-format
 msgid "Forgot your password?"
@@ -6456,7 +6460,7 @@ msgstr ""
 "Se você não tem uma conta Shibboleth, mas tem uma conta local, pode tentar "
 "autenticar-se abaixo."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:185
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:184
 #, c-format
 msgid ""
 "If you don't have a library card, stop by your local library to sign up."
@@ -6464,7 +6468,7 @@ msgstr ""
 "Se não tem cartão da biblioteca, dirija-se à sua biblioteca para se "
 "inscrever."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:183
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:182
 #, c-format
 msgid ""
 "If you don't have a password yet, stop by the circulation desk the next time "
@@ -7236,7 +7240,7 @@ msgstr "Sair e tentar novamente com um utilizador diferente."
 msgid "Log out from your OverDrive account"
 msgstr "Sair da sua conta OverDrive"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:195
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:194
 #, c-format
 msgid "Logging on to the catalog has not been enabled by the library."
 msgstr "A autenticação no catálogo não foi activada para esta biblioteca."
@@ -7621,7 +7625,7 @@ msgstr "Notícias da %s%s%sbiblioteca%s"
 msgid "Next"
 msgstr "Seguinte"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:76
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:78
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:17
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt:1112
 #, c-format
@@ -7667,10 +7671,10 @@ msgstr "Sem alterações feitas."
 msgid "No checkouts"
 msgstr "Sem empréstimos"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:31
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:40
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:49
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:33
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:42
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:51
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:63
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:110
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:229
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:237
@@ -8855,7 +8859,7 @@ msgstr "Anterior"
 msgid "Preview"
 msgstr "Visualização"
 
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:16
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:18
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc:122
 #: opac-tmpl/bootstrap/en/includes/datatables.inc:4
 #: opac-tmpl/bootstrap/en/includes/page-numbers.inc:7
@@ -9851,7 +9855,7 @@ msgid "Section:"
 msgstr "Secção:"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:59
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:61
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:148
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:307
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt:318
@@ -11471,7 +11475,7 @@ msgstr ""
 msgid "To report this error, please contact the Koha Administrator. "
 msgstr "Para reportar este erro, por favor contacte o administrador do Koha. "
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:196
 #, c-format
 msgid "To report this error, you can email the Koha Administrator."
 msgstr "Para relatar esse erro, pode enviar email ao administrador do Koha."
@@ -11671,7 +11675,7 @@ msgstr "Atualizar"
 msgid "Updates to your record"
 msgstr "Actualizações ao seu registo"
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:198
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:197
 #, c-format
 msgid "Use top menu bar to navigate to another part of Koha."
 msgstr "Use a barra de menu superior para navegar para outra parte do Koha."
@@ -12285,7 +12289,7 @@ msgstr ""
 "Usou uma ligação externa para um registo do catálogo que já não está "
 "disponível."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:188
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt:187
 #, c-format
 msgid "You may register here."
 msgstr "Pode-se registar aqui."

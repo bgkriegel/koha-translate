@@ -4553,10 +4553,6 @@ msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system prefer
 msgstr "<br><strong>Σημείωση:</strong> Αυτή η επιλογή συστήματος απαιτεί το χρονοπρογραμματισμό <code>misc/cronjobs/fines.pl</code>. Ζητήστε από τον διαχειριστή συστήματός σας να το ενεργοποιήσει."
 
 # Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "να υπολογίζονται (αλλά μόνο για αποστολή email στον διαχειριστή)"
-
-# Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
 msgstr "να υπολογίζονται και να χρεώνονται"
 
