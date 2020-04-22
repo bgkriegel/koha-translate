@@ -631,6 +631,10 @@ msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> This system preference 
 msgstr "admin.pref#UsageStats# <br><strong>NOTE:</strong> Questa preferenza di sistema richiede il cronjob <code>misc/cronjobs/share_usage_with_koha_community.pl</code>. Chiedi al tuo amministratore di sistema di attivarlo."
 
 # Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> You should use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit the preference related to Hea."
+msgstr ""
+
+# Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# No"
 msgstr "No"
 
@@ -1441,6 +1445,10 @@ msgstr "Zimbabwe"
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> This value has no effect if the UsageStats system preference is set to \"Don't share\"."
 msgstr "admin.pref#UsageStatsGeolocation# <br><strong>NOTA:</strong> Questo valore non ha effetto se la preferenza di sistema UsageStats è \"Non condividere\"."
+
+# Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> You must use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit this preference."
+msgstr ""
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsGeolocation# Geolocation of the main library: "
@@ -4556,10 +4564,6 @@ msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system prefer
 msgstr ""
 
 # Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "Calcola (ma solo per inviarlo via mail all'admin)"
-
-# Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
 msgstr "Calcola e fai pagare"
 
@@ -4664,8 +4668,8 @@ msgid "circulation.pref#todaysIssuesDefaultSortOrder# Sort today's checkouts on 
 msgstr "Ordina i prestiti di oggi nella pagina di circolazione"
 
 # Circulation > Interface
-msgid "circulation.pref#todaysIssuesDefaultSortOrder# due date."
-msgstr "data di restituzione"
+msgid "circulation.pref#todaysIssuesDefaultSortOrder# checkout time."
+msgstr ""
 
 # Circulation > Interface
 msgid "circulation.pref#todaysIssuesDefaultSortOrder# earliest to latest"
@@ -5933,6 +5937,18 @@ msgstr "Logga"
 # Logging > Logging
 msgid "logs.pref#CronjobLog# information from cron jobs."
 msgstr "gli output provenienti dai job attivati via cron."
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Do"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Don't"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires DumpTemplateVars[interface] to be visible."
+msgstr ""
 
 # Logging > Debugging
 msgid "logs.pref#DumpTemplateVarsIntranet# Do"

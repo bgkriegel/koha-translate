@@ -626,6 +626,10 @@ msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> This system preference 
 msgstr "<br><strong>NB:</strong> For at denne innstillingen skal fungere må cron-jobben <code>misc/cronjobs/share_usage_with_koha_community.pl</code> kjøre. Kontakt din systemadministratør for å sette opp dette."
 
 # Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> You should use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit the preference related to Hea."
+msgstr ""
+
+# Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# No"
 msgstr "Nei"
 
@@ -1436,6 +1440,10 @@ msgstr "Zimbabwe"
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> This value has no effect if the UsageStats system preference is set to \"Don't share\"."
 msgstr "<br><strong>NB:</strong> Denne verdien har ingen effekt om systeminnstillingen UsageStats er satt til \"Ikke del\"."
+
+# Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> You must use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit this preference."
+msgstr ""
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsGeolocation# Geolocation of the main library: "
@@ -4551,10 +4559,6 @@ msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system prefer
 msgstr ""
 
 # Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "Beregn (men kun for å sende e-post til administratoren)"
-
-# Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
 msgstr "Beregn og ilegg"
 
@@ -4659,8 +4663,8 @@ msgid "circulation.pref#todaysIssuesDefaultSortOrder# Sort today's checkouts on 
 msgstr "Sorter dagens utlån på sirkulasjonssiden basert på"
 
 # Circulation > Interface
-msgid "circulation.pref#todaysIssuesDefaultSortOrder# due date."
-msgstr "forfallsdato."
+msgid "circulation.pref#todaysIssuesDefaultSortOrder# checkout time."
+msgstr ""
 
 # Circulation > Interface
 msgid "circulation.pref#todaysIssuesDefaultSortOrder# earliest to latest"
@@ -5928,6 +5932,18 @@ msgstr "Loggfør"
 # Logging > Logging
 msgid "logs.pref#CronjobLog# information from cron jobs."
 msgstr "informasjon fra cron jobs (dvs jobber som kjøres på serveren til faste tidspunkt)."
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Do"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Don't"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires DumpTemplateVars[interface] to be visible."
+msgstr ""
 
 # Logging > Debugging
 msgid "logs.pref#DumpTemplateVarsIntranet# Do"

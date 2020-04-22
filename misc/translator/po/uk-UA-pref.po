@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2020-02-17 16:21+0000\n"
+"PO-Revision-Date: 2020-04-17 13:22+0000\n"
 "Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
 "Language-Team: Ukrainian Linux Team <translation@linux.org.ua>\n"
 "Language: uk\n"
@@ -13,7 +13,7 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1581956486.391420\n"
+"X-POOTLE-MTIME: 1587129758.496127\n"
 "X-Pootle-Path: /uk/18.05/uk-UA-pref.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -27,39 +27,39 @@ msgstr ""
 
 # Accounting > Policy
 msgid "accounting.pref#AccountAutoReconcile# Do"
-msgstr ""
+msgstr "Виконувати"
 
 # Accounting > Policy
 msgid "accounting.pref#AccountAutoReconcile# Do not"
-msgstr ""
+msgstr "Не виконувати"
 
 # Accounting > Policy
 msgid "accounting.pref#AccountAutoReconcile# reconcile patron balances automatically on each transaction adding debits or credits."
-msgstr ""
+msgstr " автоматичне узгодження балансу відвідувача за кожною операцією додавання дебету чи кредиту."
 
 # Accounting > Policy
 msgid "accounting.pref#FinePaymentAutoPopup# Do"
-msgstr ""
+msgstr "Здійснювати"
 
 # Accounting > Policy
 msgid "accounting.pref#FinePaymentAutoPopup# Don't"
-msgstr ""
+msgstr "Не здійснювати"
 
 # Accounting > Policy
 msgid "accounting.pref#FinePaymentAutoPopup# automatically display a print dialog for a payment receipt when making a payment."
-msgstr ""
+msgstr "автоматичне відображення діалогового вікна друку для квитанції про оплату під час здійснення платежу."
 
 # Accounting > Policy
 msgid "accounting.pref#UseCashRegisters#  cash registers with the accounting system to track payments."
-msgstr ""
+msgstr " касові апарати в системі обліку для відстеження платежів."
 
 # Accounting > Policy
 msgid "accounting.pref#UseCashRegisters# Don't use"
-msgstr ""
+msgstr "Не використовувати"
 
 # Accounting > Policy
 msgid "accounting.pref#UseCashRegisters# Use"
-msgstr ""
+msgstr "Використовувати"
 
 # Acquisitions
 msgid "acquisitions.pref"
@@ -271,7 +271,10 @@ msgstr "до найближчої копійки.<br>"
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#PurgeSuggestionsOlderThan# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/purge_suggestions.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/purge_suggestions.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/purge_suggestions.pl</code>. Попросіть "
+"системного адміністратора запланувати його."
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#PurgeSuggestionsOlderThan# <br><strong>WARNING:</strong> Leave this field empty if you don't want to activate this automatic feature."
@@ -434,8 +437,9 @@ msgid "admin.pref#DefaultToLoggedInLibraryOverdueTriggers# The logged-in library
 msgstr "Бібліотека, яку вибрано при вході у систему"
 
 # Administration > Search Engine
+#, fuzzy
 msgid "admin.pref#ElasticsearchMARCFormat# <br><strong>NOTE:</strong> Making the full record searchable may have a negative effect on relevance ranking of search results."
-msgstr ""
+msgstr "<br><strong>Примітка:</strong> "
 
 # Administration > Search Engine
 msgid "admin.pref#ElasticsearchMARCFormat# <br>ISO2709 format is recommended as it is faster and takes less space, whereas array format makes the full MARC record searchable."
@@ -479,15 +483,15 @@ msgstr ""
 
 # Administration > Google OpenID Connect
 msgid "admin.pref#GoogleOpenIDConnectAutoRegister# Allow"
-msgstr "Дозволити"
+msgstr "Задіяти"
 
 # Administration > Google OpenID Connect
 msgid "admin.pref#GoogleOpenIDConnectAutoRegister# Don't Allow"
-msgstr "Не дозволяти"
+msgstr "Не задіювати"
 
 # Administration > Google OpenID Connect
 msgid "admin.pref#GoogleOpenIDConnectAutoRegister# users logging in with Google Open ID to automatically register."
-msgstr "користувачам входити з використанням Google Open ID для автоматичної реєстрації."
+msgstr "вхід користувачам з використанням Google Open ID для автоматичної реєстрації."
 
 # Administration > Google OpenID Connect
 msgid "admin.pref#GoogleOpenIDConnectDefaultBranch# Use this branch code when automatically registering a Google Open ID patron."
@@ -623,11 +627,21 @@ msgstr ". Веб-сайт, на якому опублікована статис
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> The other \"UsageStats\" preferences have no effect if this preference is set to \"No\"."
-msgstr "<br> <strong> ПРИМІТКА: </strong> Інший параметр „UsageStats“ не має впливу, якщо для цього параметра встановлено значення „Ні“."
+msgstr ""
+"<br> <strong> Примітка: </strong> Інший параметр „UsageStats“ не має впливу, "
+"якщо для цього параметра встановлено значення „Ні“."
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/share_usage_with_koha_community.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/share_usage_with_koha_community.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/share_usage_with_koha_community.pl</code>. "
+"Попросіть системного адміністратора запланувати його."
+
+# Administration > Share anonymous usage statistics
+#, fuzzy
+msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> You should use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit the preference related to Hea."
+msgstr "Примітка"
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# No"
@@ -651,7 +665,9 @@ msgstr " "
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsCountry# <br><strong>NOTE:</strong> This value has no effect if the UsageStats system preference is set to \"Don't share\"."
-msgstr "<br><strong>ПРИМІТКА:</strong> це значення не впливає, якщо системний параметр „UsageStats“ встановлено у значення „Не ділитися“."
+msgstr ""
+"<br><strong>Примітка:</strong> це значення не впливає, якщо системний "
+"параметр „UsageStats“ встановлено у значення „Не ділитися“."
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsCountry# Afghanistan"
@@ -1442,6 +1458,10 @@ msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> This value h
 msgstr ""
 
 # Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> You must use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit this preference."
+msgstr ""
+
+# Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsGeolocation# Geolocation of the main library: "
 msgstr ""
 
@@ -1547,15 +1567,15 @@ msgstr "Так"
 
 # Administration > CAS authentication
 msgid "admin.pref#casLogout# Logout of CAS when logging out of Koha: "
-msgstr ""
+msgstr "Виходити з CAS під час виходу з Коха: "
 
 # Administration > CAS authentication
 msgid "admin.pref#casLogout# No"
-msgstr ""
+msgstr "ні"
 
 # Administration > CAS authentication
 msgid "admin.pref#casLogout# Yes"
-msgstr "Так"
+msgstr "так"
 
 # Administration > CAS authentication
 msgid "admin.pref#casServerUrl# URL of the CAS Authentication Server: "
@@ -1591,15 +1611,15 @@ msgstr "табуляції"
 
 # Administration > Interface options
 msgid "admin.pref#noItemTypeImages# No"
-msgstr ""
+msgstr "ні"
 
 # Administration > Interface options
 msgid "admin.pref#noItemTypeImages# Show itemtype icons in the catalog: "
-msgstr ""
+msgstr "Показувати значки типу одиниці в каталозі: "
 
 # Administration > Interface options
 msgid "admin.pref#noItemTypeImages# Yes"
-msgstr "Так"
+msgstr "так"
 
 # Administration > Login options
 msgid "admin.pref#timeout# Adding d will specify it in days, e.g. 1d is timeout of one day."
@@ -1611,15 +1631,15 @@ msgstr ""
 
 # Administration > Interface options
 msgid "admin.pref#virtualshelves# Allow staff and patrons to create and view saved lists of books: "
-msgstr ""
+msgstr "Дозволити працівникам бібліотеки та відвідувачам створювати та переглядати збережені списки книг: "
 
 # Administration > Interface options
 msgid "admin.pref#virtualshelves# No"
-msgstr ""
+msgstr "ні"
 
 # Administration > Interface options
 msgid "admin.pref#virtualshelves# Yes"
-msgstr "Так"
+msgstr "так"
 
 # Authorities
 msgid "authorities.pref"
@@ -1663,7 +1683,10 @@ msgstr ""
 
 # Authorities > General
 msgid "authorities.pref#AuthorityMergeLimit# <br><strong>NOTE:</strong> This system preference requires the <code>misc/migration_tools/merge_authority.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/merge_authority.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/merge_authority.pl</code>. Попросіть системного "
+"адміністратора запланувати його."
 
 # Authorities > General
 msgid "authorities.pref#AuthorityMergeLimit# When modifying an authority record, do not update attached bibliographic records if the number exceeds"
@@ -1711,39 +1734,39 @@ msgstr "При редагуванні записів "
 
 # Authorities > General
 msgid "authorities.pref#BiblioAddsAuthorities# allow"
-msgstr "дозволяти"
+msgstr "задіяти"
 
 # Authorities > General
 msgid "authorities.pref#BiblioAddsAuthorities# don't allow"
-msgstr "не дозволяти"
+msgstr "не задіювати"
 
 # Authorities > General
 msgid "authorities.pref#BiblioAddsAuthorities# them to automatically create new authority records if needed, rather than having to reference existing authorities."
-msgstr " також автоматично створювати, при необхідності, нові авторитетні записи, замість того, щоб посилатися на вже  існуючі авторитетні джерела."
+msgstr " також автоматичне створення нових (за необхідності) авторитетних записів, замість того, щоб посилатися на вже існуючі авторитетні джерела."
 
 # Authorities > Linker
 msgid "authorities.pref#CatalogModuleRelink# Do"
-msgstr "Автоматично"
+msgstr "Виконувати"
 
 # Authorities > Linker
 msgid "authorities.pref#CatalogModuleRelink# Do not"
-msgstr "Не автоматично"
+msgstr "Не виконувати"
 
 # Authorities > Linker
 msgid "authorities.pref#CatalogModuleRelink# automatically relink headings that have previously been linked when saving records in the cataloging module."
-msgstr " переприєднувати заголовки, які раніше були приєднані при збереженні записів у модулі каталогізації."
+msgstr " автоматичне переприєднання заголовків (які раніше були приєднані) під час збереження записів у модулі каталогізації."
 
 # Authorities > Linker
 msgid "authorities.pref#LinkerKeepStale# Do"
-msgstr "Зберігати"
+msgstr "Виконувати"
 
 # Authorities > Linker
 msgid "authorities.pref#LinkerKeepStale# Do not"
-msgstr "Не зберігати"
+msgstr "Не виконувати"
 
 # Authorities > Linker
 msgid "authorities.pref#LinkerKeepStale# keep existing links to authority records for headings where the linker is unable to find a match."
-msgstr " існуючі зв’язки з авторитетними записами для заголовків, де зв’язувач не може знайти відповідність."
+msgstr " збереження існуючих зв’язків з авторитетними записами для заголовків, де зв’язувач не може знайти відповідність."
 
 # Authorities > Linker
 msgid "authorities.pref#LinkerModule# Default"
@@ -1855,11 +1878,11 @@ msgstr ""
 
 # Cataloging > Importing
 msgid "cataloguing.pref#AggressiveMatchOnISBN# When matching on ISBN with the record import tool,"
-msgstr ""
+msgstr "При зіставленні з ISBN при використанні інструменту імпорту записів, "
 
 # Cataloging > Importing
 msgid "cataloguing.pref#AggressiveMatchOnISBN# attempt to match aggressively by trying all variations of the ISBNs in the imported record as a phrase in the ISBN fields of already cataloged records.  Note that this preference has no effect if UseQueryParser is on."
-msgstr ""
+msgstr "спроби агресивного співставлення, перебираючи усі варіанти ISBN з імпортованого запису у вигляді фрази в полях ISBN вже каталогізованих записів. Зауважте, що цей параметр не впливає, якщо параметр „UseQueryParser“ увімкнено."
 
 # Cataloging > Importing
 msgid "cataloguing.pref#AggressiveMatchOnISBN# do"
@@ -2105,7 +2128,10 @@ msgstr " (повинно бути кодом розташування, або п
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#NewItemsDefaultLocation# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cart_to_shelf.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/cart_to_shelf.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/cart_to_shelf.pl</code>. Попросіть системного "
+"адміністратора запланувати його."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#NewItemsDefaultLocation# When items are created, give them the temporary location of"
@@ -2227,19 +2253,19 @@ msgstr ""
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelAutoPrint# When using the quick spine label printer,"
-msgstr ""
+msgstr "Під час використання друкарки наклейок на корінці, "
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelAutoPrint# automatically pop up a print dialog."
-msgstr ""
+msgstr " автоматично діалогове вікно друку."
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelAutoPrint# do"
-msgstr ""
+msgstr "відображати"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelAutoPrint# don't"
-msgstr ""
+msgstr "не відображати"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelFormat# (Enter in columns from the <code>biblio</code>, <code>biblioitems</code> or <code>items</code> tables, surrounded by &lt; and &gt;.)"
@@ -2519,15 +2545,15 @@ msgstr ""
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionOverride# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionOverride# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionOverride# staff to check out an item with age restriction."
-msgstr ""
+msgstr "працівникам бібліотеки видавати примірники з віковим обмеженням."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllFinesNeedOverride# Don't require"
@@ -2639,35 +2665,46 @@ msgstr "відвідувачу розміщувати резервування �
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSCO# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSCO# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSCO# checkouts of items reserved to someone else in the SCO module. If allowed do not generate RESERVE_WAITING and RESERVED warning. This allows self checkouts for those items."
 msgstr ""
+"видавати примірники, зарезервовані для когось іншого в модулі "
+"самообслуговування. Якщо дозволено, не генерувати попередження "
+"RESERVE_WAITING та RESERVED. Це дозволяє самостійно провести видачу цих "
+"примірників."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# If allowed do not generate RESERVE_WAITING and RESERVED warning."
 msgstr ""
+"Якщо це дозволено, не генерувати попередження „RESERVE_WAITING“ та "
+"„RESERVED“."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# This allows self checkouts for those items. If using the holds queue items with pending holds will be marked as \"unavailable\" if this set to \"Don't Allow\"."
 msgstr ""
+"Це дозволяє самостійно провести видачу цих примірників. Якщо "
+"використовується черга резервувань примірників з відкладеними резвуваннями, "
+"вони будуть позначені як „недоступні“, якщо для цього встановлено значення „"
+"Не дозволяти“."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# checkouts of items reserved to someone else via SIP checkout messages."
 msgstr ""
+"видачу примірників, зарезервованих для когось іншого, через SIP-повідомлення."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowMultipleIssuesOnABiblio# Allow"
@@ -2680,6 +2717,8 @@ msgstr "Не дозволяти"
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowMultipleIssuesOnABiblio# patrons to check out multiple items from the same record.  (<strong>NOTE:</strong> This will only affect records without a subscription attached.)"
 msgstr ""
+"відвідувачам видавати декілька примірників з одного запису (<strong> "
+"примітка: </strong> це вплине лише на записи без долученої підписки)."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowNotForLoanOverride# Allow"
@@ -2691,7 +2730,7 @@ msgstr "Не дозволяти"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowNotForLoanOverride# staff to override and check out items that are marked as not for loan."
-msgstr " працівникам бібліотеки обходити обмеження та видавати примірники, які позначені як „не для випожичання“."
+msgstr " працівникам бібліотеки обходити обмеження та видавати примірники, які позначені як „не для випозичання“."
 
 # Circulation > Interface
 msgid "circulation.pref#AllowOfflineCirculation# Do not enable"
@@ -2716,6 +2755,8 @@ msgstr "Не дозволяти"
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowRenewalIfOtherItemsAvailable# a patron to renew an item with unfilled holds if other available items can fill that hold."
 msgstr ""
+"відвідувачам продовжувати примірник з без резервувань, якщо інші доступні "
+"примірники містять резервування."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowRenewalLimitOverride# Allow"
@@ -2728,18 +2769,24 @@ msgstr "Не дозволяти"
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowRenewalLimitOverride# staff to manually override renewal blocks and renew a checkout when it would go over the renewal limit or be premature with respect to the \"No renewal before\" setting in the circulation policy or has been scheduled for automatic renewal."
 msgstr ""
+"працівникам бібліотеки вручну відміняти блокування продовження та "
+"продовжувати видачу, при досягненні межі кількості продовжень або при "
+"налаштуванні „Не продовжувати до“ в правилах обігу або ж коли заплановане "
+"автоматичне продовження."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowRenewalOnHoldOverride# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowRenewalOnHoldOverride# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowRenewalOnHoldOverride# staff to renew items that are on hold by manually specifying a due date."
 msgstr ""
+"працівникам бібліотеки продовжувати примірники, які зарезервовані вручну до "
+"відповідної дати."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowReturnToBranch# Allow materials to be returned to"
@@ -2763,27 +2810,29 @@ msgstr ""
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AllowSelfCheckReturns# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AllowSelfCheckReturns# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AllowSelfCheckReturns# patrons to return items through web-based self checkout system."
-msgstr ""
+msgstr "відвідувачам повертати примірники через веб-систему самообслуговування."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowTooManyOverride# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowTooManyOverride# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowTooManyOverride# staff to override and check out items when the patron has reached the maximum number of allowed checkouts."
 msgstr ""
+"працівникам бібліотеки видавати примірники відвідувачу, нехтуючи обмеженням "
+"максимальної кількості виданих примірників."
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequests# Don't enable"
@@ -2799,15 +2848,15 @@ msgstr " відвідувачам розміщувати запити на ст�
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsLinkControl# Always show"
-msgstr ""
+msgstr "Показувати завжди"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsLinkControl# Use algorithm to show or hide"
-msgstr ""
+msgstr "Використовувати алгоритм для показу або приховування"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsLinkControl# article request link on search results."
-msgstr ""
+msgstr "посилання на запит статті в результатах пошуку."
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFields# Author"
@@ -2919,7 +2968,10 @@ msgstr ""
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AutoResumeSuspendedHolds# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/holds/auto_unsuspend_holds.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/auto_unsuspend_holds.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/auto_unsuspend_holds.pl</code>. Попросіть "
+"системного адміністратора запланувати його."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AutoResumeSuspendedHolds# Allow"
@@ -2959,11 +3011,13 @@ msgstr "Не дозволяти"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AutoSelfCheckAllowed# and this password"
-msgstr ""
+msgstr "та цей пароль"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AutoSelfCheckAllowed# the web-based self checkout system to automatically login with this staff login"
 msgstr ""
+"автоматично входити у веб-систему самообслуговування із цим логіном "
+"працівника бібліотеки"
 
 # Circulation > Interface
 msgid "circulation.pref#AutoSwitchPatron# Don't enable"
@@ -3199,7 +3253,10 @@ msgstr ""
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#DefaultLongOverdueChargeValue# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/longoverdue.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/longoverdue.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/longoverdue.pl</code>. Попросіть системного "
+"адміністратора запланувати його."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#DefaultLongOverdueChargeValue# <br>Leave this field empty if you don't want to charge the user for lost items."
@@ -3215,7 +3272,10 @@ msgstr ""
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#DefaultLongOverdueLostValue# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/longoverdue.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/longoverdue.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/longoverdue.pl</code>. Попросіть системного "
+"адміністратора запланувати його."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#DefaultLongOverdueLostValue# <br>Example: [1] [30] Sets an item to the LOST value 1 when it has been overdue for more than 30 days."
@@ -3275,31 +3335,40 @@ msgstr ""
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesMaxPickUpDelay# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesMaxPickUpDelay# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesMaxPickUpDelay# holds to expire automatically if they have not been picked by within the time period specified in ReservesMaxPickUpDelay.<br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/holds/cancel_expired_holds.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "holds to expire automatically if they have not been picked by within the time period specified in ReservesMaxPickUpDelay.<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/cancel_expired_holds.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"закривати автоматично резервування, якщо його не було вибрано протягом "
+"терміну, зазначеного в змінній "
+"„ReservesMaxPickUpDelay“.<br><strong>Примітка:</strong> Цей системний "
+"параметр вимагає періодичного сценарію "
+"<code>misc/cronjobs/cancel_expired_holds.pl</code>. Попросіть системного "
+"адміністратора запланувати його."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesMaxPickUpDelayCharge# If using ExpireReservesMaxPickUpDelay, charge a borrower who allows their waiting hold to expire a fee of"
 msgstr ""
+"Якщо задіяний параметр „ExpireReserveMaxPickUpDelay“, стягувати з "
+"відвідувача, який протермінував своє резервування, плату у розмірі"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesOnHolidays# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesOnHolidays# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesOnHolidays# expired holds to be canceled on days the library is closed."
 msgstr ""
+"скасовувати протерміновані резервування в дні, коли бібліотека зачинена."
 
 # Circulation > Interface
 msgid "circulation.pref#ExportCircHistory# Don't show"
@@ -3347,15 +3416,15 @@ msgstr ""
 
 # Circulation > Fines Policy
 msgid "circulation.pref#FinesIncludeGracePeriod# Don't include"
-msgstr ""
+msgstr "Не враховувати"
 
 # Circulation > Fines Policy
 msgid "circulation.pref#FinesIncludeGracePeriod# Include"
-msgstr ""
+msgstr "Враховувати"
 
 # Circulation > Fines Policy
 msgid "circulation.pref#FinesIncludeGracePeriod# the grace period when calculating the fine for an overdue item."
-msgstr ""
+msgstr "пільговий період при нарахуванні штрафу за прострочений примірник."
 
 # Circulation > Checkin Policy
 msgid "circulation.pref#HidePersonalPatronDetailOnCirculation# Don't hide"
@@ -3424,34 +3493,36 @@ msgstr " плату за резервування при обрахунку су
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueue# In the staff client, split the holds queue into separate tables by"
 msgstr ""
+"В інтерфейсі бібліотекаря, розділити чергу резервувань на окремі таблиці "
+"відповідно"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueue# hold itemtype"
-msgstr ""
+msgstr "типу одиниці резервування"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueue# nothing"
-msgstr ""
+msgstr "нічого"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueue# pickup library"
-msgstr ""
+msgstr "місцю отримання"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueue# pickup library & itemtype"
-msgstr ""
+msgstr "місцю отримання та типом одиниці"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueueNumbering# 'virtual' priorities, where each group is numbered separately"
-msgstr ""
+msgstr "„віртуальні“ пріоритети, де кожна група нумерується окремо"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueueNumbering# If the holds queue is split, show librarians"
-msgstr ""
+msgstr "Якщо черга резервувань розділена, показати бібліотекарям"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#HoldsSplitQueueNumbering# the actual priority, which may be out of order"
-msgstr ""
+msgstr "фактичний пріоритет, який може бути недійсний"
 
 # Circulation > Interface
 msgid "circulation.pref#HoldsToPullStartDate# Set the default start date for the Holds to pull list to"
@@ -3527,23 +3598,23 @@ msgstr ""
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#IssueLostItem# ."
-msgstr ""
+msgstr "."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#IssueLostItem# When issuing an item that has been marked as lost, "
-msgstr ""
+msgstr "При видачі примірника, який був позначений як втрачений, "
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#IssueLostItem# display a message"
-msgstr ""
+msgstr "відобразити повідомлення"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#IssueLostItem# do nothing"
-msgstr ""
+msgstr "нічого не робити"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#IssueLostItem# require confirmation"
-msgstr ""
+msgstr "вимагати підтвердження"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#IssuingInProcess# Don't prevent"
@@ -3700,7 +3771,10 @@ msgstr "Не дозволяти"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#OPACAllowHoldDateInFuture# patrons to place holds that don't enter the waiting list until a certain future date. (AllowHoldDateInFuture must also be enabled)."
-msgstr " відвідувачам розміщувати резервування, що не входять у список очікування до певної майбутньої дати."
+msgstr ""
+" відвідувачам розміщувати резервування, що не входять у список очікування до "
+"певної майбутньої дати (параметр „AllowHoldDateInFuture“ також повинен бути "
+"задіяний)."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#OPACAllowUserToChooseBranch# Allow"
@@ -3712,7 +3786,7 @@ msgstr "Не дозволяти"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#OPACAllowUserToChooseBranch# a user to choose the library to pick up a hold from."
-msgstr "користувачеві вибрати бібліотеку, щоб отримати з неї резервування."
+msgstr "користувачеві вибирати бібліотеку, щоб отримати з неї резервування."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#OPACFineNoRenewalsBlockAutoRenew# Allow"
@@ -3732,23 +3806,27 @@ msgstr " йому автопродовження."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#OPACHoldsIfAvailableAtPickup# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#OPACHoldsIfAvailableAtPickup# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#OPACHoldsIfAvailableAtPickup# to pickup up holds at libraries where the item is available."
 msgstr ""
+"отримувати резервування у бібліотеках/підрозділах, де цей примірник "
+"доступний."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#OPACHoldsIfAvailableAtPickupExceptions# (list of patron categories separated with a pipe '|')"
-msgstr ""
+msgstr "(перелік категорій відвідувачів, розділених символом „|“)."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#OPACHoldsIfAvailableAtPickupExceptions# Patron categories not affected by OPACHoldsIfAvailableAtPickup"
 msgstr ""
+"Категорії відвідувачів, на які не впливає параметр "
+"„OPACHoldsIfAvailableAtPickup“"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#OnSiteCheckoutAutoCheck# Don't enable"
@@ -4164,7 +4242,10 @@ msgstr " (коди підрозділів, розділені комами, як
 
 # Circulation > Holds Policy
 msgid "circulation.pref#StaticHoldsQueueWeight# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/holds/build_holds_queue.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/build_holds_queue.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/build_holds_queue.pl</code>. Попросіть "
+"системного адміністратора запланувати його."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#StaticHoldsQueueWeight# Satisfy holds using items from the libraries"
@@ -4552,11 +4633,10 @@ msgstr ""
 
 # Circulation > Fines Policy
 msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/fines.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/fines.pl</code>. Попросіть системного адміністратора запланувати його."
-
-# Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "Підраховувати (але лише для висилання адміністратору)"
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/fines.pl</code>. Попросіть системного "
+"адміністратора запланувати його."
 
 # Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
@@ -4663,7 +4743,7 @@ msgid "circulation.pref#todaysIssuesDefaultSortOrder# Sort today's checkouts on 
 msgstr ""
 
 # Circulation > Interface
-msgid "circulation.pref#todaysIssuesDefaultSortOrder# due date."
+msgid "circulation.pref#todaysIssuesDefaultSortOrder# checkout time."
 msgstr ""
 
 # Circulation > Interface
@@ -5639,27 +5719,30 @@ msgstr ""
 
 # Enhanced Content > Tagging
 msgid "enhanced_content.pref#TagsInputOnDetail# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Enhanced Content > Tagging
 msgid "enhanced_content.pref#TagsInputOnDetail# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Enhanced Content > Tagging
 msgid "enhanced_content.pref#TagsInputOnDetail# patrons to input tags on item detail pages on the OPAC."
 msgstr ""
+"відвідувачам вводити мітки на сторінках подробиць про запис в електроному "
+"каталозі."
 
 # Enhanced Content > Tagging
 msgid "enhanced_content.pref#TagsInputOnList# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Enhanced Content > Tagging
 msgid "enhanced_content.pref#TagsInputOnList# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Enhanced Content > Tagging
 msgid "enhanced_content.pref#TagsInputOnList# patrons to input tags on search results on the OPAC."
 msgstr ""
+"відвідувачам вносити мітки у результатах пошуку в електронному каталозі."
 
 # Enhanced Content > Tagging
 msgid "enhanced_content.pref#TagsModeration# Don't require"
@@ -5859,11 +5942,13 @@ msgstr "Дозволити "
 
 # I18N/L10N
 msgid "i18n_l10n.pref#opaclanguagesdisplay# Don't allow"
-msgstr "Заборонити "
+msgstr "Не дозволяти"
 
 # I18N/L10N
 msgid "i18n_l10n.pref#opaclanguagesdisplay# patrons to change the language they see on the OPAC."
-msgstr " відвідувачам змінювати мову, якою вони бачать інтерфейс ЕК."
+msgstr ""
+" відвідувачам змінювати мову, якою вони бачать інтерфейс електронного "
+"каталогу."
 
 # Local Use
 msgid "local_use.pref"
@@ -5932,6 +6017,18 @@ msgstr "Записувати у журнал"
 # Logging > Logging
 msgid "logs.pref#CronjobLog# information from cron jobs."
 msgstr "інформацію з періодичних завдань."
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Do"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Don't"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires DumpTemplateVars[interface] to be visible."
+msgstr ""
 
 # Logging > Debugging
 msgid "logs.pref#DumpTemplateVarsIntranet# Do"
@@ -6111,39 +6208,44 @@ msgstr "Оглядач полиці"
 
 # OPAC > Privacy
 msgid "opac.pref#AllowPatronToSetCheckoutsVisibilityForGuarantor# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # OPAC > Privacy
 msgid "opac.pref#AllowPatronToSetCheckoutsVisibilityForGuarantor# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # OPAC > Privacy
 msgid "opac.pref#AllowPatronToSetCheckoutsVisibilityForGuarantor# patrons to choose their own privacy settings for showing the patron's checkouts to the patron's guarantor\"."
 msgstr ""
+"відвідувачам вибирати власні налаштування таємності при показі видач "
+"відвідувача поручителю."
 
 # OPAC > Privacy
 msgid "opac.pref#AllowPatronToSetFinesVisibilityForGuarantor# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # OPAC > Privacy
 msgid "opac.pref#AllowPatronToSetFinesVisibilityForGuarantor# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # OPAC > Privacy
 msgid "opac.pref#AllowPatronToSetFinesVisibilityForGuarantor# patrons to choose their own privacy settings for showing the patron's fines to the patron's guarantor\"."
 msgstr ""
+"відвідувачам вибирати власні налаштування таємності при показі штрафів "
+"відвідувача поручителю."
 
 # OPAC > Policy
 msgid "opac.pref#AllowPurchaseSuggestionBranchChoice# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # OPAC > Policy
 msgid "opac.pref#AllowPurchaseSuggestionBranchChoice# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # OPAC > Policy
 msgid "opac.pref#AllowPurchaseSuggestionBranchChoice# patrons to select library when making a purchase suggestion"
 msgstr ""
+"відвідувачам вибирати бібліотеку/підрозділ під час пропозиції на придбання"
 
 # OPAC > Privacy
 msgid "opac.pref#AnonSuggestions# Allow"
@@ -6156,6 +6258,8 @@ msgstr "Не дозволяти"
 # OPAC > Privacy
 msgid "opac.pref#AnonSuggestions# patrons that aren't logged in to make purchase suggestions. Suggestions are connected to the AnonymousPatron syspref"
 msgstr ""
+"відвідувачам, які не увійшли в систему, вносити пропозиції на придбання. "
+"Пропозиції пов’язані з системним параметром „AnonymousPatron“."
 
 # OPAC > Privacy
 msgid "opac.pref#AnonymousPatron# Use borrowernumber"
@@ -6239,27 +6343,28 @@ msgstr " історію пошуків відвідувача в електро�
 
 # OPAC > Payments
 msgid "opac.pref#EnablePayPalOpacPayments# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # OPAC > Payments
 msgid "opac.pref#EnablePayPalOpacPayments# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # OPAC > Payments
 msgid "opac.pref#EnablePayPalOpacPayments# Production"
-msgstr ""
+msgstr "виробничому"
 
 # OPAC > Payments
 msgid "opac.pref#EnablePayPalOpacPayments# Sandbox"
-msgstr ""
+msgstr "локальному „пісочному“"
 
 # OPAC > Payments
 msgid "opac.pref#EnablePayPalOpacPayments# mode."
-msgstr ""
+msgstr "режимі."
 
 # OPAC > Payments
 msgid "opac.pref#EnablePayPalOpacPayments# patrons to make payments from the OPAC via PayPal in"
 msgstr ""
+"відвідувачам здійснювати платежі в електронному каталозі через PayPal у "
 
 # OPAC > Appearance
 msgid "opac.pref#GoogleIndicTransliteration# Don't show"
@@ -6388,10 +6493,12 @@ msgstr ""
 # OPAC > Policy
 msgid "opac.pref#OPACFineNoRenewals# Only allow patrons to renew their own books on the OPAC if they have less than"
 msgstr ""
+"Дозволяти відвідувачам продовжувати власні книги в електронному каталозі, "
+"лише якщо у них штраф менше "
 
 # OPAC > Policy
 msgid "opac.pref#OPACFineNoRenewals# [% local_currency %] in fines (leave blank to disable)."
-msgstr ""
+msgstr "[% local_currency %] (залиште порожнім, щоб вимкнути)."
 
 # OPAC > Policy
 msgid "opac.pref#OPACFineNoRenewalsIncludeCredits# Don't include"
@@ -6416,6 +6523,8 @@ msgstr "Не дозволяти"
 # OPAC > Features
 msgid "opac.pref#OPACFinesTab# patrons to access the Fines tab on the My Account page on the OPAC."
 msgstr ""
+"відвідувачам мати доступ до вкладки „Мої пені“ на сторінці „Мій обліковий "
+"запис“ в електронному каталозі."
 
 # OPAC > Appearance
 msgid "opac.pref#OPACHoldingsDefaultSortField# First column of the table"
@@ -6431,7 +6540,7 @@ msgstr "Джерельна бібліотека"
 
 # OPAC > Appearance
 msgid "opac.pref#OPACHoldingsDefaultSortField# is the default sort field for the holdings table"
-msgstr " є полем сортування за умовчанням для таблиці наявних примірників."
+msgstr " є полем сортування за умовчанням для таблиці доступних примірників."
 
 # OPAC > Features
 msgid "opac.pref#OPACISBD# Use the following as the OPAC ISBD template:"
@@ -6475,7 +6584,9 @@ msgstr "Не дозволяти"
 
 # OPAC > Features
 msgid "opac.pref#OPACPatronDetails# patrons to notify the library of changes to their contact information from the OPAC."
-msgstr "відвідувачам повідомляти бібліотеку  з ЕК про зміну своїх контактних даних."
+msgstr ""
+"відвідувачам повідомляти бібліотеку з електронного каталогу про зміну своїх "
+"контактних даних."
 
 # OPAC > Appearance
 msgid "opac.pref#OPACPlayMusicalInscripts# Don't play"
@@ -6835,15 +6946,16 @@ msgstr ""
 
 # OPAC > Policy
 msgid "opac.pref#OpacAllowPublicListCreation# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # OPAC > Policy
 msgid "opac.pref#OpacAllowPublicListCreation# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # OPAC > Policy
 msgid "opac.pref#OpacAllowPublicListCreation# opac users to create public lists"
 msgstr ""
+"відвідувачам створювати загальнодоступні списки з електронного каталогу."
 
 # OPAC > Policy
 msgid "opac.pref#OpacAllowSharingPrivateLists# Allow"
@@ -6867,23 +6979,28 @@ msgstr "Не дозволяти"
 
 # OPAC > Features
 msgid "opac.pref#OpacAuthorities# patrons to search your authority records."
-msgstr ""
+msgstr "відвідувачам шукати у авторитетних джерелах."
 
 # OPAC > Features
 msgid "opac.pref#OpacBrowseResults# Disable"
-msgstr ""
+msgstr "Вимкнути"
 
 # OPAC > Features
 msgid "opac.pref#OpacBrowseResults# Enable"
-msgstr ""
+msgstr "Увімкнути"
 
 # OPAC > Features
 msgid "opac.pref#OpacBrowseResults# browsing and paging search results from the OPAC detail page."
 msgstr ""
+"перегляд та гортання результатів пошуку на сторінці подробиць про запис у "
+"електронному каталозі."
 
 # OPAC > Features
 msgid "opac.pref#OpacBrowser# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/build_browser_and_cloud.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/build_browser_and_cloud.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/build_browser_and_cloud.pl</code>. Попросіть "
+"системного адміністратора запланувати його."
 
 # OPAC > Features
 msgid "opac.pref#OpacBrowser# Allow"
@@ -6895,11 +7012,14 @@ msgstr "Не дозволяти"
 
 # OPAC > Features
 msgid "opac.pref#OpacBrowser# patrons to browse subject authorities on OPAC"
-msgstr ""
+msgstr "відвідувачам переглядати предметні рубрики в електронному каталозі."
 
 # OPAC > Features
 msgid "opac.pref#OpacCloud# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/build_browser_and_cloud.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/build_browser_and_cloud.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/build_browser_and_cloud.pl</code>. Попросіть "
+"системного адміністратора запланувати його."
 
 # OPAC > Features
 msgid "opac.pref#OpacCloud# Don't show"
@@ -6991,15 +7111,15 @@ msgstr ""
 
 # OPAC > Features
 msgid "opac.pref#OpacHoldNotes# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # OPAC > Features
 msgid "opac.pref#OpacHoldNotes# Do not allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # OPAC > Features
 msgid "opac.pref#OpacHoldNotes# users to add a note when placing a hold."
-msgstr ""
+msgstr "користувачам додавати примітку під час розміщення резервування."
 
 # OPAC > Features
 msgid "opac.pref#OpacItemLocation# Show"
@@ -7187,7 +7307,7 @@ msgstr "Не дозволяти"
 
 # OPAC > Policy
 msgid "opac.pref#OpacRenewalAllowed# patrons to renew their own books on the OPAC."
-msgstr ""
+msgstr "відвідувачам продовжувати свої книги в електронному каталозі."
 
 # OPAC > Policy
 msgid "opac.pref#OpacRenewalBranch# 'OPACRenew'"
@@ -7312,6 +7432,9 @@ msgstr "Не дозволяти"
 # OPAC > Features
 msgid "opac.pref#OpacTopissue# patrons to access a list of the most checked out items on the OPAC. Note that this is somewhat experimental, and should be avoided if your collection has a large number of items."
 msgstr ""
+"відвідувачам мати доступ в електронному кталозі до списку найбільш видаваних "
+"примірників. Зауважте, що це дещо експериментально, і цього слід уникати, "
+"якщо у вашому зібранні є велика кількість примірників."
 
 # OPAC > OpenURL
 msgid "opac.pref#OpenURLImageLocation# <br />- <code>/opac-tmpl/bootstrap/images/OpenURL.png</code>"
@@ -7356,18 +7479,22 @@ msgstr "Наступні <a href='http://schema.koha-community.org/__VERSION__/t
 # OPAC > Self Registration
 msgid "opac.pref#PatronSelfRegistration# <br><strong>NOTE:</strong> This needs PatronSelfRegistrationDefaultCategory to be set to a valid patron category code."
 msgstr ""
+"<br><strong>Примітка:</strong> це потребує встановленні у "
+"„PatronSelfRegistrationDefaultCategory“ дійсного коду категорії відвідувача."
 
 # OPAC > Self Registration
 msgid "opac.pref#PatronSelfRegistration# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # OPAC > Self Registration
 msgid "opac.pref#PatronSelfRegistration# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # OPAC > Self Registration
 msgid "opac.pref#PatronSelfRegistration# library patrons to register or modify their account via the OPAC."
 msgstr ""
+"відвідувачам бібліотеки зареєструвати або змінити свій обліковий запис в "
+"електронному каталозі."
 
 # OPAC > Self Registration
 msgid "opac.pref#PatronSelfRegistrationAdditionalInstructions# Display the following additional instructions for patrons who self register via the OPAC ( HTML is allowed ):"
@@ -7411,7 +7538,11 @@ msgstr ""
 
 # OPAC > Self Registration
 msgid "opac.pref#PatronSelfRegistrationExpireTemporaryAccountsDelay# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА: </strong> Для цього системного параметра необхідне виконання сценарію <code>misc/cronjobs/cleanup_database.pl</code> у періодичних завданнях (cronjob). Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка: </strong> Для цього системного параметра необхідне "
+"виконання сценарію <code>misc/cronjobs/cleanup_database.pl</code> у "
+"періодичних завданнях (cronjob). Попросіть системного адміністратора "
+"запланувати його."
 
 # OPAC > Self Registration
 msgid "opac.pref#PatronSelfRegistrationExpireTemporaryAccountsDelay# Delete patrons registered via the OPAC, but not yet verified after"
@@ -7707,7 +7838,9 @@ msgstr "Не дозволяти"
 
 # OPAC > Features
 msgid "opac.pref#opacbookbag# patrons to store items in a temporary \"Cart\" on the OPAC."
-msgstr " відвідувачам зберігати записи у тимчасовому „кошику“ записів в ЕК."
+msgstr ""
+" відвідувачам зберігати записи у тимчасовому „кошику“ записів в електронному "
+"каталозі."
 
 # OPAC > Appearance
 msgid "opac.pref#opaccredits# Include the following HTML in the footer of all pages in the OPAC:"
@@ -7755,7 +7888,7 @@ msgstr "Не дозволяти"
 
 # OPAC > Features
 msgid "opac.pref#opacuserlogin# patrons to log in to their accounts on the OPAC."
-msgstr ""
+msgstr "відвідувачам входити у свої облікові записи в електронному каталозі."
 
 # OPAC > Features
 msgid "opac.pref#reviewson# Allow"
@@ -7767,7 +7900,7 @@ msgstr "Не дозволяти"
 
 # OPAC > Features
 msgid "opac.pref#reviewson# patrons to make comments on items on the OPAC."
-msgstr ""
+msgstr "відвідувачам коментувати записи в електронному каталозі."
 
 # OPAC > Features
 msgid "opac.pref#suggestion# Allow"
@@ -7779,7 +7912,7 @@ msgstr "Не дозволяти"
 
 # OPAC > Features
 msgid "opac.pref#suggestion# patrons to make purchase suggestions on the OPAC."
-msgstr ""
+msgstr "відвідувачам вносити пропозиції на придбання в електронному каталозі."
 
 # Patrons
 msgid "patrons.pref"
@@ -7795,27 +7928,31 @@ msgstr "Таємність"
 
 # Patrons > General
 msgid "patrons.pref#AllowStaffToSetCheckoutsVisibilityForGuarantor# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Patrons > General
 msgid "patrons.pref#AllowStaffToSetCheckoutsVisibilityForGuarantor# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Patrons > General
 msgid "patrons.pref#AllowStaffToSetCheckoutsVisibilityForGuarantor# staff to set the ability for a patron's checkouts to be viewed by linked patrons in the OPAC."
 msgstr ""
+"працівникам бібліотеки встановлювати можливість перегляду видач відвідувача "
+"зв’язаними відвідувачами в електронному каталозі."
 
 # Patrons > General
 msgid "patrons.pref#AllowStaffToSetFinesVisibilityForGuarantor# Allow"
-msgstr ""
+msgstr "Дозволити"
 
 # Patrons > General
 msgid "patrons.pref#AllowStaffToSetFinesVisibilityForGuarantor# Don't allow"
-msgstr ""
+msgstr "Не дозволяти"
 
 # Patrons > General
 msgid "patrons.pref#AllowStaffToSetFinesVisibilityForGuarantor# staff to set the ability for a patron's fines to be viewed by linked patrons in the OPAC."
 msgstr ""
+"працівникам бібліотеки встановлювати можливість перегляду штрафів "
+"відвідувача зв’язаними відвідувачами в електронному каталозі."
 
 # Patrons > General
 msgid "patrons.pref#AutoEmailOpacUser# Don't send"
@@ -7863,7 +8000,10 @@ msgstr " (відокремлювати стовпці з допомогою зн
 
 # Patrons > General
 msgid "patrons.pref#BorrowerMandatoryField# <strong>NOTE:</strong> If autoMemberNum is enabled, the system preference BorrowerMandatoryField must not contain the field cardnumber."
-msgstr "<strong>ПРИМІТКА:</strong>: якщо параметр „autoMemberNum“ увімкнено, значення параметра „BorrowerMandatoryField“ не повинно містити номер читацького квитка."
+msgstr ""
+"<strong>Примітка:</strong>: якщо параметр „autoMemberNum“ увімкнено, "
+"значення параметра „BorrowerMandatoryField“ не повинно містити номер "
+"читацького квитка."
 
 # Patrons > General
 msgid "patrons.pref#BorrowerMandatoryField# The following <a href='http://schema.koha-community.org/__VERSION__/tables/borrowers.html' target='blank'>database columns</a> must be filled in on the patron entry screen:"
@@ -7952,10 +8092,17 @@ msgstr " можливість вивантажувати та прикріплю
 # Patrons > General
 msgid "patrons.pref#EnhancedMessagingPreferences# <br><strong>NOTE:</strong> This only applies to courtesy notices. To manage if patrons have also access to these settings, use EnhancedMessagingPreferencesOPAC."
 msgstr ""
+"<br><strong>Примітка:</strong> це стосується лише повідомлень ввічливості. "
+"Щоб управляти, чи мають відвідувачі також доступ до цих налаштувань, "
+"використовуйте параметр „EnhancedMessagingPreferencesOPAC“."
 
 # Patrons > General
 msgid "patrons.pref#EnhancedMessagingPreferences# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/process_message_queue.pl</code> and the <code>misc/cronjobs/advance_notices.pl</code> cronjob. Ask your system administrator to schedule them."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичних сценаріїв <code>misc/cronjobs/process_message_queue.pl</code> та <code>misc/cronjobs/advance_notices.pl</code>. Попросіть системного адміністратора запланувати їх."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичних "
+"сценаріїв <code>misc/cronjobs/process_message_queue.pl</code> та "
+"<code>misc/cronjobs/advance_notices.pl</code>. Попросіть системного "
+"адміністратора запланувати їх."
 
 # Patrons > General
 msgid "patrons.pref#EnhancedMessagingPreferences# Allow"
@@ -7968,10 +8115,14 @@ msgstr "Не дозволяти"
 # Patrons > General
 msgid "patrons.pref#EnhancedMessagingPreferences# Staff to manage which notices patrons will receive and when they will receive them."
 msgstr ""
+"працівникам бібліотеки керувати, які повідомлення отримуватимуть відвідувачі "
+"та коли вони їх отримуватимуть."
 
 # Patrons > General
 msgid "patrons.pref#EnhancedMessagingPreferencesOPAC# <br><strong>NOTE:</strong> EnhancedMessagingPreferences must be enabled."
 msgstr ""
+"<br><strong>Примітка:</strong> параметр „EnhancedMessagingPreferences“ "
+"повинен бути задіяний."
 
 # Patrons > General
 msgid "patrons.pref#EnhancedMessagingPreferencesOPAC# Don't show"
@@ -7983,7 +8134,7 @@ msgstr "Показувати"
 
 # Patrons > General
 msgid "patrons.pref#EnhancedMessagingPreferencesOPAC# patron messaging setting on the OPAC."
-msgstr ""
+msgstr "відвідувачу в електронному каталозі налаштування повідомлень."
 
 # Patrons > General
 msgid "patrons.pref#ExtendedPatronAttributes# Don't enable"
@@ -8067,7 +8218,10 @@ msgstr ""
 
 # Patrons > General
 msgid "patrons.pref#MembershipExpiryDaysNotice# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/membership_expiry.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>ПРИМІТКА:</strong> Цей системний параметр вимагає періодичного сценарію <code>misc/cronjobs/membership_expiry.pl</code>. Попросіть системного адміністратора запланувати його."
+msgstr ""
+"<br><strong>Примітка:</strong> Цей системний параметр вимагає періодичного "
+"сценарію <code>misc/cronjobs/membership_expiry.pl</code>. Попросіть "
+"системного адміністратора запланувати його."
 
 # Patrons > General
 msgid "patrons.pref#MembershipExpiryDaysNotice# Send an account expiration notice when a patron's card will expire in"
@@ -8115,7 +8269,10 @@ msgstr "щоб послатися на Ваші локальну правила 
 
 # Patrons > General
 msgid "patrons.pref#ProtectSuperlibrarianPrivileges# <br><strong>NOTE:</strong> A permitted user needs to have the 'permissions' flag (if no superlibrarian)."
-msgstr "<br><strong>Примітка:</strong> дозволений користувач повинен мати прапорець „встановлення привілеїв користувача“ (якщо він не є супербібліотекарем)."
+msgstr ""
+"<br><strong>Примітка:</strong> дозволений користувач повинен мати прапорець "
+"„permissions“ (встановлення привілеїв користувача) (якщо він не є "
+"супербібліотекарем)."
 
 # Patrons > General
 msgid "patrons.pref#ProtectSuperlibrarianPrivileges# Allow all permitted users"
@@ -8123,7 +8280,7 @@ msgstr "Надати можливість усім дозволеним кори
 
 # Patrons > General
 msgid "patrons.pref#ProtectSuperlibrarianPrivileges# Allow only superlibrarians"
-msgstr "Надати можливість усім лише супербібліотекарям"
+msgstr "Дозволити лише супербібліотекарям"
 
 # Patrons > General
 msgid "patrons.pref#ProtectSuperlibrarianPrivileges# to access/change superlibrarian privileges."
@@ -8239,19 +8396,22 @@ msgstr ""
 
 # Patrons > General
 msgid "patrons.pref#autoMemberNum# <strong>NOTE:</strong> If autoMemberNum is enabled, the system preference BorrowerMandatoryField must not contain the field cardnumber."
-msgstr "<strong>ПРИМІТКА:</strong>: якщо параметр „autoMemberNum“ увімкнено, значення параметра „BorrowerMandatoryField“ не повинно містити номер читацького квитка."
+msgstr ""
+"<strong>Примітка:</strong>: якщо параметр „autoMemberNum“ увімкнено, "
+"значення параметра „BorrowerMandatoryField“ не повинно містити номер "
+"читацького квитка."
 
 # Patrons > General
 msgid "patrons.pref#autoMemberNum# Do"
-msgstr ""
+msgstr "Генерувати"
 
 # Patrons > General
 msgid "patrons.pref#autoMemberNum# Don't"
-msgstr ""
+msgstr "Не генерувати"
 
 # Patrons > General
 msgid "patrons.pref#autoMemberNum# default the card number field on the patron addition screen to the next available card number (for example, if the largest currently used card number is 26345000012941, then this field will default to 26345000012942)."
-msgstr ""
+msgstr "автоматично поле номера читацького квитка (на екрані реєстрації відвідувача) відповідно наступному до найбільшого номера читацького квитка (наприклад, якщо найбільший на даний час номер читацького квитка становить 26345000012941, тоді це поле автоматично міститиме 26345000012942)."
 
 # Patrons > General
 msgid "patrons.pref#borrowerRelationship# (input multiple choices separated by |). Leave empty to deactivate"
@@ -8272,6 +8432,9 @@ msgstr "Не дозволяти"
 # Patrons > General
 msgid "patrons.pref#intranetreadinghistory# staff to access a patron's checkout and hold history (reading history is still stored, regardless of staff being allowed access or not)."
 msgstr ""
+"працівникам бібліотеки мати доступ до історії видач та резервувань "
+"відвідувача (історія читання все ще зберігається, незалежно від того, "
+"працівникам надано доступ чи ні)."
 
 # Patrons > General
 msgid "patrons.pref#minPasswordLength# Login passwords for staff and patrons must be at least"
@@ -8291,7 +8454,7 @@ msgstr "Не дозволяти"
 
 # Patrons > General
 msgid "patrons.pref#patronimages# images to be uploaded and shown for patrons on the staff client."
-msgstr "вивантажувати і відображати зображення відвідувачів у бібліотечному інтерфейсі."
+msgstr "вивантажувати і відображати світлинин відвідувачів у бібліотечному інтерфейсі."
 
 # Patrons > General
 msgid "patrons.pref#uppercasesurnames# Do"
@@ -8316,6 +8479,8 @@ msgstr "Не дозволяти"
 # Patrons > General
 msgid "patrons.pref#useDischarge# librarians to discharge borrowers and borrowers to request a discharge."
 msgstr ""
+"бібліотекарям розраховувати відвідувачів та відвідувачів, що вимагають "
+"розрахування."
 
 # Searching
 msgid "searching.pref"
@@ -9411,11 +9576,14 @@ msgstr ""
 
 # Web services > ILS-DI
 msgid "web_services.pref#ILS-DI:AuthorizedIPs# Allow IP addresses"
-msgstr ""
+msgstr "Дозволити лише IP-адреси"
 
 # Web services > ILS-DI
 msgid "web_services.pref#ILS-DI:AuthorizedIPs# to use the ILS-DI services (when enabled). Separate the IP addresses with commas and without spaces. Leave the field blank to allow any IP address."
 msgstr ""
+"для використання послуг ILS-DI (якщо вони включені). Відокремте IP-адреси "
+"комами та без пробілів. Залиште поле порожнім, щоб дозволити будь-які "
+"IP-адреси."
 
 # Web services > IdRef
 msgid "web_services.pref#IdRef# Disable"

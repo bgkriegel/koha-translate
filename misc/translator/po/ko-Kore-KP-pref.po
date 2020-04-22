@@ -629,6 +629,10 @@ msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> This system preference 
 msgstr ""
 
 # Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> You should use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit the preference related to Hea."
+msgstr ""
+
+# Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# No"
 msgstr ""
 
@@ -1438,6 +1442,10 @@ msgstr ""
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> This value has no effect if the UsageStats system preference is set to \"Don't share\"."
+msgstr ""
+
+# Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> You must use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit this preference."
 msgstr ""
 
 # Administration > Share anonymous usage statistics
@@ -4554,10 +4562,6 @@ msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system prefer
 msgstr ""
 
 # Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "계산 (관리자에게 메일을 보낼 때만)"
-
-# Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
 msgstr "계산과 요금"
 
@@ -4662,7 +4666,7 @@ msgid "circulation.pref#todaysIssuesDefaultSortOrder# Sort today's checkouts on 
 msgstr ""
 
 # Circulation > Interface
-msgid "circulation.pref#todaysIssuesDefaultSortOrder# due date."
+msgid "circulation.pref#todaysIssuesDefaultSortOrder# checkout time."
 msgstr ""
 
 # Circulation > Interface
@@ -5930,6 +5934,18 @@ msgstr "로그에 기록함"
 
 # Logging > Logging
 msgid "logs.pref#CronjobLog# information from cron jobs."
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Do"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Don't"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires DumpTemplateVars[interface] to be visible."
 msgstr ""
 
 # Logging > Debugging

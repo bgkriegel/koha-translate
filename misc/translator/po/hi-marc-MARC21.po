@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:08-0300\n"
-"PO-Revision-Date: 2020-01-17 14:20+0000\n"
+"POT-Creation-Date: 2020-04-16 19:39-0300\n"
+"PO-Revision-Date: 2020-04-05 06:15+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1579270841.618829\n"
+"X-POOTLE-MTIME: 1586067345.553829\n"
 "X-Pootle-Path: /hi/18.05/hi-marc-MARC21.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -3808,7 +3808,7 @@ msgstr "जीवनी की जानकारी शामिल है"
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:819
 #, c-format
 msgid "Contains blank (#) or a fill character (|)."
-msgstr "एक एक रिक्त (#) या भरण चरित्र शामिल है (|)"
+msgstr "रिक्त रखा गया (#) या भरण चरित्र शामिल है (|)"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1221
 #, c-format
@@ -6681,7 +6681,7 @@ msgstr "LDR"
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:947
 #, c-format
 msgid "LOC classification: "
-msgstr "एलओसी वर्गीकरण:  "
+msgstr "एलओसी वर्गीकरण: "
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1041
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:1058
@@ -9819,7 +9819,7 @@ msgstr "मूल वर्णमाला या शीर्षक की स�
 #: opac-tmpl/bootstrap/en/xslt/MARC21slimUtils.xsl:331
 #, c-format
 msgid "Original language: "
-msgstr "मूल भाषा:  "
+msgstr "मूल भाषा: "
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:341
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:341
@@ -12180,7 +12180,7 @@ msgstr "में विभाजित .. और ...:"
 #: opac-tmpl/bootstrap/en/xslt/MARC21slimUtils.xsl:327
 #, c-format
 msgid "Spoken language: "
-msgstr "बोली जाने वाली भाषा:  "
+msgstr "बोली जाने वाली भाषा: "
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:210
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:553

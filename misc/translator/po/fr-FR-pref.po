@@ -2,62 +2,62 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
 "POT-Creation-Date: 2013-05-07 08:52+0200\n"
-"PO-Revision-Date: 2019-11-08 09:36+0000\n"
-"Last-Translator: Fridolin SOMERS <fridolin.somers@biblibre.com>\n"
-"Language-Team: French (France) (http://www.transifex.com/projects/p/koha/language/fr_FR/)\n"
+"PO-Revision-Date: 2020-04-22 16:02+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
+"Language-Team: French (France) "
+"(http://www.transifex.com/projects/p/koha/language/fr_FR/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1573205763.199340\n"
+"X-POOTLE-MTIME: 1587571342.778576\n"
 "X-Pootle-Path: /fr/18.05/fr-FR-pref.po\n"
 "X-Pootle-Revision: 1\n"
 
 # Accounting
 msgid "accounting.pref"
-msgstr ""
+msgstr "Comptabilité"
 
-# Accounting > Policy
 msgid "accounting.pref Policy"
-msgstr ""
+msgstr "Politique générale"
 
 # Accounting > Policy
 msgid "accounting.pref#AccountAutoReconcile# Do"
-msgstr ""
+msgstr "Rapprocher"
 
 # Accounting > Policy
 msgid "accounting.pref#AccountAutoReconcile# Do not"
-msgstr ""
+msgstr "Ne pas rapprocher"
 
 # Accounting > Policy
 msgid "accounting.pref#AccountAutoReconcile# reconcile patron balances automatically on each transaction adding debits or credits."
-msgstr ""
+msgstr "automatiquement le solde de l'adhérent à chaque transaction de débits ou crédits."
 
 # Accounting > Policy
 msgid "accounting.pref#FinePaymentAutoPopup# Do"
-msgstr ""
+msgstr "Ouvrir"
 
 # Accounting > Policy
 msgid "accounting.pref#FinePaymentAutoPopup# Don't"
-msgstr ""
+msgstr "Ne pas ouvrir"
 
 # Accounting > Policy
 msgid "accounting.pref#FinePaymentAutoPopup# automatically display a print dialog for a payment receipt when making a payment."
-msgstr ""
+msgstr "automatiquement une fenêtre pour imprimer un reçu de paiement lors d'un encaissement."
 
 # Accounting > Policy
 msgid "accounting.pref#UseCashRegisters#  cash registers with the accounting system to track payments."
-msgstr ""
+msgstr "  caisses avec le système comptable pour suivre les paiements."
 
 # Accounting > Policy
 msgid "accounting.pref#UseCashRegisters# Don't use"
-msgstr ""
+msgstr "Ne pas utiliser"
 
 # Accounting > Policy
 msgid "accounting.pref#UseCashRegisters# Use"
-msgstr ""
+msgstr "Utiliser"
 
 # Acquisitions
 msgid "acquisitions.pref"
@@ -285,7 +285,7 @@ msgstr " jours. Exemple&nbsp;: [30] définit la purge des suggestions de plus de
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#UniqueItemFields# (separate columns with |)"
-msgstr ""
+msgstr "(séparées par un |)"
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#UniqueItemFields# The following <a href='http://schema.koha-community.org/__VERSION__/tables/items.html' target='blank'>database columns</a> should be unique in an item:"
@@ -433,19 +433,22 @@ msgstr "Le site de connexion"
 
 # Administration > Search Engine
 msgid "admin.pref#ElasticsearchMARCFormat# <br><strong>NOTE:</strong> Making the full record searchable may have a negative effect on relevance ranking of search results."
-msgstr ""
+msgstr "<br><strong>NOTE&nbsp;:</strong> Cibler la notice entière peut avoir des effets négatifs sur le calcul de la pertinence des résultats de la recherche."
 
 # Administration > Search Engine
 msgid "admin.pref#ElasticsearchMARCFormat# <br>ISO2709 format is recommended as it is faster and takes less space, whereas array format makes the full MARC record searchable."
 msgstr ""
+"<br>le format ISO2709 est recommandé car il est plus rapide et nécessite "
+"moins de place, tandis que le format en tableau rend la notice MARC "
+"entièrement interrogeable."
 
 # Administration > Search Engine
 msgid "admin.pref#ElasticsearchMARCFormat# Elasticsearch MARC format: "
-msgstr ""
+msgstr "Format MARC de Elasticsearch&nbsp;: "
 
 # Administration > Search Engine
 msgid "admin.pref#ElasticsearchMARCFormat# ISO2709 (exchange format)"
-msgstr ""
+msgstr "ISO2709 (format d'échange)"
 
 # Administration > Search Engine
 msgid "admin.pref#ElasticsearchMARCFormat# Searchable array"
@@ -621,11 +624,20 @@ msgstr ". Les données statistiques sont publiées sur le site&nbsp;: <a href=\"
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> The other \"UsageStats\" preferences have no effect if this preference is set to \"No\"."
-msgstr "<br><strong>NOTE ;:</strong> Les autres préférences système 'UsageStats' n'ont aucun effet si cette préférence système est paramétrée sur 'Non'."
+msgstr ""
+"<br><strong>NOTE&nbsp;:</strong> Les autres préférences système 'UsageStats' "
+"n'ont aucun effet si cette préférence système est paramétrée sur 'Non'."
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/share_usage_with_koha_community.pl</code> cronjob. Ask your system administrator to schedule it."
 msgstr "<br><strong>NOTE :</strong> Cette préférence système nécessite le cronjob <code>misc/cronjobs/share_usage_with_koha_community.pl</code>. Demandez à votre administrateur système de le planifier."
+
+# Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> You should use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit the preference related to Hea."
+msgstr ""
+"<br><strong>NOTE&nbsp;:</strong> Vous devriez utiliser <a href=\"/cgi-"
+"bin/koha/admin/usage_statistics.pl\">la page de configuration</a> pour "
+"éditer la préférence liée à Hea."
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# No"
@@ -633,7 +645,7 @@ msgstr "Non"
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# No, let me think about it"
-msgstr ""
+msgstr "Non"
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# Share anonymous Koha usage data with the Koha community: "
@@ -1440,6 +1452,10 @@ msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> This value h
 msgstr "<br><strong>NOTE :</strong> Cette valeur n'a aucun effet si la préférence système UsageStats est paramétrée sur 'Non'."
 
 # Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> You must use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit this preference."
+msgstr ""
+
+# Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsGeolocation# Geolocation of the main library: "
 msgstr "Géolocalisation de la bibliothèque principale&nbsp;: "
 
@@ -1545,7 +1561,7 @@ msgstr "Oui"
 
 # Administration > CAS authentication
 msgid "admin.pref#casLogout# Logout of CAS when logging out of Koha: "
-msgstr "Se déconnecter de CAS lors de la déconnexion de Koha&nbsp;: "
+msgstr "Se déconnecter de CAS lors de la déconnexion de Koha : "
 
 # Administration > CAS authentication
 msgid "admin.pref#casLogout# No"
@@ -1605,7 +1621,7 @@ msgstr "L'ajout de «&nbsp;d&nbsp;» le spécifiera en jours, par ex. 1d est un 
 
 # Administration > Login options
 msgid "admin.pref#timeout# Inactivity timeout in seconds to automatically log out users: "
-msgstr "Délai d'inactivité en secondes pour déconnecter automatiquement les utilisateurs&nbsp;: "
+msgstr "Délai d'inactivité en secondes pour déconnecter automatiquement les utilisateurs : "
 
 # Administration > Interface options
 msgid "admin.pref#virtualshelves# Allow staff and patrons to create and view saved lists of books: "
@@ -2111,11 +2127,11 @@ msgstr "Quand des exemplaires sont créés, leur donner la localisation temporai
 
 # Cataloging > Display
 msgid "cataloguing.pref#NotesBlacklist# <br />"
-msgstr ""
+msgstr "<br />"
 
 # Cataloging > Display
 msgid "cataloguing.pref#NotesBlacklist# Don't show"
-msgstr ""
+msgstr "Ne pas afficher les champs de notes"
 
 # Cataloging > Display
 msgid "cataloguing.pref#NotesBlacklist# For hiding fields from other pages like the normal view, use the visibility settings for subfields in the MARC bibliographic frameworks section of the administration module."
@@ -2493,7 +2509,7 @@ msgstr "Prêts entre bibliothèques"
 
 # Circulation > Return Claims
 msgid "circulation.pref Return Claims"
-msgstr ""
+msgstr "Déclarés rendus"
 
 # Circulation > Self Checkout
 msgid "circulation.pref Self Checkout"
@@ -2809,15 +2825,15 @@ msgstr "le lien de la demande d'article dans les résultats de recherche."
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFields# Author"
-msgstr ""
+msgstr "Auteur"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFields# Chapters"
-msgstr ""
+msgstr "Chapitres"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFields# Date"
-msgstr ""
+msgstr "Date"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFields# For records that are record level or item level requestable, make the following fields mandatory"
@@ -2825,31 +2841,31 @@ msgstr "Pour les notices qui ont un niveau de notices ou d'exemplaire pouvant ê
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFields# Issue"
-msgstr ""
+msgstr "Numéro"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFields# Pages"
-msgstr ""
+msgstr "Pages"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFields# Title"
-msgstr ""
+msgstr "Titre"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFields# Volume"
-msgstr ""
+msgstr "Volume"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsItemOnly# Author"
-msgstr ""
+msgstr "Auteur"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsItemOnly# Chapters"
-msgstr ""
+msgstr "Chapitres"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsItemOnly# Date"
-msgstr ""
+msgstr "Date"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsItemOnly# For records that are only item level requestable, make the following fields mandatory"
@@ -2857,31 +2873,31 @@ msgstr "Pour les notices dont seul le niveau de l'exemplaire peut-être demandé
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsItemOnly# Issue"
-msgstr ""
+msgstr "Numéro"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsItemOnly# Pages"
-msgstr ""
+msgstr "Pages"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsItemOnly# Title"
-msgstr ""
+msgstr "Titre"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsItemOnly# Volume"
-msgstr ""
+msgstr "Volume"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsRecordOnly# Author"
-msgstr ""
+msgstr "Auteur"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsRecordOnly# Chapters"
-msgstr ""
+msgstr "Chapitres"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsRecordOnly# Date"
-msgstr ""
+msgstr "Date"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsRecordOnly# For records that are only record level requestable, make the following fields mandatory"
@@ -2889,19 +2905,19 @@ msgstr "Pour les notices dont seul le niveau de la notice peut être demandé, r
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsRecordOnly# Issue"
-msgstr ""
+msgstr "Numéro"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsRecordOnly# Pages"
-msgstr ""
+msgstr "Pages"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsRecordOnly# Title"
-msgstr ""
+msgstr "Titre"
 
 # Circulation > Article Requests
 msgid "circulation.pref#ArticleRequestsMandatoryFieldsRecordOnly# Volume"
-msgstr ""
+msgstr "Volume"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# Do"
@@ -3117,39 +3133,39 @@ msgstr "la barre latérale de navigation sur toutes les pages Circulation."
 
 # Circulation > Return Claims
 msgid "circulation.pref#ClaimReturnedChargeFee# ."
-msgstr ""
+msgstr "."
 
 # Circulation > Return Claims
 msgid "circulation.pref#ClaimReturnedChargeFee# When marking a checkout as \"claims returned\","
-msgstr ""
+msgstr "Quand un prêt est marqué comme Déclaré rendu,"
 
 # Circulation > Return Claims
 msgid "circulation.pref#ClaimReturnedChargeFee# ask if a lost fee should be charged"
-msgstr ""
+msgstr "demander si une amende pour exemplaire perdu doit être facturée"
 
 # Circulation > Return Claims
 msgid "circulation.pref#ClaimReturnedChargeFee# charge a lost fee"
-msgstr ""
+msgstr "facturer une amende pour exemplaire perdu"
 
 # Circulation > Return Claims
 msgid "circulation.pref#ClaimReturnedChargeFee# don't charge a lost fee"
-msgstr ""
+msgstr "ne pas facturer d'amende"
 
 # Circulation > Return Claims
 msgid "circulation.pref#ClaimReturnedLostValue# Use the LOST authorised value"
-msgstr ""
+msgstr "Utilisez la valeur autorisée LOST"
 
 # Circulation > Return Claims
 msgid "circulation.pref#ClaimReturnedLostValue# to represent returns claims"
-msgstr ""
+msgstr "pour renseigner le champ perdu (items.itemlost) des exemplaires déclarés rendus."
 
 # Circulation > Return Claims
 msgid "circulation.pref#ClaimReturnedWarningThreshold# Warn librarians that a patron has excessive return claims if the patron has claimed the return of more than"
-msgstr ""
+msgstr "Avertir les bibliothécaires qu'un adhérent à un nombre exagéré d'exemplaires déclarés rendus quand il dépasse le seuil de"
 
 # Circulation > Return Claims
 msgid "circulation.pref#ClaimReturnedWarningThreshold# items."
-msgstr ""
+msgstr "exemplaires. "
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ConfirmFutureHolds# Confirm future hold requests (starting no later than"
@@ -3261,15 +3277,15 @@ msgstr "la possibilité de placer des réservations sur plusieurs notices biblio
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExcludeHolidaysFromMaxPickUpDelay# Ignore the calendar"
-msgstr ""
+msgstr "Ignorer le calendrier"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExcludeHolidaysFromMaxPickUpDelay# Use the calendar"
-msgstr ""
+msgstr "Prendre en compte le calendrier"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExcludeHolidaysFromMaxPickUpDelay# when calculating the period for reserves max pickup delay."
-msgstr ""
+msgstr "pour calculer le délai maximal de retrait des réservations. "
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesMaxPickUpDelay# Allow"
@@ -4553,10 +4569,6 @@ msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system prefer
 msgstr "<br><strong>NOTE :</strong> Cette préférence système requiert le cronjob <code>misc/cronjobs/fines.pl</code>. Demander à votre administrateur système de le planifier."
 
 # Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "Calculer (uniquement pour envoi à l'admin)"
-
-# Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
 msgstr "Calculer et facturer"
 
@@ -4661,8 +4673,8 @@ msgid "circulation.pref#todaysIssuesDefaultSortOrder# Sort today's checkouts on 
 msgstr "Trier les prêts du jour à l'écran de circulation"
 
 # Circulation > Interface
-msgid "circulation.pref#todaysIssuesDefaultSortOrder# due date."
-msgstr "."
+msgid "circulation.pref#todaysIssuesDefaultSortOrder# checkout time."
+msgstr ""
 
 # Circulation > Interface
 msgid "circulation.pref#todaysIssuesDefaultSortOrder# earliest to latest"
@@ -5930,6 +5942,18 @@ msgstr "Journaliser"
 # Logging > Logging
 msgid "logs.pref#CronjobLog# information from cron jobs."
 msgstr "les informations en provenance des cron jobs."
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Do"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Don't"
+msgstr ""
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires DumpTemplateVars[interface] to be visible."
+msgstr ""
 
 # Logging > Debugging
 msgid "logs.pref#DumpTemplateVarsIntranet# Do"
@@ -9586,4 +9610,3 @@ msgstr "Renvoyer uniquement"
 # Web services > Reporting
 msgid "web_services.pref#SvcMaxReportRows# rows of a report requested via the reports web service."
 msgstr "colonnes d'un rapport demandé par l'intermédiaire du Web service des rapports."
-

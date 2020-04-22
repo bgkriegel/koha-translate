@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 14:58-0300\n"
-"PO-Revision-Date: 2019-12-26 13:48+0000\n"
-"Last-Translator: Dimitris Antonakis <dimantonak@gmail.com>\n"
+"POT-Creation-Date: 2020-04-16 19:33-0300\n"
+"PO-Revision-Date: 2020-04-22 16:31+0000\n"
+"Last-Translator: s.pierros <s.pierros@thessaloniki.gr>\n"
 "Language-Team: Koha Translation Team <koha-translate@nongnu.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1577368134.084481\n"
+"X-POOTLE-MTIME: 1587573106.926675\n"
 "X-Pootle-Path: /el/18.05/el-GR-marc-MARC21.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -2178,7 +2178,7 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:15
 #, c-format
 msgid "Afrikaans"
-msgstr ""
+msgstr "Αφρικάανς"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:16
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:16
@@ -2234,7 +2234,7 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:20
 #, c-format
 msgid "Albanian"
-msgstr ""
+msgstr "Αλβανικά"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:249
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:592
@@ -12309,9 +12309,9 @@ msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:416
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:416
-#, fuzzy, c-format
+#, c-format
 msgid "Sumerian"
-msgstr "Αριθμητικά δεδομένα"
+msgstr "Σουμεριακά "
 
 #: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl:359
 #: opac-tmpl/bootstrap/en/xslt/MARC21slimUtils.xsl:323
@@ -12373,7 +12373,7 @@ msgstr "Αντικαθιστά:"
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1247
 #, c-format
 msgid "Supplements: "
-msgstr ""
+msgstr "Συμπληρώματα"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:103
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:285

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 18.05\n"
-"POT-Creation-Date: 2020-02-16 15:10-0300\n"
-"PO-Revision-Date: 2020-02-14 18:39+0000\n"
+"POT-Creation-Date: 2020-04-16 19:40-0300\n"
+"PO-Revision-Date: 2020-04-22 12:31+0000\n"
 "Last-Translator: Jónás János <janosjonas@outlook.com>\n"
 "Language-Team: Koha Translation Team <koha-translate@nongnu.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1581705552.615559\n"
+"X-POOTLE-MTIME: 1587558671.078789\n"
 "X-Pootle-Path: /hu/18.05/hu-HU-marc-MARC21.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -119,7 +119,7 @@ msgstr "#rekord"
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:56
 #, c-format
 msgid "%sResults %s to %s of %s %sNo results found %s"
-msgstr "%sTalálat %s - %s, összes: %s %sNincs találat %s"
+msgstr "%sEredmények %s - %s / %s %sNincs találat %s"
 
 # URL texts should not translated
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1128
@@ -2983,22 +2983,22 @@ msgstr "Másik mű részekén hozzáfűzött térkép"
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:1422
 #, c-format
 msgid "Braille"
-msgstr "Braille"
+msgstr "Braille-írás"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:264
-#, fuzzy, c-format
+#, c-format
 msgid "Braille music format 1"
-msgstr "06 Braille zenei formátum"
+msgstr "Braille zenei formátum 1"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:283
-#, fuzzy, c-format
+#, c-format
 msgid "Braille music format 2"
-msgstr "06 Braille zenei formátum"
+msgstr "Braille zenei formátum 2"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:302
-#, fuzzy, c-format
+#, c-format
 msgid "Braille music format 3"
-msgstr "06 Braille zenei formátum"
+msgstr "Braille zenei formátum 3"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:69
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:69
@@ -3118,7 +3118,7 @@ msgstr "Naptárak"
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1318
 #, c-format
 msgid "Call number: "
-msgstr "Raktári jelzet: "
+msgstr "Leltári szám: "
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:324
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008.tt:24
@@ -3473,9 +3473,9 @@ msgid "Chuvash"
 msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:242
-#, fuzzy, c-format
+#, c-format
 msgid "Class of braille writing"
-msgstr "03 Braille írás osztálya"
+msgstr "Braille írás osztálya"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:89
 #, fuzzy, c-format
@@ -3643,9 +3643,9 @@ msgid "Computer Files"
 msgstr "Elektronikus Dokumentumok"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:247
-#, fuzzy, c-format
+#, c-format
 msgid "Computer braille"
-msgstr "d- Elektronikus Braille"
+msgstr "Elektronikus Braille-írás"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:92
 #, fuzzy, c-format
@@ -4968,7 +4968,7 @@ msgstr "Latin, kiterjesztett"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:56
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:220
-#, fuzzy, c-format
+#, c-format
 msgid "Facsimile"
 msgstr "Hasonmás"
 
@@ -5308,9 +5308,9 @@ msgid "Form of original item"
 msgstr "Önéletrajz"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:245
-#, fuzzy, c-format
+#, c-format
 msgid "Format code braille"
-msgstr "c- Braille"
+msgstr "Formátum kód Braille-írás"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:412
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:825
@@ -5865,9 +5865,9 @@ msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:1115
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1233
-#, fuzzy, c-format
+#, c-format
 msgid "Holdings: "
-msgstr "Előjegyzési megjegyzések: "
+msgstr "Állomány: "
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:711
 #, c-format
@@ -6274,17 +6274,17 @@ msgstr "A tétel egy zenei felvétel"
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:27
 #, c-format
 msgid "Item type"
-msgstr "Tétel típusa"
+msgstr "Tétel típus"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1236
 #, c-format
 msgid "Items available for loan: "
-msgstr "Kölcsönözhető példányok könyvtáranként: "
+msgstr "Kölcsönözhető példányok: "
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1309
 #, c-format
 msgid "Items available for reference: "
-msgstr "Kézikönytár példányai: "
+msgstr "Referenciaként elérhető példányok: "
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:207
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:672
@@ -6321,7 +6321,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:323
 #, c-format
 msgid "Jumbo or enlarged braille"
-msgstr ""
+msgstr "Jumbo vagy kibővített Braille-írás"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:39
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:154
@@ -6884,7 +6884,7 @@ msgstr "Jogi esetek és jegyzetek"
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:1118
 #, c-format
 msgid "Legislation"
-msgstr "Törvény"
+msgstr "Törvényhozás"
 
 #. SPAN
 #: intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:69
@@ -6957,9 +6957,9 @@ msgid "Lingala"
 msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:244
-#, fuzzy, c-format
+#, c-format
 msgid "Literary braille"
-msgstr "16- Irodalmi forma"
+msgstr "Irodalmi Braille"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:116
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:314
@@ -7498,7 +7498,7 @@ msgstr "Anyag típus: "
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:246
 #, c-format
 msgid "Mathematics and scientific braille"
-msgstr ""
+msgstr "Matematika és tudományos Braille"
 
 #: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:291
 #: opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:291
@@ -8009,9 +8009,9 @@ msgid "Multiple"
 msgstr "Több dátum"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:249
-#, fuzzy, c-format
+#, c-format
 msgid "Multiple braille types"
-msgstr "Több dátum"
+msgstr "Többféle Braille-típus"
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:15
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:371
@@ -8103,9 +8103,9 @@ msgid "Music Parts"
 msgstr "Alap paraméterek"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:248
-#, fuzzy, c-format
+#, c-format
 msgid "Music braille"
-msgstr "f- Braille"
+msgstr "Zene Braille"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:107
 #, fuzzy, c-format
@@ -8708,14 +8708,14 @@ msgstr "Nincs meghatrározva"
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:265
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:284
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:303
-#, fuzzy, c-format
+#, c-format
 msgid "No specified braille music format"
-msgstr "#- Nem meghatározott Braille zenei formátum"
+msgstr "Nem meghatározott Braille zenei formátum"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:243
-#, fuzzy, c-format
+#, c-format
 msgid "No specified class of braille writing"
-msgstr "#- Nem meghatározott Braille írási osztály"
+msgstr "Nem meghatározott Braille írási osztály"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:56
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:161
@@ -10580,9 +10580,9 @@ msgid "Print Page"
 msgstr "Oldal nyomtatása"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:322
-#, fuzzy, c-format
+#, c-format
 msgid "Print/braille"
-msgstr "f- Braille"
+msgstr "Nyomat/Braille"
 
 #: intranet-tmpl/prog/en/data/marc21_field_007.xml:499
 #, fuzzy, c-format
@@ -12851,9 +12851,9 @@ msgstr "UTM (Universe Transverse Mercator) vetület"
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:281
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:1101
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:1131
-#, fuzzy, c-format
+#, c-format
 msgid "Treaties"
-msgstr "Acetate"
+msgstr "Szerződések"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml:530
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml:1017
@@ -14482,9 +14482,8 @@ msgstr ""
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
-#, fuzzy
 msgid "a- Literary braille"
-msgstr "16- Irodalmi forma"
+msgstr "a- Irodalmi Braille"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -14600,9 +14599,8 @@ msgstr ""
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
-#, fuzzy
 msgid "a- Print/braille"
-msgstr "f- Braille"
+msgstr "a- Nyomat/Braille"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:568
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:570
@@ -15366,7 +15364,7 @@ msgid "au"
 msgstr "au"
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1573
-#, fuzzy, c-format
+#, c-format
 msgid "author"
 msgstr "szerző"
 
@@ -15469,9 +15467,8 @@ msgstr ""
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
-#, fuzzy
 msgid "b- Braille"
-msgstr "f- Braille"
+msgstr "b- Braille-írás"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -15554,9 +15551,8 @@ msgstr ""
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
-#, fuzzy
 msgid "b- Format code braille"
-msgstr "c- Braille"
+msgstr "b- Formátum kód Braille"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -15574,7 +15570,7 @@ msgstr ""
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
 msgid "b- Jumbo or enlarged braille"
-msgstr ""
+msgstr "b- Jumbo vagy kibővített Braille"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:228
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:230
@@ -15869,7 +15865,7 @@ msgstr "könyv"
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3.xsl:879
 #, c-format
 msgid "braille"
-msgstr "Braille"
+msgstr "Braille-írás"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:85
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:243
@@ -15879,7 +15875,7 @@ msgstr "Braille"
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:364
 #, c-format
 msgid "braille "
-msgstr "Braille "
+msgstr "Braille-írás "
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MADS.xsl:1122
 #, c-format
@@ -15890,7 +15886,7 @@ msgstr "tágabb"
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:509
 #, c-format
 msgid "by "
-msgstr "Szerző: "
+msgstr "szerző "
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1572
 #, c-format
@@ -15973,9 +15969,8 @@ msgstr ""
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
-#, fuzzy
 msgid "c- Braille"
-msgstr "f- Braille"
+msgstr "c- Braille-írás"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -16110,7 +16105,7 @@ msgstr ""
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
 msgid "c- Mathematics and scientific braille"
-msgstr ""
+msgstr "c- Matematika és tudományos Braille"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:233
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:235
@@ -16619,7 +16614,7 @@ msgstr "Bármely tartalom"
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
 msgid "d- Computer braille"
-msgstr "d- Elektronikus Braille"
+msgstr "d- Elektronikus Braille-írás"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -17197,9 +17192,8 @@ msgstr "e- Vegyes sávok"
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
-#, fuzzy
 msgid "e- Music braille"
-msgstr "f- Braille"
+msgstr "e- Zene Braille"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -17388,9 +17382,8 @@ msgstr ""
 #. For the first occurrence,
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
-#, fuzzy
 msgid "f- Facsimile"
-msgstr "f- Braille"
+msgstr "f- Hasonmás"
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:483
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:485
@@ -18753,15 +18746,15 @@ msgstr ""
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS32.xsl:378
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS.xsl:291
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3.xsl:392
-#, fuzzy, c-format
+#, c-format
 msgid "legislation"
-msgstr "jogalkotási"
+msgstr "törvényhozás"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:573
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:755
-#, fuzzy, c-format
+#, c-format
 msgid "legislation "
-msgstr "jogalkotási "
+msgstr "törvényhozás "
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3-1.xsl:456
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS32.xsl:467
@@ -18924,7 +18917,7 @@ msgstr ""
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:97
 msgid "m- Multiple braille types"
-msgstr ""
+msgstr "m- Többféle Braille-típus"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -19900,7 +19893,7 @@ msgstr ""
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:298
 #, c-format
 msgid "print "
-msgstr "nyomat "
+msgstr "nyomat"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS32.xsl:982
 #, fuzzy, c-format

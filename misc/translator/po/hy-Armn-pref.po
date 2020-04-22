@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Koha 18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-10 19:14+0200\n"
-"PO-Revision-Date: 2020-02-20 06:26+0000\n"
+"PO-Revision-Date: 2020-04-20 05:16+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team <koha-translate@nongnu.org>\n"
 "Language: hy\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-Bookmarks: 1755,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-"X-POOTLE-MTIME: 1582179980.185205\n"
+"X-POOTLE-MTIME: 1587359774.608849\n"
 "X-Pootle-Path: /hy/18.05/hy-Armn-pref.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -628,6 +628,10 @@ msgstr "admin.pref#UsageStats# <br><strong>ՆՇՈՒՄ:</strong> Այլ \"UsageSt
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/share_usage_with_koha_community.pl</code> cronjob. Ask your system administrator to schedule it."
 msgstr "admin.pref#UsageStats# <br><strong>ՆՇՈՒՄ:</strong> Համակարգի այս նախապատվությունը պահանջում է <code>misc/cronjobs/share_usage_with_koha_community.pl</code> կռոն աշխատանք։ Հարցրու համակարգի կառավարչին այն պլանավորելու համար։"
+
+# Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStats# <br><strong>NOTE:</strong> You should use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit the preference related to Hea."
+msgstr "admin.pref#UsageStats# <br><strong>Նշում:</strong> Պետք է օգտագործեք <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">նվիրյալ ադմինների կազմաձևման էջը</a> Hea-ի հետ կապված նախապատվությունը խմբագրելու համար:"
 
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# No"
@@ -1442,6 +1446,10 @@ msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> This value h
 msgstr "admin.pref#UsageStatsGeolocation# <br><strong>ՆՇՈՒՄ:</strong> Այս արժեք չունի ազդեցություն, եթե UsageStats համակարգային նախապատվությոնը կարգաբերված է \"Մի կիսվիր\"։"
 
 # Administration > Share anonymous usage statistics
+msgid "admin.pref#UsageStatsGeolocation# <br><strong>NOTE:</strong> You must use the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">dedicated admin configuration page</a> to edit this preference."
+msgstr "admin.pref#UsageStatsGeolocation# <br><strong>Նշում:</strong> Պետք է օգտագործես the <a href=\"/cgi-bin/koha/admin/usage_statistics.pl\">նվիրյալ ադմինների կազմաձևման էջը</a> Նախապատվությունը խմբագրելու համար։"
+
+# Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsGeolocation# Geolocation of the main library: "
 msgstr "admin.pref#UsageStatsGeolocation# Հիմնական գրադարանի գեոտեղաբաշխումը: "
 
@@ -2121,18 +2129,11 @@ msgstr "cataloguing.pref#NotesBlacklist# Ցույց մի տուր"
 
 # Cataloging > Display
 msgid "cataloguing.pref#NotesBlacklist# For hiding fields from other pages like the normal view, use the visibility settings for subfields in the MARC bibliographic frameworks section of the administration module."
-msgstr ""
-"cataloguing.pref#NotesBlacklist# Նորմալ դիտմանը նման այլ էջերից դաշտերը "
-"թաքցնելու համար օգտագործեք ենթաբազմությունների տեսանելիության պարամետրերը "
-"կառավարման մոդուլի ՄԵԸՔ մատենագիտական շրջանակների բաժնում:"
+msgstr "cataloguing.pref#NotesBlacklist# Նորմալ դիտմանը նման այլ էջերից դաշտերը թաքցնելու համար օգտագործեք ենթաբազմությունների տեսանելիության պարամետրերը կառավարման մոդուլի ՄԵԸՔ մատենագիտական շրջանակների բաժնում:"
 
 # Cataloging > Display
 msgid "cataloguing.pref#NotesBlacklist# note fields in the 'Title notes' tab and in the 'Description' tab on the OPAC and staff interface detail pages. Use a comma to separate multiple fields. Examples: 500,502 (MARC21); 300,328 (UNIMARC)."
-msgstr ""
-"cataloguing.pref#NotesBlacklist# նշումների դաշտերը «Գրառման նշումներ» "
-"ներդիրում և ՀՕԱՔ-ի և անձնակազմի միջերեսի մանրամասն էջերի «Նկարագրություն» "
-"ներդիրում: Բազմաթիվ դաշտերը առանձնացնելու համար օգտագործեք ստորակետ: "
-"Օրինակներ՝ 500,502 (MARC21); 300,328 (UNIMARC):"
+msgstr "cataloguing.pref#NotesBlacklist# նշումների դաշտերը «Գրառման նշումներ» ներդիրում և ՀՕԱՔ-ի և անձնակազմի միջերեսի մանրամասն էջերի «Նկարագրություն» ներդիրում: Բազմաթիվ դաշտերը առանձնացնելու համար օգտագործեք ստորակետ: Օրինակներ՝ 500,502 (MARC21); 300,328 (UNIMARC):"
 
 # Cataloging > Display
 msgid "cataloguing.pref#OpacSuppression# (Leave blank if not used. Define a range like <code>192.168.</code>.)"
@@ -4562,10 +4563,6 @@ msgid "circulation.pref#finesMode# <br><strong>NOTE:</strong> This system prefer
 msgstr "circulation.pref#finesMode# <br><strong>ՆՇՈՒՄ:</strong> Համակարգի այս նախապատվությունը պահանջում է <code>misc/cronjobs/fines.pl</code> կռոն աշխատանք։ Ասա կառավարչին, որ այն պլանավորի։"
 
 # Circulation > Fines Policy
-msgid "circulation.pref#finesMode# Calculate (but only for mailing to the admin)"
-msgstr "circulation.pref#finesMode# Հաշվիր (բայց միայն ադմինին առաքելու համար)"
-
-# Circulation > Fines Policy
 msgid "circulation.pref#finesMode# Calculate and charge"
 msgstr "circulation.pref#finesMode# Հաշվիր և գանձիր"
 
@@ -4670,8 +4667,8 @@ msgid "circulation.pref#todaysIssuesDefaultSortOrder# Sort today's checkouts on 
 msgstr "circulation.pref#todaysIssuesDefaultSortOrder# Տեսակավորի այսօրվա տրումները տացքի էջից"
 
 # Circulation > Interface
-msgid "circulation.pref#todaysIssuesDefaultSortOrder# due date."
-msgstr "circulation.pref#todaysIssuesDefaultSortOrder# վերադարձի ամսաթիվ։"
+msgid "circulation.pref#todaysIssuesDefaultSortOrder# checkout time."
+msgstr "circulation.pref#todaysIssuesDefaultSortOrder# դուրս տրման ժամ."
 
 # Circulation > Interface
 msgid "circulation.pref#todaysIssuesDefaultSortOrder# earliest to latest"
@@ -5939,6 +5936,18 @@ msgstr "logs.pref#CronjobLog# Լոգ"
 # Logging > Logging
 msgid "logs.pref#CronjobLog# information from cron jobs."
 msgstr "logs.pref#CronjobLog# տեղեկատվություն կրոն աշխատանքներից։"
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Do"
+msgstr "logs.pref#DumpSearchQueryTemplate# Կատարի"
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# Don't"
+msgstr "logs.pref#DumpSearchQueryTemplate# Մի արա"
+
+# Logging > Debugging
+msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires DumpTemplateVars[interface] to be visible."
+msgstr "logs.pref#DumpSearchQueryTemplate# որոնման հարցումը որպես ձևանմուշի պարամետր դատարկելու համար, պահանջվում է DumpTemplateVars[interface] -ը լինի տեսանելի։"
 
 # Logging > Debugging
 msgid "logs.pref#DumpTemplateVarsIntranet# Do"
