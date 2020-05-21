@@ -1,77 +1,77 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-04-15 15:03+0000\n"
-"Last-Translator: Ricardo Quaglio <ricardoquaglio@hotmail.com>\n"
+"PO-Revision-Date: 2020-05-20 18:24+0000\n"
+"Last-Translator: Viviane <viviane.rosa@saobernardo.sp.gov.br>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1555340623.818949\n"
+"X-POOTLE-MTIME: 1589999093.962960\n"
 "X-Pootle-Path: /pt_BR/marc21/pt-BR-frameworks.po\n"
 "X-Pootle-Revision: 1\n"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1074
-#, fuzzy
 msgid " Linkage"
-msgstr "LinkedIn"
+msgstr "Link"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1073
-#, fuzzy
 msgid " Materials specified"
 msgstr "Materiais especificados"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1851
-#, fuzzy
 msgid "% (RLIN)"
-msgstr "9 (RLIN)"
+msgstr "% (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/optional/marc21_sample_fastadd_framework.yml:description:1
 msgid ""
 "'FA', a 'Fast Add' minimal MARC21 framework suitable for ILL or on-the-fly "
 "cataloguing."
 msgstr ""
+"'FA' (Fast Add), uma planilha MARC21 com os campos mínimos adequada para a "
+"catalogação de Empréstimo entre Biblioteca (ILL) ou para uma catalogação "
+"rápida."
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3844
 msgid "0 (OCLC)"
-msgstr ""
+msgstr "0 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3845
 msgid "1 (OCLC)"
-msgstr ""
+msgstr "1 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3846
 msgid "2 (OCLC)"
-msgstr ""
+msgstr "2 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3847
 msgid "3 (OCLC)"
-msgstr ""
+msgstr "3 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3848
 msgid "4 (OCLC)"
-msgstr ""
+msgstr "4 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3849
 msgid "5 (OCLC)"
-msgstr ""
+msgstr "5 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3850
 msgid "6 (OCLC)"
-msgstr ""
+msgstr "6 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3851
 msgid "7 (OCLC)"
-msgstr ""
+msgstr "7 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3852
 msgid "8 (OCLC)"
-msgstr ""
+msgstr "8 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3853
 msgid "9 (OCLC)"
-msgstr ""
+msgstr "9 (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:418
 msgid "9 (RLIN)"
@@ -83,87 +83,79 @@ msgstr "TÍTULO ABREVIADO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:116
 msgid "ACCESSIBILITY CONTENT"
-msgstr ""
+msgstr "CONTEÚDO ACESSÍVEL"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:177
 msgid "ACCESSIBILITY NOTE"
-msgstr ""
+msgstr "NOTA ACESSÍVEL"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:206
 msgid "ACCUMULATION AND FREQUENCY OF USE NOTE"
-msgstr ""
+msgstr "NOTA DE ACUMULAÇÃO E FREQUÊNCIA DE USO "
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:75
 msgid "ACRONYM OR SHORTENED TITLE [OBSOLETE]"
 msgstr "ACRÔNIMO OU TÍTULO ABREVIADO [OBSOLETO]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:205
-#, fuzzy
 msgid "ACTION NOTE"
-msgstr "CÓDIGO DE AUTENTICAÇÃO"
+msgstr "NOTA DE PROCESSAMENTO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:162
 msgid "ADD OR DIVIDE LIKE INSTRUCTIONS [CLASSIFICATION FORMAT]"
-msgstr ""
+msgstr "ADICIONAR OU DIVIDIR INSTRUÇÕES COMO [FORMATO DE CLASSIFICAÇÃO]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:3:row:1
 msgid "ADDED ENTRY ELEMENTS (KOHA)"
-msgstr ""
+msgstr "ELEMENTOS DE ENTRADA ADICIONADOS (KOHA)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:236
-#, fuzzy
 msgid "ADDED ENTRY--CORPORATE NAME"
-msgstr "ENTRADA PRINCIPAL--NOME CORPORATIVO"
+msgstr "ENTRADA ADICIONADA - NOME DA EMPRESA"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:238
 msgid "ADDED ENTRY--CORPORATE NAME (PERFORMER) (MU) [OBSOLETE]"
-msgstr ""
+msgstr "ENTRADA ADICIONADA - NOME DA EMPRESA (EXECUTOR) (MU) [OBSOLETO]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:243
-#, fuzzy
 msgid "ADDED ENTRY--HIERARCHICAL PLACE NAME"
-msgstr "ASSUNTO—LOCAIS GEOGRÁFICOS E HISTÓRICOS"
+msgstr "ENTRADA ADICIONADA - NOME DO LUGAR HIERÁRQUICO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:237
-#, fuzzy
 msgid "ADDED ENTRY--MEETING NAME"
-msgstr "ENTRADA PRINCIPAL--NOME DO EVENTO"
+msgstr "ENTRADA ADICIONADA - NOME DA REUNIÃO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:234
-#, fuzzy
 msgid "ADDED ENTRY--PERSONAL NAME"
-msgstr "ENTRADA PRINCIPAL--NOME PESSOAL"
+msgstr "ENTRADA ADICIONADA - NOME PESSOAL"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:235
 msgid "ADDED ENTRY--PERSONAL NAME (PERFORMER) (MU) [OBSOLETE]"
-msgstr ""
+msgstr "ENTRADA ADICIONADA - NOME PESSOAL (EXECUTOR) (MU) [OBSOLETO]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:246
 msgid "ADDED ENTRY--PHYSICAL CHARACTERISTICS [OBSOLETE]"
-msgstr ""
+msgstr "ENTRADA ADICIONADA - CARACTERÍSTICAS FÍSICAS [OBSOLETO]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:245
 msgid "ADDED ENTRY--TAXONOMIC IDENTIFICATION"
-msgstr ""
+msgstr "ENTRADA ADICIONADA - IDENTIFICAÇÃO TAXONÔMICA"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:239
-#, fuzzy
 msgid "ADDED ENTRY--UNCONTROLLED NAME"
-msgstr "ENTRADA PRINCIPAL--NOME CORPORATIVO"
+msgstr "ENTRADA ADICIONADA - NOME NÃO CONTROLADO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:241
 msgid "ADDED ENTRY--UNCONTROLLED RELATED/ANALYTICAL TITLE"
-msgstr ""
+msgstr "ENTRADA ADICIONADA - TÍTULO RELACIONADO / ANALÍTICO NÃO CONTROLADO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:240
-#, fuzzy
 msgid "ADDED ENTRY--UNIFORM TITLE"
-msgstr "ENTRADA PRINCIPAL--TÍTULO UNIFORME"
+msgstr "ENTRADA ADICIONADA--TÍTULO UNIFORME"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:242
-#, fuzzy
 msgid "ADDED ENTRY-GEOGRAPHIC NAME"
-msgstr "ASSUNTO—LOCAIS GEOGRÁFICOS E HISTÓRICOS"
+msgstr "NOME GEOGRÁFICO DE ENTRADA ADICIONADO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:58
 msgid "ADDITIONAL DEWEY DECIMAL CLASSIFICATION NUMBER"
@@ -171,15 +163,15 @@ msgstr "NÚMERO ADICIONAL DA CLASSIFICAÇÃO DECIMAL DE DEWEY "
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:336
 msgid "ADDITIONAL ESTC CODES (RLIN)"
-msgstr ""
+msgstr "CÓDIGOS ESTC adicionais (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:176
 msgid "ADDITIONAL PHYSICAL FORM AVAILABLE NOTE"
-msgstr ""
+msgstr "NOTA DE OUTROS FORMATOS DISPONÍVEIS"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:257
 msgid "ADDITIONAL PHYSICAL FORM ENTRY"
-msgstr ""
+msgstr "ENTRADA ADICIONAL DE FORMULÁRIO FÍSICO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:99
 msgid "ADDRESS"
@@ -187,33 +179,31 @@ msgstr "ENDEREÇO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:299
 msgid "ALTERNATE GRAPHIC REPRESENTATION"
-msgstr ""
+msgstr "REPRESENTAÇÃO GRÁFICA ALTERNADA"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:145
 msgid "APPLICATION HISTORY NOTE"
-msgstr ""
+msgstr "NOTA HISTÓRICA DO APLICATIVO"
 
 #: installer/data/mysql/en/marcflavour/marc21/optional/marc21_simple_bib_frameworks.yml:description:7
-#, fuzzy
 msgid "AR  Models"
-msgstr "Modelos"
+msgstr "AR  Modelos"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:77
 msgid "ASSOCIATED GROUP"
-msgstr ""
+msgstr "GRUPO ASSOCIADO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:135
 msgid "ASSOCIATED LANGUAGE"
-msgstr ""
+msgstr "IDIOMA ASSOCIADO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:134
 msgid "ASSOCIATED PLACE"
-msgstr ""
+msgstr "LUGAR ASSOCIADO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:141
-#, fuzzy
 msgid "AUDIENCE CHARACTERISTICS"
-msgstr "CARACTERÍSTICAS DE ARQUIVO DE COMPUTADOR"
+msgstr "CARACTERÍSTICAS DO PÚBLICO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:77
 msgid "AUGMENTED TITLE [OBSOLETE]"
@@ -225,11 +215,11 @@ msgstr "CÓDIGO DE AUTENTICAÇÃO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:146
 msgid "AUXILIARY INSTRUCTION NOTE [CLASSIFICATION FORMAT]"
-msgstr ""
+msgstr "NOTA DE INSTRUÇÃO AUXILIAR [FORMATO DE CLASSIFICAÇÃO]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:208
 msgid "AWARDS NOTE"
-msgstr ""
+msgstr "NOTA PRÊMIOS"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:499
 msgid "Abbreviated title"
@@ -237,56 +227,47 @@ msgstr "Título abreviado"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:834
 msgid "Abscissa resolution"
-msgstr ""
+msgstr "Resolução de abscissa"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2963
-#, fuzzy
 msgid "Access method"
-msgstr "Acesso negado"
+msgstr "Método de acesso"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2969
-#, fuzzy
 msgid "Access number"
-msgstr "Número da conta"
+msgstr "Número de acesso"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2966
-#, fuzzy
 msgid "Access status"
-msgstr "Data de adesão:"
+msgstr "Status de acesso"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2191
-#, fuzzy
 msgid "Access term"
-msgstr "Data de adesão:"
+msgstr "Termo de acesso"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1393
-#, fuzzy
 msgid "Accession number"
-msgstr "Número da conta"
+msgstr "Número de acesso"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:701
-#, fuzzy
 msgid "Accompanying material"
-msgstr "Material acompanhante 1"
+msgstr "Material de acompanhamento"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:700
-#, fuzzy
 msgid "Accompanying material [OBSOLETE, CAN/MARC]"
-msgstr "Material acompanhante 1"
+msgstr "Material acompanhante [OBSOLETE, CAN/MARC]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1559
-#, fuzzy
 msgid "Accumulation"
-msgstr "Ocupação"
+msgstr "Acumulação"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:biblio_framework:9:row:1
 msgid "Acquisition framework"
 msgstr "Planilha de aquisição"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4111
-#, fuzzy
 msgid "Acquisition mode"
-msgstr "Data de aquisição"
+msgstr "Modo de aquisição"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:502
 msgid "Acronym or shortened title"
@@ -297,34 +278,28 @@ msgid "Action"
 msgstr "Ação"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1548
-#, fuzzy
 msgid "Action agent"
-msgstr "Ações "
+msgstr "Agente de ação"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1540
-#, fuzzy
 msgid "Action identification"
-msgstr "Notificação para os usuários:"
+msgstr "Identificação da ação"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1542
-#, fuzzy
 msgid "Action interval"
-msgstr "Início do intervalo"
+msgstr "Intervalo de ação"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1551
-#, fuzzy
 msgid "Active date"
-msgstr "Data de recebimento"
+msgstr "Data ativa"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1731
-#, fuzzy
 msgid "Active dates"
-msgstr "Orçamentos ativos"
+msgstr "Datas ativas"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1251
-#, fuzzy
 msgid "Additional animation techniques"
-msgstr "Informação adicional"
+msgstr "Técnicas de animação adicionais"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:62
 msgid "Additional codes following the standard number [OBSOLETE]"
@@ -1132,27 +1107,13 @@ msgid ""
 "Classification number (OCLC) (R) ; Classification number, CALL (RLIN) (NR)"
 msgstr "Número de chamada (OCLC) (R); Número de chamada, CALL (RLIN) (NR)"
 
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:253
-#, fuzzy
-msgid "Classification number element--Ending number of span"
-msgstr "Classificação das regras de alfabetação"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:143
+#: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:279
 msgid "Classification number element--ending number of span"
 msgstr ""
 
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:142
+#: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:278
 msgid ""
 "Classification number element--single number or beginning number of span"
-msgstr ""
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:176
-#, fuzzy
-msgid "Classification number element--single number or beginning of span"
-msgstr "Número de classificação - Número final do intervalo"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:253
-msgid "Classification number element-Ending number of span"
 msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:252
@@ -1409,10 +1370,6 @@ msgid "Converted Gregorian year"
 msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:808
-msgid "Coordinate unist or distance units"
-msgstr ""
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:808
 msgid "Coordinate units or distance units"
 msgstr ""
 
@@ -1635,11 +1592,6 @@ msgstr "Código do índice de disponibilidade acumulada"
 #, fuzzy
 msgid "Currency code"
 msgstr "Moeda: "
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:12
-#, fuzzy
-msgid "Current Location"
-msgstr "Localização atual"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:12
 msgid "Current location"
@@ -1981,16 +1933,6 @@ msgstr "Designação da seção (BK PM MP MU VM SE) [OBSOLETA]"
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:590
 msgid "Designation of section (SE) [OBSOLETE]"
 msgstr "Designação de seção (SE) [OBSOLETO]"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:578
-#, fuzzy
-msgid "Designation of section section/part/series (SE) [OBSOLETE]"
-msgstr "Designação de seção/parte/série (SE) [OBSOLETO]"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:564
-#, fuzzy
-msgid "Designation of section section/part/series: (SE) [OBSOLETE]"
-msgstr "Designação de seção/parte/série (SE) [OBSOLETO]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:564
 msgid "Designation of section/part/series (SE) [OBSOLETE]"
@@ -2536,10 +2478,6 @@ msgstr "Cabeçalho (OCLC)"
 msgid "Field link and sequence number"
 msgstr "Campo de ligação e número de sequencial"
 
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2296
-msgid "Field link and sequence number "
-msgstr ""
-
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1575
 msgid "Field link and sequence number (RLIN)"
 msgstr ""
@@ -2587,11 +2525,6 @@ msgstr ""
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:386
 msgid "Filing suffix (OCLC); Footnote, FNT (RLIN)"
 msgstr "Sufixo (OCLC); Nota de rodapé, FNT (RLIN)"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4121
-#, fuzzy
-msgid "First Date, FD (RLIN)"
-msgstr "Data, VOL (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:73
 msgid "First and second groups of characters"
@@ -2876,7 +2809,7 @@ msgstr "Geração"
 msgid "Generation process"
 msgstr "Geração"
 
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4097
+#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4112
 msgid "Genre"
 msgstr ""
 
@@ -3384,10 +3317,6 @@ msgstr "Entrar por número do exemplar"
 msgid "Internal item number (Koha itemnumber, autogenerated) [LOCAL, KOHA]"
 msgstr ""
 
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4092
-msgid "Internal itemnumber (Koha itemnumber) [LOCAL, KOHA]"
-msgstr ""
-
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:45
 msgid "International Standard Book Number"
 msgstr "ISBN - International Standard Book Number "
@@ -3546,11 +3475,6 @@ msgstr "Tipo de material do Koha"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:10
 #, fuzzy
-msgid "Koha itemnumber"
-msgstr "Número do exemplar"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:10
-#, fuzzy
 msgid "Koha itemnumber (autogenerated)"
 msgstr "Tamanho do registro (gerado automaticamente)"
 
@@ -3668,13 +3592,6 @@ msgstr "ENTRADA PRINCIPAL--NOME PESSOAL"
 #, fuzzy
 msgid "LOCAL ADDED ENTRY--UNIFORM TITLE (RLIN)"
 msgstr "ENTRADA PRINCIPAL--TÍTULO UNIFORME"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:41
-#, fuzzy
-msgid ""
-"LOCAL CALL NUMBER (SERIES) [OBSOLETE]; LOCALLY ASSIGNED LC-TYPE CALL NUMBER "
-"(OCLC); LOCAL CALL NUMBER (OCLC)"
-msgstr "NÚMERO DE CHAMADA LOCAL"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:41
 msgid ""
@@ -4787,11 +4704,6 @@ msgid "Number {OBSOLETE]"
 msgstr "Número {OBSOLETO]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4104
-#, fuzzy
-msgid "Numbering (bound volume or other part)"
-msgstr "Número do volume ou parte"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4104
 msgid "Numbering (volume or other part)"
 msgstr ""
 
@@ -4945,10 +4857,6 @@ msgid "Organization"
 msgstr "Organização"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4094
-msgid "Origin of item (home branch (coded)"
-msgstr ""
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4094
 msgid "Origin of item (home branch) (coded)"
 msgstr ""
 
@@ -4958,10 +4866,6 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1579
 msgid "Origin of safety copy (VM) [OBSOLETE]"
-msgstr ""
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4093
-msgid "Origin of the item (home branch) (free text)"
 msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:183
@@ -5247,11 +5151,6 @@ msgstr "17- Tipo de subdivisão de assunto"
 #, fuzzy
 msgid "Periodical number"
 msgstr "Número do periódico:"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:11
-#, fuzzy
-msgid "Permanent Location"
-msgstr "a - Localização permanente"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:11
 #, fuzzy
@@ -6393,11 +6292,6 @@ msgstr "Número do periódico:"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:4:row:12
 #, fuzzy
-msgid "Serial record"
-msgstr "Salvar registro "
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:4:row:12
-#, fuzzy
 msgid "Serial record flag"
 msgstr "Salvar registro "
 
@@ -6771,11 +6665,6 @@ msgstr "Status "
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4078
 #, fuzzy
 msgid "Status code"
-msgstr "Status "
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4078
-#, fuzzy
-msgid "Status code "
 msgstr "Status "
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3263
@@ -7414,11 +7303,6 @@ msgstr "campo de controle"
 #, fuzzy
 msgid "Undifferentiated number"
 msgstr "b- Nome próprio indiferenciado"
-
-#: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:546
-#, fuzzy
-msgid "Unifor title"
-msgstr "Título uniforme"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:30
 msgid "Uniform Resource Identifier"
