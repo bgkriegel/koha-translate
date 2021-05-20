@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 20.11\n"
-"POT-Creation-Date: 2020-11-25 12:03-0300\n"
+"POT-Creation-Date: 2021-05-11 20:18-0300\n"
 "PO-Revision-Date: 2011-11-04 09:04+0200\n"
 "Last-Translator: gangagiri <amsvrama@gmail.com>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.pping.uio.no>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.1.6\n"
-"X-Pootle-Path: /nn/20.05/nn-NO-marc-NORMARC.po\n"
+"X-Pootle-Path: /nn/20.11/nn-NO-marc-NORMARC.po\n"
 "X-Pootle-Revision: 1\n"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:494
@@ -291,6 +291,11 @@ msgstr "Tenarinformasjon"
 msgid "00-05 Registreringsdato"
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:2
+#, c-format
+msgid "000 - Bygging av postens hode &rsaquo; Cataloging &rsaquo; Koha"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:8
 #, c-format
 msgid "000 - Postens hode"
@@ -300,6 +305,11 @@ msgstr ""
 #, c-format
 msgid "007 Fysisk beskrivelse av dokumentet"
 msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:2
+#, fuzzy, c-format
+msgid "007 feltbygger &rsaquo; Cataloging &rsaquo; Koha"
+msgstr "Koha &rsaquo; Katalogisering &rsaquo;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:6
 #, c-format
@@ -962,6 +972,11 @@ msgstr ""
 msgid "Fantasikart"
 msgstr "Enfants"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:2
+#, fuzzy, c-format
+msgid "Feltbygger for 008 &rsaquo; Katalogisering &rsaquo; Koha"
+msgstr "Koha &rsaquo; Katalog &rsaquo; Detaljar for %s"
+
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:553
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:561
 #, fuzzy, c-format
@@ -1345,21 +1360,6 @@ msgstr "Vel «Neste» for å gå vidare"
 #, c-format
 msgid "Klikk her for tilgang "
 msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:2
-#, fuzzy, c-format
-msgid "Koha &rsaquo; Cataloging &rsaquo; 000 - Bygging av postens hode"
-msgstr "Koha &rsaquo; Katalogisering &rsaquo; Legg til eksemplar"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:2
-#, fuzzy, c-format
-msgid "Koha &rsaquo; Cataloging &rsaquo; 007 feltbygger"
-msgstr "Koha &rsaquo; Katalogisering &rsaquo;"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:2
-#, fuzzy, c-format
-msgid "Koha &rsaquo; Katalogisering &rsaquo; Feltbygger for 008"
-msgstr "Koha &rsaquo; Katalog &rsaquo; Detaljar for %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:88
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:133
@@ -2897,3 +2897,7 @@ msgstr ""
 #, c-format
 msgid "Øvelsesmodell"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Koha &rsaquo; Cataloging &rsaquo; 000 - Bygging av postens hode"
+#~ msgstr "Koha &rsaquo; Katalogisering &rsaquo; Legg til eksemplar"

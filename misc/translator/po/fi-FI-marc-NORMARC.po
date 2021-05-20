@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 20.11\n"
-"POT-Creation-Date: 2020-11-25 11:15-0300\n"
+"POT-Creation-Date: 2021-05-11 18:56-0300\n"
 "PO-Revision-Date: 2016-11-16 14:00+0000\n"
 "Last-Translator: Koha-Suomi <koha.kirjasto@ouka.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
 "X-POOTLE-MTIME: 1479304809.000000\n"
-"X-Pootle-Path: /fi/20.05/fi-FI-marc-NORMARC.po\n"
+"X-Pootle-Path: /fi/20.11/fi-FI-marc-NORMARC.po\n"
 "X-Pootle-Revision: 1\n"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:494
@@ -290,6 +290,11 @@ msgstr "00-04 Automaattisesti syötetty tieto"
 msgid "00-05 Registreringsdato"
 msgstr "00-05 Tallennuspäivämäärä"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:2
+#, c-format
+msgid "000 - Bygging av postens hode &rsaquo; Cataloging &rsaquo; Koha"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:8
 #, c-format
 msgid "000 - Postens hode"
@@ -299,6 +304,11 @@ msgstr "000 - Postens hode"
 #, c-format
 msgid "007 Fysisk beskrivelse av dokumentet"
 msgstr "007 Dokumentin fyysinen kuvailu"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:2
+#, fuzzy, c-format
+msgid "007 feltbygger &rsaquo; Cataloging &rsaquo; Koha"
+msgstr "Koha &rsaquo; Cataloging &rsaquo; 007 feltbygger"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:6
 #, c-format
@@ -961,6 +971,11 @@ msgstr "FV"
 msgid "Fantasikart"
 msgstr "Fantasiakori"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:2
+#, fuzzy, c-format
+msgid "Feltbygger for 008 &rsaquo; Katalogisering &rsaquo; Koha"
+msgstr "Koha &rsaquo; Katalogisering &rsaquo; Feltbygger for 008"
+
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:553
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:561
 #, c-format
@@ -1344,21 +1359,6 @@ msgstr "Klikk her for online tilgang"
 #, c-format
 msgid "Klikk her for tilgang "
 msgstr "Paina tästä "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:2
-#, c-format
-msgid "Koha &rsaquo; Cataloging &rsaquo; 000 - Bygging av postens hode"
-msgstr "Koha &rsaquo; Cataloging &rsaquo; 000 - Bygging av postens hode"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:2
-#, c-format
-msgid "Koha &rsaquo; Cataloging &rsaquo; 007 feltbygger"
-msgstr "Koha &rsaquo; Cataloging &rsaquo; 007 feltbygger"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:2
-#, c-format
-msgid "Koha &rsaquo; Katalogisering &rsaquo; Feltbygger for 008"
-msgstr "Koha &rsaquo; Katalogisering &rsaquo; Feltbygger for 008"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:88
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:133
@@ -2899,3 +2899,6 @@ msgstr "Vuosikirja"
 #, c-format
 msgid "Øvelsesmodell"
 msgstr "Malli"
+
+#~ msgid "Koha &rsaquo; Cataloging &rsaquo; 000 - Bygging av postens hode"
+#~ msgstr "Koha &rsaquo; Cataloging &rsaquo; 000 - Bygging av postens hode"
