@@ -1,0 +1,456 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/webservicespreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/webservicespreferences.rst:6
+msgid "Web services"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:8
+msgid "*Get there:* More > Administration > Global system preferences > Web services"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:14
+msgid "General"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:19
+msgid "AccessControlAllowOrigin"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:21
+msgid "Asks: Set the Access-Control-Allow-Origin header to \\_\\_\\_"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:23
+#: ../../source/webservicespreferences.rst:84
+#: ../../source/webservicespreferences.rst:134
+#: ../../source/webservicespreferences.rst:165
+#: ../../source/webservicespreferences.rst:178
+#: ../../source/webservicespreferences.rst:207
+#: ../../source/webservicespreferences.rst:311
+#: ../../source/webservicespreferences.rst:338
+#: ../../source/webservicespreferences.rst:352
+#: ../../source/webservicespreferences.rst:371
+#: ../../source/webservicespreferences.rst:399
+#: ../../source/webservicespreferences.rst:419
+#: ../../source/webservicespreferences.rst:438
+msgid "Description:"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:25
+msgid "This is the header used for OPAC reports SVC routes."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:30
+#: ../../source/webservicespreferences.rst:35
+msgid "ILS-DI"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:37
+#: ../../source/webservicespreferences.rst:73
+#: ../../source/webservicespreferences.rst:197
+#: ../../source/webservicespreferences.rst:243
+#: ../../source/webservicespreferences.rst:259
+#: ../../source/webservicespreferences.rst:330
+#: ../../source/webservicespreferences.rst:363
+msgid "Default: Disable"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:39
+msgid "Asks: \\_\\_\\_ ILS-DI services for OPAC users"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:41
+#: ../../source/webservicespreferences.rst:78
+#: ../../source/webservicespreferences.rst:128
+#: ../../source/webservicespreferences.rst:157
+#: ../../source/webservicespreferences.rst:201
+#: ../../source/webservicespreferences.rst:248
+#: ../../source/webservicespreferences.rst:264
+#: ../../source/webservicespreferences.rst:293
+#: ../../source/webservicespreferences.rst:332
+#: ../../source/webservicespreferences.rst:365
+#: ../../source/webservicespreferences.rst:393
+#: ../../source/webservicespreferences.rst:413
+msgid "Values:"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:43
+#: ../../source/webservicespreferences.rst:80
+#: ../../source/webservicespreferences.rst:159
+#: ../../source/webservicespreferences.rst:203
+#: ../../source/webservicespreferences.rst:250
+#: ../../source/webservicespreferences.rst:266
+#: ../../source/webservicespreferences.rst:334
+#: ../../source/webservicespreferences.rst:367
+#: ../../source/webservicespreferences.rst:395
+#: ../../source/webservicespreferences.rst:415
+msgid "Disable"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:45
+#: ../../source/webservicespreferences.rst:82
+#: ../../source/webservicespreferences.rst:161
+#: ../../source/webservicespreferences.rst:205
+#: ../../source/webservicespreferences.rst:252
+#: ../../source/webservicespreferences.rst:268
+#: ../../source/webservicespreferences.rst:336
+#: ../../source/webservicespreferences.rst:369
+#: ../../source/webservicespreferences.rst:397
+#: ../../source/webservicespreferences.rst:417
+msgid "Enable"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:50
+msgid "ILS-DI:AuthorizedIPs"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:52
+msgid "Asks: Allow IP addresses \\_\\_\\_ to use the ILS-DI services (when enabled)."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:54
+#: ../../source/webservicespreferences.rst:109
+#: ../../source/webservicespreferences.rst:375
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:56
+msgid "Separate the IP addresses with commas and without spaces. For example: 15.78.193.62,197.85.10.1"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:59
+#: ../../source/webservicespreferences.rst:104
+#: ../../source/webservicespreferences.rst:379
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:61
+msgid "Leave the field blank to allow any IP address."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:66
+#: ../../source/webservicespreferences.rst:71
+msgid "IdRef"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:75
+msgid "Asks: \\_\\_\\_ the IdRef webservice from the opac detail page. IdRef allows to request authorities from the Sudoc database."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:86
+msgid "IdRef is a French service for Sudoc autorities. Using the `Sudoc database <http://www.sudoc.abes.fr/>`__, it allows to request / modify / add authorities. If a record comes from the Sudoc (so 009 is filled with an integer), at the OPAC you will see \"Author: Idref\" if a 7..$3 (unimarc author) if filled with a ppn. On clicking on the Idref link, a popup will display."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:93
+msgid "|image1201|"
+msgstr "|image1201|"
+
+#: ../../source/webservicespreferences.rst:95
+msgid "The Idref webservice is requested and all records (by roles) for this author will be displayed"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:98
+msgid "|image1202|"
+msgstr "|image1202|"
+
+#: ../../source/webservicespreferences.rst:100
+msgid "There is 1 line / record and 2 links at the end. 1 will request Koha (cgi-bin/koha/opac-search.pl?q=ident:003381862), the other one will redirect to the sudoc page (http://www.sudoc.fr/003381862)."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:106
+msgid "Please note that this feature is available only for libraries using UNIMARC."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:111
+msgid "The French Sudoc database should not be confused with the US Superintendent of Documents (SuDocs) Classification Scheme."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:117
+msgid "Mana KB"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:122
+msgid "AutoShareWithMana"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:124
+msgid "Asks: Fields automatically shared with Mana KB \\_\\_\\_"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:126
+msgid "Default: none"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:130
+msgid "[Select all]"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:132
+msgid "Subscriptions"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:136
+#: ../../source/webservicespreferences.rst:167
+msgid "This preference reflects the choice made in the :ref:`Mana KB configuration <share-with-mana-kb-label>` in the administration module."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:138
+msgid "Choosing to automatically share content with Mana KB means that every time you create that type of content, it will be automatically copied in the Mana KB repository, and it will be instantly available for other libraries to copy."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:142
+msgid "All content shared with Mana KB is shared under the CC0 license, meaning that there is no (zero) copyright. Anyone using Mana KB can copy, reuse and change (their copy of) your content. Read more on CC0 on the `Creative Commons Website <https://creativecommons.org/choose/zero/>`__. This will in no way change your data in your Koha installation."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:151
+msgid "Mana"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:153
+msgid "Asks: \\_\\_\\_ submissions to Mana KB."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:155
+msgid "Default: No, let me think about it"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:163
+msgid "No, let me think about it"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:172
+msgid "ManaToken"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:174
+msgid "Asks: Security token used to authenticate on Mana KB: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:176
+msgid "Default: empty"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:180
+msgid "This preference will be automatically populated with your unique Mana Token when you register for one on the :ref:`Mana KB configuration <share-with-mana-kb-label>` in the administration module."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:184
+msgid "The Mana Token is unique and associated with your Koha installation. It is used by Koha to log onto the Mana KB server and prevents intrusions on said server."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:190
+#: ../../source/webservicespreferences.rst:195
+msgid "OAI-PMH"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:199
+msgid "Asks: \\_\\_\\_ Koha's OAI-PMH server."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:209
+msgid "Once enabled you can visit http://YOURKOHACATALOG/cgi-bin/koha/oai.pl to see your file. For the Open Archives Initiative-Protocol for Metadata Harvesting (OAI-PMH) there are two groups of 'participants': Data Providers and Service Providers. Data Providers (open archives, repositories) provide free access to metadata, and may, but do not necessarily, offer free access to full texts or other resources. OAI-PMH provides an easy to implement, low barrier solution for Data Providers. Service Providers use the OAI interfaces of the Data Providers to harvest and store metadata. Note that this means that there are no live search requests to the Data Providers; rather, services are based on the harvested data via OAI-PMH. Koha at present can only act as a Data Provider. It can not harvest from other repositories. The biggest stumbling block to having Koha harvest from other repositories is that MARC is the only metadata format that Koha indexes natively. Visit http://www.oaforum.org/tutorial/english/page3.htm for diagrams of how OAI-PMH works."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:227
+msgid "Learn more about OAI-PMH at: http://www.openarchives.org/pmh/"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:232
+msgid "OAI-PMH:archiveID"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:234
+msgid "Default: KOHA-OAI-TEST"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:236
+msgid "Asks: Identify records at this site with the prefix \\_\\_\\_ :"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:241
+msgid "OAI-PMH:AutoUpdateSets"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:245
+msgid "Asks: \\_\\_\\_ automatic update of OAI-PMH sets when a bibliographic record is created or updated."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:257
+msgid "OAI-PMH:AutoUpdateSetsEmbedItemData"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:261
+msgid "Asks: \\_\\_\\_ embedding of item data when automatically updating OAI-PMH sets. NOTE: This needs :ref:`OAI-PMH:AutoUpdateSets` syspref to be enabled."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:273
+msgid "OAI-PMH:ConfFile"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:275
+msgid "If this preference is left empty, Koha's OAI Server operates in normal mode, otherwise it operates in extended mode. In extended mode, it's possible to parameter other formats than marcxml or Dublin Core. OAI-PMH:ConfFile specify a YAML configuration file which list available metadata formats and XSL file used to create them from marcxml records."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:281
+msgid "For more information, see the :ref:`sample conf file <sample-oai-conf-file-label>` section."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:287
+msgid "OAI-PMH:DeletedRecord"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:289
+msgid "Default: will never be emptied or truncated (persistent)"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:291
+msgid "Asks: Koha's deletedbiblio table \\_\\_\\_"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:295
+msgid "will never have any data in it (no)"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:297
+msgid "will never be emptied or truncated (persistent)"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:299
+msgid "might be emptied or truncated at some point (transient)"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:304
+msgid "OAI-PMH:MaxCount"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:306
+msgid "Default: 50"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:308
+msgid "Asks: Only return \\_\\_\\_ records at a time in response to a ListRecords or ListIdentifiers query."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:313
+msgid "This is the maximum number of records that would be returned based on ListRecord or ListIdentifier queries from harvesters. ListRecords harvest the entire records while the ListIdentifier is an abbreviated form of ListRecords, retrieving only headers rather than records."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:321
+msgid "REST API"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:326
+msgid "RESTBasicAuth"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:328
+msgid "Asks: \\_\\_\\_ Basic authentication for the REST API."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:340
+msgid "If enabled, Basic authentication is enabled for the REST API."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:345
+msgid "RESTdefaultPageSize"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:347
+msgid "Asks: Set the default number of results returned by the REST API endpoints to \\_\\_\\_ per page."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:350
+msgid "Default: 20"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:354
+msgid "This preference lets you choose the number of endpoint results per page"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:359
+msgid "RESTOAuth2ClientCredentials"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:361
+msgid "Asks: \\_\\_\\_ the OAuth2 client credentials grant for the REST API."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:373
+msgid "If enabled, the OAuth2 client credentials flow is enabled for the REST API."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:377
+msgid "Requires Net::OAuth2::AuthorizationServer installed."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:381
+msgid "This system preference is experimental."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:386
+msgid "RESTPublicAnonymousRequests"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:388
+msgid "Asks: \\_\\_\\_ anonymous access to public routes (that don't require authenticated access)"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:391
+#: ../../source/webservicespreferences.rst:411
+msgid "Default: Enable"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:401
+msgid "If enabled, the API will allow anonymous access to public routes that don't require authenticated access."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:407
+msgid "RESTPublicAPI"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:409
+msgid "Asks: \\_\\_\\_ the \\/public namespace of the API."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:421
+msgid "If enabled, the REST API will expose the \\/public endpoints."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:426
+msgid "Reporting"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:431
+msgid "SvcMaxReportRows"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:433
+msgid "Default: 10"
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:435
+msgid "Asks: Only return \\_\\_\\_ rows of a report requested via the reports web service."
+msgstr ""
+
+#: ../../source/webservicespreferences.rst:440
+msgid "This value will be used to limit the number of results returned by `public reports <#publicreport>`__."
+msgstr ""
+

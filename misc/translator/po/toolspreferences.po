@@ -1,0 +1,271 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/toolspreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/toolspreferences.rst:6
+msgid "Tools"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:8
+msgid "*Get there:* More > Administration > Global System Preferences > Tools"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:13
+msgid "Barcodes"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:18
+msgid "BarcodeSeparators"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:20
+msgid "Default: \\\\s\\\\r\\\\n"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:22
+msgid "Asks: Split barcodes on the following separator chars \\_\\_\\_ in batch item modification and inventory."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:25 ../../source/toolspreferences.rst:70
+#: ../../source/toolspreferences.rst:86 ../../source/toolspreferences.rst:102
+#: ../../source/toolspreferences.rst:147
+msgid "Description:"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:27
+msgid "When importing barcode files in the :ref:`inventory tool <inventory-tool-label>` or the :ref:`batch item modification tool <batch-item-modification-label>` you can decide which character separates each barcode."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:31
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:33
+msgid "You must use the regular expression codes for the characters."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:35
+msgid "\\\\s is used for a whitespace"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:37
+msgid "\\\\r is used for a carriage return"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:39
+msgid "\\\\n is used for a new line"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:41
+msgid "\\\t is used for a tab"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:43
+msgid "Make sure you escape the other characters you put in there by preceding them with a backslash"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:46
+msgid "\\\\. instead of a dot"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:48
+msgid "\\\\\\ instead of a backslash"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:50
+msgid "\\\\- instead of a hyphen"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:55
+msgid "Batch item"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:57
+msgid "These preferences are in reference to the :ref:`Batch item modification <batch-item-modification-label>` and :ref:`Batch item deletion <batch-item-deletion-label>` tools."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:64
+msgid "MaxItemsToDisplayForBatchDel"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:66 ../../source/toolspreferences.rst:82
+#: ../../source/toolspreferences.rst:98
+msgid "Default: 1000"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:68
+msgid "Asks: Display up to \\_\\_\\_ items in a single item deletion batch."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:72
+msgid "In the :ref:`batch item delete tool <batch-item-deletion-label>` this will prevent the display of more than the items you entered in this preference, but you will be able to delete more than the number you enter here."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:80
+msgid "MaxItemsToDisplayForBatchMod"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:84
+msgid "Asks: Display up to \\_\\_\\_ items in a single item modification batch."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:88
+msgid "In the :ref:`batch item modification tool <batch-item-modification-label>` this will prevent the display of more than the items you entered in this preference, but you will be able to modify more than the number you enter here (see :ref:`MaxItemsToProcessForBatchMod`)."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:96
+msgid "MaxItemsToProcessForBatchMod"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:100
+msgid "Asks: Process up to \\_\\_\\_ items in a single modification batch."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:104
+msgid "In the :ref:`batch item modification tool <batch-item-modification-label>` this preference will prevent the editing of more than the number entered here."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:111
+msgid "News"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:116
+msgid "NewsAuthorDisplay"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:118
+msgid "Default: not at all"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:120
+msgid "Asks: Show the author for news items: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:122 ../../source/toolspreferences.rst:141
+msgid "Values:"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:124
+msgid "Both OPAC and staff client"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:126
+msgid "Not at all"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:128
+msgid "OPAC only"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:130
+msgid "Staff client only"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:135
+msgid "NewsToolEditor"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:137
+msgid "Asks: By default edit news items with"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:139
+msgid "Default: a WYSIWYG editor (TinyMCE)"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:143
+msgid "a text editor (CodeMirror)"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:145
+msgid "a WYSIWYG editor (TinyMCE)"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:149
+msgid "This system preference allows you to choose which editor to use in the :ref:`news tool <news-label>`."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:152
+msgid "A text editor will let you write HTML directly. Use this if you want more control over how your content will be displayed."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:155
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:157
+msgid "You can use CSS id's and classes in your HTML and format them with the :ref:`OPACUserCSS` system preference."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:160
+msgid "A WYSIWYG (what you see is what you get) editor is a user-friendly editor with functions similar to word processing software. Use this if you are unfamiliar with HTML."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:167
+msgid "Patron Cards"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:169
+msgid "These preferences are in reference to the :ref:`Patron Card Creator <patron-card-creator-label>` tool."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:175
+msgid "ImageLimit"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:177
+msgid "Asks: Limit the number of creator images stored in the database to \\_\\_\\_ images."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:183
+msgid "Reports"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:185
+msgid "These preferences are in reference to the Reports module."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:190
+msgid "NumSavedReports"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:192
+msgid "Default: 20"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:194
+msgid "Asks: By default, show \\_\\_\\_ reports on the Saved Reports page."
+msgstr ""
+
+#: ../../source/toolspreferences.rst:199
+msgid "Upload"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:204
+msgid "UploadPurgeTemporaryFilesDays"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:206
+msgid "Default: blank"
+msgstr ""
+
+#: ../../source/toolspreferences.rst:208
+msgid "Asks: Automatically delete temporary uploads older than \\_\\_\\_ days in cleanup_database cron job."
+msgstr ""
+

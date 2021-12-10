@@ -1,0 +1,331 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-01 20:19-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/serialspreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/serialspreferences.rst:6
+msgid "Serials"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:8
+msgid "*Get there:* More > Administration > Global system preferences > Serials"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:13
+msgid "makePreviousSerialAvailable"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:15
+msgid "Asks: \\_\\_\\_ previous serial automatically available when receiving a new serial issue. The previous issue can also be set to another item type when receiving a new one. Please note that the :ref:`item-level\\_itypes <item-level\\_itypes-label>` system preference must be set to specific item."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:21
+msgid "Default: Don't make"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:23
+#: ../../source/serialspreferences.rst:50
+#: ../../source/serialspreferences.rst:116
+#: ../../source/serialspreferences.rst:137
+#: ../../source/serialspreferences.rst:160
+#: ../../source/serialspreferences.rst:192
+#: ../../source/serialspreferences.rst:264
+msgid "Values:"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:25
+msgid "Don't make"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:27
+msgid "Make"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:29
+#: ../../source/serialspreferences.rst:70
+#: ../../source/serialspreferences.rst:87
+#: ../../source/serialspreferences.rst:143
+#: ../../source/serialspreferences.rst:166
+#: ../../source/serialspreferences.rst:178
+#: ../../source/serialspreferences.rst:198
+#: ../../source/serialspreferences.rst:218
+#: ../../source/serialspreferences.rst:220
+#: ../../source/serialspreferences.rst:244
+#: ../../source/serialspreferences.rst:274
+msgid "Description:"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:31
+msgid "If this preference is enabled, the not for loan status and the item type of the previous issue will be automatically changed when :ref:`receiving a new issue<receive-issues-label>`."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:35
+msgid "The item type of new issues and item type for previous issues are set when :ref:`creating the serial subscription<add-a-subscription-label>`."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:38
+msgid "This is useful for libraries that don't circulate the latest issue of a serial, but circulate previous issues."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:44
+msgid "opacSerialDefaultTab"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:46
+msgid "Asks: Show \\_\\_\\_ as default tab for serials in OPAC."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:48
+msgid "Default: subscriptions tab"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:52
+msgid "holdings tab"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:54
+msgid "The holdings tab is the one that shows items attached to the bibliographic record. It is the one shown for records with no subscriptions attached."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:57
+msgid "serial collection tab"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:61
+msgid "Please note that the serial collection tab is currently available only for systems using the UNIMARC standard."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:64
+msgid "|opacSerialDefaultTab-colltab|"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:66
+msgid "subscriptions tab"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:68
+msgid "|opacSerialDefaultTab-subtab|"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:72
+msgid "This system preference allows you to choose which tab user will see first when viewing a bibliographic record with a subscription attached in the OPAC."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:75
+msgid "When using the subscription tab, you can choose how many issues to show with the :ref:`OPACSerialIssueDisplayCount` system preference."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:81
+msgid "OPACSerialIssueDisplayCount"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:83
+msgid "Asks: Show the \\_\\_\\_ previous issues of a serial on the OPAC."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:85
+#: ../../source/serialspreferences.rst:216
+msgid "Default: 3"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:89
+msgid "This preference allows the administrator to select the number of recent issues for each serial which appear in the OPAC when the serial is accessed. This is just the default value, patrons can always click to see a full list of serials."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:96
+#: ../../source/serialspreferences.rst:229
+msgid "This does not affect the number of items shown in the 'Holdings' tab if you create items for issues. It only affects the number of issues displayed in the 'Subscriptions' tab."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:100
+msgid "You can choose which tab users see first with the :ref:`opacSerialDefaultTab` system preference."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:103
+#: ../../source/serialspreferences.rst:233
+msgid "The number of issues shown can also be set for individual subscriptions when :ref:`creating or editing serial subscriptions<add-a-subscription-label>`."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:109
+msgid "PreserveSerialNotes"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:111
+msgid "Asks: \\_\\_\\_ prefill the notes from the last 'Arrived' serial when generating the next 'Expected' issue."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:114
+msgid "Default: Do"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:118
+msgid "Don't"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:120
+msgid "Do"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:122
+msgid "Description"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:124
+msgid "This system preference allows you to choose whether or not you want to copy notes from the previous issue of a serial to a new issue, when :ref:`receiving a new issue<receive-issues-label>`, saving time for staff."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:131
+msgid "RenewSerialAddsSuggestion"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:133
+msgid "Asks: \\_\\_\\_ a suggestion for a biblio when its attached serial is renewed."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:135
+msgid "Default: Don't add"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:139
+msgid "Don't add"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:141
+msgid "Add"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:145
+msgid "If set to 'Add', this preference will automatically add a serial to the :ref:`purchase suggestions page in the acquisitions module<managing-purchase-suggestions-label>` when :ref:`clicking the 'renew' option on a serial subscription<renewing-serials-label>`. If you don't use the :ref:`acquisitions module<acquisitions-label>` to manage serials purchases it's best to leave this set as 'Don't add'."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:154
+msgid "RoutingListAddReserves"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:156
+msgid "Asks: \\_\\_\\_ received serials on hold if they are on a routing list."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:158
+msgid "Default: Don't place"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:162
+msgid "Place"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:164
+msgid "Don't place"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:168
+msgid "When using the :ref:`routing list feature<routingserials-label>`, items for issues to be routed can be placed on hold for each user on the routing list."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:174
+msgid "RoutingListNote"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:176
+msgid "Asks: Include following note on all routing lists"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:180
+msgid "Text entered in this box will appear below the :ref:`routing list information<routingserials-label>`."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:186
+msgid "RoutingSerials"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:188
+msgid "Asks: \\_\\_\\_ the routing list feature in the serials module."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:190
+msgid "Default: Use"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:194
+msgid "Don't use"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:196
+msgid "Use"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:200
+msgid "This preference determines if serials routing lists are enabled or disabled for the library. When set to 'Use', serials routing is enabled and a serial can be directed through a list of people by identifying who should receive it next. The list of people can be established for each serial to be passed using the Serials module. This preference can be used to ensure each person who needs to see a serial when it arrives at the library will get it. Learn more in the :ref:`routing list <create-a-routing-list-label>` section of this manual."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:212
+msgid "StaffSerialIssueDisplayCount"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:214
+msgid "Asks: Show the \\_\\_\\_ previous issues of a serial on the staff interface."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:222
+msgid "This preference allows the administrator to select the number of recent issues for each serial which appear in the staff interface when the serial is accessed. This is just the default value, staff members can always click to see a full list of serials."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:239
+msgid "SubscriptionDuplicateDroppedInput"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:241
+msgid "Asks: List of fields which must not be rewritten when a subscription is duplicated (Separated by pipe \\|) \\_\\_\\_"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:246
+msgid "When duplicating a subscription (new as duplicate) sometimes you don't want all of the fields duplicated. Using this preference you can list the fields thatyou don't want to be duplicated. These field names come from the subscription table in the Koha database. Learn what fields are in that table on the `Koha DB Schema <http://schema.koha-community.org/master/tables/subscription.html>`__ site."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:257
+msgid "SubscriptionHistory"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:259
+msgid "Asks: When showing the subscription information for a bibliographic record, preselect \\_\\_\\_ view of serial issues."
+msgstr ""
+
+#: ../../source/serialspreferences.rst:262
+msgid "Default: brief history"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:266
+msgid "brief history"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:268
+msgid "|SubscriptionHistory-brief|"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:270
+msgid "full history"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:272
+msgid "|SubscriptionHistory-full|"
+msgstr ""
+
+#: ../../source/serialspreferences.rst:276
+msgid "This preference determines what information appears in the OPAC when the user clicks the 'more details' option. The 'brief' option displays a one-line summary of the volume and issue numbers of all issues of that serial held by the library. The 'full' option displays a more detailed breakdown of issues per year, including information such as the issue date and the status of each issue."
+msgstr ""
+

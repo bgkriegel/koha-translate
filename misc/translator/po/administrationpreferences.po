@@ -1,0 +1,959 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/administrationpreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/administrationpreferences.rst:6
+msgid "Administration"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:8
+msgid "These preferences are general settings for your system."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:10
+msgid "*Get there:* More > Administration > Global System Preferences > Administration"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:13
+msgid "OrderPriceRounding"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:15
+msgid "This system preference allows you to choose between using the precise value or a rounded value when charging fees."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:20
+msgid "CAS Authentication"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:22
+msgid "The Central Authentication Service (CAS) is a single sign-on protocol for the web. If you don't know what this is, leave these preferences set to their defaults."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:29
+msgid "casAuthentication"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:31
+msgid "Default: Don't use"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:33
+msgid "Asks: \\_\\_\\_ CAS for login authentication."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:38
+msgid "casLogout"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:40
+msgid "Asks: Logout of CAS when logging out of Koha: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:42
+#: ../../source/administrationpreferences.rst:135
+#: ../../source/administrationpreferences.rst:503
+#: ../../source/administrationpreferences.rst:548
+msgid "Default: No"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:44
+#: ../../source/administrationpreferences.rst:148
+#: ../../source/administrationpreferences.rst:163
+#: ../../source/administrationpreferences.rst:230
+#: ../../source/administrationpreferences.rst:258
+#: ../../source/administrationpreferences.rst:279
+#: ../../source/administrationpreferences.rst:300
+#: ../../source/administrationpreferences.rst:320
+#: ../../source/administrationpreferences.rst:370
+#: ../../source/administrationpreferences.rst:444
+#: ../../source/administrationpreferences.rst:478
+#: ../../source/administrationpreferences.rst:505
+#: ../../source/administrationpreferences.rst:554
+#: ../../source/administrationpreferences.rst:570
+#: ../../source/administrationpreferences.rst:600
+#: ../../source/administrationpreferences.rst:648
+#: ../../source/administrationpreferences.rst:674
+#: ../../source/administrationpreferences.rst:702
+#: ../../source/administrationpreferences.rst:762
+#: ../../source/administrationpreferences.rst:800
+msgid "Values:"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:46
+#: ../../source/administrationpreferences.rst:150
+#: ../../source/administrationpreferences.rst:374
+#: ../../source/administrationpreferences.rst:507
+#: ../../source/administrationpreferences.rst:556
+msgid "No"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:48
+#: ../../source/administrationpreferences.rst:152
+#: ../../source/administrationpreferences.rst:372
+#: ../../source/administrationpreferences.rst:509
+#: ../../source/administrationpreferences.rst:558
+msgid "Yes"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:50
+#: ../../source/administrationpreferences.rst:215
+#: ../../source/administrationpreferences.rst:238
+#: ../../source/administrationpreferences.rst:264
+#: ../../source/administrationpreferences.rst:285
+#: ../../source/administrationpreferences.rst:306
+#: ../../source/administrationpreferences.rst:334
+#: ../../source/administrationpreferences.rst:350
+#: ../../source/administrationpreferences.rst:376
+#: ../../source/administrationpreferences.rst:395
+#: ../../source/administrationpreferences.rst:409
+#: ../../source/administrationpreferences.rst:424
+#: ../../source/administrationpreferences.rst:450
+#: ../../source/administrationpreferences.rst:484
+#: ../../source/administrationpreferences.rst:511
+#: ../../source/administrationpreferences.rst:576
+#: ../../source/administrationpreferences.rst:612
+#: ../../source/administrationpreferences.rst:626
+#: ../../source/administrationpreferences.rst:708
+#: ../../source/administrationpreferences.rst:722
+#: ../../source/administrationpreferences.rst:743
+#: ../../source/administrationpreferences.rst:776
+#: ../../source/administrationpreferences.rst:822
+#: ../../source/administrationpreferences.rst:842
+msgid "Description:"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:52
+msgid "CAS single logout means that a user gets logged out not only from the CAS server but also from all visited CAS client applications when logged out in one of them or after reaching a timeout."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:56
+#: ../../source/administrationpreferences.rst:193
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:58
+msgid "The CAS server has to be set up to allow single logout for this to take effect, otherwise the behavior will remain unchanged"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:64
+msgid "casServerUrl"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:66
+msgid "Asks: The CAS Authentication Server can be found at \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:71
+msgid "Google OpenID Connect"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:73
+msgid "Visit the `Google Developers Console <https://console.developers.google.com/>`__ to obtain OAuth 2.0 credentials such as a client ID and client secret that are known to both Google and your application."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:78
+msgid "|image1179|"
+msgstr "|image1179|"
+
+#: ../../source/administrationpreferences.rst:80
+msgid "Create a project, and give it some details to help you identify it later"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:83
+msgid "|image5|"
+msgstr "|image5|"
+
+#: ../../source/administrationpreferences.rst:85
+msgid "Next search for the Google Identity and Access Management API"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:87
+msgid "|image6|"
+msgstr "|image6|"
+
+#: ../../source/administrationpreferences.rst:89
+msgid "Enable the Google Identity and Access Management API"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:91
+msgid "|image7|"
+msgstr "|image7|"
+
+#: ../../source/administrationpreferences.rst:93
+msgid "Go to 'Credentials' and set the OAuth cosent screen values"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:95
+msgid "|image8|"
+msgstr "|image8|"
+
+#: ../../source/administrationpreferences.rst:97
+msgid "Next choose to 'Create credentials' from the 'Credentials' page"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:99
+msgid "|image9|"
+msgstr "|image9|"
+
+#: ../../source/administrationpreferences.rst:101
+msgid "Choose 'Web application' from the 'Application type' menu and fill in the form presented"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:104
+msgid "|image10|"
+msgstr "|image10|"
+
+#: ../../source/administrationpreferences.rst:106
+msgid "Set 'Authorized JavaScript origins' to your OPACBaseURL"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:108
+msgid "Change the 'Authorized Redirect URIs' to http://YOUROPAC/cgi-bin/koha/svc/auth/googleopenidconnect"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:111
+msgid "You will be presented with your values for your client ID and your client secret after saving"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:114
+msgid "|image11|"
+msgstr "|image11|"
+
+#: ../../source/administrationpreferences.rst:119
+msgid "GoogleOAuth2ClientID"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:121
+msgid "Asks: Google OAuth2 Client ID \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:126
+msgid "GoogleOAuth2ClientSecret"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:128
+msgid "Asks: Google OAuth2 Client Secret \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:133
+msgid "GoogleOpenIDConnect"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:137
+msgid "Asks: Use Google OpenID Connect login: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:139
+#: ../../source/administrationpreferences.rst:430
+#: ../../source/administrationpreferences.rst:584
+#: ../../source/administrationpreferences.rst:608
+#: ../../source/administrationpreferences.rst:729
+#: ../../source/administrationpreferences.rst:783
+#: ../../source/administrationpreferences.rst:829
+#: ../../source/administrationpreferences.rst:849
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:141
+msgid "You will need to select OAuth2 when creating an app in the google cloud console, and set the web origin to your\\_opac\\_url and the redirect url to your\\_opac\\_url/cgi-bin/koha/svc/auth/googleopenidconnect ."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:146
+msgid "|image12|"
+msgstr "|image12|"
+
+#: ../../source/administrationpreferences.rst:157
+msgid "GoogleOpenIDConnectAutoRegister"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:159
+msgid "Default: Don't Allow"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:161
+msgid "Asks: \\_\\_\\_ users logging in with Google Open ID to automatically register."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:165
+#: ../../source/administrationpreferences.rst:448
+msgid "Don't Allow"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:167
+#: ../../source/administrationpreferences.rst:446
+msgid "Allow"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:172
+msgid "GoogleOpenIDConnectDefaultBranch"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:174
+msgid "Asks: \\_\\_\\_ Use this branchcode when automatically registering a Google Open ID patron."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:180
+msgid "GoogleOpenIDConnectDefaultCategory"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:182
+msgid "Asks: \\_\\_\\_ Use this category when automatically registering a Google Open ID patron."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:188
+msgid "GoogleOpenIDConnectDomain"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:190
+msgid "Asks: Google OpenID Connect Restrict to domain (or subdomain of this domain) \\_\\_\\_."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:195
+msgid "Leave blank for all google domains"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:200
+msgid "Interface options"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:202
+msgid "These preference are related to your Koha interface"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:207
+msgid "AddressForFailedOverdueNotices"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:209
+msgid "Default: Blank"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:211
+msgid "Asks: Email address failed overdue notices are sent to: \\_\\_\\_ If left empty then it will fallback to the first defined address in the following list: Library ReplyTo, Library Email, ReplytoDefault and KohaAdminEmailAddress."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:217
+msgid "This preference controls where the summarized overdue email for patrons without email addresses is sent to."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:223
+msgid "DebugLevel"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:225
+msgid "Default: lots of"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:227
+msgid "Asks: Show \\_\\_\\_ debugging information in the browser when an internal error occurs."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:232
+msgid "lots of - will show as much information as possible"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:234
+msgid "no - will only show basic error messages"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:236
+msgid "some - will show only some of the information available"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:240
+msgid "This preference determines how much information will be sent to the user's screen when the system encounters an error. The most detail will be sent when the value level is set at 2, some detail will be sent when the value is set at 1, and only a basic error message will display when the value is set at 0. This setting is especially important when a system is new and the administration is interested in working out the bugs (errors or problems) quickly. Having detailed error messages makes quick fixes more likely in problem areas."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:252
+msgid "DefaultToLoggedInLibraryCircRules"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:254
+#: ../../source/administrationpreferences.rst:274
+#: ../../source/administrationpreferences.rst:295
+msgid "Default: all libraries"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:256
+msgid "Asks: When editing circulation rules show \\_\\_\\_ the rules by default."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:260
+#: ../../source/administrationpreferences.rst:281
+#: ../../source/administrationpreferences.rst:302
+msgid "all libraries"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:262
+#: ../../source/administrationpreferences.rst:283
+#: ../../source/administrationpreferences.rst:304
+msgid "logged in library's"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:266
+msgid "This preference controls the default value in the branch pull down found at the top of the :ref:`Circulation and fines rules`."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:272
+msgid "DefaultToLoggedInLibraryNoticesSlips"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:276
+msgid "Asks: When editing notices and slips show the \\_\\_\\_ notices and slips by default."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:287
+msgid "This preference controls the default value in the branch pull down found at the top of the :ref:`Notices & slips` tool."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:293
+msgid "DefaultToLoggedInLibraryOverdueTriggers"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:297
+msgid "Asks: When editing overdue notice/status triggers show the \\_\\_\\_ rules by default."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:308
+msgid "This preference controls the default value in the branch pull down found at the top of the :ref:`Overdue Notice/Status Triggers`."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:314
+msgid "CSVDelimiter"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:316
+msgid "Asks: Default separator for columns in an exported CSV file: \\_\\_\\_."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:318
+msgid "Default: semicolons"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:322
+msgid "#'s"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:324
+msgid "backslashes"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:326
+msgid "commas"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:328
+msgid "semicolons"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:330
+msgid "slashes"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:332
+msgid "tabs"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:336
+msgid "This preference determines how reports exported from Koha will separate data. In many cases you will be able to change this option when exporting if you'd like."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:343
+msgid "KohaAdminEmailAddress"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:345
+msgid "This is the default 'From' address for emails unless there is one for the particular branch, and is referred to when an internal error occurs."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:348
+msgid "Asks: Use \\_\\_\\_ as the email address for the administrator of Koha."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:352
+msgid "This preference allows one email address to be used in warning messages set to the OPAC. If no email address is set for the branch this address will receive messages from patrons regarding modification requests, purchase suggestions, and questions or information regarding overdue notices. It is recommended that a email address that can be accessed by multiple staff members be used for this purpose so that if one librarian is out the others can address these requests. This email address can be changed when needed."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:364
+msgid "noItemTypeImages"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:366
+msgid "Asks: Show itemtype icons in the staff interface: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:368
+msgid "Default: Yes"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:378
+msgid "This preference allows the system administrator to determine if users will be able to set and see an item type icon in the catalog in the staff interface."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:381
+msgid "If images of item types are disabled, text labels for item types will still appear in the staff interface."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:384
+msgid "The :ref:`OpacNoItemTypeImages` system preference is used to show or hide the itemtype images in the OPAC."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:390
+msgid "ReplytoDefault"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:392
+msgid "Asks: Use \\_\\_\\_ as the email address that will be set as the replyto in emails"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:397
+msgid "By default replies to notice emails will go to the `library email address <#libraries-groups>`__, if you would like to specify a default email address for all replies to notices you can do that here."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:404
+msgid "ReturnpathDefault"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:406
+msgid "Asks: Use \\_\\_\\_ as the email address set as the return path, if you leave this empty the KohaAdminEmailAddress will be used."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:411
+msgid "The return path is the email address that bounces will be delivered to. By default bounced notices will go to the `library email address <#libraries-groups>`__, if you would like to specify a default email address for bounces to go to then fill in this preference."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:419
+msgid "SendAllEmailsTo"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:421
+msgid "Asks: Email to redirect all messages to: \\_\\_\\_ (Leave this field empty to send messages to their normal recipient)"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:426
+msgid "This system preference is used to override any patron email address with this one when sending notices. This is meant to be used in a testing environment to test notices and to avoid spamming patrons."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:432
+msgid "This is not to be used in a production environment. Otherwise, no patron will receive their intended notices."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:438
+msgid "virtualshelves"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:440
+msgid "Default: Allow"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:442
+msgid "Asks: \\_\\_\\_ staff and patrons to create and view saved lists of books."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:452
+msgid "This preference controls whether the lists functionality will be available in the staff client and OPAC. If this is set to \"Don't allow\" then no one will be able to save items to public or private lists."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:460
+msgid "Login options"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:462
+msgid "These preferences are related to logging into your Koha system"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:467
+msgid "AutoLocation"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:469
+msgid "Default: Don't require"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:471
+msgid "Asks: \\_\\_\\_ staff to log in from a computer in the IP address range specified by their library (if any)."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:474
+msgid "Set IP address range in the library administration area"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:476
+msgid "*Get there:* More > Administration > Basic Parameters > :ref:`Libraries <libraries-label>`"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:480
+msgid "Don't require"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:482
+msgid "Require"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:486
+msgid "This preference protects the system by blocking unauthorized users from accessing the staff client program and settings. Authorized and unauthorized users are determined by their computer's IP addresses. When the preference is set to 'Require', IP authorization is in effect and unauthorized IP addresses will be blocked. This means that staff cannot work from home unless their IP address has been authorized. When set to 'Don't require', anyone with a staff client login will have access no matter which IP address they are using."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:498
+msgid "IndependentBranches"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:500
+msgid "Asks: Prevent staff (but not superlibrarians) from modifying objects (holds, items, patrons, etc.) belonging to other libraries: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:513
+msgid "This preference should only be used by library systems which are sharing a single Koha installation among multiple branches but are considered independent organizations, meaning they do not share material or patrons with other branches and do not plan to change that in the future. If set to 'Yes' it increases the security between library branches by:"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:520
+msgid "prohibiting staff users from logging into another branch from within the staff interface,"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:523
+msgid "filtering out patrons from patron searches who are not a part of the login branch conducting the search,"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:526
+msgid "limiting the location choices to the login branch when adding or modifying an item record,"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:529
+msgid "preventing users from other branch locations from placing holds or checking out materials from library branches other than their own, and"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:532
+msgid "preventing staff from editing item records which belong to other library branches."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:535
+msgid "All of these security safeguards can be overridden only by the superlibrarian, the highest level of privileges."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:540
+msgid "It is important that this value be set before going live and that it **NOT** be changed while in production."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:546
+msgid "IndependentBranchesPatronModifications"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:550
+msgid "Asks: Prevent staff (but not superlibrarians) from viewing and approving/denying patron modification requests for patrons belonging to other libraries. \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:563
+msgid "SessionRestrictionByIP"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:565
+msgid "Default: Enable"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:567
+msgid "Asks: \\_\\_\\_ check for change in remote IP address for session security. Disable only when remote IP address changes frequently."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:572
+msgid "Disable"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:574
+msgid "Enable"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:578
+msgid "When this preference is set to 'Enable' Koha will log you out of the staff client if your IP address changes as a security measure. For some systems the IP address changes frequently so you'll want to set this preference to 'Disable' to prevent Koha from logging you out of the staff client every time that happens."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:586
+msgid "This is meant to help those whose IP address changes several times during the day, setting this preference to 'Disable' is not recommended otherwise because it is removing important security features from your staff client."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:594
+msgid "SessionStorage"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:596
+msgid "Default: in the MySQL database"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:598
+msgid "Asks: Store login session information \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:602
+msgid "as temporary files"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:604
+msgid "in the MySQL database"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:606
+msgid "in the PostgreSQL database"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:610
+msgid "PostgreSQL is not yet supported"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:614
+msgid "This preference allows administrators to choose what format session data is stored in during web sessions."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:620
+msgid "timeout"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:622
+msgid "Default: 12000000"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:624
+msgid "Asks: Automatically log out users after \\_\\_\\_ seconds of inactivity."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:628
+msgid "This preference sets the length of time the Staff Client or OPAC accounts can be left inactive before re-logging in is necessary. The value of this preference is in seconds. At this time, the amount of time before a session times out must be the same for both the Staff Client and the OPAC."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:637
+msgid "SSL client certificate authentication"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:642
+msgid "AllowPKIAuth"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:644
+msgid "Default: no"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:646
+msgid "Asks: Use \\_\\_\\_ field for SSL client certificate authentication"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:650
+msgid "no"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:652
+msgid "the common name"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:654
+msgid "the email address"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:659
+msgid "System Preferences"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:661
+msgid "UnsubscribeReflectionDelay, PatronAnonymizeDelay & Patron Removal Delay"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:663
+msgid "This is a new feature that allows you to set a certain amount of days after a patron has submitted an unsubscribe request(refused consent), anonymize accounts that are locked/expired and remove anonymized patrons."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:668
+msgid "SearchEngine"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:670
+msgid "Default: Zebra"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:672
+msgid "Asks: Use following search engine: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:676
+msgid "Elasticsearch"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:678
+msgid "Zebra"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:683
+msgid "Share anonymous usage statistics"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:685
+msgid "As an open source project Koha is used all over the world. These preference will help us keep more accurate statistics on where Koha is being used. If you choose to share your information, it will be published on the `Hea Koha community website <http://hea.koha-community.org>`__. You will need to enable the :ref:`Share Usage Stats` cronjob to send this information at regular intervals to the community."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:696
+msgid "UsageStats"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:698
+msgid "Default: Don't share"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:700
+msgid "Asks: \\_\\_\\_ anonymous Koha usage data with the Koha community."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:704
+msgid "Don't share"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:706
+#: ../../source/administrationpreferences.rst:766
+msgid "Share"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:710
+#: ../../source/administrationpreferences.rst:724
+#: ../../source/administrationpreferences.rst:824
+#: ../../source/administrationpreferences.rst:844
+msgid "This data is stored to help track usage of Koha around the world. If you choose to share your information, it will be published on the `Hea Koha community website <http://hea.koha-community.org>`__. This information is sent using the :ref:`Share Usage Stats` cronjob."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:718
+msgid "UsageStatsCountry"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:720
+msgid "Asks: The country where your library is located: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:731
+#: ../../source/administrationpreferences.rst:831
+#: ../../source/administrationpreferences.rst:851
+msgid "This preference depends on the `UsageStats <#usagestats>`__ preference. Set that to 'Share' to share your information."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:737
+msgid "UsageStatsGeolocation"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:739
+msgid "Asks: Geolocation of the main library: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:741
+msgid "Default: blank"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:745
+msgid "Note that this value has no effect if the :ref:`UsageStats` system preference is set to 'Don't share'."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:748
+msgid "The information in this system preference is populated by the geolocation information on the :ref:`usage statistics administration page<share-your-usage-statistics-label>`."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:754
+msgid "UsageStatsLibrariesInfo"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:756
+msgid "Default: Do not Share"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:758
+msgid "Asks: \\_\\_\\_ libraries information (name, url, country) Note that this value has no effect if the :ref:`UsageStats` system preference is set to \"Don't share\""
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:764
+msgid "Do not Share"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:771
+msgid "UsageStatsLibraryName"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:773
+msgid "Asks: The library name \\_\\_\\_ will be shown on the `Hea Koha community website <http://hea.koha-community.org>`__."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:778
+msgid "This data is stored to help track usage of Koha around the world. If you choose to share your information, it will be published on the `Hea Koha community website <http://hea.koha-community.org>`__. This information is sent using the :ref:`Share Usage Stats` cron job."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:785
+msgid "This preference depends on the `UsageStats <#usagestats>`__ preference. Set that to 'Share' to share your information. If this field is empty data will be sent anonymously if you choose 'Share' for the `UsageStats <#usagestats>`__ preference."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:793
+msgid "UsageStatsLibraryType"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:795
+msgid "Default: public"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:797
+msgid "Asks: The library type \\_\\_\\_ will be shown on the `Hea Koha community website <http://hea.koha-community.org>`__."
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:802
+msgid "academic"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:804
+msgid "corporate"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:806
+msgid "government"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:808
+msgid "private"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:810
+msgid "public"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:812
+msgid "religious organization"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:814
+msgid "research"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:816
+msgid "school"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:818
+msgid "society or association"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:820
+msgid "subscription"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:837
+msgid "UsageStatsLibraryUrl"
+msgstr ""
+
+#: ../../source/administrationpreferences.rst:839
+msgid "Asks: The library URL \\_\\_\\_ will be shown on the `Hea Koha community website <http://hea.koha-community.org>`__."
+msgstr ""
+

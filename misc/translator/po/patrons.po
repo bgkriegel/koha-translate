@@ -1,0 +1,4250 @@
+# Compendium of zh_TW.
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-07-20 08:08+0000\n"
+"Last-Translator: Frank Chou <frank@sris.com.tw>\n"
+"Language-Team: Koha Translation Team\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1626768531.953369\n"
+"X-Pootle-Path: /zh_TW/man18.05/patrons.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/patrons.rst:6
+msgid "Patrons"
+msgstr "讀者"
+
+#: ../../source/patrons.rst:8
+#, fuzzy
+msgid "Before importing or adding patrons be sure to set up your :ref:`patron categories <patron-categories-label>`."
+msgstr "匯入或新增讀者前，應先設定您的 :ref:`讀者類型 <patron-categories-label>`。"
+
+#: ../../source/patrons.rst:14
+msgid "Add a new patron"
+msgstr "新增讀者"
+
+#: ../../source/patrons.rst:16
+msgid "Patrons are added by going to the 'Patrons' module."
+msgstr "進入 '讀者' 模組新增讀者。"
+
+#: ../../source/patrons.rst:18 ../../source/patrons.rst:265
+msgid "*Get there:* Patrons"
+msgstr "*到那：* 讀者"
+
+#: ../../source/patrons.rst:20
+msgid "Once there you can add a new patron."
+msgstr "到了那裡後，就能新增讀者。"
+
+#: ../../source/patrons.rst:22
+msgid "Click 'New patron'"
+msgstr "按 '新增讀者'"
+
+#: ../../source/patrons.rst:24
+msgid "|image407|"
+msgstr "|image407|"
+
+#: ../../source/patrons.rst:26
+msgid "The fields that appear on the patron add form can be controlled by editing the :ref:`BorrowerUnwantedField` system preference."
+msgstr "藉由 :ref:`BorrowerUnwantedField` 系統設定，可以控制顯示在讀者新增表單的欄位。"
+
+#: ../../source/patrons.rst:29
+msgid "Required fields are defined in the :ref:`BorrowerMandatoryField` system preference"
+msgstr "必備欄位的設定在 :ref:`BorrowerMandatoryField`系統偏好"
+
+#: ../../source/patrons.rst:32
+#, fuzzy
+msgid "First, enter the identifying information regarding your patron"
+msgstr "鍵入辨識讀者的資訊"
+
+#: ../../source/patrons.rst:34
+msgid "|image408|"
+msgstr "|image408|"
+
+#: ../../source/patrons.rst:36
+#, fuzzy
+msgid "'Salutation' is populated by the :ref:`BorrowersTitles` system preference"
+msgstr "敬稱規定在 :ref:`BorrowersTitles`系統偏好設定"
+
+#: ../../source/patrons.rst:38 ../../source/patrons.rst:91
+#: ../../source/patrons.rst:103 ../../source/patrons.rst:134
+#: ../../source/patrons.rst:176 ../../source/patrons.rst:233
+#: ../../source/patrons.rst:343 ../../source/patrons.rst:445
+#: ../../source/patrons.rst:541 ../../source/patrons.rst:572
+#: ../../source/patrons.rst:629 ../../source/patrons.rst:890
+#: ../../source/patrons.rst:917 ../../source/patrons.rst:955
+#: ../../source/patrons.rst:1368 ../../source/patrons.rst:1375
+#: ../../source/patrons.rst:1434 ../../source/patrons.rst:1479
+#: ../../source/patrons.rst:1512 ../../source/patrons.rst:1521
+#: ../../source/patrons.rst:1526 ../../source/patrons.rst:1601
+#: ../../source/patrons.rst:1643 ../../source/patrons.rst:1790
+#: ../../source/patrons.rst:1826 ../../source/patrons.rst:2008
+#: ../../source/patrons.rst:2031 ../../source/patrons.rst:2140
+#: ../../source/patrons.rst:2145 ../../source/patrons.rst:2180
+#: ../../source/patrons.rst:2261 ../../source/patrons.rst:2409
+#: ../../source/patrons.rst:2460
+msgid "**Note**"
+msgstr "**說明**"
+
+#: ../../source/patrons.rst:40
+msgid "If you'd like to prevent full names from printing on :ref:`slips <notices-and-slips-label>` and you're not using the Initials or Other name fields for anything else, you can use them for shortened versions of the name to then be printed on the slip."
+msgstr "不想在 :ref:`收條 <notices-and-slips-label>` 使用全稱或縮寫或其他名稱欄位的內容，可以在收條使用簡稱。"
+
+#: ../../source/patrons.rst:45
+msgid "For example:"
+msgstr "範例："
+
+#: ../../source/patrons.rst:53
+msgid "Then on the slip you can have it print the <<borrowers.initials>> instead of the full name (NCE)."
+msgstr "然後可在收條列印 <<borrowers.initials>> 而不是全名 (NCE)。"
+
+#: ../../source/patrons.rst:56
+msgid "Or you could do something like this:"
+msgstr "或您可以這麼做："
+
+#: ../../source/patrons.rst:64
+msgid "Then on the slip you can have it print the <<borrowers.initials>>, <<borrowers.firstname>> instead of the full name (E, Nicole)."
+msgstr "然後可在收條列印 <<borrowers.initials>>, <<borrowers.firstname>> 而不是全名 (E, Nicole)。"
+
+#: ../../source/patrons.rst:68
+#, fuzzy
+msgid "If this patron is a child, you will be asked to attach the child patron to an adult patron (guarantor)"
+msgstr "兒童讀者必須附屬於成人讀者"
+
+#: ../../source/patrons.rst:71
+msgid "**Note** Guarantors can only be attached to patrons whose :ref:`category <patron-categories-label>` is of the 'Child', 'Professional' or 'Organization' type."
+msgstr ""
+
+#: ../../source/patrons.rst:75
+msgid "|image410|"
+msgstr "|image410|"
+
+#: ../../source/patrons.rst:77
+#, fuzzy
+msgid "If the guarantor is a patron of the library, click 'Search to add' to search your system for an existing patron"
+msgstr "勾選 '設定至讀者' 搜尋既有的讀者"
+
+#: ../../source/patrons.rst:80
+#, fuzzy
+msgid "|image1463|"
+msgstr "|image1463|"
+
+#: ../../source/patrons.rst:82
+msgid "Click 'Select' to choose the patron"
+msgstr ""
+
+#: ../../source/patrons.rst:84
+#, fuzzy
+msgid "|image1464|"
+msgstr "|image1464|"
+
+#: ../../source/patrons.rst:86
+msgid "The relationships are set using the :ref:`borrowerRelationship` system preference"
+msgstr "以 :ref:`borrowerRelationship` 系統偏好設定其關係"
+
+#: ../../source/patrons.rst:89
+#, fuzzy
+msgid "|image1465|"
+msgstr "|image1465|"
+
+#: ../../source/patrons.rst:93
+msgid "It is possible to add more than one guarantor to a patron account (both parents for example)."
+msgstr ""
+
+#: ../../source/patrons.rst:96
+msgid "If the guarantor is not a patron, you can still add their information in the 'Non-patron guarantor' section."
+msgstr ""
+
+#: ../../source/patrons.rst:99
+#, fuzzy
+msgid "Next enter the main address and contact information"
+msgstr "接著鍵入連絡資訊"
+
+#: ../../source/patrons.rst:101
+#, fuzzy
+msgid "|image1466|"
+msgstr "|image1466|"
+
+#: ../../source/patrons.rst:105
+msgid "The street type is populated by the ROADTYPE :ref:`authorized values <existing-values-label>`"
+msgstr "街道型式由 ROADTYPE :ref:`authorized values <existing-values-label>`"
+
+#: ../../source/patrons.rst:108
+msgid "|image409|"
+msgstr "|image409|"
+
+#: ../../source/patrons.rst:110
+#, fuzzy
+msgid "For contact information, note that the primary phone number and primary email address are the ones that appear on notices and slips printed during circulation (receipts, transfer slips and hold slips). The primary email is also the one that overdue notices and other messages go to."
+msgstr "對連絡資訊而言，主要電話與電子郵件都出現在流通的印本通知與收條(包括轉移收條與預約收條)。主要電子郵件也是接收逾期通知與其他通知的管道。"
+
+#: ../../source/patrons.rst:116
+#, fuzzy
+msgid "You can also record an alternate address for each patron. This could be used in an academic setting to store the patron's home address for example."
+msgstr "其他連絡資訊可能是父母或保證人。在大學裡可儲存父母的地址。"
+
+#: ../../source/patrons.rst:119
+msgid "|image411|"
+msgstr "|image411|"
+
+#: ../../source/patrons.rst:121
+msgid "Each patron can have an alternate contact. An alternate contact could be a parent or guardian, for example."
+msgstr ""
+
+#: ../../source/patrons.rst:124
+msgid "|image412|"
+msgstr "|image412|"
+
+#: ../../source/patrons.rst:126
+msgid "The library management section includes values that are used within the library"
+msgstr "圖書館管理區塊包括圖書館內部用的值"
+
+#: ../../source/patrons.rst:129
+msgid "|image413|"
+msgstr "|image413|"
+
+#: ../../source/patrons.rst:131
+msgid "The card number field is automatically calculated if you have the :ref:`autoMemberNum` system preference set that way"
+msgstr "若已設定 :ref:`autoMemberNum` 偏好，就依規定自動計算讀者證號碼欄位的值"
+
+#: ../../source/patrons.rst:136
+msgid "For a newly installed system this preference will start at 1 and increment by 1 each time after. To have it start with the starting number of your barcodes, enter the first barcode by hand in the patron record and save the patron. After that the field will increment that number by 1."
+msgstr "新安裝的系統裡這個偏好從 1 開始每次增加 1。若希望從其他數字開始以符合您的條碼號，可手動加入第一個讀者的條碼並儲存它。接著就繼續增加 1。"
+
+#: ../../source/patrons.rst:142
+msgid "If you accidentally chose the wrong patron category at the beginning you can fix that here"
+msgstr "當初選錯讀者類型，可以在這裡修訂"
+
+#: ../../source/patrons.rst:145
+msgid "Sort 1 and 2 are used for statistical purposes within your library"
+msgstr "排序1與2用於圖書館的統計"
+
+#: ../../source/patrons.rst:147
+msgid "You can create drop-down menus for these fields by adding values in the Bsort1 and Bsort2 :ref:`authorized values categories <existing-values-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:150
+msgid "'Allow auto-renewal of items' is used to control whether this patron wants to automatically renew their checkouts. This requires the :ref:`automatic_renewal cronjob <cron-automatic-renewal-label>` to run daily."
+msgstr ""
+
+#: ../../source/patrons.rst:155
+#, fuzzy
+msgid "'Check for previous checkouts' is used to set the patron's personal preference regarding checking their circulation history to see if they have borrowed This item in the past. This overrides the setting of the :ref:`patron category <adding-a-patron-category-label>` and of the :ref:`CheckPrevCheckout` system preference."
+msgstr "'檢視借出紀錄' 係用於檢視讀者是否曾借過此館藏。此偏好將取代 :ref:`讀者類型 <adding-a-patron-category-label>` 與 :ref:`CheckPrevCheckout` 系統偏好。"
+
+#: ../../source/patrons.rst:161
+msgid "Next, the library set-up section includes additional library settings"
+msgstr "接著，圖書館設定區塊包括其他的設定"
+
+#: ../../source/patrons.rst:163 ../../source/patrons.rst:2433
+msgid "|image414|"
+msgstr "|image414|"
+
+#: ../../source/patrons.rst:165
+msgid "The registration date will automatically be filled in with today's date"
+msgstr "自動填入今天為發證日"
+
+#: ../../source/patrons.rst:168
+#, fuzzy
+msgid "The expiry date will automatically be calculated based on your :ref:`patron category settings <patron-categories-label>`"
+msgstr "匯入或新增讀者前，應先設定您的 :ref:`讀者類型 <patron-categories-label>`。"
+
+#: ../../source/patrons.rst:171
+#, fuzzy
+msgid "The OPAC note is a note for the patron, it will appear in the patron's online account on the OPAC"
+msgstr "OPAC 說明是給讀者的說明 - 顯示在 OPAC 的讀者紀錄裡"
+
+#: ../../source/patrons.rst:174 ../../source/patrons.rst:2438
+#, fuzzy
+msgid "|image1504|"
+msgstr "|image1504|"
+
+#: ../../source/patrons.rst:178
+msgid "See also :ref:`OPAC messages <opac-messages-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:180
+msgid "The Circulation note is meant solely for your library staff and will appear when the circulation staff goes to check an item out to the patron"
+msgstr "流通說明係供館員使用，借出館藏時顯示在流通館員的螢幕"
+
+#: ../../source/patrons.rst:184
+msgid "|image415|"
+msgstr "|image415|"
+
+#: ../../source/patrons.rst:186
+#, fuzzy
+msgid "The 'OPAC/Staff interface login' section asks for the username and password to be used by the patron (or staff member) to log into their account in the OPAC and for staff to log in to the staff interface."
+msgstr "登入 OPAC /館員介面時，都會詢問讀者 (或館員) 的使用者名稱與密碼。"
+
+#: ../../source/patrons.rst:190
+#, fuzzy
+msgid "Staff will only be able to use this login information to log in to the staff interface if they have at least the :ref:`catalogue permission <patron-permissions-label>`."
+msgstr "擁有 :ref:`必要權限 <patron-permissions-label>` 的館員才能從館員介面看到此記錄。"
+
+#: ../../source/patrons.rst:194
+msgid "If you have enabled the housebound module (with the :ref:`HouseboundModule` system preference), you will be able to choose a :ref:`housebound role <housebound-patrons-label>` for this patron."
+msgstr ""
+"如果啟用了居家模組，並使用系統偏好設置 :ref:`HouseboundModule` ，您將可為讀者選擇 :ref:'housebound role"
+"<housebound-patrons-label>' "
+
+#: ../../source/patrons.rst:198
+#, fuzzy
+msgid "|image1509|"
+msgstr "|image1509|"
+
+#: ../../source/patrons.rst:200
+#, fuzzy
+msgid "If you have set :ref:`additional patron attributes <patron-attribute-types-label>` in the administration module, these will appear next"
+msgstr "若已設定 :ref:`其他讀者屬性 <patron-attribute-types-label>`，接著會出現"
+
+#: ../../source/patrons.rst:203
+msgid "|image416|"
+msgstr "|image416|"
+
+#: ../../source/patrons.rst:205
+#, fuzzy
+msgid "Finally, if you have the :ref:`EnhancedMessagingPreferences` system preference set to 'allow,' you can choose the messaging preferences for this patron."
+msgstr "最後，若把 :ref:`EnhancedMessagingPreferences` 設為 '允許' ，就能選擇給此讀者訊息偏好。"
+
+#: ../../source/patrons.rst:209 ../../source/patrons.rst:2495
+msgid "|image417|"
+msgstr "|image417|"
+
+#: ../../source/patrons.rst:211
+msgid "See the definition of each notice in the :ref:`advance notices and hold notices <advance-notices-and-hold-notices-label>` section"
+msgstr ""
+
+#: ../../source/patrons.rst:215 ../../source/patrons.rst:220
+#: ../../source/patrons.rst:290 ../../source/patrons.rst:373
+#: ../../source/patrons.rst:594 ../../source/patrons.rst:685
+#: ../../source/patrons.rst:702 ../../source/patrons.rst:1332
+#: ../../source/patrons.rst:2202
+msgid "**Important**"
+msgstr "**重要**"
+
+#: ../../source/patrons.rst:217
+msgid "These preferences will override any you set via the :ref:`patron categories <adding-a-patron-category-label>`"
+msgstr "此偏好取代在 :ref:`讀者類型 <adding-a-patron-category-label>` 的設定"
+
+#: ../../source/patrons.rst:222
+msgid "These preference can be altered by the patron via the OPAC if the :ref:`EnhancedMessagingPreferencesOPAC` system preference is set to 'show'"
+msgstr ""
+
+#: ../../source/patrons.rst:226
+msgid "Once finished, click 'Save'"
+msgstr "做好後，勾選 '儲存'"
+
+#: ../../source/patrons.rst:228
+msgid "If the system suspects this patron is a duplicate of another it will warn you."
+msgstr "若系統懷疑該讀者已重複，則提示。"
+
+#: ../../source/patrons.rst:231
+msgid "|image418|"
+msgstr "|image418|"
+
+#: ../../source/patrons.rst:235
+msgid "See the :ref:`PatronDuplicateMatchingAddFIelds` system preference to see or change which fields are used to detect duplicate patrons. The default is the surname, the firstname and the date of birth."
+msgstr ""
+
+#: ../../source/patrons.rst:239
+msgid "If you have set a minimum or upper age limit on the patron category and are requiring that the birth date be filled in, Koha will warn you if the patron you're adding is too old or young for the patron category you have selected:"
+msgstr "已在讀者類型設定年齡的下限或上限，且要求填入生日，若年齡在此範圍外，Koha 將警示："
+
+#: ../../source/patrons.rst:244
+msgid "|patronagelimit|"
+msgstr ""
+
+#: ../../source/patrons.rst:246
+msgid "If the patron's :ref:`category <patron-categories-label>` has an enrollment fee, the fee will be charged to the patron's account when the account is created. You can then manage the charge in the patron's :ref:`accounting tab <fines-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:253
+msgid "Quick add a patron"
+msgstr "快速新增讀者"
+
+#: ../../source/patrons.rst:255
+msgid "If your circulation desk is very busy and you want to register patron quickly, you can use the 'quick add' feature. It's a shortened version of the add patron form with only a couple of necessary fields to fill out."
+msgstr "流通櫃台極為忙碌時，可以用 '快速新增' 功能新增讀者。祗需填寫若干必要欄位，就能新增讀者。"
+
+#: ../../source/patrons.rst:259
+msgid "This feature uses two system preferences: :ref:`BorrowerMandatoryField` and :ref:`PatronQuickAddFields`. These are the two system preferences that control which fields are in the quick add form."
+msgstr "此功能使用兩個系統偏好：:ref:`BorrowerMandatoryField` 與 :ref:`PatronQuickAddFields`。用以控制必須填入資料的欄位。"
+
+#: ../../source/patrons.rst:263
+msgid "To quick add a patron, go to the Patrons module"
+msgstr "進入 '讀者' 模組，快速新增讀者"
+
+#: ../../source/patrons.rst:267
+msgid "Click on the 'Quick add new patron' button."
+msgstr "按 '快速新增讀者' 鈕。"
+
+#: ../../source/patrons.rst:269
+msgid "You will be asked to choose a patron category."
+msgstr "將被要求選定讀者屬性。"
+
+#: ../../source/patrons.rst:271
+msgid "Then, you will be presented with a shortened form."
+msgstr "然後，出現簡短表單。"
+
+#: ../../source/patrons.rst:273
+msgid "|image1346|"
+msgstr "|image1346|"
+
+#: ../../source/patrons.rst:275
+msgid "Once the form is filled out, click on 'Save'."
+msgstr "將表單填寫好後，按 '儲存'"
+
+#: ../../source/patrons.rst:277
+msgid "If you need to access the full form, you can click on 'Show full form' above the 'Save' button."
+msgstr "需要近用完整表單時，可以按 '儲存' 鈕上方的 '顯示完整表單'。"
+
+#: ../../source/patrons.rst:283
+msgid "Add a staff patron"
+msgstr "新增館員讀者"
+
+#: ../../source/patrons.rst:285
+msgid "All staff members must be entered into Koha as patrons of the 'Staff' type. Follow the steps in :ref:`Add a Patron <add-a-new-patron-label>` to add a staff member. To give the staff member permissions to access the staff client, follow the steps in :ref:`patron permissions <patron-permissions-label>`"
+msgstr "館員必須以 'Staff' 類型的讀者登入 Koha。接著依照 :ref:`新增讀者 <add-a-new-patron-label>` 的程序新增館員。然後依照 :ref:`讀者權限 <patron-permissions-label>` 的程序，給予進入館員介面的權限"
+
+#: ../../source/patrons.rst:292
+msgid "Remember to assign your staff secure usernames and passwords since these will be used to log into the staff client."
+msgstr "記得給予館員安全的名稱與密碼，登入館員介面所需。"
+
+#: ../../source/patrons.rst:298
+msgid "Add a statistical patron"
+msgstr "新增統計讀者"
+
+#: ../../source/patrons.rst:300
+msgid "One way to track use of in house items is to \"check out\" the materials to a statistical patron. The \"check out\" process doesn’t check the book out, but instead tracks an in house use of the item. To use this method for tracking in house use you first will need a :ref:`patron category <patron-categories-label>` set up for your statistical patron."
+msgstr "館內使用的追蹤方式之一，是把該等館藏 \"借出\" 給統計讀者。此 \"借出\" 並不是真的借出，祗是追蹤館內使用的館藏。需先設定 :ref:`讀者屬性 <patron-categories-label>` 供統計讀者使用。"
+
+#: ../../source/patrons.rst:306
+msgid "|image420|"
+msgstr "|image420|"
+
+#: ../../source/patrons.rst:308
+msgid "Next, you will need to create a new patron of the statistical type."
+msgstr "接著，新增一個統計屬性的讀者。"
+
+#: ../../source/patrons.rst:310
+msgid "|image421|"
+msgstr "|image421|"
+
+#: ../../source/patrons.rst:312
+msgid "Next, follow the steps put forth in the ':ref:`Add a new patron <add-a-new-patron-label>`' section of this manual. Since this patron is not a real person, simply fill in the required fields, the correct library and nothing else."
+msgstr "接著，照著本手冊 ':ref:`新增讀者 <add-a-new-patron-label>`' 區塊的步驟。此類讀者不是真的讀者，祗需填入必備的欄位與正確的圖書館就夠了。"
+
+#: ../../source/patrons.rst:317
+msgid "To learn about other methods of tracking in house use visit the :ref:`tracking inhouse use <tracking-in-house-use-label>` section of this manual."
+msgstr "本手冊的 :ref:`追蹤館內使用 <tracking-in-house-use-label>` 章節，還有其他追蹤館藏使用的方法。"
+
+#: ../../source/patrons.rst:323
+msgid "Duplicate a patron"
+msgstr "複製讀者"
+
+#: ../../source/patrons.rst:325
+msgid "Sometimes when you're adding a new family to your system you don't want to type the contact information over and over. Koha allows for you to duplicate a patron and change only the parts you want to (or need to) change."
+msgstr "讀者的家族成員新辦讀者證時不需重新鍵入連絡資訊。Koha 允許您複製讀者資料再修改 (需要的) 的。"
+
+#: ../../source/patrons.rst:330
+msgid "Open the patron you want to use as your base (the patron you want to duplicate information from)"
+msgstr "開啟讀者做為使用的基礎(做為複製之用)"
+
+#: ../../source/patrons.rst:333
+msgid "Click the 'Duplicate' button at the top of their record"
+msgstr "勾選紀錄上方的 '重複' 鈕"
+
+#: ../../source/patrons.rst:335
+msgid "|image422|"
+msgstr "|image422|"
+
+#: ../../source/patrons.rst:337
+msgid "All of the fields with the exception of first name, card number, username and password have been duplicated. Fill in the missing pieces and click 'Save'"
+msgstr "除了名、讀者號、姓與密碼外，其他欄位都是重複的。填入資料再按 '儲存'"
+
+#: ../../source/patrons.rst:341
+msgid "|image423|"
+msgstr "|image423|"
+
+#: ../../source/patrons.rst:345
+msgid "Clicking in a field that is already populated with data will clear that field of all information (making it easier for you to type in something different)"
+msgstr "點入已有資料的欄位，將清除其中的資訊(鍵入資料會容易些)"
+
+#: ../../source/patrons.rst:349
+msgid "You will be brought to your new patron"
+msgstr "進入新讀者"
+
+#: ../../source/patrons.rst:351
+msgid "|image424|"
+msgstr "|image424|"
+
+#: ../../source/patrons.rst:356
+msgid "Add patron images"
+msgstr "新增讀者照片"
+
+#: ../../source/patrons.rst:358
+msgid "If you would like you can add patron images to help identify patrons. To enable this feature you must first set the :ref:`patronimages` preference to 'Allow'."
+msgstr "加入照片有助於辨識讀者。必須先設定 :ref:`patronimages` 偏好為 '允許'，才能使用此功能。"
+
+#: ../../source/patrons.rst:362
+msgid "If the preference is set to 'Allow' you will see a placeholder image under the patron's name and box to upload a patron image below the basic contact information."
+msgstr "若偏好設為 '允許'，就能在讀者姓名之下看到其照片。"
+
+#: ../../source/patrons.rst:366
+msgid "|image425|"
+msgstr "|image425|"
+
+#: ../../source/patrons.rst:368
+msgid "In the 'Upload patron image' box click 'Browse' to find the image on your computer and 'Upload' to load the image on to the patron record."
+msgstr "從 '上傳讀者照片' 盒按 '瀏覽' 鈕，從電腦內尋找您的照片，再按 '上傳' 鈕，即可上傳照片至讀者記錄。"
+
+#: ../../source/patrons.rst:371
+msgid "|image426|"
+msgstr "|image426|"
+
+#: ../../source/patrons.rst:375
+msgid "There is a limit of 100K on the size of the picture uploaded and it is recommended that the image be 200x300 pixels, but smaller images will work as well."
+msgstr "每張照片的大小不能超過 100K，建議解析度不超過 200x300 圖素。"
+
+#: ../../source/patrons.rst:382
+msgid "Editing patrons"
+msgstr "編輯讀者"
+
+#: ../../source/patrons.rst:384
+msgid "Patrons in Koha can be edited using one of many edit buttons."
+msgstr "以任何一個編輯鈕就能編輯讀者。"
+
+#: ../../source/patrons.rst:386
+msgid "To edit the entire patron record simply click the 'Edit' button at the top of the patron record."
+msgstr "按下讀者紀錄上方的 '編輯' 鈕，就能編輯整個讀者紀錄。"
+
+#: ../../source/patrons.rst:389 ../../source/patrons.rst:2452
+msgid "|image427|"
+msgstr "|image427|"
+
+#: ../../source/patrons.rst:391
+msgid "Patron passwords are not recoverable. The stars show on the patron detail next to the password label are always there even if a password isn't set. If a patron forgets their password the only option is to reset their password. To change the patron's password, click the 'Change password' button."
+msgstr "不能擷取讀者密碼。即使沒有設定密碼在讀者詳情的密碼標示下仍出現星號。若忘記密碼祗能重設密碼。按 '變更密碼' 鈕，就能變更密碼。"
+
+#: ../../source/patrons.rst:397
+msgid "|image428|"
+msgstr "|image428|"
+
+#: ../../source/patrons.rst:399
+msgid "Koha cannot display existing passwords as they are encrypted in the database. Leave the field blank to leave password unchanged."
+msgstr "Koha不能顯示密碼，資料庫祗保留加密後的密碼。保留該欄位空白，即未改變密碼。"
+
+#: ../../source/patrons.rst:402
+msgid "This form can automatically generate a random password if you click the link labeled \"Click to fill with a randomly generated suggestion. Passwords will be displayed as text.\""
+msgstr "若您點選標示為 \"勾選將產生隨機建議。密碼以純文字顯示。\" 此表單就能自動產生隨機密碼"
+
+#: ../../source/patrons.rst:406
+msgid "To edit a specific section of the patron record (for example the 'Library use' section) click the 'Edit' button beside the section."
+msgstr "勾選區塊 (如：'圖書館使用') 裡的 '編輯' 連結，就能編輯讀者紀錄的 特定區塊。"
+
+#: ../../source/patrons.rst:409 ../../source/patrons.rst:2443
+msgid "|image429|"
+msgstr "|image429|"
+
+#: ../../source/patrons.rst:411
+msgid "A patron image can be added by browsing for the image on your machine from the 'Manage patron image' section."
+msgstr "從 '管理讀者照片' 區塊，可以把電腦內的照片新增至 Koha。"
+
+#: ../../source/patrons.rst:414
+msgid "|image430|"
+msgstr "|image430|"
+
+#: ../../source/patrons.rst:416
+msgid "This form will not appear if you have the :ref:`patronimages` system preference to not allow patron images."
+msgstr "若您設定 :ref:`patronimages` 系統偏好為不允許讀者照片，則此表單不會出現。"
+
+#: ../../source/patrons.rst:420
+msgid "To add patron images in bulk, use the :ref:`Upload patron images <upload-patron-images-label>` tool."
+msgstr "使用 :ref:`上傳讀者照片 <upload-patron-images-label>` 工具，上傳大批讀者照片。"
+
+#: ../../source/patrons.rst:423
+msgid "Patrons can also be blocked from checking items out by setting Patron flags"
+msgstr "設定讀者旗標後，就能禁止該讀者借出館藏"
+
+#: ../../source/patrons.rst:426
+msgid "|image431|"
+msgstr "|image431|"
+
+#: ../../source/patrons.rst:428
+msgid "If you would like your circulation staff to confirm a patron's address before checking items out to the patron, you can see the 'Gone no address' flag"
+msgstr "檢視 '無地址' 旗標，就能出現先確認讀者地址的訊息，再借出館藏"
+
+#: ../../source/patrons.rst:432
+msgid "|image432|"
+msgstr "|image432|"
+
+#: ../../source/patrons.rst:434
+msgid "If the patron reports that they have lost their card you can set the 'Lost card' flag to prevent someone else from using that card to check items out"
+msgstr "若讀者聲明遺失其讀者證，館員可設定 '遺失讀者證' 旗標，避免其他人持此證辦理借出事宜"
+
+#: ../../source/patrons.rst:438
+msgid "|image433|"
+msgstr "|image433|"
+
+#: ../../source/patrons.rst:440
+msgid "If you would like to bar a patron from the library you can add a manual restriction"
+msgstr "藉由人工設定，可以停權特定讀者"
+
+#: ../../source/patrons.rst:443
+msgid "|image434|"
+msgstr "|image434|"
+
+#: ../../source/patrons.rst:447
+msgid "This flag can automatically be set with the :ref:`Overdue/notice status triggers <overdue-notice/status-triggers-label>`"
+msgstr "可以按照 :ref:`啟動逾期/通知狀態 <overdue-notice/status-triggers-label>` 的設定，自動啟動旗標"
+
+#: ../../source/patrons.rst:450
+msgid "If you enter in a date and/or note related to the restriction you will see that in the restricted message as well"
+msgstr "若您鍵入與限制有關的日期與說明，同時可看到限制的訊息"
+
+#: ../../source/patrons.rst:453
+msgid "|image435|"
+msgstr "|image435|"
+
+#: ../../source/patrons.rst:455
+#, fuzzy
+msgid "Children patrons do not become adults automatically in Koha unless you have the :ref:`Update patron categories <cron-update-patron-categories-label>` cron job running. To upgrade a child patron to and adult patron category manually go to the 'More' menu and choose 'Update child to adult patron'"
+msgstr "兒童讀者不會自動轉換為成年人讀者，除非執行 :ref:`青少年至成年人工作排程 <cron-update-child-to-adult-patron-type-label>`。從 '更多' 選單裡，勾選 '兒童讀者昇級為成年人讀者'，就能手動昇級為成年人讀者"
+
+#: ../../source/patrons.rst:460
+msgid "|image436|"
+msgstr "|image436|"
+
+#: ../../source/patrons.rst:462
+msgid "You will then be presented with a pop up window asking which one of your adult patron categories this Child should be updated to"
+msgstr "以彈出視窗詢問此兒童讀者應昇級為何種成人讀者類型"
+
+#: ../../source/patrons.rst:465
+msgid "|image437|"
+msgstr "|image437|"
+
+#: ../../source/patrons.rst:470
+msgid "Renew patron account"
+msgstr "延長讀者帳號的期限"
+
+#: ../../source/patrons.rst:472
+msgid "When renewing a patron account you can either edit the the expiry date manually in the patron record or use the 'Renew patron' option from the More menu in the toolbar at the top."
+msgstr "以人工方式編輯到期日，或以從上方工具選項的更多選單裡，點選 '更新讀者' 選項，就能夠更新讀者帳號。"
+
+#: ../../source/patrons.rst:476
+msgid "|image1393|"
+msgstr "|image1393|"
+
+#: ../../source/patrons.rst:478
+msgid "Using the latter the new expiry date will be calculated using the enrollment period configured for the patron category of the user. The system preference :ref:`BorrowerRenewalPeriodBase` determines if the new expiry date will be calculated from the current date or from the old expiry date."
+msgstr "以註冊期間的該讀者的組態計算新的到期日。以系統偏好 :ref:`BorrowerRenewalPeriodBase` 從現在的日子或舊的到期日，計算新的到期日。"
+
+#: ../../source/patrons.rst:484
+msgid "One advantage of using the 'Renew patron' option is that it will be logged as a membership renewal in the action_logs table and be visible as such when using the :ref:`Log viewer <log-viewer-label>` or the :ref:`Modificaton log <modification-log-label>` from the patron account."
+msgstr "使用 '更新讀者' 選項，可以讀者身份在 action_logs 表單更新，並可從讀者帳號使用 :ref:`記錄檔檢視器 <log-viewer-label>` 或 :ref:`修改記錄檔 <modification-log-label>`。"
+
+#: ../../source/patrons.rst:489
+msgid "The renewal date of the patron account will be visible on the details tab."
+msgstr "可在詳情分頁看到讀者帳號的更新日期。"
+
+#: ../../source/patrons.rst:491
+msgid "|image1392|"
+msgstr "|image1392|"
+
+#: ../../source/patrons.rst:493
+msgid "If the patron is in a :ref:`patron category <patron-categories-label>` with a membership fee, the charge will also be added upon renewal. You can then manage the charge in the patron's :ref:`accounting tab <fines-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:500
+#, fuzzy
+msgid "Deleting a patron account"
+msgstr "刪除讀者帳戶"
+
+#: ../../source/patrons.rst:502
+msgid "From the 'More' drop-down, the patron account can be deleted."
+msgstr ""
+
+#: ../../source/patrons.rst:504
+#, fuzzy
+msgid "|image1469|"
+msgstr "|image1469|"
+
+#: ../../source/patrons.rst:506
+msgid "There will be an alert if the patron has checkouts, holds, fines or credits."
+msgstr ""
+
+#: ../../source/patrons.rst:508
+msgid "If a patron has current checkouts, the deletion will not be possible."
+msgstr ""
+
+#: ../../source/patrons.rst:510
+#, fuzzy
+msgid "|image1470|"
+msgstr "|image1470|"
+
+#: ../../source/patrons.rst:512
+msgid "If a patron has outstanding fines, the deletion will not be possible."
+msgstr ""
+
+#: ../../source/patrons.rst:514
+#, fuzzy
+msgid "|image1468|"
+msgstr "|image1468|"
+
+#: ../../source/patrons.rst:516
+msgid "If a patron has unused credits, the option to delete the patron is possible but there will be a warning."
+msgstr ""
+
+#: ../../source/patrons.rst:519
+#, fuzzy
+msgid "|image1471|"
+msgstr "|image1471|"
+
+#: ../../source/patrons.rst:521
+msgid "If a patron has existing holds on their account, the option to delete the patron is possible. The hold will be cancelled and moved to the old reserves table."
+msgstr ""
+
+#: ../../source/patrons.rst:525
+#, fuzzy
+msgid "|image1462|"
+msgstr "|image1462|"
+
+#: ../../source/patrons.rst:530
+msgid "Managing patron self edits"
+msgstr "管理讀者自助編輯"
+
+#: ../../source/patrons.rst:532
+msgid "If you are allowing patrons to edit their accounts via the OPAC with the :ref:`OPACPatronDetails` preference then you will need to approve all changes via the staff client before they're applied. If there are patron edits awaiting action they will appear on the staff client dashboard below the modules list (along with other items awaiting action)."
+msgstr "設定 :ref:`OPACPatronDetails` 偏好，允許讀者經由 OPAC 編輯其帳戶，還需從館員介面批准此等改變。讀者編輯其帳戶後，會出現在館員介面的模組清單下 (與其他待處理的館藏在一起)，等待館員批准。"
+
+#: ../../source/patrons.rst:539
+msgid "|image438|"
+msgstr "|image438|"
+
+#: ../../source/patrons.rst:543
+msgid "Superlibrarians will see modifications for any branch, other staff will only see modifications for patrons who belong to their logged in branch."
+msgstr "超級圖書館員可看到所有分館的編修，其他館員祗能看到所屬圖書館讀者的編修。"
+
+#: ../../source/patrons.rst:547
+msgid "When you click the 'Patrons requesting modifications' link you will be brought to a list of patrons with requested changes."
+msgstr "勾選 '讀者要求修改' 連結後，進入要求修改的讀者清單。"
+
+#: ../../source/patrons.rst:550
+msgid "|image439|"
+msgstr "|image439|"
+
+#: ../../source/patrons.rst:552
+msgid "From here you can 'Approve' and apply the changes to the patron record, 'Delete' and remove the changes or 'Ignore' and keep the changes pending to review later."
+msgstr "從這裡，您可以 '批准' 並採用此改變於讀者記錄；'刪除' 並移除這些改變；或 '忽略' 並維持此改變待來日再決定。"
+
+#: ../../source/patrons.rst:556
+msgid "If you would like to see the entire patron record you can click the 'Patron details' links to the right of the buttons. This will open in a new tab."
+msgstr "可按右方的 '讀者詳情' 鈕。就可在新分頁看到該讀者的完整內容。"
+
+#: ../../source/patrons.rst:561
+msgid "Merging patron records"
+msgstr "合併讀者紀錄"
+
+#: ../../source/patrons.rst:563
+msgid "If you accidentally end up with one patron with two cards it is possible to merge their records together so that you don't lose their loan history or holds."
+msgstr "同個讀者擁有兩張讀者證時，可以將其合併不必遺失任何借出與預約紀錄。"
+
+#: ../../source/patrons.rst:567
+msgid "In the patron list, check the boxes next to the records you want to merge and click on the 'Merge selected patrons' button."
+msgstr "選欲合併的紀錄再按 '合併選定的紀錄' 鈕就可。"
+
+#: ../../source/patrons.rst:570
+msgid "|image1326|"
+msgstr "|image1326|"
+
+#: ../../source/patrons.rst:574
+msgid "It is possible to merge more than two records at a time."
+msgstr "可以同時合併兩筆以上的紀錄。"
+
+#: ../../source/patrons.rst:576
+msgid "Select the patron record you want to keep and click on the 'Merge patrons' button."
+msgstr "選定欲保留的讀者紀錄，再按 '合併讀者' 鈕就可。"
+
+#: ../../source/patrons.rst:579
+msgid "|image1327|"
+msgstr "|image1327|"
+
+#: ../../source/patrons.rst:581
+msgid "The checkouts and statistics will be transferred to the right record and the other one will be deleted."
+msgstr "借出與統計將轉移至正確的紀錄，並刪除另個紀錄。"
+
+#: ../../source/patrons.rst:584
+msgid "|image1328|"
+msgstr "|image1328|"
+
+#: ../../source/patrons.rst:589
+msgid "Patron permissions"
+msgstr "讀者權限"
+
+#: ../../source/patrons.rst:591
+msgid "Patron permissions are used to allow staff members access to the staff client."
+msgstr "使用讀者權限讓館員讀者可以進入館員介面。"
+
+#: ../../source/patrons.rst:596
+msgid "In order for a staff member to log into the staff interface they must have (at the very least) 'catalogue' permissions which allow them to view the staff interface."
+msgstr "館員必須有 (至少) 'catalogue' 權限，才能進入館員介面。"
+
+#: ../../source/patrons.rst:603
+msgid "Setting patron permissions"
+msgstr "設定讀者權限"
+
+#: ../../source/patrons.rst:605
+msgid "On the patron record click 'More' and choose 'Set permissions' to alter patron permissions"
+msgstr "從讀者紀錄裡勾選 '更多'，選擇 '設定權限' 改變該讀者的權限"
+
+#: ../../source/patrons.rst:608
+msgid "|image440|"
+msgstr "|image440|"
+
+#: ../../source/patrons.rst:610
+msgid "You will be presented with a list of preferences, some of which can be expanded by clicking the 'Show details' link on the right title."
+msgstr "顯示偏好清單, 點擊標題右側的'顯示詳細'連結展開偏好."
+
+#: ../../source/patrons.rst:614
+msgid "|image441|"
+msgstr "|image441|"
+
+#: ../../source/patrons.rst:616
+msgid "In all cases, if the parent permission is checked, the user has all the child permissions. If you want to set permissions on a more granular level, expand the section and only check the permissions you want that user to have."
+msgstr "在任何情況下, 如果勾選父權限, 使用者則擁有所有子權限. 如果您想要更詳細的設置權限, 展開選項然後僅勾選您想要使用者所擁有的權限."
+
+#: ../../source/patrons.rst:625
+msgid "Patron permissions defined"
+msgstr "設定讀者權限"
+
+#: ../../source/patrons.rst:627
+msgid "Access to all librarian functions (superlibrarian)"
+msgstr "存取所有圖書館館員職責的權限(超級圖書館館員)"
+
+#: ../../source/patrons.rst:631
+msgid "With this selected there is no need to choose any other permissions"
+msgstr "選了它之後就不需再勾選其他權限"
+
+#: ../../source/patrons.rst:634
+msgid "Check out and check in items (circulate)"
+msgstr "借出與還入館藏(流通)"
+
+#: ../../source/patrons.rst:636
+msgid "Remaining circulation permissions (circulate\\_remaining\\_permissions)"
+msgstr "保持流通權限 (流通\\_保持\\_權限)"
+
+#: ../../source/patrons.rst:638
+msgid "This permission grants all circulation rights except those covered by permissions listed below"
+msgstr "這個權限准許所有流通權利除了以下列出權限涉及的權利"
+
+#: ../../source/patrons.rst:641
+msgid "Force checkout if a limitation exists (force\\_checkout)"
+msgstr "若有限制則強迫借出 (force\\_checkout)"
+
+#: ../../source/patrons.rst:643
+msgid "With this permission a staff member will be allowed to override a check out restriction in the following cases:"
+msgstr "在以下情況根據權限允許員工撤銷借出的限制:"
+
+#: ../../source/patrons.rst:646
+msgid "age restriction"
+msgstr "年齡限制"
+
+#: ../../source/patrons.rst:648
+msgid "the item is issued to another patron"
+msgstr "此館藏已被其他讀者借出"
+
+#: ../../source/patrons.rst:650
+msgid "the item is not for loan"
+msgstr "此館藏不外借"
+
+#: ../../source/patrons.rst:652
+msgid "the patron has overdue items"
+msgstr "持有逾期館藏的讀者"
+
+#: ../../source/patrons.rst:654
+msgid "the item is lost"
+msgstr "此館藏已遺失"
+
+#: ../../source/patrons.rst:656
+msgid "the item is a high demand item"
+msgstr "此館藏是熱門館藏"
+
+#: ../../source/patrons.rst:658
+msgid "the item is on hold"
+msgstr "此館館已被預約"
+
+#: ../../source/patrons.rst:660
+msgid "Mark checkout notes as seen\\/not seen (manage\\_checkout\\_notes)"
+msgstr "將借出說明標記為已看\\/未看 (manage\\_checkout\\_notes)"
+
+#: ../../source/patrons.rst:663
+msgid "The permission to manage the checkout notes written by users"
+msgstr "使用者編輯管理借出說明的權限"
+
+#: ../../source/patrons.rst:663
+msgid "through the OPAC"
+msgstr "透過OPAC"
+
+#: ../../source/patrons.rst:665
+msgid "Manage restrictions for accounts (manage\\_restrictions)"
+msgstr "管理帳號的限制 (manage\\_restrictions)"
+
+#: ../../source/patrons.rst:667
+msgid "Grants permission to the staff member to lift a restriction that might be on the patron's record"
+msgstr "授權館員移除讀者記錄裡的限制"
+
+#: ../../source/patrons.rst:670
+msgid "Execute overdue items report (overdues\\_report)"
+msgstr "執行逾期館藏報表 (overdues\\_report)"
+
+#: ../../source/patrons.rst:672
+msgid "The permission to run the overdues reports found under Circulation"
+msgstr "執行流通下逾期報表的權限"
+
+#: ../../source/patrons.rst:674
+msgid "Override blocked renewals (override\\_renewals)"
+msgstr "取消禁止續借 (override\\_renewals)"
+
+#: ../../source/patrons.rst:676
+msgid "With this permission, a staff member can override renewals if there is a restriction"
+msgstr "根據此權限, 如果有限制，員工可以撤銷續約"
+
+#: ../../source/patrons.rst:679
+msgid "Requires that the staff member also has circulate\\_remaining\\_permissions"
+msgstr "館員需同時具有流通\\_其他\\_權限"
+
+#: ../../source/patrons.rst:682
+msgid "Staff access, allows viewing the catalogue in staff client (catalogue) **Required for staff login.**"
+msgstr "員工存取, 允許在員工客戶端 (目錄)查看目錄**需要員工登入.**"
+
+#: ../../source/patrons.rst:687
+msgid "Must be given to all staff members to allow them to login to the staff interface"
+msgstr "必須給予所有員工允許他們登入員工介面"
+
+#: ../../source/patrons.rst:690
+msgid "Manage Koha system settings (Administration panel) (parameters)"
+msgstr "管理Koha系統設置 (管理面板) (參數)"
+
+#: ../../source/patrons.rst:692
+msgid "Manage account debit and credit types (manage\\_accounts)"
+msgstr "管理帳戶借項和信用類型 (管理\\_帳戶)"
+
+#: ../../source/patrons.rst:694
+msgid "This gives access to the :ref:`debit types section <debit-types-label>`"
+msgstr "近用至 :ref:`借方類型區塊 <debit-types-label>`"
+
+#: ../../source/patrons.rst:696
+msgid "Manage additional fields for baskets or subscriptions (manage\\_additional \\_fields)"
+msgstr "管理購物籃或是訂閱費的額外欄位 (管理\\_額外的 \\_欄位)"
+
+#: ../../source/patrons.rst:699
+#, fuzzy
+msgid "This gives access to the :ref:`additional fields section <additional-fields-label>`"
+msgstr "近用至 :ref:`其他欄位區塊 <additional- fields-label>`"
+
+#: ../../source/patrons.rst:704
+msgid "This permission requires that the staff member also have the 'Edit an existing subscription' permission from the 'Manage serial subscriptions' section and the 'Manage basket and order lines' permission from the 'Acquisition and\\/or suggestion management' section"
+msgstr "權限要求員工要有從'管理連續性訂閱費'部分的'編輯現有的訂閱費'權限以及從'收購和\\/或是提議管理'部分的'管理購物籃和訂單行'權限"
+
+#: ../../source/patrons.rst:709
+msgid "Manage audio alerts (manage\\_audio\\_alerts)"
+msgstr "管理警示音效 (管理\\_音效\\_警示)"
+
+#: ../../source/patrons.rst:711
+msgid "The ability to access the :ref:`audio alerts <audio-alerts-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`audio alerts <audio-alerts-label>` 的組態."
+
+#: ../../source/patrons.rst:714
+msgid "Manage authorized value categories and authorised values (manage\\_auth\\_ values)"
+msgstr "管理容許值類型及其值 (manage\\_auth\\_ values)"
+
+#: ../../source/patrons.rst:717
+msgid "The ability to access the :ref:`auhorized values <authorized-values-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`auhorized values <authorized-values-label>` 的組態."
+
+#: ../../source/patrons.rst:720
+msgid "Manage circulation rules (manage\\_circ\\_rules)"
+msgstr "管理流通規則 (manage\\_circ\\_rules)"
+
+#: ../../source/patrons.rst:722
+msgid "The ability to access the :ref:`circulation and fines rules <circulation-and-fines-rules-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`circulation and fines rules <circulation-and-fine-rules-label>` 的組態."
+
+#: ../../source/patrons.rst:726
+msgid "Manage circulation rules form any library (manage\\_circ\\_rules\\_from\\_ any\\_libraries)"
+msgstr "從任意圖書館管理流通規則 (管理\\_流通\\_規則\\_從\\_ 任意\\_圖書館)"
+
+#: ../../source/patrons.rst:729
+msgid "If not set the logged in user can only edit circulation rules from their own library"
+msgstr "若沒有設定，祗能從自己的圖書館登入編輯自己的流通規則"
+
+#: ../../source/patrons.rst:732
+msgid "The staff member still has to have the 'Manage circulation rules' permission above."
+msgstr "員工還是要有上面'管理流通規則'的許可."
+
+#: ../../source/patrons.rst:735
+msgid "Manage cities and towns (manage\\_cities)"
+msgstr "管理縣市與鄉鎮 (manage\\_cities)"
+
+#: ../../source/patrons.rst:737
+msgid "The ability to access the :ref:`cities and towns <cities-and-towns-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`cities and towns <cities-and-towns-label>` 的組態."
+
+#: ../../source/patrons.rst:740
+msgid "Manage classification sources and filing rules (manage\\_classifications)"
+msgstr "管理分類法來源與排序規則 (manage\\_classifications)"
+
+#: ../../source/patrons.rst:742
+msgid "The ability to access the :ref:`classification sources <classification-sources-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`classification sources <classification-sources-label>` 的組態."
+
+#: ../../source/patrons.rst:746
+msgid "Manage column configuration (manage\\_column\\_config)"
+msgstr "管理欄的組態 (manage\\_column\\_config)"
+
+#: ../../source/patrons.rst:748
+msgid "The ability the access the :ref:`configure columns <column-settings-label>` page in the administration module."
+msgstr "在管理模組近用 :ref:`configure columns <column-settings-label>` 頁面的能力."
+
+#: ../../source/patrons.rst:751
+msgid "Manage Did you mean? configuration (manage\\_didyoumean)"
+msgstr "管理您的意思是？組態 (manage\\_didyoumean)"
+
+#: ../../source/patrons.rst:753
+msgid "The ability to access the :ref:`Did you mean? <did-you-mean?-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`您的意思是？<did-you-mean?-label>` 的組態權限。"
+
+#: ../../source/patrons.rst:756
+msgid "Manage item circulation alerts (manage\\_item\\_circ\\_alerts)"
+msgstr "管理館藏流通提示 (manage\\_item\\_circ\\_alerts)"
+
+#: ../../source/patrons.rst:758
+msgid "The ability to access the :ref:`item circulation alerts <item-circulation-alerts-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`item circulation alerts <item-circulation-alerts-label>` 的組態."
+
+#: ../../source/patrons.rst:761
+msgid "Manage item search fields (manage\\_item\\_search\\_fields)"
+msgstr "管理館藏搜索欄位 (管理\\_館藏\\_搜索\\_欄位)"
+
+#: ../../source/patrons.rst:763
+msgid "The ability to access the :ref:`item search fields <item-search-fields-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`item search fields <item-search-fields-label>` 的組態."
+
+#: ../../source/patrons.rst:766
+msgid "Manage item types (manage\\_itemtypes)"
+msgstr "管理館藏類型 (管理\\_館藏類型)"
+
+#: ../../source/patrons.rst:768
+msgid "The ability to access the :ref:`item types <item-types-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`item types <item-types-label>` 的組態."
+
+#: ../../source/patrons.rst:771
+msgid "Manage keyboard shortcuts for the advanced cataloging editor (manage\\_ keyboard\\_shortcuts)"
+msgstr "管理高級編目編輯器的鍵盤快捷鍵 (管理\\_ 鍵盤\\_快捷鍵)"
+
+#: ../../source/patrons.rst:774
+msgid "The ability to access the keyboard shortcuts configuration in the administration module"
+msgstr "在管理模組近用鍵盤熱鍵組態的能力"
+
+#: ../../source/patrons.rst:777
+msgid "Manage libraries and library groups (manage\\_libraries)"
+msgstr "管理圖書館與圖書館群組 (manage\\_libraries)"
+
+#: ../../source/patrons.rst:779
+msgid "The ability to access the :ref:`libraries <libraries-label>` and :ref:`library groups <library-groups-label>` configuration pages in the administration module."
+msgstr "在管理模組近用 :ref:`libraries <libraries-label>` 與 :ref:`library groups <library-groups-label>` 的頁面組態."
+
+#: ../../source/patrons.rst:783
+msgid "Manage Mana KB content sharing (manage\\_mana)"
+msgstr "管理Mana KB內容共享 (管理\\_mana)"
+
+#: ../../source/patrons.rst:785
+msgid "The ability to access the :ref:`share content with Mana KB <share-with-mana-kb-label>` in the administration module"
+msgstr "從管理模組近用 :ref:`與 Mana KB <share-with-mana-kb-label> 共享內容`"
+
+#: ../../source/patrons.rst:788
+msgid "Manage MARC bibliographic and authority frameworks and test them (manage\\_marc\\_frameworks)"
+msgstr "管理 MARC 書目與權威框架並測試之 (manage\\_marc\\_frameworks)"
+
+#: ../../source/patrons.rst:791
+msgid "The ability to access the :ref:`MARC bibliographic framework <marc-bibliographic-frameworks-label>`, :ref:`authority types <authority-types-label>`, :ref:`Koha to MARC mapping <koha-to-marc-mapping-label>`, and :ref:`MARC Bibliographic framework test <marc-bibliographic-framework-test-label>` configuration areas in the administration module."
+msgstr "在管理模組近用 :ref:`MARC bibliographic framework <marc-bibliographic-frameworks-label>`, :ref:`authority types <authority-types-label>`, :ref:`Koha to MARC mapping <koha-to-marc-mapping-label>`, 以及 :ref:`MARC Bibliographic framework test <marc-bibliographic-framework-test-label>` 的區域組態."
+
+#: ../../source/patrons.rst:798
+msgid "Manage record matching rules (manage\\_matching\\_rules)"
+msgstr "管理紀錄匹配規則 (manage\\_matching\\_rules)"
+
+#: ../../source/patrons.rst:800
+msgid "The ability to access the :ref:`record matching rules <record-matching-rules-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`record matching rules <record-matching-rules-label>` 的組態."
+
+#: ../../source/patrons.rst:803
+msgid "Manage OAI sets (manage\\_oai\\_sets)"
+msgstr "管理詮釋資料擷取開放檔案計畫協定設置 (管理\\_詮釋資料擷取開放檔案計畫協定\\_設置)"
+
+#: ../../source/patrons.rst:805
+msgid "The ability to access the :ref:`OAI sets <oai-sets-configuration-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`OAI 集 <oai-sets-configuration-label>` 的組態權限。"
+
+#: ../../source/patrons.rst:808
+msgid "Manage extened patron attributes (manage\\_patron\\_attributes)"
+msgstr "管理讀者的延伸屬性 (manage\\_patron\\_attributes)"
+
+#: ../../source/patrons.rst:810
+msgid "The ability to access the :ref:`patron attribute types <patron-attribute-types-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`patron attribute types<patron-attribute-types-label>` 的組態."
+
+#: ../../source/patrons.rst:813
+msgid "Manage patron categories (manage\\_patron\\_categories)"
+msgstr "管理讀者目錄 (管理\\_讀者\\_目錄)"
+
+#: ../../source/patrons.rst:815
+msgid "The ability to access the :ref:`Patron categories <patron-categories-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`讀者類型 <patron-categories-label>` 的組態權限。"
+
+#: ../../source/patrons.rst:818
+msgid "Manage search engine configuration (manage\\_search\\_engine\\_config)"
+msgstr "管理搜尋引擎組態 (manage\\_search\\_engine\\_config)"
+
+#: ../../source/patrons.rst:820
+msgid "The ability to access the Search engine configuraton in the administration module. Note: This area will only be visible when the :ref:`SearchEngine` system preference is set to 'Elasticsearch'."
+msgstr "在管理模組中近用搜尋引擎組態的權限。說明：必須將 :ref:`SearchEngine` 系統偏好設為 'Elasticsearch' 時，才能看到此區塊。"
+
+#: ../../source/patrons.rst:824
+msgid "Manage Z39.50 and SRU server configuration (manage\\_search\\_targets)"
+msgstr "管理 Z39.50 與 SRU 伺服器的組態 (manage\\_search\\_targets)"
+
+#: ../../source/patrons.rst:826
+msgid "The ability to access the :ref:`Z39.50/SRU servers <z39.50/sru-servers-label>` configuration in the administration module."
+msgstr "在管理模組近用 :ref:`Z39.50/SRU 伺服器 <z39.50/sru-servers-label>` 的組態權限。"
+
+#: ../../source/patrons.rst:829
+msgid "Manage SMS cellular providers (manage\\_sms_providers)"
+msgstr "管理 SMS 基地台供應商 (manage\\_sms_providers)"
+
+#: ../../source/patrons.rst:831
+msgid "The ability to access the :ref:`SMS cellular providers <sms-cellular-providers-label>` configuration in the administration module. Note: This area will only be visible when the :ref:`SMSSendDriver` system preference is set to 'Email'."
+msgstr "近用管理模組內 :ref:`SMS 基地台供應商 <sms-cellular-providers-label>` 的組態。說明：必須將 :ref:`SMSSendDriver` 系統偏好設為 '電子郵件'，才會啟用此區塊。"
+
+#: ../../source/patrons.rst:836
+msgid "Manage global system preferences (manage\\_sysprefs)"
+msgstr "管理整體系統偏好 (manage\\_sysprefs)"
+
+#: ../../source/patrons.rst:838
+msgid "The ability to access the :ref:`global system preferences <administration-system-preferences-label>` in the administration module."
+msgstr "在管理模組近用 :ref:`global system preferences <administration-system-preferences-label>` 的功能."
+
+#: ../../source/patrons.rst:841
+msgid "Manage library transfer limits and transport cost matrix (manage\\_transfers)"
+msgstr "管理圖書館轉移限制及轉移成本矩陣 (manage\\_transfers)"
+
+#: ../../source/patrons.rst:843
+msgid "The ability to access the :ref:`library transfer limits <library-transfer-limits-label>` and :ref:`transport cost matrix <transport-cost-matrix-label>` configuration pages in the administration module."
+msgstr "近用管理模組組態頁面 :ref:`圖書館轉移限制 <library-transfer-limits-label>` 與 :ref:`轉移成本矩陣 <transport-cost-matrix-label>` 的權限。"
+
+#: ../../source/patrons.rst:847
+msgid "Manage usage statistics settings (manage\\_usage\\_stats)"
+msgstr "管理使用情況統計資料設定 (管理\\_使用情況\\_統計資料)"
+
+#: ../../source/patrons.rst:849
+msgid "The ability to access the :ref:`share your usage statistics <share-anonymous-usage-statistics-label>` configuration in the administration module."
+msgstr "近用管理模組 :ref:`共享使用統計 <share-anonymous-usage-statistics-label>` 的組態權限。"
+
+#: ../../source/patrons.rst:852
+msgid "Remaining system parameters permissions (parameters\\_remaining\\_permissions)"
+msgstr "其他系統參數權限 (parameters\\_remaining\\_permissions)"
+
+#: ../../source/patrons.rst:854
+msgid "The ability to access all remaining areas in the administration module."
+msgstr "在管理模組近用所有其餘區域的功能."
+
+#: ../../source/patrons.rst:856
+msgid "Add, modify and view patron information (borrowers)"
+msgstr "增加, 修改和查看讀者資訊 (借閱者)"
+
+#: ../../source/patrons.rst:858
+msgid "Add, modify and view patron information (edit\\_borrowers)"
+msgstr "新增、修改與檢視讀者資訊 (edit\\_borrowers)"
+
+#: ../../source/patrons.rst:860
+msgid "The ability to access the Patrons module to view patron files, as well as adding new patrons and editing patron files"
+msgstr "近用讀者模組檢視讀者檔案，以及新增讀者及編輯讀者檔案"
+
+#: ../../source/patrons.rst:863
+msgid "View patron infos from any libraries (view\\_borrower\\_infos\\_from\\_any\\_libraries)"
+msgstr "從任意圖書館查看讀者資訊 (查看\\_借閱者\\_資訊\\_從\\_任意\\_圖書館)"
+
+#: ../../source/patrons.rst:865
+msgid "If not set the logged in user will only be able to access patron information from their own library or group of libraries."
+msgstr "如果不設置登入使用者將只能從他們自己的圖書館或是圖書館群訪問讀者資訊."
+
+#: ../../source/patrons.rst:868
+msgid "Set user permissions (permissions)"
+msgstr "設定使用者權限 (權限)"
+
+#: ../../source/patrons.rst:870
+msgid "The ability to set permissions for other staff members"
+msgstr "為其他員工設定權限的能力"
+
+#: ../../source/patrons.rst:872
+msgid "Place and modify holds for patrons (reserveforothers)"
+msgstr "為讀者安排與修改預約 (為其他人預約)"
+
+#: ../../source/patrons.rst:874
+msgid "Modify holds priority (modify\\_holds\\_priority)"
+msgstr "優先修改預約 (修改\\_預約\\_優先)"
+
+#: ../../source/patrons.rst:876
+msgid "Allows staff members to alter the holds priority (moving patrons up and down the queue)"
+msgstr "允許館員優先修改預約 (移動讀者上下順序)"
+
+#: ../../source/patrons.rst:879
+msgid "Place holds for patrons (place\\_holds)"
+msgstr "為讀者預約 (place\\_holds)"
+
+#: ../../source/patrons.rst:881
+msgid "Allows staff members to place holds in the staff interface"
+msgstr "允許館員在館員介面預約"
+
+#: ../../source/patrons.rst:883
+msgid "Edit catalog (Modify bibliographic/holdings data) (editcatalogue)"
+msgstr "編集目錄 (修改書目/預約資料) (編輯目錄)"
+
+#: ../../source/patrons.rst:885
+msgid "Use the advanced cataloging editor (advanced\\_editor)"
+msgstr "使用進階編目編輯器 (進階\\_編輯器)"
+
+#: ../../source/patrons.rst:887
+msgid "Grants the ability to use the advanced cataloging editor in the cataloging module"
+msgstr "允許使用編目模組中的進階編目編輯器"
+
+#: ../../source/patrons.rst:892
+msgid "Staff members with this permission need to also have the 'Edit catalog (Modify bibliographic/holdings data)' permission"
+msgstr "館員有此權限同樣必須有 '編輯編目 (修改書目/館藏資料)' 權限"
+
+#: ../../source/patrons.rst:895
+msgid "Delete all items at once (delete\\_all\\_items)"
+msgstr "立即刪除所有館藏 (delete\\_all\\_items)"
+
+#: ../../source/patrons.rst:897
+msgid "Ability to use the 'Delete all items' option found under the 'Edit' menu in cataloging"
+msgstr "在編目的 '編輯' 選單下使用 '刪除所有館藏' 選項的能力"
+
+#: ../../source/patrons.rst:900
+msgid "Edit catalog (Modify bibliographic/holdings data) (edit\\_catalogue)"
+msgstr "編輯編目 (修改書目/館藏資料) (edit\\_catalogue)"
+
+#: ../../source/patrons.rst:902
+msgid "Ability to access all cataloging functions via the `Cataloging <#cataloging>`__ page"
+msgstr "經由 `編目 <#cataloging>`__ 頁面近用所有編目功能的權限"
+
+#: ../../source/patrons.rst:905
+msgid "Edit items (edit\\_items)"
+msgstr "編輯館藏 (edit\\_items)"
+
+#: ../../source/patrons.rst:907
+msgid "Ability to make :ref:`edits to item/holdings records <editing-items-label>`, but not bibliographic records"
+msgstr "擁有 :ref:`編輯館藏/預約記錄 <editing-items-label>` 的權限，但不包括書目記錄"
+
+#: ../../source/patrons.rst:910
+msgid "Limit item modification to subfields defined in the :ref:`SubfieldsToAllowForRestrictedEditing` system preference (edit\\_items\\_restricted)"
+msgstr "限制祗能修改在 :ref:`SubfieldsToAllowForRestrictedEditing` 偏好設定的分欄 (edit\\_items\\_restricted)"
+
+#: ../../source/patrons.rst:914
+msgid "If checked, the staff member will only be able to modify some item subfields"
+msgstr "點選後，館員將只能修改某些館藏分欄"
+
+#: ../../source/patrons.rst:919
+msgid "Please note that the 'Edit items' permission is still required"
+msgstr "請注意仍需要 '編輯館藏' 的權限"
+
+#: ../../source/patrons.rst:921
+msgid "Fast cataloging (fast\\_cataloging)"
+msgstr "快速編目 (fast\\_cataloging)"
+
+#: ../../source/patrons.rst:923
+msgid "The ability to catalog using only the :ref:`Fast add framework <fast-add-cataloging-label>` found on the `Circulation <#circulation>`__ page"
+msgstr "編目權限祗使用於 :ref:`快速新增框架 <fast-add-cataloging-label>` 所在的 `流通 <#circulation>` 頁面"
+
+#: ../../source/patrons.rst:927
+msgid "Manage patrons fines and fees (updatecharges)"
+msgstr "管理讀者罰款與費用(更新費用)"
+
+#: ../../source/patrons.rst:929
+#, fuzzy
+msgid "Discount debits for patrons (discount)"
+msgstr "支付給讀者的餘額 (payout)"
+
+#: ../../source/patrons.rst:931
+#, fuzzy
+msgid "Grant the ability to apply discounts to charges"
+msgstr "發放補償額度給讀者的功能"
+
+#: ../../source/patrons.rst:933
+msgid "Payout credits to patrons (payout)"
+msgstr "支付給讀者的餘額 (payout)"
+
+#: ../../source/patrons.rst:935
+#, fuzzy
+msgid "Grant the ability to reimburse credits to patrons"
+msgstr "發放補償額度給讀者的功能"
+
+#: ../../source/patrons.rst:937
+msgid "Refund payments to patrons (refund)"
+msgstr ""
+
+#: ../../source/patrons.rst:939
+msgid "Grant the ability to refund payments that patrons have already made to the library"
+msgstr ""
+
+#: ../../source/patrons.rst:942
+msgid "Remaining permissions for managing fines and fees (remaining\\_permissions)"
+msgstr "管理罰款與費用的權限 (remaining\\_permissions)"
+
+#: ../../source/patrons.rst:944
+#, fuzzy
+msgid "Grant the ability to manage fines and fees other than the actions described in the other subpermissions (dicounts, payouts, refunds and writeoffs)"
+msgstr "授予管理除了罰款和費用以外其他子權限內描述的操作（支付額度和註銷費用）"
+
+#: ../../source/patrons.rst:948
+msgid "Write off fines and fees (writeoff)"
+msgstr "註銷罰款與費用 (writeoff)"
+
+#: ../../source/patrons.rst:950
+msgid "Grants the ability to write off patron fees"
+msgstr "允許註銷讀者費用"
+
+#: ../../source/patrons.rst:953
+msgid "Acquisition and/or suggestion management (acquisition)"
+msgstr "採訪或建議管理 (acquisition)"
+
+#: ../../source/patrons.rst:957
+msgid "All the acquisitions sub-permissions give access to the acquisitions home page. That means that staff who have one or more of the following permissions will be able to view the budgets, search and view vendor information, and view invoices."
+msgstr "所有的採訪子權限均允許近用採訪主頁。擁有以下一項或多項權限的館員可以查看預算，搜尋和檢視供應商訊息以及發票。"
+
+#: ../../source/patrons.rst:962
+msgid "Add and delete funds (but can't modify funds) (budget\\_add\\_del)"
+msgstr "新增且刪除預算 (但不能修改預算) (budget\\_add\\_del)"
+
+#: ../../source/patrons.rst:964
+msgid "Grants the ability to add and delete funds within a budget"
+msgstr "允許在預算範圍內添加和刪除基金"
+
+#: ../../source/patrons.rst:966
+msgid "Note that the budget\\_manage and budget\\_modify permissions are required for this one to work correctly"
+msgstr "說明預算\\_管理和預算\\_為了正常運作需要修改權限"
+
+#: ../../source/patrons.rst:969
+msgid "Manage funds (budget\\_manage)"
+msgstr "基金管理 (budget\\_manage)"
+
+#: ../../source/patrons.rst:971
+msgid "Grants the ability to acces the :ref:`fund administration page <funds-label>`"
+msgstr "允許近用 :ref:`基金管理頁面 <funds-label>"
+
+#: ../../source/patrons.rst:973
+msgid "Note that this only gives viewing access to the page, you will need to give your staff budget\\_add\\_del and budget\\_modify if you want them to be able to make changes to the funds"
+msgstr "請注意，這裡僅提供查看頁面的權限，如果希望館員能夠更改基金需要給館員預算\\_新增\\_刪除和預算\\_更改"
+
+#: ../../source/patrons.rst:977
+msgid "Manage all funds (budget\\_manage\\_all)"
+msgstr "管理全部基金 (budget\\_manage\\_all)"
+
+#: ../../source/patrons.rst:979
+msgid "Grants viewing access to all funds regardless of restrictions on them (owner, user or library restrictions)"
+msgstr "授予查看所有基金的權限，而不受其限制（擁有者，使用者或圖書館的限制）"
+
+#: ../../source/patrons.rst:982
+msgid "Note that the budget\\_manage permission is required"
+msgstr "注意預算\\_需要管理權限"
+
+#: ../../source/patrons.rst:984
+msgid "Modify funds (can't create lines, but can modify existing ones) (budget\\_modify)"
+msgstr "修改預算 (不能新增，但可以修改既有的) (budget\\_modify)"
+
+#: ../../source/patrons.rst:986
+msgid "Grants the ability to edit fund information and amounts"
+msgstr "授權編輯基金訊息和金額的功能"
+
+#: ../../source/patrons.rst:988
+msgid "Note that the budget\\_add\\_del and budget\\_manage permissions are required for this one to work correctly"
+msgstr "說明預算\\_新增\\_刪除和預算\\_為了正常運作需要管理權限"
+
+#: ../../source/patrons.rst:991
+msgid "Manage contracts (contracts\\_manage)"
+msgstr "管理合約 (contracts\\_manage)"
+
+#: ../../source/patrons.rst:993
+msgid "Grants the ability to add, edit and delete contracts with vendors"
+msgstr "授予供應商新增，編輯和刪除合約的權限"
+
+#: ../../source/patrons.rst:995
+msgid "Manage currencies and exchange rates (currencies\\_manage)"
+msgstr "管理幣別與匯率 (currencies\\_manage)"
+
+#: ../../source/patrons.rst:997
+msgid "The ability to access the :ref:`Currencies and exchange rates <currencies-and-exchange-rates-label>` configuration page."
+msgstr "在近用 :ref:`幣別與匯率 <currencies-and-exchange-rates-label>` 組態頁面的權限。"
+
+#: ../../source/patrons.rst:1000
+msgid "Manage EDIFACT transmissions (edi\\_manage)"
+msgstr "管理 EDIFACT 傳輸 (edi\\_manage)"
+
+#: ../../source/patrons.rst:1002
+#, fuzzy
+msgid "Grants the ability to access the :ref:`EDI account <edi-accounts-label>` administration page, the :ref:`library EANs <library-eans-label>` administration page and access sent :ref:`EDI messages <edifact-messages-label>`"
+msgstr "授予近用 :ref:`EDI 帳戶的<edi-accounts-label>` 管理頁面, :ref:`圖書館 EANs <library-eans-label>` 的管理頁面和已發送存取權 :ref:`EDI 訊息 <edifact-messages-label>`的權限"
+
+#: ../../source/patrons.rst:1006
+msgid "In order to be able to send orders via EDI, your staff member also needs the"
+msgstr "為了能通過EDI發送訂單，您的館員員還需要"
+
+#: ../../source/patrons.rst:1009
+msgid "Manage basket groups (group\\_manage)"
+msgstr "管理採購籃群組 (group\\_manage)"
+
+#: ../../source/patrons.rst:1011
+msgid "Grants the ability to :ref:`create, edit, close and delete basket groups <create-a-basket-group-label>`"
+msgstr "授予 :ref:`建立，編輯，關閉和刪除採購籃群組的功能 <create-a-basket-group-label>`"
+
+#: ../../source/patrons.rst:1014
+msgid "Manage baskets and order lines (order\\_manage)"
+msgstr "管理採購籃與訂購順序 (order\\_manage)"
+
+#: ../../source/patrons.rst:1016
+msgid "Grants the ability to :ref:`place orders <placing-orders-label>`, including creating baskets, adding order lines, closing baskets, etc."
+msgstr "授予 :ref:`下訂單 <placing-orders-label>`的功能，包括建立採購籃，新增訂單列，關閉購物籃等。"
+
+#: ../../source/patrons.rst:1019
+msgid "Manage all baskets and order lines, regardless of restrictions on them (order\\_manage\\_all)"
+msgstr "管理所有訂購籃與訂購順序，不論有何限制 (order\\_manage\\_all)"
+
+#: ../../source/patrons.rst:1022
+msgid "Grants the ability to manage all baskets and orders even if they are restricted to the owner, users or library"
+msgstr "授予管理所有採購籃和訂單的功能，即使它們僅限於所有者，使用者或圖書館"
+
+#: ../../source/patrons.rst:1025
+msgid "Note that the order\\_manage permission is required"
+msgstr "注意訂單\\_需要管理權限"
+
+#: ../../source/patrons.rst:1027
+msgid "Receive orders and manage shipments (order\\_receive)"
+msgstr "簽收訂單與管理運送 (order\\_receive)"
+
+#: ../../source/patrons.rst:1029
+msgid "Grants the ability to create invoices, receive items and claim late orders"
+msgstr "授予建立發票，到館館藏和催缺逾期訂單的能力"
+
+#: ../../source/patrons.rst:1032
+msgid "Manage budgets (period\\_manage)"
+msgstr "管理預算 (period\\_manage)"
+
+#: ../../source/patrons.rst:1034
+msgid "Grants access to the :ref:`budget administration page <budgets-label>` and the ability to create, edit and delete budgets"
+msgstr "授予近用 :ref:`預算管理頁面 <budgets-label>` 並具有建立，編輯和刪除預算的能力"
+
+#: ../../source/patrons.rst:1037
+msgid "This permission does not give the ability to edit budget funds."
+msgstr "此權限不包括編輯預算基金的功能"
+
+#: ../../source/patrons.rst:1039
+msgid "Manage budget plannings (planning\\_manage)"
+msgstr "管理預算規畫 (planning\\_manage)"
+
+#: ../../source/patrons.rst:1041
+msgid "Grants the ability to view :ref:`budget planning <budget-planning-label>`"
+msgstr "允許查看 :ref:`規劃預算 <budget-planning-label>"
+
+#: ../../source/patrons.rst:1043
+msgid "Note that the budget\\_manage and the period\\_manage permissions are required for this one to work"
+msgstr "注意預算\\_管理和逾期\\_需有管理權限"
+
+#: ../../source/patrons.rst:1046
+msgid "Manage purchase suggestions (suggestions\\_manage)"
+msgstr "管理採訪建議 (suggestions\\_manage)"
+
+#: ../../source/patrons.rst:1048
+msgid "Grants the ability to :ref:`create and manage purchase suggestions <managing-purchase-suggestions-label>`, including creating new suggestions and changing the suggestions' statuses"
+msgstr "給予 :ref:`採訪建議 <managing-purchase-suggestions-label>` 權限，包括新增採訪建議與修改建議的狀態"
+
+#: ../../source/patrons.rst:1052
+msgid "Manage vendors (vendors\\_manage)"
+msgstr "管理供應商 (vendors\\_manage)"
+
+#: ../../source/patrons.rst:1054
+msgid "Grants the ability to :ref:`add, edit and delete vendors <vendors-label>`"
+msgstr "授予 :ref:`新增，編輯和刪除供應商的功能 <vendors-label>`"
+
+#: ../../source/patrons.rst:1056
+msgid "Note that vendors are used in the acquisition and the serials module."
+msgstr "注意供應商使用在採訪和期刊模組中。"
+
+#: ../../source/patrons.rst:1058
+msgid "Use all tools (tools)"
+msgstr "使用所有工具 (tools)"
+
+#: ../../source/patrons.rst:1060
+msgid "Access to the files stored on the server (access\\_files)"
+msgstr "近用伺服器的檔案 (access\\_files)"
+
+#: ../../source/patrons.rst:1062
+msgid "Access to the :ref:`Upload tool <upload-label>`"
+msgstr "近用至 :ref:`上傳工具 <upload-label>`"
+
+#: ../../source/patrons.rst:1064
+msgid "Upload patron images in batch or one at a time (batch\\_upload\\_patron\\_images)"
+msgstr "批次或逐一上傳讀者照片 (batch\\_upload\\_patron\\_images)"
+
+#: ../../source/patrons.rst:1066
+msgid "Access to the :ref:`Image upload tool <upload-patron-images-label>`"
+msgstr "近用至 :ref:`上傳照片工具 <upload-patron-images-label>`"
+
+#: ../../source/patrons.rst:1068
+msgid "Delete old borrowers and anonymize circulation/reading history (deletes borrower reading history) (delete\\_anonymize\\_patrons)"
+msgstr "刪除舊讀者與匿名流通/閱讀記錄 (刪除借閱者的閱讀記錄) (delete\\_anonymize\\_patrons)"
+
+#: ../../source/patrons.rst:1071
+msgid "Access to the :ref:`Anonymize patron tool <patrons-anonymize-bulk-delete-label>`"
+msgstr "近用至 :ref:`匿名讀者工具 <patrons-anonymize-bulk-delete-label>`"
+
+#: ../../source/patrons.rst:1073
+msgid "Define days when the library is closed (edit\\_calendar)"
+msgstr "設定閉館時的天數 (edit\\_calendar)"
+
+#: ../../source/patrons.rst:1075
+msgid "Access to the :ref:`Calendar/holidays tool <calendar-label>`"
+msgstr "近用至 :ref:`行事曆/假日工具<calendar-label>`"
+
+#: ../../source/patrons.rst:1077
+msgid "Write news for the OPAC and staff interfaces (edit\\_news)"
+msgstr "為 OPAC 與館員介面撰寫最新消息 (edit\\_news)"
+
+#: ../../source/patrons.rst:1079
+msgid "Access to the :ref:`News tool <news-label>`"
+msgstr "近用至 :ref:`最新消息工具 <news-label>`"
+
+#: ../../source/patrons.rst:1081
+msgid "Set notice/status triggers for overdue items (edit\\_notice\\_status\\_triggers)"
+msgstr "設定逾期館藏的通知/啟動狀態 (edit\\_notice\\_status\\_triggers)"
+
+#: ../../source/patrons.rst:1083
+msgid "Access to the :ref:`Overdue notice status/triggers tool <overdue-notice/status-triggers-label>`"
+msgstr "近用至 :ref:`逾期通知機制/啟動工具 <overdue-notice/status-triggers-label>`"
+
+#: ../../source/patrons.rst:1086
+msgid "Define notices (edit\\_notices)"
+msgstr "定義說明 (edit\\_notices)"
+
+#: ../../source/patrons.rst:1088
+msgid "Access to the :ref:`Notices and slips tool <notices-and-slips-label>`"
+msgstr "近用至 :ref:`通知與收條工具 <notices-&-slips-label>`"
+
+#: ../../source/patrons.rst:1090
+msgid "Perform batch modification of patrons (edit\\_patrons)"
+msgstr "執行批次修改讀者 (edit\\_patrons)"
+
+#: ../../source/patrons.rst:1092
+msgid "Access to the :ref:`Batch patron modification tool <batch-patron-modification-label>`"
+msgstr "近用至 :ref:`批次修改讀者工具 <batch-patron-modification-label>`"
+
+#: ../../source/patrons.rst:1094
+msgid "Edit quotes for the quote-of-the-day feature (edit\\_quotes)"
+msgstr "編輯每日一句功能的引句 (edit\\_quotes)"
+
+#: ../../source/patrons.rst:1096
+msgid "Access to the :ref:`Quote of the Day (QOTD) Editor <quote-of-the-day-(qotd)-editor-label>`"
+msgstr "近用至 :ref:`每日一句 (QOTD) 編輯器 <quote-of-the-day-(qotd)-editor-label>`"
+
+#: ../../source/patrons.rst:1098
+msgid "Export bibliographic and holdings data (export\\_catalog)"
+msgstr "匯出書目與館藏資料 (export\\_catalog)"
+
+#: ../../source/patrons.rst:1100
+msgid "Access to the :ref:`Export data tool <export-data-(marc-and-authorities)-label>`"
+msgstr "近用至 :ref:`匯出資料工具 <export-data-(marc-&-authorities)-label>`"
+
+#: ../../source/patrons.rst:1102
+msgid "Import patron data (import\\_patrons)"
+msgstr "匯入讀者資料 (import\\_patrons)"
+
+#: ../../source/patrons.rst:1104
+msgid "Access to the :ref:`Import patrons tool <patron-import-label>`"
+msgstr "近用至 :ref:`匯入讀者工具 <patron-import-label>`"
+
+#: ../../source/patrons.rst:1106
+msgid "Perform inventory of your catalog (inventory)"
+msgstr "執行館藏目錄的盤點 (inventory)"
+
+#: ../../source/patrons.rst:1108
+msgid "Access to the :ref:`Inventory tool <inventory-tool-label>`"
+msgstr "近用至 :ref:`盤點工具 <inventory-tool-label>`"
+
+#: ../../source/patrons.rst:1110
+msgid "Perform batch deletion of items (items\\_batchdel)"
+msgstr "執行批次刪除館藏 (items\\_batchdel)"
+
+#: ../../source/patrons.rst:1112
+msgid "Access to the :ref:`Batch item deletion tool <batch-item-deletion-label>`"
+msgstr "近用至 :ref:`批次刪除館藏工具 <batch-item-deletion-label>`"
+
+#: ../../source/patrons.rst:1114
+msgid "Perform batch modification of items (items\\_batchmod)"
+msgstr "執行批次修改館藏 (items\\_batchmod)"
+
+#: ../../source/patrons.rst:1116
+msgid "Access to the :ref:`Batch item modification tool <batch-item-modification-label>`"
+msgstr "近用至 :ref:`批次修改館藏工具 <batch-item-modification-label>`"
+
+#: ../../source/patrons.rst:1118
+msgid "Limit batch item modification to subfields defined in the SubfieldsToAllowForRestrictedBatchmod preference (items\\_batchmod\\_restricted)"
+msgstr "限制祗能批次修改在 :ref:`SubfieldsToAllowForRestrictedEditing` 偏好設定分欄內的館藏 (items\\_batchmod\\_restricted)"
+
+#: ../../source/patrons.rst:1121
+msgid "Restricts the :ref:`batch item modification <batch-item-modification-label>` tool to modify only the subfields defined in the :ref:`SubfieldsToAllowForRestrictedBatchmod` preference"
+msgstr "限制 :ref:`批次館藏修改batch item modification <batch-item-modification-label>` 只能用於 :ref:`SubfieldsToAllowForRestrictedBatchmod` 偏好設定的分欄"
+
+#: ../../source/patrons.rst:1125
+msgid "Please note that items\\_batchmod permission is still required"
+msgstr "請注意仍需要館藏\\_批次模式授權"
+
+#: ../../source/patrons.rst:1127
+msgid "Create printable labels and barcodes from catalog and patron data (label\\_creator)"
+msgstr "根據目錄與讀者資料建立可列印的標籤與條碼 (label\\_creator)"
+
+#: ../../source/patrons.rst:1130
+msgid "Access to the :ref:`Patron card creator <patron-card-creator-label>`, the :ref:`Label creator <label-creator-label>` and the :ref:`Quick label creator <quick-spine-label-creator-label>` tools"
+msgstr "近用至 :ref:`讀者證産生器 <patron-card-creator-label> :ref:`書標產生器 <label-creator-label>` 與 :ref:`快速書標產生器 <quick-spine-label-creator-label>` 工具"
+
+#: ../../source/patrons.rst:1134
+msgid "Manage CSV export profiles (manage\\_csv\\_profiles)"
+msgstr "管理CSV匯出設定檔 (manage\\_csv\\_profiles)"
+
+#: ../../source/patrons.rst:1136
+msgid "Access to the :ref:`CSV profiles tool <csv-profiles-label>`"
+msgstr "近用至 :ref:`CSV 設定檔工具 <csv-profiles-label>`"
+
+#: ../../source/patrons.rst:1138
+msgid "Add, edit and delete patron lists and their contents (manage\\_patron\\_lists)"
+msgstr "新增、編輯與刪除讀者虛擬書架及其內容 (manage\\_patron\\_lists)"
+
+#: ../../source/patrons.rst:1140
+msgid "Access to the :ref:`Patron lists tool <patron-lists-label>`"
+msgstr "近用至 :ref:`讀者虛擬書架工具 <patron-lists-label>`"
+
+#: ../../source/patrons.rst:1142
+msgid "Manage staged MARC records, including completing and reversing imports (manage\\_staged\\_marc)"
+msgstr "管理待處理 MARC 紀錄，包括完成與反轉匯入 (manage\\_staged\\_marc)"
+
+#: ../../source/patrons.rst:1145
+msgid "Access to the :ref:`Manage staged MARC records tool <staged-marc-record-management-label>`"
+msgstr "近用至 :ref:`管理待處理 MARC 記錄工具 <staged-marc-record-management-label>`"
+
+#: ../../source/patrons.rst:1147
+msgid "Manage MARC modification templates (marc\\_modification\\_templates)"
+msgstr "管理 MARC 修改模板 (marc\\_modification\\_templates)"
+
+#: ../../source/patrons.rst:1149
+msgid "Access to the :ref:`MARC modification templates tool <marc-modification-templates-label>`"
+msgstr "近用至 :ref:`MARC 修改模板工具 <marc-modification-templates-label>`"
+
+#: ../../source/patrons.rst:1151
+msgid "Moderate patron comments (moderate\\_comments)"
+msgstr "管理讀者的評論 (moderate\\_comments)"
+
+#: ../../source/patrons.rst:1153
+msgid "Access to the :ref:`Comments tool <comments-label>`"
+msgstr "近用至 :ref:`評論工具 <comments-label>`"
+
+#: ../../source/patrons.rst:1155
+msgid "Moderate patron tags (moderate\\_tags)"
+msgstr "審核讀者標籤 (moderate\\_tags)"
+
+#: ../../source/patrons.rst:1157
+msgid "Access to the :ref:`Tags tool <tag-moderation-label>`"
+msgstr "近用至 :ref:`標籤工具 <tag-moderation-label>`"
+
+#: ../../source/patrons.rst:1159
+msgid "Perform batch deletion of records (bibliographic or authority) (records\\_batchdel)"
+msgstr "執行批次刪除記錄 (書目或權威) (records\\_batchdel)"
+
+#: ../../source/patrons.rst:1162
+msgid "Access to the :ref:`Batch record deletion tool <batch-record-deletion-label>`"
+msgstr "近用至 :ref:`批次紀錄刪除工具 <batch-record-deletion-label>`"
+
+#: ../../source/patrons.rst:1164
+msgid "Perform batch modification of records (bibliographic or authorities) (records\\_batchmod)"
+msgstr "執行批次刪除記錄 (書目或權威) (records\\_batchmod)"
+
+#: ../../source/patrons.rst:1167
+msgid "Access to the :ref:`Batch record modification tool <batch-record-modification-label>`"
+msgstr "近用至 :ref:`批次修改紀錄工具 <batch-record-modification-label>`"
+
+#: ../../source/patrons.rst:1169
+msgid "Manage rotating collections (rotating\\_collections)"
+msgstr "管理巡迴館藏 (rotating\\_collections)"
+
+#: ../../source/patrons.rst:1171
+msgid "Access to the :ref:`Rotating collections tool <rotating-collections-label>`"
+msgstr "近用至 :ref:`巡迴館藏工具 <rotating-collections-label>`"
+
+#: ../../source/patrons.rst:1173
+msgid "Schedule tasks to run (schedule\\_tasks)"
+msgstr "執行排定工作 (schedule\\_tasks)"
+
+#: ../../source/patrons.rst:1175
+msgid "Access to the :ref:`Task scheduler tool <task-scheduler-label>`"
+msgstr "近用至 :ref:`工作排程工具 <task-scheduler-label>`"
+
+#: ../../source/patrons.rst:1177
+msgid "Stage MARC records into the reservoir (stage\\_marc\\_import)"
+msgstr "將 MARC 記錄納入儲存庫 (stage\\_marc\\_import)"
+
+#: ../../source/patrons.rst:1179
+msgid "Access to the :ref:`Stage MARC records tool <stage-marc-records-for-import-label>`"
+msgstr "近用至 :ref:`待處理 MARC 記錄工具 <stage-marc-records-for-import-label>`"
+
+#: ../../source/patrons.rst:1181
+msgid "Upload any file (upload\\_general\\_files)"
+msgstr "上傳任何檔案 (upload\\_general\\_files)"
+
+#: ../../source/patrons.rst:1183
+msgid "Access to upload files via the :ref:`Upload tool <upload-label>`"
+msgstr "經由 :ref:`上傳工具 <upload-label>` 近用至上傳檔案"
+
+#: ../../source/patrons.rst:1185
+msgid "Upload local cover images (upload\\_local\\_cover\\_images)"
+msgstr "上傳本地封面圖片 (upload\\_local\\_cover\\_images)"
+
+#: ../../source/patrons.rst:1187
+msgid "Access to the :ref:`Upload local cover image tool <upload-local-cover-image-label>` as well as permission to add and delete local cover images from the record detail page"
+msgstr "近用至 :ref:`上傳在地封面工具 <upload-local-cover-image-label>` 以及允許從書目詳情新增與刪除在地封面"
+
+#: ../../source/patrons.rst:1191
+msgid "Manage uploaded files (upload\\_manage)"
+msgstr "管理上傳檔案 (upload\\_manage)"
+
+#: ../../source/patrons.rst:1193
+msgid "Access to uploaded files via the :ref:`Upload tool <upload-label>`"
+msgstr "經由 :ref:`上傳工具 <upload-label>` 近用上傳檔案"
+
+#: ../../source/patrons.rst:1195
+msgid "Note that the upload\\_general\\_files permission is required for this permission to work"
+msgstr "請注意上傳\\_一般\\_檔案需要此授權"
+
+#: ../../source/patrons.rst:1198
+msgid "Browse the system logs (view\\_system\\_logs)"
+msgstr "瀏覽系統紀錄 (view\\_system\\_logs)"
+
+#: ../../source/patrons.rst:1200
+msgid "Access to the :ref:`Log viewer tool <log-viewer-label>`"
+msgstr "近用至 :ref:`記錄檢視器工具 <log-viewer-label>`"
+
+#: ../../source/patrons.rst:1202
+msgid "Edit authorities (editauthorities)"
+msgstr "編輯權威 (editauthorities)"
+
+#: ../../source/patrons.rst:1204
+msgid "Grants the ability to create, edit and delete authority records"
+msgstr "授予新增，編輯和刪除權限記錄的功能"
+
+#: ../../source/patrons.rst:1206
+msgid "Note that it is possible to search authority records with only the catalogue permission"
+msgstr "請注意，僅有目錄權限才能搜尋權威記錄"
+
+#: ../../source/patrons.rst:1209
+msgid "Manage serial subscriptions (serials)"
+msgstr "管理期刊訂閱 (serials)"
+
+#: ../../source/patrons.rst:1211
+msgid "Check the expiration of a serial (check\\_expiration)"
+msgstr "勾選期刊到期日 (check\\_expiration)"
+
+#: ../../source/patrons.rst:1213
+msgid "Gives ability to check the :ref:`expiration date of serials <check-serial-expiration-label>`"
+msgstr "勾選 :ref:`期刊到期日 <check-serial-expiration-label>`"
+
+#: ../../source/patrons.rst:1216
+msgid "Claim missing serials (claim\\_serials)"
+msgstr "催缺期刊 (催缺\\_期刊)"
+
+#: ../../source/patrons.rst:1218
+msgid "Gives the ability to :ref:`claim missing issues <claim-late-serials-label>`"
+msgstr "授予 :ref:`催缺遺失期數的權限 <claim-late-serials-label>`"
+
+#: ../../source/patrons.rst:1220
+msgid "Create a new subscription (create\\_subscription)"
+msgstr "新增訂閱 (create\\_subscription)"
+
+#: ../../source/patrons.rst:1222
+msgid "Gives the ability to :ref:`add new subscriptions <add-a-subscription-label>`"
+msgstr "授予 :ref:`新增訂閱的權限 <add-a-subscription-label>`"
+
+#: ../../source/patrons.rst:1224
+msgid "Delete an existing subscription (delete\\_subscription)"
+msgstr "刪除的訂閱 (delete\\_subscription)"
+
+#: ../../source/patrons.rst:1226
+msgid "Gives the ability to delete serial subscriptions"
+msgstr "授予刪除期刊訂閱的權限"
+
+#: ../../source/patrons.rst:1228
+msgid "Edit an existing subscription (edit\\_subscription)"
+msgstr "編輯既有的訂閱 (edit\\_subscription)"
+
+#: ../../source/patrons.rst:1230
+msgid "Gives the ability to :ref:`edit existing serial subscriptions <edit-subscription-label>`"
+msgstr "給予 :ref:`編輯既有期刊訂閱  <edit-subscription-label>` 的權限"
+
+#: ../../source/patrons.rst:1233
+msgid "This permission does not include the ability to delete or create a subscription"
+msgstr "此權限不包括刪除與新增訂閱"
+
+#: ../../source/patrons.rst:1236
+msgid "Serials receiving (receive\\_serials)"
+msgstr "簽收期刊 (receive\\_serials)"
+
+#: ../../source/patrons.rst:1238
+msgid "Gives the ability to :ref:`receive issues <receive-issues-label>` of existing subscriptions"
+msgstr "授予 :ref:`根據既有的訂閱簽收期刊的權限 <receive-issues-label>`"
+
+#: ../../source/patrons.rst:1241
+msgid "Renew a subscription (renew\\_subscription)"
+msgstr "續訂 (renew\\_subscription)"
+
+#: ../../source/patrons.rst:1243
+msgid "Gives the ability to :ref:`renew serial subscriptions <renewing-serials-label>`"
+msgstr "授予 :ref:`續訂期刊訂閱的權限 <renewing-serials-label>"
+
+#: ../../source/patrons.rst:1245
+msgid "Routing (routing)"
+msgstr "傳閱 (routing)"
+
+#: ../../source/patrons.rst:1247
+msgid "Gives the ability to manage :ref:`routing lists <create-a-routing-list-label>`"
+msgstr "授予 :ref:`管理傳閱清單的權限 <create-a-routing-list-label>`"
+
+#: ../../source/patrons.rst:1249
+msgid "Manage subscriptions from any branch (superserials)"
+msgstr "管理任何分館的訂閱 (superserials)"
+
+#: ../../source/patrons.rst:1251
+msgid "This permission is only useful if the :ref:`IndependentBranches` system preference is used"
+msgstr "此權限僅在使用 :ref:`IndependentBranches` 系統偏好時才有用"
+
+#: ../../source/patrons.rst:1254
+msgid "Allow access to the reports module (reports)"
+msgstr "允許近用至報表模組 (reports)"
+
+#: ../../source/patrons.rst:1256
+msgid "Reports found on the :ref:`Circulation page <circulation-reports-label>` are not controlled by this permission; this only controls access to the :ref:Reports module <reports-label>`"
+msgstr "在 :ref:`流通頁面 <circulation-reports-label>` 上的報表不受此權限的控制；這只控制對 :ref:報表模組 <reports-label>` 的權限"
+
+#: ../../source/patrons.rst:1260
+msgid "Reports in the :ref:`Statistics wizard <statistics-reports-label>` section and the other reports on the main reports page can be run with any one of the following permissions. They only affect the SQL reports."
+msgstr "在 :ref:`統計精靈 <statistics-reports-label>` 的報表部分和其他在主要報表頁面上的報表可以使用以下任一權限執行。它們僅影響SQL報表。"
+
+#: ../../source/patrons.rst:1264
+msgid "Create SQL reports (create\\_reports)"
+msgstr "建立 SQL 報表 (create\\_reports)"
+
+#: ../../source/patrons.rst:1266
+msgid "The ability to create :ref:`guided reports <guided-report-wizard-label>` or :ref:`SQL reports <report-from-sql-label>`, but not run saved ones"
+msgstr "新增 :ref:`報表精靈 <guided-report-wizard-label>` 或 :ref:`SQL報表 <report-from-sql-label>`的功能，但不執行已儲存的"
+
+#: ../../source/patrons.rst:1269
+msgid "Delete SQL reports (delete\\_reports)"
+msgstr "刪除 SQL 報表 (delete\\_reports)"
+
+#: ../../source/patrons.rst:1271
+msgid "The ability to delete saved :ref:`SQL reports <report-from-sql-label>`"
+msgstr "能夠刪除已儲存的 :ref:`SQL報表 <report-from-sql-label>`"
+
+#: ../../source/patrons.rst:1273
+msgid "Note that you need execute\\_reports in order to be able to delete them"
+msgstr "請注意，您需要執行\\ _報表才能刪除它們"
+
+#: ../../source/patrons.rst:1275
+msgid "Execute SQL reports (execute\\_reports)"
+msgstr "執行 SQL 報表 (execute\\_reports)"
+
+#: ../../source/patrons.rst:1277
+#, fuzzy
+msgid "The ability to :ref:`run custom SQL reports <running-custom-reports-label>`, but not create or edit them"
+msgstr "能夠 :ref:`執行客製化 SQL報表 <running-custom-reports-label>，但不能新增或編輯它們"
+
+#: ../../source/patrons.rst:1280
+msgid "Allow staff members to modify permissions for other staff members (staffaccess)"
+msgstr "允許館員修改其他館員的權限 (staffaccess)"
+
+#: ../../source/patrons.rst:1282
+msgid "This permission requires the borrowers permission above"
+msgstr "需要啟用借閱者以上的權限"
+
+#: ../../source/patrons.rst:1284
+msgid "Course reserves (coursereserves)"
+msgstr "課程指定用書 (coursereserves)"
+
+#: ../../source/patrons.rst:1286
+msgid "Allow access to the :ref:`course reserves module <course-reserves-label>`"
+msgstr "近用至 :ref:`指定參考書模組 <course-reserves-label>`"
+
+#: ../../source/patrons.rst:1288
+msgid "Note that if the :ref:`UseCourseReserves` system preference is not enabled, these permissions will not have any effect"
+msgstr "若 :ref:`UseCourseReserves` 系統偏好設為未啟用，這些權限將不會有效果"
+
+#: ../../source/patrons.rst:1291
+msgid "Add course reserves (add\\_reserves)"
+msgstr "新增課程指定用書 (add\\_reserves)"
+
+#: ../../source/patrons.rst:1293
+msgid "Grants the ability to :ref:`add items to existing courses <adding-reserve-materials-label>`"
+msgstr "授予 :ref:`新增館藏至現有課程 <adding-reserve-materials-label>"
+
+#: ../../source/patrons.rst:1296
+msgid "Remove course reserves (delete\\_reserves)"
+msgstr "移除課程指定用書 (delete\\_reserves)"
+
+#: ../../source/patrons.rst:1298
+msgid "Grant the ability to remove items from existing courses"
+msgstr "授予從現有課程中刪除館藏的功能"
+
+#: ../../source/patrons.rst:1300
+msgid "Add, edit and delete courses (manage\\_courses)"
+msgstr "新增、編輯與刪除課程 (manage\\_courses)"
+
+#: ../../source/patrons.rst:1302
+msgid "Grants the ability to :ref:`create, edit and delete courses <adding-courses-label>`, but not manage the items"
+msgstr "授予 :ref:`新增，編輯和刪除課程的能力 <adding-courses-label>`，但不管理館藏"
+
+#: ../../source/patrons.rst:1305
+msgid "Koha plugins (plugins)"
+msgstr "Koha 外掛 (plugins)"
+
+#: ../../source/patrons.rst:1307
+msgid "Configure plugins (configure)"
+msgstr "組態外掛程式 (configure)"
+
+#: ../../source/patrons.rst:1309
+msgid "Gives the ability to run the 'configure' section of a plugin if it has one"
+msgstr "如果有外掛，則可以運行外掛的 '組態' 部分"
+
+#: ../../source/patrons.rst:1312 ../../source/patrons.rst:1319
+msgid "Note that the staff member needs either the report permission or the tool permission (below) in order to be able to access the plugins"
+msgstr "請注意，館員需要報表權限或工具權限（如下所示）才能近用外掛"
+
+#: ../../source/patrons.rst:1315
+msgid "Manage plugins (manage)"
+msgstr "管理外掛 (manage)"
+
+#: ../../source/patrons.rst:1317
+msgid "The ability to install or uninstall plugins"
+msgstr "安裝或移除外掛的能力"
+
+#: ../../source/patrons.rst:1322
+msgid "Use report plugins (report)"
+msgstr "使用報表外掛程式 (report)"
+
+#: ../../source/patrons.rst:1324
+msgid "The ability to use report plugins"
+msgstr "使用外掛報表的能力"
+
+#: ../../source/patrons.rst:1326
+msgid "Use tool plugins (tool)"
+msgstr "使用工具外掛程式 (tool)"
+
+#: ../../source/patrons.rst:1328
+msgid "The ability to use tool plugins"
+msgstr "使用外掛工具的能力"
+
+#: ../../source/patrons.rst:1330
+msgid "Lists (lists)"
+msgstr "虛擬書架 (lists)"
+
+#: ../../source/patrons.rst:1334
+msgid "All staff have permission to create and modify their own lists, this permission is only necessary if you'd like to give a staff member permission to delete public lists that they have not created."
+msgstr "館員都已有權限新增與修改其虛擬書架，此處的權限係可以修改它人建立的虛擬書架。"
+
+#: ../../source/patrons.rst:1339
+msgid "Delete public lists (delete\\_public\\_lists)"
+msgstr "刪除公開虛擬書架 (delete\\_public\\_lists)"
+
+#: ../../source/patrons.rst:1341
+msgid "The ability to delete public lists created by someone else"
+msgstr "刪除他人建立公共虛擬書架的權限"
+
+#: ../../source/patrons.rst:1343
+msgid "Patron clubs (clubs)"
+msgstr "讀者讀書會 (讀書會)"
+
+#: ../../source/patrons.rst:1345
+msgid "Create and edit clubs (edit\\_clubs)"
+msgstr "新增與編輯讀書會 (edit\\_clubs)"
+
+#: ../../source/patrons.rst:1347
+msgid "Create and edit patron clubs using the :ref:`Patron clubs tool <patron-clubs-label>`"
+msgstr "新增與編輯讀者讀書會使用 :ref:`讀者讀者會工具 <patron-clubs-label>`"
+
+#: ../../source/patrons.rst:1349
+msgid "Create and edit club templates (edit\\_templates)"
+msgstr "新增與編輯讀書會模版 (edit\\_templates)"
+
+#: ../../source/patrons.rst:1351
+msgid "Create and edit club templates using the :ref:`Patron clubs tool <patron-clubs-label>`"
+msgstr "新增且編輯讀書會模板使用 :ref:`讀者讀書會工具 <patron-clubs-label>`"
+
+#: ../../source/patrons.rst:1353
+msgid "Enroll patrons in clubs (enroll)"
+msgstr "在讀書會註冊的讀者 (enroll)"
+
+#: ../../source/patrons.rst:1355
+msgid "Enroll patrons from the patron file"
+msgstr "從讀者檔案註冊讀者"
+
+#: ../../source/patrons.rst:1357
+msgid "The borrowers permissions is required in order to enroll patrons in clubs"
+msgstr "需要借閱者權限才能將讀者加入讀書會"
+
+#: ../../source/patrons.rst:1360
+msgid "Create and modify interlibrary loan requests (ill)"
+msgstr "新增與修改館際互借請求 (ill)"
+
+#: ../../source/patrons.rst:1362
+msgid "Gives access to the :ref:`Interlibrary loan (ILL) module <ill-requests-label>`"
+msgstr "給予近用至 :ref:`館際互借 (ILL) 模組 <ill-requests-label>` 的權限"
+
+#: ../../source/patrons.rst:1364
+msgid "Self check modules (self\\_check)"
+msgstr "自助借還模組 (self\\_check)"
+
+#: ../../source/patrons.rst:1366
+msgid "Log into the self check-in module (self\\_checkin\\_module)"
+msgstr "登入自助還入模組。 (self\\_checkin\\_module)"
+
+#: ../../source/patrons.rst:1370
+msgid "This permission prevents the patron from using any other OPAC functionality"
+msgstr "此權限限制讀者使用 OPAC 的其他功能"
+
+#: ../../source/patrons.rst:1373
+msgid "Perform self checkout at the OPAC (self\\_checkout\\_module)"
+msgstr "從 OPAC 執行自助借出 (self\\_checkout\\_module)"
+
+#: ../../source/patrons.rst:1377
+msgid "This permission should be used for the patron matching the :ref:`AutoSelfCheckID <autoselfcheck-preferences-label>` system preference"
+msgstr "此權限應使用於匹配於 :ref:`AutoSelfCheckID <autoselfcheck-preferences-label>` 系統偏好的讀者"
+
+#: ../../source/patrons.rst:1381
+msgid "Manage :ref:`stockrotation <stock-rotation-label>` operations (stockrotation)"
+msgstr "管理 :ref:`巡迴館藏 <stock-rotation-label>` 作業 (stockrotation)"
+
+#: ../../source/patrons.rst:1383
+msgid "Add and remove items from rotas (manage_rota_items)"
+msgstr "從巡迴館藏新增和刪除項目 (manage_rota_items)"
+
+#: ../../source/patrons.rst:1385
+msgid "Staff with only this permission will be able to manage the items in the rotas, but not the rotas themselves"
+msgstr "只有擁有此權限的館員才能管理巡迴中的館藏，但不能管理巡迴館藏本身"
+
+#: ../../source/patrons.rst:1388
+msgid "Create, edit and delete rotas (manage_rotas)"
+msgstr "新增、編輯與刪除巡迴館藏 (manage_rotas)"
+
+#: ../../source/patrons.rst:1390
+msgid "Staff with only this permission will be able to manage the rotas, but not the actual items"
+msgstr "只有擁有此權限的館員才能管理巡迴中的館藏，但不能管理實際館藏"
+
+#: ../../source/patrons.rst:1393
+msgid "Cash management (cash_management)"
+msgstr "現金管理 (cash_management)"
+
+#: ../../source/patrons.rst:1395
+msgid "Add, edit and archive cash registers (manage_cash_registers)"
+msgstr "新增，編輯與存檔收銀機 (manage_cash_registers)"
+
+#: ../../source/patrons.rst:1397
+msgid "Staff with this permissions will be able to manage the :ref:`cash registers in the administration module <cashregisters-label>`"
+msgstr "擁有此權限的館員將可以管理 :ref:`管理模塊內的收銀機 <cashregisters-label>`"
+
+#: ../../source/patrons.rst:1400
+msgid "Access the point of sale page and take payments (takepayment)"
+msgstr "進入銷售點頁面並付款 (takepayment)"
+
+#: ../../source/patrons.rst:1402
+msgid "Grants access to the point of sale module"
+msgstr "允許近用至銷售點模組"
+
+#: ../../source/patrons.rst:1407
+msgid "Patron information"
+msgstr "讀者資訊"
+
+#: ../../source/patrons.rst:1409
+msgid "When viewing a patron record you have the option to view information from one of many tabs found on the left hand side of the record."
+msgstr "進入讀者紀錄後，在左手邊有多個分頁可檢視不同的資訊。"
+
+#: ../../source/patrons.rst:1412
+msgid "*Get there:* Patrons > Browse or search for patron > Click patron name"
+msgstr "*到那：* 讀者 > 瀏覽或搜尋讀者 > 點選讀者姓名"
+
+#: ../../source/patrons.rst:1418
+msgid "Check out"
+msgstr "借出"
+
+#: ../../source/patrons.rst:1420
+msgid "For instruction on checking items out, view the :ref:`Checking out <check-out-(issuing)-label>` section of this manual."
+msgstr "檢視本手冊的 :ref:`借出 <check-out-(issuing)-label>` 章節，瞭解借出館藏的詳情。"
+
+#: ../../source/patrons.rst:1423
+msgid "Staff members can access their own check out screen by clicking their username in the top right of the staff client and choosing 'My checkouts'"
+msgstr "點選館員介面右上角的姓名並選擇 '我的借出' 就能近用其借出畫面"
+
+#: ../../source/patrons.rst:1427
+msgid "|image1178|"
+msgstr "|image1178|"
+
+#: ../../source/patrons.rst:1432
+msgid "Details"
+msgstr "詳情"
+
+#: ../../source/patrons.rst:1436
+msgid "Staff members can access their own account details by clicking their username in the top right of the staff client and choosing 'My account'"
+msgstr "點選館員介面右上角的姓名並選擇 '我的帳戶' 就能近用其帳戶詳情"
+
+#: ../../source/patrons.rst:1439
+msgid "|image442|"
+msgstr "|image442|"
+
+#: ../../source/patrons.rst:1441
+msgid "All patron information will appear in the Details tab. This includes all the contact information, notes, custom patron attributes, messaging preferences, etc. entered when adding the patron."
+msgstr "完整的讀者資訊顯示在詳情分頁。包括新增讀者時鍵入的所有連絡資訊、說明、客製化讀者屬性、訊息偏好等。"
+
+#: ../../source/patrons.rst:1445
+msgid "|image1359|"
+msgstr "|image1359|"
+
+#: ../../source/patrons.rst:1447
+msgid "In the case of patrons who are marked as 'Child' or 'Professional' and their guarantors additional information will appear on their record."
+msgstr "被標記為 '兒童' 或 '專業' 的讀者，其保證人資訊將顯示在其記錄內。"
+
+#: ../../source/patrons.rst:1450
+msgid "A child patron will list their guarantor"
+msgstr "兒童讀者將列出其保證人"
+
+#: ../../source/patrons.rst:1452
+msgid "|image443|"
+msgstr "|image443|"
+
+#: ../../source/patrons.rst:1454
+msgid "On the guarantor's record, all children and/or professionals will be listed"
+msgstr "在保證人紀錄裡，列出所有的兒童與專業讀者"
+
+#: ../../source/patrons.rst:1457
+msgid "|image444|"
+msgstr "|image444|"
+
+#: ../../source/patrons.rst:1461
+msgid "If the age of the patron is outside the age range defined in their patron category a warning will appear on their record."
+msgstr "若讀者的年齡超出其讀者類別中定義的年齡範圍，他們的記錄中將出現警示。"
+
+#: ../../source/patrons.rst:1464
+msgid "|image1461|"
+msgstr "|image1461|"
+
+#: ../../source/patrons.rst:1467
+msgid "Circulation summary"
+msgstr "流通摘要"
+
+#: ../../source/patrons.rst:1469
+msgid "Below the patron's information on the details screen is a tabbed display of the items they have checked out, overdue, and on hold."
+msgstr "在詳情頁面的讀者資訊下，是借出、逾期與預約館藏的分頁。"
+
+#: ../../source/patrons.rst:1473
+msgid "Checkouts"
+msgstr "借出"
+
+#: ../../source/patrons.rst:1475
+msgid "The first tab shows the items the patron currently has checked out."
+msgstr "第一個分頁顯示讀者當前已借出的館藏。"
+
+#: ../../source/patrons.rst:1477
+msgid "|image445|"
+msgstr "|image445|"
+
+#: ../../source/patrons.rst:1481
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: issues-table)."
+msgstr ""
+
+#: ../../source/patrons.rst:1486
+msgid "Relatives' checkouts"
+msgstr "相關的借出"
+
+#: ../../source/patrons.rst:1488
+msgid "If they have family at the library, staff can see what the other family members have checked out."
+msgstr "若已擁有圖書館的家族讀者證，館員可以看到其他家族成員借出的館藏。"
+
+#: ../../source/patrons.rst:1491
+msgid "|image446|"
+msgstr "|image446|"
+
+#: ../../source/patrons.rst:1494
+#, fuzzy
+msgid "Charges"
+msgstr "離館除籍"
+
+#: ../../source/patrons.rst:1496
+msgid "The Charges tab will only show in the patron accounts that have unpaid amounts or unused credits."
+msgstr ""
+
+#: ../../source/patrons.rst:1499
+#, fuzzy
+msgid "The tab will show the total amount, without any details. To see the details, go to the :ref:`accounting tab <fines-label>`."
+msgstr "如果讀者有欠款，分頁將顯示總額，不含詳情。要查看詳情，請到 :ref:`罰款分頁 <fines-label>`。"
+
+#: ../../source/patrons.rst:1502
+msgid "|image1360|"
+msgstr "|image1360|"
+
+#: ../../source/patrons.rst:1505
+msgid "Holds"
+msgstr "預約"
+
+#: ../../source/patrons.rst:1507
+msgid "If the patron has holds, the number of holds will appear on this tab's title and the details will appear in the tab."
+msgstr "如果讀者擁有預約，則預約數量將顯示在此頁面的標題上，詳細訊息將顯示在頁面中。"
+
+#: ../../source/patrons.rst:1510
+msgid "|image490|"
+msgstr "|image490|"
+
+#: ../../source/patrons.rst:1514
+msgid "The barcode and call number will only appear on item-level holds or holds that have been confirmed. Record-level holds that are not waiting to be picked up will not have barocdes or call numbers."
+msgstr "條碼號和索書號僅出現在館藏層次的預約或已確認的預約中。無需等待提取的書目層級預約將不會有條碼號或索書號。"
+
+#: ../../source/patrons.rst:1518
+msgid "From here you can manage the patron's holds: change the pickup library, cancel or suspend holds."
+msgstr "這裡可以管理讀者的預約：更改取件圖書館，取消或暫停預約。"
+
+#: ../../source/patrons.rst:1523
+msgid "You will only be able to suspend holds if the :ref:`SuspendHoldsIntranet` system preference is set to \"Allow\"."
+msgstr "只有在 :ref:`SuspendHoldsIntranet` 系統偏好設為 \"允許\" 時可以暫停預約。"
+
+#: ../../source/patrons.rst:1528
+msgid "If, when suspending a hold, you want to be able to set a date at which to automatically resume the hold, set the :ref:`AutoResumeSuspendedHolds` system preference to \"Allow\" and make sure the :ref:`unsuspend_holds cron job <cron-unsuspend-holds-label>` is activated."
+msgstr "如果在暫停預約時希望設置一個自動恢復預約的日期，設定 :ref:`AutoResumeSuspendedHolds` 系統偏好為\"允許\"，並確保 :ref:`unsuspend_holds cron job <cron-unsuspend-holds-label>` 被啟用."
+
+#: ../../source/patrons.rst:1536
+msgid "Article requests"
+msgstr "論文請求"
+
+#: ../../source/patrons.rst:1538
+msgid "If the :ref:`ArticleRequests` system preference is enabled, and the circulation rules allow it, the patrons will be able to request articles, either through the OPAC or in the staff interface."
+msgstr "如果啟用了 :ref:`ArticleRequests` 系統偏好，並且流通規則允許，讀者可以通過OPAC或在館員界面中請求論文。"
+
+#: ../../source/patrons.rst:1542
+msgid "The details of the patron's request, and its status, are visible in this tab."
+msgstr "讀者請求的詳情及其狀態可在此頁面查看。"
+
+#: ../../source/patrons.rst:1545
+msgid "|image1361|"
+msgstr "|image1361|"
+
+#: ../../source/patrons.rst:1548
+msgid "Restrictions"
+msgstr "限制"
+
+#: ../../source/patrons.rst:1550
+msgid "The Restrictions tab will show for all patrons. If the patron has no restrictions you will see that on the tab."
+msgstr "所有的讀者都有限制分頁。未被限制的讀者在此分頁可見到該訊息。"
+
+#: ../../source/patrons.rst:1553
+msgid "|image447|"
+msgstr "|image447|"
+
+#: ../../source/patrons.rst:1555
+msgid "If the patron has restrictions on their account the tab will show the number and the description."
+msgstr "被限制的讀者將在此顯示其讀者號及限制的事項。"
+
+#: ../../source/patrons.rst:1562
+msgid "There are four kinds of restrictions:"
+msgstr "有四種限制："
+
+#: ../../source/patrons.rst:1559
+msgid "Manual"
+msgstr "手冊"
+
+#: ../../source/patrons.rst:1560
+msgid "Overdues"
+msgstr "逾期"
+
+#: ../../source/patrons.rst:1561
+msgid "Suspension"
+msgstr "停權"
+
+#: ../../source/patrons.rst:1562
+msgid "Discharge"
+msgstr "離館除籍"
+
+#: ../../source/patrons.rst:1564
+msgid "Using the 'Add manual restriction' button you can add a restriction to the patron record from here. This can be used for any type of restriction you need to put manually on a patron record."
+msgstr "使用 '新增人工限制' 鈕，您可新增限制於讀者的記錄內。這適用於需要在讀者記錄上手動設置任何類型的限制。"
+
+#: ../../source/patrons.rst:1568
+msgid "|image449|"
+msgstr "|image449|"
+
+#: ../../source/patrons.rst:1570
+msgid "|image448|"
+msgstr "|image448|"
+
+#: ../../source/patrons.rst:1572
+msgid "The overdues restrictions are automatically set when overdue notices are sent if you specified you wanted the patron restricted in the :ref:`Overdue notice/status triggers tool <overdue-notice/status-triggers-label>`."
+msgstr "如果想要在發送逾期通知時限制讀者，可以按照 :ref:`逾期通知/狀態啟動器 <overdue-notice/status-triggers-label>` 的設定，自動設置逾期限制"
+
+#: ../../source/patrons.rst:1576
+msgid "This restriction will not be removed automatically when the overdue items are returned unless the :ref:`AutoRemoveOverduesRestrictions` system preference is set to 'Do'."
+msgstr "除非將 :ref:`AutoRemoveOverduesRestrictions` 系統偏好設置設置為'Do'，否則在還入逾期館藏時，不會自動移除此限制。"
+
+#: ../../source/patrons.rst:1580
+msgid "In the :ref:`circulation rules <circulation-and-fines-rules-label>`, you can choose to fine users by suspending them instead of (or in addition to) fining them money. In that case, returning an overdue document will trigger a suspension restriction."
+msgstr "在 :ref:`流通規則 <circulation-and-fines-rules-label>`中，除了罰款外，也可以選擇停用讀者以罰款。在這種情況下，還入逾期的文件將觸發停用限制。"
+
+#: ../../source/patrons.rst:1584
+msgid "Patrons may also be restricted if you have issued a :ref:`discharge <patron-discharges-label>` for them. Once the discharge is validated, the patron is automatically restricted."
+msgstr "如果已經為讀者發出了 :ref:`離館 <patron-discharges-label>` ，可能會限制他們。離館一旦確認，讀者將自動被限制。"
+
+#: ../../source/patrons.rst:1586
+msgid "Restrictions on a patron record will block checkouts. In fact, a message will appear in red when going to the checkout page."
+msgstr "限鄅讀者記錄會阻止借出。事實上，會在借出時出現紅色訊息。"
+
+#: ../../source/patrons.rst:1589
+msgid "|image1363|"
+msgstr "|image1363|"
+
+#: ../../source/patrons.rst:1591
+msgid "Restrictions may also prevent renewing items if the :ref:`RestrictionBlockRenewing` system preference is set to 'block'."
+msgstr "限制衪許會避免續借， 如果 :ref:`RestrictionBlockRenewing` 系統偏好設定成 '限制'"
+
+#: ../../source/patrons.rst:1594
+msgid "On the OPAC, patrons will get a message saying their account is frozen. They will not be able to place holds from the OPAC."
+msgstr "在OPAC, 讀者會收到訊息得知他們的帳號已凍結。他們不能再從OPAC進行預約."
+
+#: ../../source/patrons.rst:1597
+msgid "If you have patrons that have more than one restriction, you can choose to cumulate their restriction periods or not through the :ref:`CumulativeRestrictionPeriods` system preference."
+msgstr "如果您的讀者有多於一項限制, 您可以選擇計算他們限制期間或不經由 :ref:`CumulativeRestrictionPeriods` 系統偏好"
+
+#: ../../source/patrons.rst:1603
+msgid "If you want to restrict patrons from doing various actions if their record is not pristine, check the following system preferences:"
+msgstr "如果您想限制讀者進行多項活動, 因為他們的記錄不佳, 請確認以下系統偏好:"
+
+#: ../../source/patrons.rst:1606
+msgid "Set the :ref:`OverduesBlockCirc` system preference to 'Block' to prevent patrons who have overdue materials from checking out other materials."
+msgstr "把 :ref:`OverduesBlockCirc` 系統偏好設置為'封鎖'，以防止有逾期館藏的讀者借出其他館藏。"
+
+#: ../../source/patrons.rst:1608
+msgid "Set the :ref:`OverduesBlockRenewing` system preference to 'block renewing for all the patron's items' or 'block renewing only for this item' to prevent patrons who have overdue materials from renewing their loans."
+msgstr "將 :ref:`OverduesBlockRenewing` 系統偏好設置為 '阻止所有讀者館藏的續借' 或 '僅阻止此館藏的續借'，以防止館藏逾期的讀者續借。"
+
+#: ../../source/patrons.rst:1611
+msgid "Enter values in the :ref:`noissuescharge` and :ref:`NoIssuesChargeGuarantees` system preferences in order to block checking out to patrons who have more than a certain amount in fines or to patrons whose guarantees owe more than a certain amount."
+msgstr "在 :ref:`noissuescharge` 和 :ref:`NoIssuesChargeGuarantees`系統偏好輸入值以防止罰款額超過一定額度的讀者或讀者的保證人欠款超過一定額度的讀者還入。"
+
+#: ../../source/patrons.rst:1615
+msgid "Enter a value in the :ref:`maxoutstanding` system preference to prevent patron from placing holds on the OPAC if they owe more than a certain amount."
+msgstr "在 :ref:`maxoutstanding` 系統偏好中輸入一個值，以防止欠款超過一定金額的讀者在OPAC上預約。"
+
+#: ../../source/patrons.rst:1617
+msgid "Enter a value in the :ref:`OPACFineNoRenewals` system preference to prevent patron who owe more than a certain amount to renew their loans from the OPAC."
+msgstr "在 :ref:`OPACFineNoRenewals`系統偏好中輸入一個值，以防止欠款超過一定金額的讀者在OPAC續借。"
+
+#: ../../source/patrons.rst:1619
+msgid "Set the :ref:`BlockExpiredPatronOpacActions` system preference to 'Block' if you want to prevent patron whose membership has expired to place hold or renew their loans from the OPAC."
+msgstr "如果想要避免已過期的讀者在OPAC上預約或續借他們的借出，在 :ref:`BlockExpiredPatronOpacActions` 系統偏好設置為 '封鎖' "
+
+#: ../../source/patrons.rst:1624
+msgid "Clubs"
+msgstr "讀書會"
+
+#: ../../source/patrons.rst:1626
+msgid "If you use :ref:`patron clubs <patron-clubs-label>`, patrons will have a tab in their record indicating which club they are enrolled in, if any."
+msgstr "如果使用 :ref:`讀者讀書會<patron-clubs-label>`，讀者將在其記錄中有一個分頁，顯示他們註冊的讀書會（如果有）。"
+
+#: ../../source/patrons.rst:1629
+msgid "|image1362|"
+msgstr "|image1362|"
+
+#: ../../source/patrons.rst:1634
+#, fuzzy
+msgid "Accounting"
+msgstr "傳閱"
+
+#: ../../source/patrons.rst:1636
+#, fuzzy
+msgid "The patron's complete accounting history will appear on the Accounting tab. The Accounting tab will show all types of charges and credits: overdue fines, membership fees, rental fees, reserve fees and any other charge you may have for patrons."
+msgstr "讀者帳號的完整紀錄將顯示在罰款分頁。罰款分頁不祗顯示姓名與罰款資料，還顯示會費、租金、預約費與其他向讀者收取的費用。"
+
+#: ../../source/patrons.rst:1641
+msgid "|image450|"
+msgstr "|image450|"
+
+#: ../../source/patrons.rst:1645
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: account-fines)."
+msgstr ""
+
+#: ../../source/patrons.rst:1649
+#, fuzzy
+msgid "The Transactions tab will show you the following columns:"
+msgstr "此表格將顯示以下的欄："
+
+#: ../../source/patrons.rst:1651
+#, fuzzy
+msgid "Date: the date the charge, payment or credit was posted"
+msgstr "日期：收取/支付的日期"
+
+#: ../../source/patrons.rst:1653
+msgid "In the case of fines this will be the last day that the fine was accrued"
+msgstr "罰款顯示的是最後一天累積的罰款"
+
+#: ../../source/patrons.rst:1656
+#, fuzzy
+msgid "Account type: what type of charge, payment or credit it is"
+msgstr "金額：支付或收取的總額"
+
+#: ../../source/patrons.rst:1658
+msgid "In cases where an account type may have an accompanying `status` it will be displayed alongside the accounttype in brackets."
+msgstr ""
+
+#: ../../source/patrons.rst:1661
+#, fuzzy
+msgid "Description of charges: a description of the charges including the due date for overdue items and a link to the item record where one is available"
+msgstr "說明：包括逾期罰款的逾期日以及連結至該館藏記錄"
+
+#: ../../source/patrons.rst:1664
+#, fuzzy
+msgid "Barcode: if the charge is linked to a particular item, the barcode is displayed"
+msgstr "所屬圖書館：如果費用連結到特定館藏，則顯示所屬圖書館"
+
+#: ../../source/patrons.rst:1667
+#, fuzzy
+msgid "Due date: if the charge is an overdue fine, the due date is displayed"
+msgstr "所屬圖書館：如果費用連結到特定館藏，則顯示所屬圖書館"
+
+#: ../../source/patrons.rst:1669
+#, fuzzy
+msgid "Checkin date: if the charge is an overdue fine, the checkin date is displayed"
+msgstr "所屬圖書館：如果費用連結到特定館藏，則顯示所屬圖書館"
+
+#: ../../source/patrons.rst:1671
+#, fuzzy
+msgid "Checkout date: if the charge is an overdue fine, the check out date is displayed"
+msgstr "所屬圖書館：如果費用連結到特定館藏，則顯示所屬圖書館"
+
+#: ../../source/patrons.rst:1673
+msgid "Home library: if the charge is linked to a particular item the home library is displayed"
+msgstr "所屬圖書館：如果費用連結到特定館藏，則顯示所屬圖書館"
+
+#: ../../source/patrons.rst:1676
+msgid "Note: any notes about this charge/payment"
+msgstr "說明：與此收取/支付有關的說明"
+
+#: ../../source/patrons.rst:1678
+msgid "If you're allowing patrons to pay fines via the OPAC with PayPal (:ref:`EnablePayPalOpacPayments <enablepaypalopacpayments-and-paypalsandboxmode-label>`) you will see a Note that says 'PayPal' for items paid this way"
+msgstr "若允許讀者從 OPAC 使用 PayPal (:ref:`EnablePayPalOpacPayments <enablepaypalopacpayments-&-paypalsandboxmode-label>`) 支付罰款，可從說明看到 以 'PayPal' 支付其館藏的罰款"
+
+#: ../../source/patrons.rst:1682
+msgid "Amount: the total amount of the payment or charge"
+msgstr "金額：支付或收取的總額"
+
+#: ../../source/patrons.rst:1684
+msgid "Outstanding: the amount still due on charge"
+msgstr "待結清：仍未結清的金額"
+
+#: ../../source/patrons.rst:1686
+#, fuzzy
+msgid "Actions:"
+msgstr "動作欄位："
+
+#: ../../source/patrons.rst:1688
+msgid "A selection of actions available to take upon the account line as detailed below"
+msgstr ""
+
+#: ../../source/patrons.rst:1690
+msgid "At the top of the table you can click the 'Filter paid transaction' to hide all completed transaction and above that you can use the search box to find a specific charge or payment."
+msgstr "點選表單上方的 '篩選已付交易' 隱藏所有已完成的交易且可從搜尋盒找尋特定的支付或交易。"
+
+#: ../../source/patrons.rst:1697
+#, fuzzy
+msgid "Actions"
+msgstr "動作欄位："
+
+#: ../../source/patrons.rst:1699
+msgid "Action buttons will be available for the different account lines depending on the users available permissions and the account type and status."
+msgstr ""
+
+#: ../../source/patrons.rst:1702
+#, fuzzy
+msgid "A button to print a receipt for that line item"
+msgstr "連結列印該館藏的收條"
+
+#: ../../source/patrons.rst:1704
+#, fuzzy
+msgid "A button to show further details about the charge and any payments that have been made"
+msgstr "連結會顯示有關費用和已付款的更多詳細訊息"
+
+#: ../../source/patrons.rst:1706
+#, fuzzy
+msgid "A button to void (reverse) a payment/credit"
+msgstr "使付款無效（刪除）的連結"
+
+#: ../../source/patrons.rst:1708
+msgid "This button will only appear on a payment/credit line. Upon voiding the line it will reverse the payment process restoring the amountoutstanding for any debts/debits which the payment/credit may have previously been used to offset. This action is most commonly used to correct cases where a payment was recorded but never actually recieved. The credit line will be set to a zero amount and updated to `VOID`."
+msgstr ""
+
+#: ../../source/patrons.rst:1715
+msgid "A button to cancel (remove) a charge/debit"
+msgstr ""
+
+#: ../../source/patrons.rst:1717
+msgid "This button will only appear on a charge/debit line that has not already had any payment/credits applied to it. Upon cancelling the line it will be marked as 'Cancelled' and a `CANCELLATION` line will be added and offset against it. This action is most commonly used to correct cases where a charge was made mistakenly."
+msgstr ""
+
+#: ../../source/patrons.rst:1723
+msgid "A button to pay against charges/debits with outstanding amounts"
+msgstr ""
+
+#: ../../source/patrons.rst:1725
+msgid "This button will appear against any charge/debit with an outstanding amount.  The subsequent page can be used to pay or writeoff the line partially or in full with a `PAYMENT` or `WRITEOFF` line will being added."
+msgstr ""
+
+#: ../../source/patrons.rst:1729
+msgid "A button to issue a payout of credit"
+msgstr ""
+
+#: ../../source/patrons.rst:1731
+msgid "This button will appear against any credit line that has an amount outstanding and you have the :ref:`payout permission <patron-permissions-defined-label>`. It allows the librarian to return outstanding credit to the patron and record the action with a `PAYOUT` line."
+msgstr ""
+
+#: ../../source/patrons.rst:1736
+msgid "A button to issue a refund against a charge/debit"
+msgstr ""
+
+#: ../../source/patrons.rst:1738
+msgid "This button will appear against any charge/debit line that has been paid or partially paid and you have the :ref:`refund permission <patron-permissions-defined-label>`. The subsequent modal dialogue will allow you to partially or fully refund the offset debt, either in `CASH` or by means of a credit added to the account."
+msgstr ""
+
+#: ../../source/patrons.rst:1744
+msgid "A button to apply a discount to a charge/debit"
+msgstr ""
+
+#: ../../source/patrons.rst:1746
+msgid "This button will appear against any charge/debit which has not already been offset by a credit/payment and you have the :ref:`discount permission <patron-permissions-defined-label>`. The subsequent modal dialogue will allow you to add a discount upon the charge."
+msgstr ""
+
+#: ../../source/patrons.rst:1755
+msgid "Charging fines/fees"
+msgstr "收取罰款/費用"
+
+#: ../../source/patrons.rst:1757
+#, fuzzy
+msgid "Most fees and fines will be charged automatically if the :ref:`fines cron job <cron-fines-label>` is running.  Fines will also be charged when an overdue item is checked in if the :ref:`CalculateFinesOnReturn` system preference is enabled."
+msgstr "若執行 :ref:`罰款例行性工作排程 <cron-fines-label>`，大部份費用與罰款闠將自動收取："
+
+#: ../../source/patrons.rst:1761
+msgid "Fines will be charged based on your :ref:`circulation and fines rules <circulation-and-fines-rules-label>`"
+msgstr "罰款將依照您的 :ref:`流通與罰款規則 <circulation-and-fine-rules-label>` 計算"
+
+#: ../../source/patrons.rst:1764
+msgid "Hold fees will be charged based on the rules you set in the :ref:`Patron types and categories <patron-categories-label>` administration area"
+msgstr "根據 :ref:`讀者類型與類別 <patron-categories-label>` 管理區塊的規則，將收取預約費用"
+
+#: ../../source/patrons.rst:1767
+msgid "Rental fees will be charged based on the settings in your :ref:`Item iypes <item-types-label>` administration area"
+msgstr "根據您在 :ref:`館藏類型 <item-types-label>` 管理區塊的設定，將收取租金"
+
+#: ../../source/patrons.rst:1770
+msgid "Marking an item 'Lost' via the cataloging module will automatically charge the patron the replacement cost for that item"
+msgstr "經由編目模組標記館藏為 '遺失' 將自動向讀者收取重置費用"
+
+#: ../../source/patrons.rst:1773
+#, fuzzy
+msgid "Creating a patron in a :ref:`category <patron-categories-label>` with an enrollment fee."
+msgstr "在管理模組近用 :ref:`讀者類型 <patron-categories-label>` 的組態權限。"
+
+#: ../../source/patrons.rst:1776
+#, fuzzy
+msgid "Renewing a patron account in a :ref:`category <patron-categories-label>` with an enrollment fee."
+msgstr "在管理模組近用 :ref:`讀者類型 <patron-categories-label>` 的組態權限。"
+
+#: ../../source/patrons.rst:1782
+#, fuzzy
+msgid "Pay and Writeoff fines"
+msgstr "豁免全部罰款"
+
+#: ../../source/patrons.rst:1784
+msgid "Each line item can be paid in full (or written off) using the 'Pay charges' tab.  You can switch between 'Pay' and 'Write off' mode using the buttons located at the top of this tab if you are part way through a transaction."
+msgstr ""
+
+#: ../../source/patrons.rst:1788
+msgid "|image451|"
+msgstr "|image451|"
+
+#: ../../source/patrons.rst:1792
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: pay-fines-table)."
+msgstr ""
+
+#: ../../source/patrons.rst:1796
+msgid "Each line item can be paid in full, partially paid, or written off."
+msgstr "每筆館藏可以全付、部份支付或豁免。"
+
+#: ../../source/patrons.rst:1798
+msgid "Pay a fine in full"
+msgstr "支付全額罰款"
+
+#: ../../source/patrons.rst:1800
+msgid "If you have a note about the payment please type that first then move on"
+msgstr "先鍵必支付的說明再移動至"
+
+#: ../../source/patrons.rst:1803
+msgid "Click \"Pay\" next to the fine you want to pay in full"
+msgstr "勾選罰款旁的 \"支付\"，以便全額支付"
+
+#: ../../source/patrons.rst:1805
+msgid "The full amount of the fine will be populated for you in the \"Collect from patron\" box"
+msgstr "罰款總額應納入 \"取自讀者\" 盒"
+
+#: ../../source/patrons.rst:1808
+msgid "There is a change feature included in this payment process. An option to specify how much money was collected when paying a fine, as well as defining how much was paid on the fine. If these numbers are different (i.e. more money was collected) a popup displaying the amount of change to be given will be displayed and require confirmation before proceeding"
+msgstr "付款流程中包含一項更改功能。用於指定在支付罰款時收取多少錢，以及定義支付罰款金額的選項。如果金額不同（即收取了更多的錢），則會顯示一個彈出視窗，顯示要更改的金額，並需要進行確認才能繼續"
+
+#: ../../source/patrons.rst:1814
+#, fuzzy
+msgid "If one or more values are defined under the PAYMENT\\_TYPE authorized value category a dropdown selection box will be displayed to specify a custom payment type."
+msgstr "在容許值 PAYMENT\\_TYPE 類型內有多個值時，依照客製化付款類型顯示下拉選單"
+
+#: ../../source/patrons.rst:1818
+msgid "If the :ref:`UseCashRegisters` system preference is enabled, you will have a choice of cash register in which to enter the transaction"
+msgstr "如果 :ref:`UseCashRegisters` 的系統偏好為啟用，則可以選擇要進行交易的收銀機"
+
+#: ../../source/patrons.rst:1821 ../../source/patrons.rst:1845
+#: ../../source/patrons.rst:1860 ../../source/patrons.rst:1876
+msgid "Click \"Confirm\""
+msgstr "勾選\"確認\""
+
+#: ../../source/patrons.rst:1823
+msgid "The fine will be removed from outstanding fines, and displayed as fully paid."
+msgstr "罰款將從待付罰款移除，並顯示為全額支付。"
+
+#: ../../source/patrons.rst:1828
+msgid "If the :ref:`FinePaymentAutoPopup` system preference is enabled a print dialogue window will display.  If change was given for this trancaction the details will be included when using this system preference."
+msgstr ""
+
+#: ../../source/patrons.rst:1832
+#, fuzzy
+msgid "In addition to printing receipts you can enable email receipts for payment and writeoff transactions with the :ref:`UseEmailReceipts` system preference."
+msgstr "可以使用 :ref:`UseEmailReceipts` 系統偏好來啟用用於付款和註銷交易的電子郵件收據。"
+
+#: ../../source/patrons.rst:1836
+msgid "Pay a partial fine"
+msgstr "支付部份罰款"
+
+#: ../../source/patrons.rst:1838
+msgid "Click \"Pay\" next to the fine you want to partially pay"
+msgstr "勾選罰款旁的 \"支付\"，以便支付部份費用"
+
+#: ../../source/patrons.rst:1840
+msgid "Enter the amount you are collecting from the patron in the \"Collect from patron\" box"
+msgstr "鍵入從讀者取得的金額於 \"取自讀者\" 盒"
+
+#: ../../source/patrons.rst:1843
+msgid "|image453|"
+msgstr "|image453|"
+
+#: ../../source/patrons.rst:1847
+msgid "The fine will be updated to show the original amount, and the current amount outstanding"
+msgstr "罰款將更新以顯示原來的金額，以及現在待付金額"
+
+#: ../../source/patrons.rst:1850
+msgid "Pay an amount towards all fines"
+msgstr "支付全部罰款"
+
+#: ../../source/patrons.rst:1852
+msgid "Click the \"Pay amount\" button"
+msgstr "勾選 \"付費金額\" 鈕"
+
+#: ../../source/patrons.rst:1854
+msgid "Enter the amount you are collecting from the patron in \"Collect from patron.\" The sum of all fines is shown in \"Total amount outstanding\""
+msgstr "鍵入從讀者取得的金額於 \"取自讀者\"。罰款總金額顯示於 \"待付總金額\""
+
+#: ../../source/patrons.rst:1858
+msgid "|image454|"
+msgstr "|image454|"
+
+#: ../../source/patrons.rst:1862
+msgid "The fine totals will be updated with the payment applied to oldest fines first."
+msgstr "罰款總額依照支付的金額更新。"
+
+#: ../../source/patrons.rst:1865
+msgid "Pay selected fines"
+msgstr "支付指定的罰款"
+
+#: ../../source/patrons.rst:1867
+msgid "Check the selection boxes next to the fines you wish to pay, click \"Pay selected\""
+msgstr "勾選 \"選定支付項目\" 支付部份罰款"
+
+#: ../../source/patrons.rst:1870
+msgid "|image455|"
+msgstr "|image455|"
+
+#: ../../source/patrons.rst:1872
+msgid "Enter an amount to pay towards the fines."
+msgstr "鍵入金額用於支付罰款。"
+
+#: ../../source/patrons.rst:1874
+msgid "|image456|"
+msgstr "|image456|"
+
+#: ../../source/patrons.rst:1878
+msgid "The fine totals will be updated with the payment applied to the oldest selected fines first."
+msgstr "罰款總額依照支付的金額更新，優先處理最舊的罰款。"
+
+#: ../../source/patrons.rst:1881
+msgid "Writeoff a single fine"
+msgstr "豁免一筆罰款"
+
+#: ../../source/patrons.rst:1883
+msgid "Click \"Writeoff\" next to the fine you wish to writeoff."
+msgstr "勾選罰款旁的 \"豁免\" 以便豁免罰款。"
+
+#: ../../source/patrons.rst:1885
+msgid "A confirmation box will appear to specify a total amount to writeoff. This box allows a partial writeoff of fines."
+msgstr "確認豁免金額鍵入盒。該盒可以豁免部份罰款。"
+
+#: ../../source/patrons.rst:1888 ../../source/patrons.rst:1897
+msgid "The fine will be removed from outstanding fines, and displayed as written off."
+msgstr "罰款將從待付罰款移除，並顯示為豁免。"
+
+#: ../../source/patrons.rst:1891
+msgid "Writeoff selected fines"
+msgstr "豁免已選擇的罰款"
+
+#: ../../source/patrons.rst:1893
+msgid "Check the selection boxes next to the fines you wish to pay, click \"Writeoff selected\"."
+msgstr "勾選要支付的罰款選擇框，然後點擊\"豁免已選擇的項目\"。"
+
+#: ../../source/patrons.rst:1895
+msgid "Click \"Confirm\"."
+msgstr "勾選\"確認\"。"
+
+#: ../../source/patrons.rst:1899
+msgid "Writeoff all fines"
+msgstr "豁免全部罰款"
+
+#: ../../source/patrons.rst:1901
+msgid "Click the \"Writeoff all\" button"
+msgstr "勾選 \"全部豁免\" 鈕"
+
+#: ../../source/patrons.rst:1903
+msgid "All fines will be removed from outstanding fines, and displayed as written off."
+msgstr "所有的罰款將從待付區移除，並顯示已免除。"
+
+#: ../../source/patrons.rst:1908
+msgid "Void payments"
+msgstr ""
+
+#: ../../source/patrons.rst:1910
+msgid "If you accidentally mark and item as paid, you can reverse that line item by clicking 'Void' to the right of the line"
+msgstr "若誤標記館藏為已支付，可點選右方的 '無效' 恢復原狀"
+
+#: ../../source/patrons.rst:1913
+msgid "|image457|"
+msgstr "|image457|"
+
+#: ../../source/patrons.rst:1915
+msgid "Once clicked a new line item will be added to the account showing the payment as ‘Voided’.  The payment line is added back to the Pay fines tab as an outstanding charge."
+msgstr "被勾選的新館藏，將被加到顯示為‘無效’付款的帳戶中。  付款行將作為待繳罰款添加回罰款標籤中。"
+
+#: ../../source/patrons.rst:1919
+msgid "|image458|"
+msgstr "|image458|"
+
+#: ../../source/patrons.rst:1924
+msgid "Creating manual invoices"
+msgstr "新增人工發票"
+
+#: ../../source/patrons.rst:1926
+msgid "For fees that are not automatically charged, librarians can create a manual invoice"
+msgstr "館員可以新增人工收據，收取未自動計算的費用"
+
+#: ../../source/patrons.rst:1929
+msgid "|image459|"
+msgstr "|image459|"
+
+#: ../../source/patrons.rst:1931
+msgid "First choose the type of invoice you would like to create"
+msgstr "先選定待新增的發票類型"
+
+#: ../../source/patrons.rst:1933
+msgid "To add additional values to the manual invoice type pull down menu, add them to the :ref:`debit types <add-debit-type-label>` in the Administration module."
+msgstr "加入管理模組的 :ref:`借方類型 <add-debit-type-label>`，就能把新增的值納入下拉選單的人工發票項目中。"
+
+#: ../../source/patrons.rst:1937
+msgid "If the fee is associated with an item you can enter its barcode so that the line item shows a link to that item"
+msgstr "若館藏需要借出費用，您可鍵入其條碼，顯示該館藏的連結"
+
+#: ../../source/patrons.rst:1940
+msgid "The description field is where you will enter the description of the charge"
+msgstr "說明欄位欄位是鍵入收費說明的地方"
+
+#: ../../source/patrons.rst:1943 ../../source/patrons.rst:1964
+msgid "In the amount field, do not enter currency symbols, only numbers and decimals"
+msgstr "在金額欄位不要鍵入幣別符號，祗能鍵入數字與小數點"
+
+#: ../../source/patrons.rst:1949
+msgid "Creating manual credits"
+msgstr "新增人工額度"
+
+#: ../../source/patrons.rst:1951
+msgid "Manual credits can be used to pay off parts of fines, or to forgive a fine amount."
+msgstr "人工額度可以支付部份或豁免罰款。"
+
+#: ../../source/patrons.rst:1954
+msgid "|image460|"
+msgstr "|image460|"
+
+#: ../../source/patrons.rst:1956
+msgid "First choose the type of credit you'd like to apply"
+msgstr "首先，選擇額度類型"
+
+#: ../../source/patrons.rst:1958
+msgid "If this credit is associated with an item you can enter that item's barcode so that the line item links to the right item"
+msgstr "若此額度與館藏有關，您可鍵入館藏的條碼，連結至該館藏"
+
+#: ../../source/patrons.rst:1961
+msgid "The description field is where you will enter the description of the credit"
+msgstr "說明欄位欄位是鍵入額度說明的地方"
+
+#: ../../source/patrons.rst:1970
+msgid "Printing invoices"
+msgstr "列印收據"
+
+#: ../../source/patrons.rst:1972
+msgid "To the right of each account line there is a print link. Clicking that link will print an invoice for the line item that includes the date and description of the line item along with the total outstanding on the account."
+msgstr "帳號右方有個列印連結。按下該連結印出包括日期與說明的館藏收據以及待付款。"
+
+#: ../../source/patrons.rst:1977
+msgid "|image461|"
+msgstr "|image461|"
+
+#: ../../source/patrons.rst:1982
+msgid "Routing lists"
+msgstr "傳閱清單"
+
+#: ../../source/patrons.rst:1984
+msgid "A list of all of the serial routing lists the patron belongs to will be accessible via the 'Routing lists' tab on the patron record."
+msgstr "可經由讀者紀錄的 '傳閱清單' 分頁，查看該讀者訂閱的期刊傳閱清單。"
+
+#: ../../source/patrons.rst:1987
+msgid "|image462|"
+msgstr "|image462|"
+
+#: ../../source/patrons.rst:1989
+msgid "On this tab you will be able to see and edit all of the routing lists that this patron is on."
+msgstr "在此分頁可看到並編輯此讀者所屬的傳閱清單。"
+
+#: ../../source/patrons.rst:1992
+msgid "|image463|"
+msgstr "|image463|"
+
+#: ../../source/patrons.rst:1997
+msgid "Circulation history"
+msgstr "流通紀錄"
+
+#: ../../source/patrons.rst:1999
+msgid "The circulation history tab will appear if you have set the :ref:`intranetreadinghistory` preference to allow it to appear. If you have the :ref:`OPACPrivacy` system preference set to 'Allow' and the patron has decided that the library cannot keep this information this tab will only show currently checked out items."
+msgstr "若設定 :ref:`intranetreadinghistory` 偏好為顯示，流通紀錄分頁就會顯示。若設定 :ref:`OPACPrivacy` 系統偏好為 '允許'，則讀者可以決定讓圖書館不保留此紀錄，此分頁就祗顯示借出尚未還入的館藏。"
+
+#: ../../source/patrons.rst:2006
+msgid "|image464|"
+msgstr "|image464|"
+
+#: ../../source/patrons.rst:2010
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: checkouthistory-table)."
+msgstr ""
+
+#: ../../source/patrons.rst:2014
+msgid "If you would like to export a list of barcodes for the items checked in today you can find that option under the More menu on the top right of the page."
+msgstr "在頁面右上角的其他選單裡，可找到選項，匯出今天還入的條碼清單。"
+
+#: ../../source/patrons.rst:2018
+msgid "|image465|"
+msgstr "|image465|"
+
+#: ../../source/patrons.rst:2020
+msgid "This will generate a text file with one barcode per line."
+msgstr "產生每列一個條碼的文字檔。"
+
+#: ../../source/patrons.rst:2025
+msgid "Holds history"
+msgstr ""
+
+#: ../../source/patrons.rst:2027
+msgid "The holds history tab shows all the holds the patron has made, with their status."
+msgstr ""
+
+#: ../../source/patrons.rst:2029
+#, fuzzy
+msgid "|image1496|"
+msgstr "|image1496|"
+
+#: ../../source/patrons.rst:2033
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holdshistory-table)."
+msgstr ""
+
+#: ../../source/patrons.rst:2040
+msgid "Modification log"
+msgstr "修改紀錄"
+
+#: ../../source/patrons.rst:2042
+msgid "If you have set your :ref:`BorrowersLog` to track changes to patron records, then this tab will appear. The Modification log will show when changes were made to the patron record. If you also have turned on the :ref:`IssueLog` and :ref:`ReturnLog` you will see checkins and outs on this screen as well."
+msgstr "若已設定 :ref:`BorrowersLog` 追蹤讀者記錄，則將顯示此分頁。改變讀者記錄後，出現修改記錄。若同時打開 :ref:`IssueLog` 與 :ref:`ReturnLog`，則可同時看到還入與借出記錄。"
+
+#: ../../source/patrons.rst:2048
+msgid "|image466|"
+msgstr "|image466|"
+
+#: ../../source/patrons.rst:2050
+msgid "The Librarian field shows the patron number for the librarian who made the changes"
+msgstr "館員欄位顯示改變內容的館員讀者號"
+
+#: ../../source/patrons.rst:2053
+msgid "The module lists 'MEMBERS' for the patron module"
+msgstr "此模組清單列出讀者模組的 'MEMBERS'"
+
+#: ../../source/patrons.rst:2055
+msgid "The action will tell you what action was being logged"
+msgstr "此作業將告知將儲存的記錄"
+
+#: ../../source/patrons.rst:2057
+msgid "The Object field lists the borrowernumber that is being modified (in the example above, it was my changing my own record)"
+msgstr "Object 欄列列出修改過的 borrowernumber (如上例，我修改自己的記錄)"
+
+#: ../../source/patrons.rst:2063
+msgid "Notices"
+msgstr "通知"
+
+#: ../../source/patrons.rst:2065
+msgid "The `patron's messaging preferences <#setpatronmessaging>`__ are set when :ref:`adding <add-a-new-patron-label>` or :ref:`editing <editing-patrons-label>` the patron. This tab will show the messages that have been sent and those that are queued to be sent:"
+msgstr "設定 :ref:`讀者訊息偏好 <#setpatronmessaging>` 為 :ref:`新增 <add-a-new-patron-label>` 或 :ref:`編輯 <editing-patrons-label>` 讀者。此分頁將顯示已送出及待送出的訊息："
+
+#: ../../source/patrons.rst:2070
+msgid "|image467|"
+msgstr "|image467|"
+
+#: ../../source/patrons.rst:2072
+msgid "Clicking on the message title will expand the view to show you the full text of the message that was sent."
+msgstr "勾選題名訊息，將展開內容，顯示完整的訊息，以供送出。"
+
+#: ../../source/patrons.rst:2075
+msgid "|image468|"
+msgstr "|image468|"
+
+#: ../../source/patrons.rst:2077
+msgid "If the message has a status of sent or failed you will have the option to 'resend' the message to the patron by clicking the 'resend' button found under the status."
+msgstr "待送出或送出失敗的訊息，將出現 '重送' 該訊息的選項，在其狀態下有重送鈕。"
+
+#: ../../source/patrons.rst:2081
+msgid "|image469|"
+msgstr "|image469|"
+
+#: ../../source/patrons.rst:2086
+msgid "Statistics"
+msgstr "統計"
+
+#: ../../source/patrons.rst:2088
+msgid "Depending on what you set for the values of your :ref:`StatisticsFields` system preference, you can see statistics for one patron's circulation actions."
+msgstr "依照 :ref:`StatisticsFields` 系統偏好的設定值，您可以看見流通讀者的統計資料。"
+
+#: ../../source/patrons.rst:2092
+msgid "|image470|"
+msgstr "|image470|"
+
+#: ../../source/patrons.rst:2097
+msgid "Files"
+msgstr "檔案"
+
+#: ../../source/patrons.rst:2099
+msgid "If you set the :ref:`EnableBorrowerFiles` preference to 'Do' the Files tab will be visible on the patron information page."
+msgstr "若設定 :ref:`EnableBorrowerFiles` 偏好為 '啟用'，則在讀者資訊頁面出現檔案分頁。"
+
+#: ../../source/patrons.rst:2102
+msgid "|image471|"
+msgstr "|image471|"
+
+#: ../../source/patrons.rst:2104
+msgid "From here you can upload files to attach to the patron record."
+msgstr "從此上傳附加於讀者紀錄的檔案。"
+
+#: ../../source/patrons.rst:2106
+msgid "|image472|"
+msgstr "|image472|"
+
+#: ../../source/patrons.rst:2108
+msgid "All files that are uploaded will appear above a form where additional files can be uploaded from."
+msgstr "已上傳所有的檔案，將顯示在表單裡，並可從該表單繼續上傳其他檔案。"
+
+#: ../../source/patrons.rst:2111
+msgid "|image473|"
+msgstr "|image473|"
+
+#: ../../source/patrons.rst:2116
+msgid "Purchase suggestions"
+msgstr "採訪建議"
+
+#: ../../source/patrons.rst:2118
+msgid "If the patron has made any purchase suggestions you will see a purchase suggestions tab on the patron record."
+msgstr "讀者提出採訪建議後，在讀者記錄裡將出現採訪建議分頁。"
+
+#: ../../source/patrons.rst:2121
+msgid "|image1247|"
+msgstr "|image1247|"
+
+#: ../../source/patrons.rst:2123
+msgid "From here you can see all suggestions made by the patron and their status, you can also create a purchase suggestion on the patron's behalf by clicking the 'New purchase suggestion' button at the top."
+msgstr "在此可看到所有的採訪建議及其現況，您也可以讀者身份點選上方的 '新增採訪建議'。"
+
+#: ../../source/patrons.rst:2127
+msgid "Learn more about :ref:`managing purchase suggestions <managing-purchase-suggestions-label>` in the `Acquisitions <#acqmodule>`__ chapter of this manual."
+msgstr "有關 :ref:`採訪建議 <managing-purchase-suggestions-label>` 的詳情，參見本手冊的 `採訪 <#acqmodule>`__ 章。"
+
+#: ../../source/patrons.rst:2133
+msgid "Patron discharges"
+msgstr "讀者離館除籍"
+
+#: ../../source/patrons.rst:2135
+msgid "A discharge is a certificate that says the patron has no current checkouts, no holds and owe no money. To enable this opti`on on the patron record you need to set the :ref:`useDischarge` system preference to 'Allow'."
+msgstr "離館除籍證明讀者沒有借出、沒有預約也沒有欠款。必須設定 :ref:`useDischarge` 系統偏好為 '允許' 才能啟用此功能。"
+
+#: ../../source/patrons.rst:2142
+msgid "In France a \"quitus\" (\"discharge\") is needed if you want to register for an account in a library or a university."
+msgstr "在法國 \"quitus\" (\"退出\") 是必需的，若您需登入圖書館或大學的帳號。"
+
+#: ../../source/patrons.rst:2147
+msgid "Academic libraries often require that you have a clear record at the library before you can graduate."
+msgstr "學術圖書館多半要求讀者先結清借出才能畢業。"
+
+#: ../../source/patrons.rst:2150
+msgid "Patrons can :ref:`request discharges via the OPAC <ask-for-a-discharge-label>`. Any pending discharges will be listed below the menu buttons on the main staff client page"
+msgstr "讀者可以 :ref:`從 OPAC 退出圖書館 <ask-for-a-discharge-label>`。在館員介面顯示待退出讀者的待付費用"
+
+#: ../../source/patrons.rst:2154
+msgid "|image1248|"
+msgstr "|image1248|"
+
+#: ../../source/patrons.rst:2156
+msgid "Clicking the pending requests will open a screen where you can allow those discharges"
+msgstr "按待審核鈕，開啟畫面可以允許該等退館"
+
+#: ../../source/patrons.rst:2159
+msgid "|image1249|"
+msgstr "|image1249|"
+
+#: ../../source/patrons.rst:2161
+msgid "To generate a discharge for a specific patron click the 'Discharge' tab on the left of the patron record"
+msgstr "按下讀者紀錄左方的 '退館除籍' 分頁，就能產生離館除籍表單"
+
+#: ../../source/patrons.rst:2164
+msgid "|image1250|"
+msgstr "|image1250|"
+
+#: ../../source/patrons.rst:2166
+msgid "If the patron can have a discharge generated then it will have a button that says 'Generate discharge'"
+msgstr "可以離館除籍的讀者將顯示 '實現離館除籍' 鈕"
+
+#: ../../source/patrons.rst:2169
+msgid "|image474|"
+msgstr "|image474|"
+
+#: ../../source/patrons.rst:2171
+msgid "If not then you'll see an error explaining why you can't discharge the patron."
+msgstr "不可以時將看到說明不能讓讀者離館除籍的原因。"
+
+#: ../../source/patrons.rst:2174
+msgid "|image475|"
+msgstr "|image475|"
+
+#: ../../source/patrons.rst:2176
+msgid "Once the letter is generated you will have a PDF to download"
+msgstr "產生信件後需要下載該 PDF 檔案"
+
+#: ../../source/patrons.rst:2178
+msgid "|image476|"
+msgstr "|image476|"
+
+#: ../../source/patrons.rst:2182
+msgid "You can style the PDF using the :ref:`NoticeCSS` preference."
+msgstr "使用 :ref:`NoticeCSS` 偏好格式化 PDF。"
+
+#: ../../source/patrons.rst:2185
+msgid "The patron will have a restriction added to their account"
+msgstr "此讀者帳號將被停權"
+
+#: ../../source/patrons.rst:2187
+msgid "|image1251|"
+msgstr "|image1251|"
+
+#: ../../source/patrons.rst:2189
+msgid "And a history of discharges will be added to the 'Discharge' tab"
+msgstr "退館記錄將加入 '退館' 分頁"
+
+#: ../../source/patrons.rst:2192
+msgid "|image1252|"
+msgstr "|image1252|"
+
+#: ../../source/patrons.rst:2197
+msgid "Housebound patrons"
+msgstr "居家讀者"
+
+#: ../../source/patrons.rst:2199
+msgid "There are three roles a patron can have in regard to housebound circulation: borrower, chooser or deliverer."
+msgstr "讀者在居家流通方面可以具有三種角色：借閱者，選擇者或運送者。"
+
+#: ../../source/patrons.rst:2204
+msgid "In order to use the housebound module, the :ref:`HouseboundModule` and :ref:`ExtendedPatronAttributes` system preferences must be enabled."
+msgstr "為了使用居家模組，必須啟用系統偏好 :ref:`HouseboundModule`和 :ref:`ExtendedPatronAttributes` 。"
+
+#: ../../source/patrons.rst:2211
+msgid "Chooser"
+msgstr "選擇者"
+
+#: ../../source/patrons.rst:2213
+msgid "If you have enabled the housebound module, with the :ref:`HouseboundModule` system preference, you will see that patrons now have a new section in their record called 'Housebound roles'."
+msgstr "如果啟用了居家模組，並使用系統偏好設置 :ref:`HouseboundModule` ，會看到讀者現在在其記錄中有一個名為'居家角色'的新部分。"
+
+#: ../../source/patrons.rst:2218
+msgid "|image1349|"
+msgstr "|image1349|"
+
+#: ../../source/patrons.rst:2220
+msgid "Click the 'Add' button to mark this patron as a 'Chooser'."
+msgstr "點擊 '新增' 鈕，將該讀者標記為 '選擇者'。"
+
+#: ../../source/patrons.rst:2223
+msgid "|image1350|"
+msgstr "|image1350|"
+
+#: ../../source/patrons.rst:2225
+msgid "The chooser is in charge of choosing the materials for the housebound patron."
+msgstr "選擇者負責為居家讀者選擇材料。"
+
+#: ../../source/patrons.rst:2231
+msgid "Deliverer"
+msgstr "運送者"
+
+#: ../../source/patrons.rst:2233
+msgid "In the 'Housebound roles', click the 'Add' button to mark this patron as a 'Deliverer'."
+msgstr "在 '居家角色' 中，點擊 '新增' 鈕以將該讀者標記為 '運送者'。"
+
+#: ../../source/patrons.rst:2236
+msgid "|image1351|"
+msgstr "|image1351|"
+
+#: ../../source/patrons.rst:2238
+msgid "The deliverer is in charge of delivering the chosen materials to the housebound patron on a specific day at a specific time."
+msgstr "運送者負責在特定的日期和時間將選定的物料運送到居家讀者。"
+
+#: ../../source/patrons.rst:2244
+msgid "Housebound borrowers"
+msgstr "居家借閱者"
+
+#: ../../source/patrons.rst:2246
+msgid "To create a housebound profile for an housebound patron, click on the 'Housebound' tab in their record."
+msgstr "要為居家讀者建立居家檔案，請在其記錄中點擊 '居家' 選項。"
+
+#: ../../source/patrons.rst:2249
+msgid "|image1347|"
+msgstr "|image1347|"
+
+#: ../../source/patrons.rst:2251
+msgid "From there, you can edit their housebound profile information."
+msgstr "這裡可以編輯他們的居家資訊。"
+
+#: ../../source/patrons.rst:2253
+msgid "|image1348|"
+msgstr "|image1348|"
+
+#: ../../source/patrons.rst:2255
+msgid "Delivery day: choose which day (or 'Any') the patron prefers to receive their delivery."
+msgstr "交貨日期：選擇讀者希望的收貨日期（或 '隨時'）。"
+
+#: ../../source/patrons.rst:2258
+msgid "Frequency: choose the frequency at which they want to receive their deliveries."
+msgstr "頻率：選擇他們要收貨的頻率。"
+
+#: ../../source/patrons.rst:2263
+msgid "The frequencies are managed through the HSBND\\_FREQ list of :ref:`authorized values <existing-values-label>`."
+msgstr "頻率通過 :ref:`授權值 <existing-values-label>` 的 HSBND \\ _FREQ 清單進行管理。"
+
+#: ../../source/patrons.rst:2266
+msgid "Preferred materials: enter notes that will help the chooser choose appropriate documents for the housebound patron."
+msgstr "偏好材料：輸入說明，以幫助選擇者為居家的讀者選擇合適的文件。"
+
+#: ../../source/patrons.rst:2269
+msgid "For example: books, dvds, magazines, etc."
+msgstr "例如：書籍，DVD，雜誌等。"
+
+#: ../../source/patrons.rst:2271
+msgid "Subjects: if the housebound patron has a preference for particular subjects, enter it here. This will help the chooser choose interesting documents for the patron."
+msgstr "主題：如果居家讀者有偏愛的特定主題，請在此處輸入。這將幫助選擇者為讀者選擇有興趣的文件。"
+
+#: ../../source/patrons.rst:2275
+msgid "For example: romance, cookbooks, thrillers, etc."
+msgstr "例如：浪漫，食譜，驚悚片等。"
+
+#: ../../source/patrons.rst:2277
+msgid "Authors: if the housebound patron has favorite authors, enter them here."
+msgstr "著作：如果居家讀者有喜歡的作者，請在此處輸入。"
+
+#: ../../source/patrons.rst:2280
+msgid "For example: Danielle Steel, James Patterson, etc."
+msgstr "例如：Danielle Steel，James Patterson等。"
+
+#: ../../source/patrons.rst:2282
+msgid "Referral: if the housebound patron has a referral, enter it here."
+msgstr "推薦：如果居家讀者有推薦，請在此輸入。"
+
+#: ../../source/patrons.rst:2285
+msgid "Notes: enter any other notes that may help the chooser or the deliverer."
+msgstr "說明：輸入其他可能對選擇者或運送者有幫助的說明。"
+
+#: ../../source/patrons.rst:2288
+msgid "Click the 'Save changes' button to save the housebound profile."
+msgstr "點擊 '儲存變更' 鈕以保存內部設定檔。"
+
+#: ../../source/patrons.rst:2293
+msgid "Coordinating deliveries"
+msgstr "配合運送"
+
+#: ../../source/patrons.rst:2295
+msgid "To plan visits, go to the housebound patron's record."
+msgstr "要計劃拜訪，請查看該居家讀者的記錄。"
+
+#: ../../source/patrons.rst:2297
+msgid "In their housebound tab, you will be able to create deliveries."
+msgstr "在他們的居家表單中，可以建立運送。"
+
+#: ../../source/patrons.rst:2299
+msgid "|image1352|"
+msgstr "|image1352|"
+
+#: ../../source/patrons.rst:2301
+msgid "Click on 'Add a new delivery'."
+msgstr "點擊 '新增運送'。"
+
+#: ../../source/patrons.rst:2303
+msgid "|image1353|"
+msgstr "|image1353|"
+
+#: ../../source/patrons.rst:2305
+msgid "Fill out the information :"
+msgstr "填寫資訊 ："
+
+#: ../../source/patrons.rst:2307
+msgid "Date: Enter the date of the delivery."
+msgstr "日期：輸入運送日期。"
+
+#: ../../source/patrons.rst:2309
+msgid "Time: Select a time of day for the delivery. The choices are morning, afternoon, or evening."
+msgstr "時間：選擇一天中的運送時間。早上，下午或晚上。"
+
+#: ../../source/patrons.rst:2312
+msgid "Chooser: Select a chooser who will be in charge of selecting the materials for this housebound patron."
+msgstr "選擇者：選擇一個負責該居家讀者材料的選擇者。"
+
+#: ../../source/patrons.rst:2315
+msgid "Deliverer: Select a deliverer who will be in charge of picking up the materials and bringing them over to the housebound patron."
+msgstr "運送者：選擇一個運送者，他將負責提取材料並將其帶到居家讀者那裡。"
+
+#: ../../source/patrons.rst:2319
+msgid "|image1354|"
+msgstr "|image1354|"
+
+#: ../../source/patrons.rst:2321
+msgid "Choosers and Deliverers can be notified of planned deliveries via reports.  Example reports be found in the SQL Reports Library at https://wiki.koha-community.org/wiki/SQL_Reports_Patrons#Patron_Characteristics."
+msgstr "通過報表將計劃的交付通知給選擇者和運送者。  可以在SQL報表庫中的範例報表中找到 https://wiki.koha-community.org/wiki/SQL_Reports_Patrons#Patron_Characteristics."
+
+#: ../../source/patrons.rst:2326
+msgid "Patron search"
+msgstr "搜尋讀者"
+
+#: ../../source/patrons.rst:2328
+msgid "Clicking on the link to the Patron module will bring you to a search/browse screen for patrons. From here you can search for a patron by any part of their name or their card number."
+msgstr "勾選讀者模組的連結進入搜尋/瀏覽讀者螢幕。從此可搜尋讀者。"
+
+#: ../../source/patrons.rst:2332
+msgid "|image477|"
+msgstr "|image477|"
+
+#: ../../source/patrons.rst:2334
+msgid "Clicking the small plus sign [+] to the right of the search box will open up an advanced patron search with more filters including the ability to limit to a specific category and/or library."
+msgstr "勾選代理商搜尋盒右方的加號 [+] 打開進階讀者搜尋 包括讀者類型與圖書館的限制欄位。"
+
+#: ../../source/patrons.rst:2338
+msgid "|image478|"
+msgstr "|image478|"
+
+#: ../../source/patrons.rst:2340
+msgid "You can also filter your patron results using the search options on the left hand side of the page."
+msgstr "以頁面左方的選項限制顯示的結果數量。"
+
+#: ../../source/patrons.rst:2343
+msgid "|image1253|"
+msgstr "|image1253|"
+
+#: ../../source/patrons.rst:2345
+msgid "Depending on what you have chosen for the 'Search fields' you can search for patrons in various different ways."
+msgstr "依照從 '搜尋欄位' 選擇的內容，您可從不同方式搜尋讀者。"
+
+#: ../../source/patrons.rst:2348
+msgid "|image479|"
+msgstr "|image479|"
+
+#: ../../source/patrons.rst:2350
+msgid "Standard:"
+msgstr "標準："
+
+#: ../../source/patrons.rst:2352
+msgid "Enter any part of their name, username, email address or barcode"
+msgstr "鍵入姓、名、電子郵件或條碼的任何部份"
+
+#: ../../source/patrons.rst:2354
+msgid "Email:"
+msgstr "電子郵件："
+
+#: ../../source/patrons.rst:2356
+msgid "Enter any part of their email address and choose 'Contains' instead of 'Starts with'"
+msgstr "鍵入電子郵件的任何部分並選擇 '包括' 而不是 '開始'"
+
+#: ../../source/patrons.rst:2359
+msgid "Borrower number:"
+msgstr "讀者號："
+
+#: ../../source/patrons.rst:2361
+msgid "Enter the Koha borrower number"
+msgstr "鍵入讀者號"
+
+#: ../../source/patrons.rst:2363
+msgid "Phone number:"
+msgstr "電話號碼："
+
+#: ../../source/patrons.rst:2365
+msgid "Enter the phone number exactly as it is in the system or by using spaces between each batch of numbers."
+msgstr "鍵入系統內的電話號碼或以空格區分各段號碼。"
+
+#: ../../source/patrons.rst:2368
+msgid "Example: To find (212) 555-1212 you can search for it exactly as it was entered or by searching for 212 555 1212"
+msgstr "例如：可以完全一樣的搜尋(212) 555-1212，以212 555 1212搜尋，也可找到相同的結果"
+
+#: ../../source/patrons.rst:2371
+msgid "Street address:"
+msgstr "街路："
+
+#: ../../source/patrons.rst:2373
+msgid "Enter any part of the patron's address (includes all address fields) and choose 'Contains' instead of 'Starts with' to find the string anywhere in the address"
+msgstr "鍵入讀者地址的任何片斷 (包括所有的地址欄位) 並選擇 '包括' 不選 '開始' 找尋地址裡的任何字串"
+
+#: ../../source/patrons.rst:2377
+msgid "Date of birth"
+msgstr "生日"
+
+#: ../../source/patrons.rst:2379
+msgid "Birth dates should be entered using the format set forth in the :ref:`dateformat` preference."
+msgstr "應使用以 :ref:`dateformat` 偏好設定的格式入出生年月日。"
+
+#: ../../source/patrons.rst:2382
+msgid "Sort field 1"
+msgstr "排序欄位1"
+
+#: ../../source/patrons.rst:2384 ../../source/patrons.rst:2389
+msgid "This is a custom field that libraries can use for any type of data about the patron."
+msgstr "此為使用於圖書館讀者的客製化欄位。"
+
+#: ../../source/patrons.rst:2387
+msgid "Sort field 2"
+msgstr "排序欄位2"
+
+#: ../../source/patrons.rst:2392
+msgid "You can also choose to either search for fields that start with the string you entered or contain the string. Choosing 'Contains' will work like a wildcard search."
+msgstr "您可選擇搜尋欄位內的起始或包括的字串。選擇 '包括' 就像是萬用字元搜尋。"
+
+#: ../../source/patrons.rst:2396
+msgid "|image480|"
+msgstr "|image480|"
+
+#: ../../source/patrons.rst:2398
+msgid "You can also browse through the patron records by clicking on the linked letters across the top."
+msgstr "點選上方的連結文字，可以瀏覽讀者紀錄。"
+
+#: ../../source/patrons.rst:2401
+msgid "|image481|"
+msgstr "|image481|"
+
+#: ../../source/patrons.rst:2403
+msgid "If your search only returns one result, you will be taken directly to the patron's file. If your search returns more than one result, you will be given a list from which to choose."
+msgstr ""
+
+#: ../../source/patrons.rst:2407
+#, fuzzy
+msgid "|image1495|"
+msgstr "|image1495|"
+
+#: ../../source/patrons.rst:2411
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: memberresultst)."
+msgstr ""
+
+#: ../../source/patrons.rst:2418
+#, fuzzy
+msgid "Communicating with patrons"
+msgstr "編輯讀者"
+
+#: ../../source/patrons.rst:2420
+msgid "Koha offers several options for communicating with patrons, some of which have already been covered in this chapter."
+msgstr ""
+
+#: ../../source/patrons.rst:2426
+msgid "OPAC notes"
+msgstr ""
+
+#: ../../source/patrons.rst:2428
+msgid "OPAC notes are added to the patron's file through the :ref:`add patron form<add-a-new-patron-label>` or the :ref:`edit patron form <editing-patrons-label>`, in the 'Library set-up' section."
+msgstr ""
+
+#: ../../source/patrons.rst:2435
+msgid "They show up in the :ref:`'Your summary' section <your-summary-label>` of the patron's online account in the OPAC."
+msgstr ""
+
+#: ../../source/patrons.rst:2440
+msgid "In the staff interface, OPAC notes will be in the 'Library use' section of the patron's file."
+msgstr ""
+
+#: ../../source/patrons.rst:2448
+msgid "OPAC messages"
+msgstr ""
+
+#: ../../source/patrons.rst:2450
+msgid "OPAC messages are added to the patron's file using the 'Add message' button."
+msgstr ""
+
+#: ../../source/patrons.rst:2454
+msgid "To leave a message that the patron will be able to see in the OPAC, choose \"OPAC - Patron's name\" in the 'Add a message for' field. Enter your message in the box, or choose a predefined message in the drop-down menu."
+msgstr ""
+
+#: ../../source/patrons.rst:2458
+#, fuzzy
+msgid "|image1505|"
+msgstr "|image1505|"
+
+#: ../../source/patrons.rst:2462
+#, fuzzy
+msgid "Predefined messages are added in the BOR\\_NOTES :ref:`authorized value category <existing-values-label>`"
+msgstr "頻率通過 :ref:`授權值 <existing-values-label>` 的 HSBND \\ _FREQ 清單進行管理。"
+
+#: ../../source/patrons.rst:2465
+msgid "Once saved, the patron will be able to see the message in the :ref:`'Your summary' section <your-summary-label>` of their online account. The patron will also be able to see the date on which the message was added as well as the name of the branch."
+msgstr ""
+
+#: ../../source/patrons.rst:2470
+#, fuzzy
+msgid "|image1506|"
+msgstr "|image1506|"
+
+#: ../../source/patrons.rst:2472
+msgid "In the staff interface, OPAC messages are shown on the patron's detail page, at the top of the page just under the row of action buttons."
+msgstr ""
+
+#: ../../source/patrons.rst:2475
+#, fuzzy
+msgid "|image1507|"
+msgstr "|image1507|"
+
+#: ../../source/patrons.rst:2477
+msgid "It will also appear on the checkout page, to the right of the checkout box."
+msgstr ""
+
+#: ../../source/patrons.rst:2479
+#, fuzzy
+msgid "|image1508|"
+msgstr "|image1508|"
+
+#: ../../source/patrons.rst:2484
+msgid "Advance notices and hold notices"
+msgstr "提前通知及預約通知"
+
+#: ../../source/patrons.rst:2486
+msgid "If you have enabled the :ref:`EnhancedMessagingPreferences` system preference, you cat set advance notices as well as hold notices when :ref:`adding a new patron <add-a-new-patron-label>` or :ref:`editing a patron <editing-patrons-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:2491
+#, fuzzy
+msgid "If the :ref:`EnhancedMessagingPreferencesOPAC` system preference is set to 'show', patrons will be able to modify their messaging preferences in their online account."
+msgstr "最後，若把 :ref:`EnhancedMessagingPreferences` 設為 '允許' ，就能選擇給此讀者訊息偏好。"
+
+#: ../../source/patrons.rst:2497
+msgid "Item due: A notice on the day and item is due back at the library"
+msgstr "到期通知：館藏到期當天的通知"
+
+#: ../../source/patrons.rst:2499
+#, fuzzy
+msgid "Customize this notice by editing the DUE or DUEDGST notices in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "近用至 :ref:`通知與收條工具 <notices-&-slips-label>`"
+
+#: ../../source/patrons.rst:2502
+#, fuzzy
+msgid "Advance notice: A notice in advance of the patron's items being due (the patron can choose the number of days in advance)"
+msgstr "提早通知：用於通知讀者其借出的館藏即將到期 (讀者可指定提前的天數)"
+
+#: ../../source/patrons.rst:2505
+#, fuzzy
+msgid "Customize this notice by editing the PREDUE or PREDUEDGST notices in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "近用至 :ref:`通知與收條工具 <notices-&-slips-label>`"
+
+#: ../../source/patrons.rst:2508
+msgid "Hold filled: A notice when you have confirmed the hold is waiting for the patron"
+msgstr "預約可取：讀者預約書籍已在館可取"
+
+#: ../../source/patrons.rst:2511
+#, fuzzy
+msgid "Customize this notice by editing the HOLD notice in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "近用至 :ref:`通知與收條工具 <notices-&-slips-label>`"
+
+#: ../../source/patrons.rst:2514
+msgid "Item check-in: A notice that lists all the of the items the patron has just checked in"
+msgstr "還入館藏：讀者剛還入的館藏清單"
+
+#: ../../source/patrons.rst:2517
+#, fuzzy
+msgid "Customize this notice by editing the CHECKIN notice in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "近用至 :ref:`通知與收條工具 <notices-&-slips-label>`"
+
+#: ../../source/patrons.rst:2520
+msgid "Item checkout: A notice that lists all the of the items the patron has just checked out and/or renewed, this is an electronic form of the checkout receipt"
+msgstr "借出館藏：通知讀者剛借出或續借的館藏，就是電子版的借出收條"
+
+#: ../../source/patrons.rst:2524
+#, fuzzy
+msgid "Customize this notice by editing the CHECKOUT notice in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "近用至 :ref:`通知與收條工具 <notices-&-slips-label>`"
+
+#: ../../source/patrons.rst:2527
+#, fuzzy
+msgid "Patrons can choose to receive their notices as a digest by checking the 'Digest only' box along with the delivery method. A digest is a combination of all the messages of that type (so all items due in 3 days in one email) in to one email instead of multiple emails for each alert."
+msgstr "按 '祗有摘要?' 盒後讀者就祗接收摘要式通知。把所有此類型 (3 天內到期的資訊置於一個電子郵件) 的訊息納入一個電子郵件寄出。"
+
+#: ../../source/patrons.rst:2532
+msgid "The delivery methods currently supported are:"
+msgstr ""
+
+#: ../../source/patrons.rst:2534
+#, fuzzy
+msgid "Email"
+msgstr "電子郵件："
+
+#: ../../source/patrons.rst:2535
+msgid "SMS (text messages)"
+msgstr ""
+
+#: ../../source/patrons.rst:2536
+msgid "Automated phone call system"
+msgstr ""
+
+#: ../../source/patrons.rst:2537
+msgid "Print"
+msgstr ""
+
+#: ../../source/patrons.rst:2539
+msgid "To generate the advance notices (advance notice and item due), you need to run the :ref:`advance\\_notices.pl cronjob <cron-advanced-notice-label>`. Then, the :ref:`process\\_message\\_queue.pl cronjob <cron-message-queue-label>` will send the notices or the :ref:`gather\\_print\\_notices.pl cronjob <cron-print-hold-notices-label>` will gather them in a nice file you can print out and send out via regular mail."
+msgstr ""
+
+#: ../../source/patrons.rst:2548
+#, fuzzy
+msgid "Overdue notices"
+msgstr "逾期"
+
+#: ../../source/patrons.rst:2550
+msgid "Overdue notices are managed in :ref:`Notices & slips <notices-and-slips-label>` and when they are sent is managed in :ref:`Overdue notice/status triggers <overdue-notice/status-triggers-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:2554
+msgid "Patrons cannot opt out of receiving overdue notices like they can other notices (such as :ref:`advance notices or hold notices <advance-notices-and-hold-notices-label>`)"
+msgstr ""
+
+#: ../../source/patrons.rst:2557
+msgid "To generate the overdue notices , you need to run the :ref:`overdue\\_notices.pl cronjob <cron-overdue-notice-label>`. Then, the :ref:`process\\_message\\_queue.pl cronjob <cron-message-queue-label>` will send the notices or the :ref:`gather\\_print\\_notices.pl cronjob <cron-print-hold-notices-label>` will gather them in a nice file you can print out and send out via regular mail."
+msgstr ""
+
+#: ../../source/patrons.rst:2566
+msgid "Custom emails"
+msgstr ""
+
+#~ msgid "|image419|"
+#~ msgstr "|image419|"
+
+#, fuzzy
+#~ msgid "Each line item can be paid in full (or written off) using the 'Make a payment' tab."
+#~ msgstr "使用 '支付罰款' 分頁，可以支付 (或豁免) 所有費用。"
+
+#~ msgid "|image1501|"
+#~ msgstr "|image1501|"
+
+#~ msgid "If the Guarantor is not in the system, you can enter the first and last name in the fields available"
+#~ msgstr "若保證人不在系統內，您可在欄位內鍵入姓與名"
+
+#~ msgid "If this patron is a professional, you will be asked to attach the patron to an organizational patron"
+#~ msgstr "專業讀者必須附屬於機構讀者"
+
+#~ msgid "Each patron can have an alternate contact"
+#~ msgstr "每個讀者都有其他連絡資訊"
+
+#~ msgid "If your patron cards expire (based on your :ref:`patron category settings <patron-categories-label>`) the expiry date will automatically be calculated"
+#~ msgstr "可以自動計算 (根據您的 :ref:`讀者類型設定 <patron-categories-label>`) 讀者證的到期日"
+
+#~ msgid "These notices are:"
+#~ msgstr "這些通知是："
+
+#~ msgid "These preference can be altered by the patron via the OPAC"
+#~ msgstr "讀者可以從 OPAC 改變此設定"
+
+#~ msgid "A duplicate patron is detected if first and last names match and there is no date of birth populated or if first name, last name and date of birth fields are all populated. If two patrons have matching names, but one has a date of birth and the other does not they will not match as duplicates."
+#~ msgstr "姓與名相同且無生日，或姓、名與生日均相同，則視為重複讀者。姓與名相同，但一個有生日，另個未登錄生日，則不視為重複讀者。"
+
+#~ msgid "From the more drop-down, the patron account can be deleted. There will be an alert if the patron has checkouts, holds or fines.  If a patron has current checkouts, the deletion will not be possible. If a patron has outstanding fines, the deletion will not be possible.  If a patron has existing holds on their account, the option to delete the patron is possible. The hold will be cancelled and moved to the old reserves table."
+#~ msgstr "從更多下拉式功能表, 可以刪除讀者帳號. 如果讀者借書, 預約或是罰款會有警報.  如果讀者現在借書, 就不可能刪除. 如果讀者未支付罰款, 就不可能刪除. 如果讀者現存預約在他們的帳戶, 則可以選擇刪除讀者. 預約將被取消且移動到舊的預約."
+
+#~ msgid "Note that the :ref:`UseKohaPlugins` system preference needs to be enabled otherwise, these permissions don't have any effect."
+#~ msgstr "請注意，需要啟用 :ref:`UseKohaPlugins`系統偏好，否則這些權限將無效。"
+
+#~ msgid "** Note**"
+#~ msgstr "** 說明**"
+
+#~ msgid "Fines & charges"
+#~ msgstr "罰款和費用"
+
+#~ msgid "The Fines & charges tab will show for all patrons, even those who don't owe anything."
+#~ msgstr "罰款和費用分頁將顯示給所有讀者，即使讀者沒有欠款。"
+
+#~ msgid "Fines"
+#~ msgstr "罰款"
+
+#~ msgid "Pay/Void fines"
+#~ msgstr "支付/無效罰款"
+
+#~ msgid "|image452|"
+#~ msgstr "|image452|"
+
+#~ msgid "superlibrarian"
+#~ msgstr "超級圖書館員"
+
+#~ msgid "circulate"
+#~ msgstr "流通"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-circulate-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-circulate-permissions-label>`)"
+
+#~ msgid "catalogue"
+#~ msgstr "目錄"
+
+#~ msgid "parameters"
+#~ msgstr "參數"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-parameters-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-parameters-permissions-label>`)"
+
+#~ msgid "borrowers"
+#~ msgstr "借閱者"
+
+#~ msgid "Add or modify patrons"
+#~ msgstr "新增或修改讀者"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-borrowers-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-borrowers-permissions-label>`)"
+
+#~ msgid "permissions"
+#~ msgstr "權限"
+
+#~ msgid "reserveforothers"
+#~ msgstr "reserveforothers"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-holds-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-holds-permissions-label>`)"
+
+#~ msgid "editcatalogue"
+#~ msgstr "editcatalogue"
+
+#~ msgid "Edit Catalog (Modify bibliographic/holdings data)"
+#~ msgstr "編輯目錄(修改書目/館藏資料)"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-cataloging-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-cataloging-permissions-label>`)"
+
+#~ msgid "updatecharges"
+#~ msgstr "updatecharges"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-fines-and-charges-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-fines-and-charges-permissions-label>`)"
+
+#~ msgid "acquisition"
+#~ msgstr "採訪"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-acquisitions-permissions-label>`)"
+#~ msgstr "可以擴充此區段的內容 (:ref:`學更多內容 <granular-acquisitions-permissions-label>`)"
+
+#~ msgid "tools"
+#~ msgstr "工具"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-tools-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-tools-permissions-label>`)"
+
+#~ msgid "Edit Authorities"
+#~ msgstr "編輯權威"
+
+#~ msgid "serials"
+#~ msgstr "期刊"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-serials-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-serials-permissions-label>`)"
+
+#~ msgid "reports"
+#~ msgstr "報表"
+
+#~ msgid "Reports found on the Circulation page are not controlled by this permission"
+#~ msgstr "在流通頁面的報表不受此權限管控"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-reports-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-reports-permissions-label>`)"
+
+#~ msgid "staffaccess"
+#~ msgstr "staffaccess"
+
+#~ msgid "coursereserves"
+#~ msgstr "coursereserves"
+
+#~ msgid "Course reserves"
+#~ msgstr "課程指定用書"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-course-reserves-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-course-reserves-permissions-label>`)"
+
+#~ msgid "plugins"
+#~ msgstr "外掛"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-plugins-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-plugins-permissions-label>`)"
+
+#~ msgid "lists"
+#~ msgstr "虛擬書架"
+
+#~ msgid "Lists"
+#~ msgstr "虛擬書架"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-lists-permissions-label>`)"
+#~ msgstr "可以擴充此區段的內容 (:ref:`學更多內容 <granular-lists-permissions-label>`)"
+
+#~ msgid "clubs"
+#~ msgstr "讀書會"
+
+#~ msgid "Allows access to the :ref:`Patron clubs feature <Patron-clubs-label>`"
+#~ msgstr "近用至 :ref:`讀者俱樂部功能 <Patron-clubs-label>`"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-clubs-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-clubs-permissions-label>`)"
+
+#~ msgid "ill"
+#~ msgstr "ill"
+
+#~ msgid "self\\_check"
+#~ msgstr "self\\_check"
+
+#~ msgid "Used for self checkin/self checkout kiosks"
+#~ msgstr "使用於自助還入/借出資訊站"
+
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-self-check-permissions-label>`)"
+#~ msgstr "此區塊可以擴充為 (:ref:`學習更多 <granular-self-check-permissions-label>)"
+
+#~ msgid "Granular circulate permissions"
+#~ msgstr "授權流通權限"
+
+#~ msgid "If the staff member has 'circulate' permissions they have the ability to perform all of these actions. If you would like to control circulation permissions on a more granular level choose from these options:"
+#~ msgstr "若館員有 'circulate' 權限，則可執行所有作業。若您可控制流通權限，則選擇："
+
+#~ msgid "circulate\\_remaining\\_permissions"
+#~ msgstr "流通\\_其他\\_權限"
+
+#~ msgid "Remaining circulation permissions"
+#~ msgstr "其他流通權限"
+
+#~ msgid "force\\_checkout"
+#~ msgstr "強制\\_借出"
+
+#~ msgid "manage\\_checkout\\_notes"
+#~ msgstr "manage\\_checkout\\_notes"
+
+#~ msgid "manage\\_restrictions"
+#~ msgstr "管理\\_限制"
+
+#~ msgid "overdues\\_report"
+#~ msgstr "逾期\\_報表"
+
+#~ msgid "override\\_renewals"
+#~ msgstr "取代\\_續借"
+
+#~ msgid "Granular parameters permissions"
+#~ msgstr "授權參數權限"
+
+#~ msgid "If the staff member has 'parameters' permissions they have the ability to perform all of these actions. If you would like to control parameter permissions on a more granular level choose from these options:"
+#~ msgstr "若館員有 'parameters' 權限，則可執行所有作業。若您可控制流通權限，則選擇："
+
+#~ msgid "Manage audio alerts"
+#~ msgstr "管理提示音效"
+
+#~ msgid "manage\\_auth\\_values"
+#~ msgstr "管理\\_容許\\_值"
+
+#~ msgid "manage\\_circ\\_rules"
+#~ msgstr "管理\\_流通\\_規則"
+
+#~ msgid "manage\\_cities"
+#~ msgstr "管理\\_縣市"
+
+#~ msgid "manage\\_classifications"
+#~ msgstr "管理\\_分類法"
+
+#~ msgid "manage\\_column\\_config"
+#~ msgstr "管理\\_欄\\_組態"
+
+#~ msgid "manage\\_didyoumean"
+#~ msgstr "manage\\_didyoumean"
+
+#~ msgid "manage\\_item\\_circ\\_alerts"
+#~ msgstr "manage\\_item\\_circ\\_alerts"
+
+#~ msgid "Manage item search fields"
+#~ msgstr "管理館藏搜尋欄位"
+
+#~ msgid "Manage item types"
+#~ msgstr "管理館藏類型"
+
+#~ msgid "manage\\_libraries"
+#~ msgstr "manage\\_libraries"
+
+#~ msgid "manage\\_marc\\_frameworks"
+#~ msgstr "manage\\_marc\\_frameworks"
+
+#~ msgid "manage\\_matching\\_rules"
+#~ msgstr "manage\\_matching\\_rules"
+
+#~ msgid "Manage OAI sets"
+#~ msgstr "管理 OAI 資料集"
+
+#~ msgid "manage\\_patron\\_attributes"
+#~ msgstr "manage\\_patron\\_attributes"
+
+#~ msgid "Manage patron categories"
+#~ msgstr "管理讀者類型"
+
+#~ msgid "manage\\_search\\_engine\\_config"
+#~ msgstr "manage\\_search\\_engine\\_config"
+
+#~ msgid "manage\\_search\\_targets"
+#~ msgstr "manage\\_search\\_targets"
+
+#~ msgid "manage\\_sms_providers"
+#~ msgstr "manage\\_sms_providers"
+
+#~ msgid "manage\\_sysprefs"
+#~ msgstr "manage\\_sysprefs"
+
+#~ msgid "manage\\_transfers"
+#~ msgstr "manage\\_transfers"
+
+#, fuzzy
+#~ msgid "manage\\_usage\\_stats"
+#~ msgstr "管理\\_待處理\\_marc"
+
+#~ msgid "parameters\\_remaining\\_permissions"
+#~ msgstr "參數\\_其他\\_權限"
+
+#~ msgid "Granular borrowers permissions"
+#~ msgstr "授權借閱者權限"
+
+#~ msgid "If the staff member has 'borrowers' permissions they have the ability to perform all of these actions. If you would like to control borrowers permissions on a more granular level choose from these options:"
+#~ msgstr "若館員有 '借閱者' 權限，則可執行所有作業。若您可控制借閱權限，則選擇："
+
+#~ msgid "edit\\_borrowers"
+#~ msgstr "編輯\\_讀者"
+
+#~ msgid "Granular holds permissions"
+#~ msgstr "授權預約權限"
+
+#~ msgid "If the staff member has 'reserveforothers' permissions they have the ability to perform all of these actions. If you would like to control holds permissions on a more granular level choose from these options:"
+#~ msgstr "若館員有 'reserveforothers' 權限，則可執行所有作業。若您可控制流通權限，則選擇："
+
+#~ msgid "Modify holds priority"
+#~ msgstr "修改預約順位"
+
+#~ msgid "place\\_holds"
+#~ msgstr "設置\\_預約"
+
+#~ msgid "Granular cataloging permissions"
+#~ msgstr "授權編目權限"
+
+#~ msgid "If the staff member has 'editcatalogue' permissions they have the ability to perform all of these actions. If you would like to control cataloging permissions on a more granular level choose from these options:"
+#~ msgstr "若館員擁有 'editcatalogue' 權限，則可執行所有的作業。若您可控制編目權限，則選擇："
+
+#~ msgid "delete\\_all\\_items"
+#~ msgstr "刪除\\_全部\\_館藏"
+
+#~ msgid "edit\\_catalogue"
+#~ msgstr "編輯\\_目錄"
+
+#~ msgid "Edit items"
+#~ msgstr "編輯館藏"
+
+#~ msgid "edit\\_items\\_restricted"
+#~ msgstr "編輯\\_館藏\\_限制"
+
+#~ msgid "Fast cataloging"
+#~ msgstr "快速編目"
+
+#~ msgid "Granular fines and charges permissions"
+#~ msgstr "罰款與收費的權限"
+
+#~ msgid "If a staff member has 'updatecharges' permission they have the ability to perform all of these actions. If you would like to control fines and charges permissions on a more granular level choose from these options:"
+#~ msgstr "若館員擁有 'updatecharges' 權限，就能夠執行以下的作為。若想控制罰款與收費的權限，則需取得下列權限："
+
+#~ msgid "remaining\\_permissions"
+#~ msgstr "其他\\_權限"
+
+#~ msgid "writeoff"
+#~ msgstr "核銷"
+
+#~ msgid "Granular acquisitions permissions"
+#~ msgstr "授權採訪權限"
+
+#~ msgid "If the staff member has 'acquisition' permissions they have the ability to perform all of these actions. If you would like to control acquisitions permissions on a more granular level choose from these options:"
+#~ msgstr "若館員有 'acquisition' 權限，則可執行所有作業。若您可控制流通權限，則選擇："
+
+#~ msgid "budget\\_add\\_del"
+#~ msgstr "預算\\_新增\\_刪除"
+
+#, fuzzy
+#~ msgid "Manage funds"
+#~ msgstr "管理預算"
+
+#, fuzzy
+#~ msgid "Manage all funds"
+#~ msgstr "管理所有預算"
+
+#~ msgid "budget\\_modify"
+#~ msgstr "預算\\_修訂"
+
+#~ msgid "Manage contracts"
+#~ msgstr "管理合約"
+
+#, fuzzy
+#~ msgid "currencies\\_manage"
+#~ msgstr "合約\\_管理"
+
+#, fuzzy
+#~ msgid "edi\\_manage"
+#~ msgstr "刊期\\_管理"
+
+#~ msgid "group\\_manage"
+#~ msgstr "群組\\_管理"
+
+#~ msgid "order\\_manage"
+#~ msgstr "訂單\\_管理"
+
+#~ msgid "order\\_manage\\_all"
+#~ msgstr "訂單\\_管理\\_全部"
+
+#~ msgid "order\\_receive"
+#~ msgstr "訂單\\_簽收"
+
+#~ msgid "period\\_manage"
+#~ msgstr "刊期\\_管理"
+
+#~ msgid "Manage budgets"
+#~ msgstr "管理預算"
+
+#~ msgid "planning\\_manage"
+#~ msgstr "規畫\\_管理"
+
+#, fuzzy
+#~ msgid "suggestions\\_manage"
+#~ msgstr "預算\\_管理"
+
+#~ msgid "Manage vendors"
+#~ msgstr "管理供應商"
+
+#~ msgid "Granular serials permissions"
+#~ msgstr "授權期刊權限"
+
+#~ msgid "If the staff member has 'serials' permissions they have the ability to perform all of these actions. If you would like to control serials permissions on a more granular level choose from these options:"
+#~ msgstr "若館員有 'serials' 權限，則可執行所有作業。若您可控制流通權限，則選擇："
+
+#~ msgid "check\\_expiration"
+#~ msgstr "勾選\\_到期"
+
+#~ msgid "claim\\_serials"
+#~ msgstr "催缺\\_期刊"
+
+#~ msgid "create\\_subscription"
+#~ msgstr "新增\\_訂閱"
+
+#~ msgid "delete\\_subscription"
+#~ msgstr "刪除\\_訂閱"
+
+#~ msgid "edit\\_subscription"
+#~ msgstr "編輯\\_訂閱"
+
+#~ msgid "receive\\_serials"
+#~ msgstr "簽收\\_期刊"
+
+#~ msgid "Receive serials on existing subscriptions"
+#~ msgstr "根據既有的訂閱簽收期刊"
+
+#~ msgid "renew\\_subscription"
+#~ msgstr "續訂\\_訂閱"
+
+#~ msgid "Routing"
+#~ msgstr "傳閱"
+
+#~ msgid "superserials"
+#~ msgstr "superserials"
+
+#~ msgid "Granular tools permissions"
+#~ msgstr "授權工具權限"
+
+#~ msgid "If the staff member has 'tools' permissions they have the ability to access and use all items under the Tools menu. If you would like to control which tools staff members have access to on a more granular level choose from these options:"
+#~ msgstr "若館員有 'tools' 權限，則可執行所有作業。若您可控制流通權限，則選擇："
+
+#~ msgid "access\\_files"
+#~ msgstr "access\\_files"
+
+#~ msgid "batch\\_upload\\_patron\\_images"
+#~ msgstr "批次\\_上傳\\_讀者\\_照片"
+
+#~ msgid "delete\\_anonymize\\_patrons"
+#~ msgstr "刪除\\_匿名\\_讀者"
+
+#~ msgid "edit\\_calendar"
+#~ msgstr "edit\\_calendar"
+
+#~ msgid "edit\\_news"
+#~ msgstr "編輯\\_最新消息"
+
+#~ msgid "edit\\_notice\\_status\\_triggers"
+#~ msgstr "編輯\\_通知\\_狀態\\_啟動"
+
+#~ msgid "edit\\_notices"
+#~ msgstr "edit\\_notices"
+
+#~ msgid "edit\\_patrons"
+#~ msgstr "編輯\\_讀者"
+
+#~ msgid "edit\\_quotes"
+#~ msgstr "edit\\_notices"
+
+#~ msgid "export\\_catalog"
+#~ msgstr "匯出\\_目錄"
+
+#~ msgid "import\\_patrons"
+#~ msgstr "匯入\\_讀者"
+
+#~ msgid "inventory"
+#~ msgstr "inventory"
+
+#~ msgid "items\\_batchdel"
+#~ msgstr "館藏\\_批次刪除"
+
+#~ msgid "items\\_batchmod"
+#~ msgstr "館藏\\_批次模式"
+
+#~ msgid "items\\_batchmod\\_restricted"
+#~ msgstr "館藏\\_批次模式\\_限制"
+
+#~ msgid "label\\_creator"
+#~ msgstr "書標\\_新增器"
+
+#~ msgid "manage\\_csv\\_profiles"
+#~ msgstr "管理\\_csv\\_設定檔"
+
+#~ msgid "manage\\_patron\\_lists"
+#~ msgstr "管理\\_讀者\\_虛擬書架"
+
+#~ msgid "manage\\_staged\\_marc"
+#~ msgstr "管理\\_待處理\\_marc"
+
+#~ msgid "marc\\_modification\\_templates"
+#~ msgstr "marc\\_modification\\_templates"
+
+#~ msgid "Manage MARC modification templates"
+#~ msgstr "管理 MARC 修改面板"
+
+#~ msgid "moderate\\_comments"
+#~ msgstr "審核\\_評論"
+
+#~ msgid "moderate\\_tags"
+#~ msgstr "審核\\_標籤"
+
+#~ msgid "records\\_batchdel"
+#~ msgstr "記錄\\_批次刪除"
+
+#~ msgid "records\\_batchmod"
+#~ msgstr "records\\_batchmod"
+
+#~ msgid "rotating\\_collections"
+#~ msgstr "巡迴\\_館藏"
+
+#~ msgid "schedule\\_tasks"
+#~ msgstr "排定\\_工作"
+
+#~ msgid "stage\\_marc\\_import"
+#~ msgstr "待處理\\_marc\\_匯入"
+
+#~ msgid "Upload any file"
+#~ msgstr "上傳任何檔案"
+
+#~ msgid "Upload local cover images"
+#~ msgstr "上傳在地封面"
+
+#~ msgid "upload\\_manage"
+#~ msgstr "上傳\\_管理"
+
+#~ msgid "view\\_system\\_logs"
+#~ msgstr "view\\_system\\_logs"
+
+#~ msgid "Granular reports permissions"
+#~ msgstr "授權報表權限"
+
+#~ msgid "If the staff member has 'reports' permissions they have the ability to perform all of these actions. If you would like to control reports permissions on a more granular level choose from these options:"
+#~ msgstr "若館員有 'reports' 權限，則可執行所有作業。若您可控制流通權限，則選擇："
+
+#~ msgid "create\\_reports"
+#~ msgstr "create\\_reports"
+
+#~ msgid "delete\\_reports"
+#~ msgstr "delete\\_reports"
+
+#~ msgid "execute\\_reports"
+#~ msgstr "execute\\_reports"
+
+#~ msgid "The ability to run but not create or edit SQL reports"
+#~ msgstr "新增與編輯能力，但不包括執行SQL報表"
+
+#~ msgid "Granular course reserves permissions"
+#~ msgstr "授權指定參考書權限"
+
+#~ msgid "If the staff member has 'course reserves' permissions they have the ability to perform all of these actions. If you would like to control course reserves permissions on a more granular level choose from these options:"
+#~ msgstr "若館員有 '指定參考書' 權限，則可執行該作業。可在授權階段控制指定參考書權限，則選擇："
+
+#~ msgid "add\\_reserves"
+#~ msgstr "add\\_reserves"
+
+#~ msgid "delete\\_reserves"
+#~ msgstr "execute\\_reports"
+
+#~ msgid "manage\\_courses"
+#~ msgstr "管理\\_課程"
+
+#~ msgid "Granular plugins permissions"
+#~ msgstr "授權外掛權限"
+
+#~ msgid "If the staff member has 'plugins' permissions they have the ability to perform all of these actions. If you would like to control plugins permissions on a more granular level choose from these options:"
+#~ msgstr "若館員擁有 '外掛' 權限，他們就有能力執行這些作業。若希望在更細緻的層面選擇控制報表權限，從這裡選取："
+
+#~ msgid "configure"
+#~ msgstr "組態"
+
+#~ msgid "manage"
+#~ msgstr "管理"
+
+#~ msgid "report"
+#~ msgstr "報表"
+
+#~ msgid "tool"
+#~ msgstr "工具"
+
+#~ msgid "Granular lists permissions"
+#~ msgstr "授權虛擬書架權限"
+
+#~ msgid "All staff members have permission to access lists. This section only needs to be checked off if you want to give permission to a staff member to delete public lists that they have no created themselves."
+#~ msgstr "館員都能近用虛擬書架。不勾選後館員才能刪除其他人建立的公共虛擬書架。"
+
+#~ msgid "Delete public lists"
+#~ msgstr "刪除公開虛擬書架"
+
+#~ msgid "Granular patron clubs permissions"
+#~ msgstr "授權讀者讀書會權限"
+
+#~ msgid "If the staff member has 'clubs' permissions they have the ability to perform all of these actions. If you would like to control patron clubs permissions on a more granular level choose from these options:"
+#~ msgstr "若館員擁有 '讀書會' 權限，他們就有能力執行這些作業。若希望在更細緻的層面選擇控制報表權限，從這裡選取："
+
+#~ msgid "edit\\_clubs"
+#~ msgstr "編輯\\_讀書會"
+
+#~ msgid "edit\\_templates"
+#~ msgstr "編輯\\_模板"
+
+#~ msgid "enroll"
+#~ msgstr "註冊"
+
+#~ msgid "Granular self check permissions"
+#~ msgstr "授權自助借還權限"
+
+#~ msgid "If the user has 'self check' permissions they have the ability to perform all of these actions. If you would like to control self check permissions on a more granular level choose from these options:"
+#~ msgstr "若館員有 '自助借還' 權限，則可執行該有作業。若想控制自助借還權限，則選擇："
+
+#~ msgid "self\\_checkin\\_module"
+#~ msgstr "自助\\_借出\\_模組"
+
+#~ msgid "self\\_checkout\\_module"
+#~ msgstr "自助\\_借出\\_模組"
+
+#~ msgid "The value set as the authorized value for the MANUAL\\_INV authorized value category will appear as the description and the authorized value description will be used as the amount."
+#~ msgstr "在 MANUAL\\_INV 容許值範圍內，設定的容許值將顯示在說明與容許值說明內，做為總額使用。"
+
+#~ msgid "|image1246|"
+#~ msgstr "|image1246|"
+
+#~ msgid "The ability to reverse a payment"
+#~ msgstr "反悔已支付的機制"
+
+#~ msgid "manage\\_keywords2koha\\_mappings"
+#~ msgstr "manage\\_keywords2koha\\_mappings"
+
+#~ msgid "Manage Keywords to Koha mappings"
+#~ msgstr "管理鍵詞至 Koha 的對映"
+
+#~ msgid "The ability to access the :ref:`Keywords to MARC mapping <keywords-to-marc-mapping-label>` configuration in the administration module."
+#~ msgstr "在管理模組近用 :ref:`鍵詞至MARC對映 <keywords-to-marc-mapping-label>` 的組態權限。"
+
+#~ msgid "management"
+#~ msgstr "管理"
+
+#~ msgid "Set library management params (deprecated)"
+#~ msgstr "設定圖書館管理參數 (不適用)"
+
+#~ msgid "This permission level no longer controls anything."
+#~ msgstr "此權限層次不再控制任何事務。"
+
+#~ msgid "Click 'Set to Patron to search your system for an existing patron"
+#~ msgstr "勾選'設定至讀者'，搜尋既有的讀者"
+
+#~ msgid "To set patron permissions, you must first :ref:`have a patron of the 'Staff' type <add-a-staff-patron-label>` open"
+#~ msgstr "必須先打開 :ref:`讀者為 '館員' 類型 <add-a-staff-patron-label>`，才能設定讀者權限"
+
+#~ msgid "Koha Lists"
+#~ msgstr "虛擬書架"

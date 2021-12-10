@@ -1,0 +1,950 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-03-26 06:02+0000\n"
+"Last-Translator: Frank Chou <frank@sris.com.tw>\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
+"X-Pootle-Path: /zh_TW/man20.11/searchingpreferences.po\n"
+"X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1616738567.670538\n"
+
+#: ../../source/searchingpreferences.rst:6
+msgid "Searching"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:8
+msgid "*Get there:* More > Administration > Global System Preferences > Searching"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:14
+msgid "Did you mean / Spell checking"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:19
+msgid "LibrisKey"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:21
+msgid "Asks: Swedish service for spellchecking. LIBRIS spellchecking API key \\_\\_\\_"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:23
+#: ../../source/searchingpreferences.rst:38
+#: ../../source/searchingpreferences.rst:66
+#: ../../source/searchingpreferences.rst:88
+#: ../../source/searchingpreferences.rst:110
+#: ../../source/searchingpreferences.rst:140
+#: ../../source/searchingpreferences.rst:170
+#: ../../source/searchingpreferences.rst:203
+#: ../../source/searchingpreferences.rst:237
+#: ../../source/searchingpreferences.rst:280
+#: ../../source/searchingpreferences.rst:314
+#: ../../source/searchingpreferences.rst:342
+#: ../../source/searchingpreferences.rst:368
+#: ../../source/searchingpreferences.rst:385
+#: ../../source/searchingpreferences.rst:427
+#: ../../source/searchingpreferences.rst:462
+#: ../../source/searchingpreferences.rst:478
+#: ../../source/searchingpreferences.rst:494
+#: ../../source/searchingpreferences.rst:509
+#: ../../source/searchingpreferences.rst:523
+#: ../../source/searchingpreferences.rst:542
+#: ../../source/searchingpreferences.rst:557
+#: ../../source/searchingpreferences.rst:583
+#: ../../source/searchingpreferences.rst:605
+#: ../../source/searchingpreferences.rst:654
+#: ../../source/searchingpreferences.rst:672
+#: ../../source/searchingpreferences.rst:698
+#: ../../source/searchingpreferences.rst:754
+#: ../../source/searchingpreferences.rst:774
+#: ../../source/searchingpreferences.rst:826
+#: ../../source/searchingpreferences.rst:864
+msgid "Description:"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:25
+msgid "Use this system preference to enable the LIBRIS spellchecking service."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:27
+msgid "You can obtain you API key at http://api.libris.kb.se/bibspell"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:32
+msgid "LibrisURL"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:34
+msgid "Asks: LIBRIS base URL \\_\\_\\_"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:36
+msgid "Default: http://api.libris.kb.se/bibspell/"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:40
+msgid "This system preference is used to set the base URL for the LIBRIS spellchecking service API"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:43
+msgid "The default value should be the right one. Make sure you only change it if you are sure it needs to be changed"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:49
+msgid "Features"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:54
+msgid "BrowseResultSelection"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:56
+msgid "Default: Disable"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:58
+msgid "Asks: \\_\\_\\_ browsing search results fromt the bibliographic record detail page in staff client."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:60
+#: ../../source/searchingpreferences.rst:80
+#: ../../source/searchingpreferences.rst:104
+#: ../../source/searchingpreferences.rst:134
+#: ../../source/searchingpreferences.rst:164
+#: ../../source/searchingpreferences.rst:190
+#: ../../source/searchingpreferences.rst:229
+#: ../../source/searchingpreferences.rst:252
+#: ../../source/searchingpreferences.rst:268
+#: ../../source/searchingpreferences.rst:302
+#: ../../source/searchingpreferences.rst:336
+#: ../../source/searchingpreferences.rst:437
+#: ../../source/searchingpreferences.rst:454
+#: ../../source/searchingpreferences.rst:577
+#: ../../source/searchingpreferences.rst:648
+#: ../../source/searchingpreferences.rst:692
+#: ../../source/searchingpreferences.rst:719
+#: ../../source/searchingpreferences.rst:804
+#: ../../source/searchingpreferences.rst:820
+#: ../../source/searchingpreferences.rst:842
+#: ../../source/searchingpreferences.rst:858
+msgid "Values:"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:62
+#: ../../source/searchingpreferences.rst:254
+msgid "Disable"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:64
+#: ../../source/searchingpreferences.rst:256
+msgid "Enable"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:68
+msgid "Enabling this system preference makes a button appear in the intranet search results page to browse the selected records."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:74
+msgid "EnableSearchHistory"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:76
+msgid "Default: Don't keep"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:78
+msgid "Asks: \\_\\_\\_ patron search history in the staff client."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:82
+msgid "Don't keep"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:84
+msgid "Keep"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:86
+msgid "|image1197|"
+msgstr "|image1197|"
+
+#: ../../source/searchingpreferences.rst:90
+msgid "This preference controls whether the staff client keeps search history for logged in users. Search history will be accessible under the link to your account in the top right of the staff client."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:97
+msgid "IncludeSeeFromInSearches"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:99
+msgid "Default: Don't include"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:101
+msgid "Asks: \\_\\_\\_ *see from* (non-preferred form) headings in bibliographic searches."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:106
+#: ../../source/searchingpreferences.rst:304
+msgid "Don't include"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:108
+#: ../../source/searchingpreferences.rst:309
+msgid "Include"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:112
+msgid "When this preference is set to include the search engine indexer will insert *see from* headings from authority records into bibliographic records when indexing, so that a search on an obsolete term will turn up relevant records. For example when you search for cookery (the old term) you get titles with the heading of cooking (the new term)."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:118
+#: ../../source/searchingpreferences.rst:198
+#: ../../source/searchingpreferences.rst:287
+#: ../../source/searchingpreferences.rst:322
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:120
+msgid "You will need to reindex your bibliographic database when changing this preference."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:126
+msgid "QueryAutoTruncate"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:128
+msgid "Default: automatically"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:130
+msgid "Asks: Perform wildcard searching (where, for example, Har would match Harry and harp) \\_\\_\\_ (The \\* character would be used like so: Har\\* or \\*logging.)"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:136
+msgid "automatically"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:138
+msgid "only if \\* is added"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:142
+msgid "This setting allows for searches to be automatically truncated or for additional characters to be added to the end of a search string. When set to \"automatically\" the search string automatically ends with a wildcard function. For example, a search for the word \"invent\" with auto truncation enabled will also retrieve results for inventor, invention, inventory, etc. If you don't want this to happen automatically you can still be perform wildcard searches manually by adding an asterisk (\\*). Typing \"invent\\*\" even with auto truncation disabled will retrieve the same inventor, invention, inventory results. Auto truncation bypasses the necessity to type long search strings in their entirety."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:157
+msgid "QueryFuzzy"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:159
+#: ../../source/searchingpreferences.rst:225
+msgid "Default: Try"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:161
+msgid "Asks: \\_\\_\\_ to match similarly spelled words in a search (for example, a search for flang would also match flange and fang)"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:166
+#: ../../source/searchingpreferences.rst:231
+msgid "Don't try"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:168
+#: ../../source/searchingpreferences.rst:233
+msgid "Try"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:172
+msgid "This preference enables \"fuzzy\" searching, in which the search engine returns results that are similar to, but not exactly matching, the word or words entered by the user. This preference enables the search function to compensate for slightly misspelled names or phrases."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:179
+msgid "This does not work if ICU is enabled in your system."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:184
+msgid "QueryRegexEscapeOptions"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:186
+msgid "Asks: \\_\\_\\_ regular expressions within strings."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:188
+msgid "Default: Escape"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:192
+msgid "Don't escape"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:194
+msgid "Escape"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:196
+msgid "Unescaped escaped"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:200
+msgid "This system preference is used with Elasticsearch only. If you use Zebra as your :ref:`SearchEngine`, it will not change anything."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:205
+msgid "If 'Escape' is selected occurences of '/'' in search terms will be automatically escaped, and regular expressions interpreted as regular strings. In other words, regular expressions are disabled and search terms are search as-is (for example, 'an essential grammar / William Z. Shetter')."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:211
+msgid "If 'Unescape escaped' is selected this will allow writing regular expressions '\\/like this\\/'' while '/this/', 'or/this' will be escaped and interpreted as regular strings. In other words, use this option if you want to be able to use regular expressions in your search queries."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:216
+msgid "If 'Don't escape' is selected, the default behavior of the Elasticsearch search engine will be left unaltered. Several characters will be interpreted as being part of a regular expression, such as the forward slash (/)."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:223
+msgid "QueryStemming"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:227
+msgid "Asks: \\_\\_\\_ to match words of the same base in a search"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:235
+msgid "A search for enabling would also match enable and enabled"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:239
+msgid "This preference enables word stemming. Stemming allows the search function to return multiple versions of the same word, as well as related terms (i.e., both fish and fishing would be returned)."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:246
+msgid "QueryWeightFields"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:248
+msgid "Default: Enable"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:250
+msgid "Asks: \\_\\_\\_ ranking of search results by relevance"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:261
+msgid "TraceCompleteSubfields"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:263
+msgid "Default: Force"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:265
+msgid "Asks: \\_\\_\\_ subject tracings in the OPAC and Staff Client to search only for complete-subfield matches."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:270
+msgid "Don't force"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:272
+msgid "Searches for subject keywords (example: opac-search.pl?q=su:World%20Wide%20Web)"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:275
+msgid "Force"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:277
+msgid "Searches for complete subject fields (example: opac-search.pl?q=su,complete-subfield:World%20Wide%20Web)"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:282
+msgid "When TraceCompleteSubfields is set to \"force,\" clicking on links in non-authority controlled subject tracings will only find other records where the entire subfields match. Leaving it at \"don't force\" does a keyword search of the subject indexes."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:289
+#: ../../source/searchingpreferences.rst:324
+msgid "This preference assumes that you're using XSLT stylesheets as set in the :ref:`OPACXSLTDetailsDisplay` preference."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:295
+msgid "TraceSubjectSubdivisions"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:297
+msgid "Default: Include"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:299
+msgid "Asks: \\_\\_\\_ subdivisions for searches generated by clicking on subject tracings."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:306
+msgid "Searches for subject keywords (example: opac-search.pl?q=su,complete-subfield:%22Web%20sites%22)"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:311
+msgid "Searches for complete subject fields (example: opac-search.pl?q=(su,complete-subfield:%22Web%20sites%22)%20and%20(su,complete-subfield:%22Design.%22))"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:316
+msgid "When TraceSubjectSubdivisions is set to \"Include,\" if you click on a subject with subdivisions (subfields other than 'a') they will be searched along with the subject heading (subfield 'a'). To have only the subject heading (subfield 'a') searched, set this preference to \"Don't include.\""
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:330
+msgid "UseICUStyleQuotes"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:332
+msgid "Asks: \\_\\_\\_ ICU style quotes ({}) when tracing subjects."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:334
+msgid "Default: Don't use"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:338
+msgid "Don't use"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:340
+msgid "Use"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:344
+msgid "This sytem preference lets you decide which style of quotes to use when tracing subjects."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:347
+msgid "If set to \"Don't use\", the regular double quotes (\"\") will be used"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:349
+msgid "If set to \"Use\", the quotes will be replaced by curly brackets ({})"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:354
+msgid "Results Display"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:359
+msgid "BiblioItemtypeInfo"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:361
+msgid "Default: Don't display"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:363
+msgid "Asks: \\_\\_\\_ Koha record level itemtype info on detail and result pages in the OPAC and staff interface. This info also displays if the :ref:`item-level\\_itypes <item-level_itypes-label>` system preference is set to bibliographic record."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:370
+msgid "If enabled the icons for the record itemtype (942c) will be displayed on the record detail and search result pages in both the OPAC and staff interface."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:376
+msgid "defaultSortField and defaultSortOrder"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:378
+msgid "defaultSortField Default: author"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:380
+msgid "defaultSortOrder Default: ascending"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:382
+msgid "Asks: By default, sort search results in the staff client by \\_\\_\\_, \\_\\_\\_"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:387
+msgid "These preferences set the default sort field and sort order for searches on the staff side. Regardless of your choice, the other sort options are still available in the drop down list on the advanced search page."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:392
+msgid "defaultSortField Values:"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:394
+#: ../../source/searchingpreferences.rst:614
+msgid "author"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:396
+#: ../../source/searchingpreferences.rst:616
+msgid "call number"
+msgstr "索書號"
+
+#: ../../source/searchingpreferences.rst:398
+#: ../../source/searchingpreferences.rst:618
+msgid "date added"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:400
+#: ../../source/searchingpreferences.rst:620
+msgid "date of publication"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:402
+#: ../../source/searchingpreferences.rst:622
+msgid "relevance"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:404
+#: ../../source/searchingpreferences.rst:624
+msgid "title"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:406
+#: ../../source/searchingpreferences.rst:626
+msgid "total number of checkouts"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:408
+msgid "defaultSortOrder Values:"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:410
+#: ../../source/searchingpreferences.rst:630
+msgid "ascending"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:412
+#: ../../source/searchingpreferences.rst:632
+msgid "descending"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:414
+#: ../../source/searchingpreferences.rst:634
+msgid "from A to Z"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:416
+#: ../../source/searchingpreferences.rst:636
+msgid "from Z to A"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:421
+msgid "displayFacetCount"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:423
+#: ../../source/searchingpreferences.rst:575
+#: ../../source/searchingpreferences.rst:643
+#: ../../source/searchingpreferences.rst:690
+msgid "Default: Don't show"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:425
+msgid "Asks: \\_\\_\\_ facet counts."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:429
+msgid "This preference lets you decide if you show how many times a facet is used in your search results in the OPAC and the staff client. The relevance of these numbers highly depends on the value of the :ref:`maxRecordsForFacets` preference. Showing these numbers can potentially effect the performance of your searching, so test your system with different values for this preference to see what works best."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:439
+#: ../../source/searchingpreferences.rst:579
+#: ../../source/searchingpreferences.rst:650
+#: ../../source/searchingpreferences.rst:694
+msgid "Don't show"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:441
+#: ../../source/searchingpreferences.rst:581
+#: ../../source/searchingpreferences.rst:652
+#: ../../source/searchingpreferences.rst:696
+msgid "Show"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:443
+msgid "|image107|"
+msgstr "|image107|"
+
+#: ../../source/searchingpreferences.rst:448
+msgid "DisplayLibraryFacets"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:450
+msgid "Default: holding library"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:452
+msgid "Asks: Show facets for \\_\\_\\_"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:456
+msgid "both home and holding library"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:458
+msgid "holding library"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:460
+msgid "home library"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:464
+msgid "This preferenc controls the libraries facet that displays on search results in the staff and opac. The value selected here will determine which library(s) show in the facets when a search is run."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:471
+msgid "FacetLabelTruncationLength"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:473
+#: ../../source/searchingpreferences.rst:490
+#: ../../source/searchingpreferences.rst:505
+#: ../../source/searchingpreferences.rst:519
+#: ../../source/searchingpreferences.rst:537
+#: ../../source/searchingpreferences.rst:555
+#: ../../source/searchingpreferences.rst:670
+msgid "Default: 20"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:475
+msgid "Asks: Truncate facets length to \\_\\_\\_ characters, in OPAC/staff interface."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:480
+msgid "In the OPAC and the staff client your facets are cut off at 20 characters by default. Depending on your layout this may be too many or two few letters, this preference lets you decide what number is best for your library's design."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:488
+msgid "FacetMaxCount"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:492
+msgid "Asks: Show up \\_\\_\\_ to facets for each category."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:496
+msgid "This preference allows you to control how many possible limits show under each heading (Author, Series, Topics, etc) on the facets in the OPAC."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:503
+msgid "maxItemsInSearchResults"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:507
+msgid "Asks: Show up to \\_\\_\\_ items per biblio in the search results"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:511
+msgid "This preference will let you set how many results display by default when a search is run on the Staff Client."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:517
+msgid "maxRecordsForFacets"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:521
+msgid "Asks: Build facets based on \\_\\_\\_ records from the search results."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:525
+msgid "By default Koha only bases facets on the first page of results (usually 20 results). This preference lets you tell Koha to based the facet descriptions and numbers on any number of search results returned. The higher this number the longer it will take for your search results to return, so test with various different values to find the best balance for your library."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:535
+msgid "MaxSearchResultsItemsPerRecordStatusCheck"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:539
+msgid "Asks: For records with many items, only check the availability status for the first \\_\\_\\_ items."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:544
+msgid "Availability statuses may show incorrectly in search results if a record has more items than the limit set. Statuses will display correctly in the record details. Leave empty for no limit."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:551
+msgid "numSearchResults"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:553
+msgid "Asks: By default, show \\_\\_\\_ results per page in the staff client."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:559
+msgid "This system preference allows you to choose the default number of results per page in search results in the staff interface."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:562
+msgid "If you want users to be able to change that number, enable the :ref:`numSearchResultsDropdown` system preference."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:565
+msgid "Use :ref:`OPACnumSearchResults` to define the default number of results per page in the OPAC."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:571
+msgid "numSearchResultsDropdown"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:573
+msgid "Asks: \\_\\_\\_ results per page dropdown on staff client search results."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:585
+#: ../../source/searchingpreferences.rst:700
+msgid "If set to 'Show' this system preference will make a drop down menu appear in the search results allowing the user to choose how many results they want to see per page."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:589
+msgid "Use :ref:`numSearchResults` to determine what is the default value."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:591
+msgid "Use :ref:`OPACnumSearchResultsDropdown` to define if the dropdown appears in the OPAC."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:597
+msgid "OPACdefaultSortField and OPACdefaultSortOrder"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:599
+msgid "OPACdefaultSortField Default: relevance"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:601
+msgid "OPACdefaultSortOrder Default: ascending"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:603
+msgid "Asks: By default, sort search results in the OPAC by \\_\\_\\_, \\_\\_\\_"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:607
+msgid "These preferences set the default sort field and sort order for searches on the OPAC. Regardless of your choice, the other sort options are still available in the drop down list on the advanced search page."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:612
+msgid "OPACdefaultSortField Values:"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:628
+msgid "OPACdefaultSortOrder Values:"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:641
+msgid "OPACItemsResultsDisplay"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:645
+msgid "Asks: \\_\\_\\_ an item's library, location and call number in OPAC search results. results."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:656
+msgid "This setting selects the information about an item that will display in the search results page of the OPAC. The results can display the status of an item and/or full details including branch, location, and call number. While the 'Show' option allows for more information to be displayed on the search results page, the information can be overwhelming for large collections with multiple branches."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:666
+msgid "OPACnumSearchResults"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:668
+msgid "Asks: By default, show \\_\\_\\_ results per page in the OPAC."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:674
+msgid "This system preference allows you to choose the default number of results per page in search results in the OPAC."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:677
+msgid "If you want users to be able to change that number, enable the :ref:`OPACnumSearchResultsDropdown` system preference."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:680
+msgid "Use :ref:`numSearchResults` to define the default number of results per page in the staff interface."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:686
+msgid "OPACnumSearchResultsDropdown"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:688
+msgid "Asks: \\_\\_\\_ results per page dropdown on OPAC search results."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:704
+msgid "Use :ref:`OPACnumSearchResults` to determine what is the default value."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:706
+msgid "Use :ref:`numSearchResultsDropdown` to define if the dropdown appears in the staff interface."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:712
+msgid "SearchWithISBNVariations"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:714
+msgid "Default: don't search"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:716
+msgid "Asks: When searching on the ISBN index, \\_\\_\\_ on all variations of the ISBN."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:721
+msgid "don't search"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:723
+msgid "search"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:725
+msgid "Descriptions:"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:727
+msgid "With this preference set to search you'll be able to search for ISBNs even if there are dashes or spaces in the field. So if you search for 9781843345855 but the ISBN was cataloged as 978-1843345855 you'll still be able to find it if this preference is set to 'search'."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:735
+msgid "UNIMARCAuthorsFacetsSeparator"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:737
+msgid "Default: , (comma)"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:739
+msgid "Asks: Use the following text as separator for UNIMARC authors facets \\_\\_\\_"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:744
+msgid "Search Form"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:749
+msgid "AdvancedSearchLanguages"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:751
+msgid "Asks: Limit the languages listed in the advanced search drop-down to the \\_\\_\\_ ISO 639-2 language codes (separate values with \\| or ,)."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:756
+msgid "This preference will allow you to decide what languages show in the pull down menu on the advanced search page in the OPAC and the staff client. If this preference is left blank, all languages will show. To limit the languages that are shown enter their `ISO 639-2 language codes <http://www.loc.gov/standards/iso639-2/php/code_list.php>`__ separated by comma ( , ) or bar ( \\| ). For example to limit listing to French and Italian, enter ita\\|fre."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:767
+msgid "AdvancedSearchTypes"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:769
+msgid "Default: itemtype"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:771
+msgid "Asks: Show tabs in OPAC and staff-side advanced search for limiting searches on the \\_\\_\\_ fields (separate values with \\|)."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:776
+msgid "On the advanced search page you can choose to allow filters on one or all of the following: Item types (itemtypes), Collection Codes (ccode) and Shelving Location (loc). If you would like to be able to limit searches on item type and shelving location for example you would enter itemtypes\\|loc in the preference input box. The order of these fields will determine the order of the tabs in the OPAC and staff client advanced search screens. Values within the search type are OR'ed together, while each different search type is AND'ed together in the query limits. The current stored values are supported without any required modification.Each set of advanced search fields are displayed in tabs in both the OPAC and staff client. The first value in the AdvancedSearchTypes syspref is the selected tab; if no values are present, \"itemtypes\" is used. For non-itemtype values, the value in AdvancedSearchTypes must match the Authorised Value name, and must be indexed with 'mc-^ prefixing that name."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:792
+msgid "|image108|"
+msgstr "|image108|"
+
+#: ../../source/searchingpreferences.rst:797
+msgid "expandedSearchOption"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:799
+msgid "Default: don't show"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:801
+msgid "Asks: By default, \\_\\_\\_ \"More options\" on the OPAC and staff advanced search pages."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:806
+msgid "don't show"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:808
+msgid "show"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:813
+msgid "IntranetNumbersPreferPhrase"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:815
+#: ../../source/searchingpreferences.rst:853
+msgid "Default: don't use"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:817
+msgid "Asks: By default, \\_\\_\\_ the operator \"phr\" in the callnumber and standard number staff client searches"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:822
+#: ../../source/searchingpreferences.rst:860
+msgid "don't use"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:824
+#: ../../source/searchingpreferences.rst:862
+msgid "use"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:828
+msgid "When searching by call number and standard number (biblionumber) in Koha Staff Client you can choose to force the search to be a phrase search by setting this preference to 'use.^ This will allow for more accurate results over doing a general keyword field search."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:836
+msgid "LoadSearchHistoryToTheFirstLoggedUser"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:838
+msgid "Default: Load"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:840
+msgid "Asks: Load the unlogged history to the next user. \\_\\_\\_ history to the next client."
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:844
+msgid "Don't load"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:846
+msgid "Load"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:851
+msgid "OPACNumbersPreferPhrase"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:855
+msgid "Asks: By default, \\_\\_\\_ the operator \"phr\" in the callnumber and standard number OPAC searches"
+msgstr ""
+
+#: ../../source/searchingpreferences.rst:866
+msgid "When searching by call number and standard number (biblionumber) in the Koha OPAC you can choose to force the search to be a phrase search by setting this preference to 'use.^ This will allow for more accurate results over doing a general keyword field search."
+msgstr ""
+

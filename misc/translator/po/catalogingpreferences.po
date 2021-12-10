@@ -1,0 +1,1285 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/catalogingpreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/catalogingpreferences.rst:6
+msgid "Cataloging"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:8
+msgid "*Get there:* More > Administration > Global System Preferences > Cataloging"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:14
+#: ../../source/catalogingpreferences.rst:27
+#: ../../source/catalogingpreferences.rst:587
+#: ../../source/catalogingpreferences.rst:662
+#: ../../source/catalogingpreferences.rst:1156
+msgid "Display"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:19
+msgid "AcquisitionDetails"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:21
+#: ../../source/catalogingpreferences.rst:78
+msgid "Default: Display"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:23
+msgid "Asks: \\_\\_\\_ acquisition details on the biblio detail page."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:25
+#: ../../source/catalogingpreferences.rst:83
+#: ../../source/catalogingpreferences.rst:102
+#: ../../source/catalogingpreferences.rst:157
+#: ../../source/catalogingpreferences.rst:230
+#: ../../source/catalogingpreferences.rst:300
+#: ../../source/catalogingpreferences.rst:385
+#: ../../source/catalogingpreferences.rst:541
+#: ../../source/catalogingpreferences.rst:585
+#: ../../source/catalogingpreferences.rst:604
+#: ../../source/catalogingpreferences.rst:634
+#: ../../source/catalogingpreferences.rst:660
+#: ../../source/catalogingpreferences.rst:745
+#: ../../source/catalogingpreferences.rst:828
+#: ../../source/catalogingpreferences.rst:906
+#: ../../source/catalogingpreferences.rst:985
+#: ../../source/catalogingpreferences.rst:1128
+#: ../../source/catalogingpreferences.rst:1154
+msgid "Values:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:29
+#: ../../source/catalogingpreferences.rst:591
+#: ../../source/catalogingpreferences.rst:1160
+msgid "Don't display"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:31
+#: ../../source/catalogingpreferences.rst:49
+#: ../../source/catalogingpreferences.rst:117
+#: ../../source/catalogingpreferences.rst:137
+#: ../../source/catalogingpreferences.rst:178
+#: ../../source/catalogingpreferences.rst:189
+#: ../../source/catalogingpreferences.rst:212
+#: ../../source/catalogingpreferences.rst:242
+#: ../../source/catalogingpreferences.rst:290
+#: ../../source/catalogingpreferences.rst:308
+#: ../../source/catalogingpreferences.rst:321
+#: ../../source/catalogingpreferences.rst:351
+#: ../../source/catalogingpreferences.rst:369
+#: ../../source/catalogingpreferences.rst:406
+#: ../../source/catalogingpreferences.rst:444
+#: ../../source/catalogingpreferences.rst:481
+#: ../../source/catalogingpreferences.rst:525
+#: ../../source/catalogingpreferences.rst:547
+#: ../../source/catalogingpreferences.rst:580
+#: ../../source/catalogingpreferences.rst:640
+#: ../../source/catalogingpreferences.rst:673
+#: ../../source/catalogingpreferences.rst:694
+#: ../../source/catalogingpreferences.rst:717
+#: ../../source/catalogingpreferences.rst:757
+#: ../../source/catalogingpreferences.rst:782
+#: ../../source/catalogingpreferences.rst:805
+#: ../../source/catalogingpreferences.rst:834
+#: ../../source/catalogingpreferences.rst:860
+#: ../../source/catalogingpreferences.rst:891
+#: ../../source/catalogingpreferences.rst:922
+#: ../../source/catalogingpreferences.rst:942
+#: ../../source/catalogingpreferences.rst:966
+#: ../../source/catalogingpreferences.rst:991
+#: ../../source/catalogingpreferences.rst:1015
+#: ../../source/catalogingpreferences.rst:1041
+#: ../../source/catalogingpreferences.rst:1064
+msgid "Description:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:33
+msgid "This preference controls whether a tab will show on the detail page in the staff client that includes detailed acquisitions information for the title. This tab will include links to order information stored in the acquisitions module."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:38
+msgid "|image1180|"
+msgstr "|image1180|"
+
+#: ../../source/catalogingpreferences.rst:43
+msgid "AuthoritySeparator"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:45
+msgid "Asks: Separate main entry and subdivisions with \\_\\_\\_."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:47
+msgid "Default: --"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:51
+msgid "This system preference allows you to choose the character or characters that is used to separate the main entry and the subdivisions in authorities."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:54
+msgid "For example, -- will make authorities appear like this:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:56
+msgid "Cats--Fiction"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:58
+msgid "This is used for non-XSLT views only. Whether or not you use XSLT views is determined by the following system preferences:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:61
+msgid ":ref:`OPACXSLTDetailsDisplay`"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:63
+msgid ":ref:`OPACXSLTListsDisplay`"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:65
+msgid ":ref:`OPACXSLTResultsDisplay`"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:67
+msgid ":ref:`XSLTDetailsDisplay`"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:69
+msgid ":ref:`XSLTListsDisplay`"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:71
+msgid ":ref:`XSLTResultsDisplay`"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:76
+msgid "hide\\_marc"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:80
+msgid "Asks: \\_\\_\\_ MARC tag numbers, subfield codes and indicators in MARC views."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:85
+msgid "Display -- shows the tag numbers on the cataloging interface"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:87
+msgid "|image15|"
+msgstr "|image15|"
+
+#: ../../source/catalogingpreferences.rst:89
+msgid "Don't display -- shows just descriptive text when cataloging"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:91
+msgid "|image16|"
+msgstr "|image16|"
+
+#: ../../source/catalogingpreferences.rst:96
+msgid "IntranetBiblioDefaultView"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:98
+msgid "Default: ISBD form"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:100
+msgid "Asks: By default, display biblio records in \\_\\_\\_"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:104
+msgid "ISBD form -- displays records in the staff client in the old card catalog format"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:107
+msgid "See :ref:`ISBD` preference for more information"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:109
+msgid "Labelled MARC form -- displays records in the staff client in MARC with text labels to explain the different fields"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:112
+msgid "MARC form -- displays records in the staff client in MARC"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:114
+msgid "normal form -- visual display in the staff client (for the average person)"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:119
+msgid "This setting determines the bibliographic record display when searching the catalog on the staff client. This setting does not affect the display in the OPAC which is changed using the :ref:`BiblioDefaultView` preference under the OPAC preference tab. This setting changes the look of the record when first displayed. The MARC and ISBD views can still be seen by clicking in the sidebar."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:130
+msgid "ISBD"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:132
+msgid "Default: See `ISBD view configuration <https://wiki.koha-community.org/wiki/ISBD_view_configuration>` on the wiki."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:135
+msgid "Asks: Use the following as the ISBD template:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:139
+msgid "This determines how the ISBD information will display in the staff client. Elements in the list can be reordered to produce a different ISBD view. ISBD, the International Standard Bibliographic Description, was first introduced by IFLA (International Federation of Library Associations) in 1969 in order to provide guidelines for descriptive cataloging. The purpose of ISBD is to aid the international exchange of bibliographic records for a variety of materials."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:151
+msgid "LabelMARCView"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:153
+msgid "Default: Don't"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:155
+msgid "Asks: \\_\\_\\_ collapse repeated tags of the same type into one tag entry."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:159
+msgid "Do -- will combine all identical tag numbers under one heading in the MARC view in the OPAC and Staff Client"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:162
+msgid "|image17|"
+msgstr "|image17|"
+
+#: ../../source/catalogingpreferences.rst:164
+msgid "Don't -- will list all of the tags individually in the MARC view in the OPAC and Staff Client"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:167
+msgid "|image18|"
+msgstr "|image18|"
+
+#: ../../source/catalogingpreferences.rst:172
+msgid "MARCFieldDocURL"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:174
+msgid "Default: blank"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:176
+msgid "Asks: Use \\_\\_\\_ as the URL for MARC field documentation. Possible substitutions are {MARC} (marc flavour, eg. \"MARC21\" or \"UNIMARC\"), {FIELD} (field number, eg. \"000\" or \"048\"), {LANG} (user language, eg. \"en\" or \"fi-FI\"). If left empty, the format documentation on http://loc.gov (MARC21) or http://archive.ifla.org (UNIMARC) is used. For example http://fielddoc.example.com/?marc={MARC}&field={FIELD}&language={LANG}"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:180
+msgid "This preference lets you choose the source of the MARC documentation available through the \"?\" next to MARC fields."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:185
+msgid "MergeReportFields"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:187
+msgid "Asks: \\_\\_\\_ fields to display for deleted records after merge"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:191
+msgid "When merging records together you can receive a report of the merge process once it's done, this preference lets you set the default values for this report."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:195
+msgid "Example: '001,245ab,600' displays:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:197
+msgid "value of 001"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:199
+msgid "subfields a and b of fields 245"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:201
+msgid "all subfields of fields 600"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:206
+msgid "NotesToHide"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:208
+msgid "Asks: Don't show these \\_\\_\\_ note fields in title notes separator (OPAC record details) and in the description separator (Staff client record details)."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:214
+msgid "This preference lets you define which of your note fields are hidden from the title notes (OPAC) and descriptions (Staff) tabs. Enter the values as a comma separated list. For example to hide the local note and the bibliography note in MARC21 enter 504, 590."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:222
+msgid "OpacSuppression, OpacSuppressionByIPRange, OpacSuppressionRedirect, and OpacSuppressionMessage"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:225
+msgid "OpacSuppression"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:226
+msgid "Asks: \\_\\_\\_ bibliographic records marked as suppressed from OPAC search results."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:228
+msgid "Default: Don't hide"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:232
+msgid "Don't hide"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:234
+msgid "Will show records in OPAC search results even if they are marked as suppressed"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:237
+msgid "Hide"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:239
+msgid "Will not show records in OPAC search results if they're marked as suppressed"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:244
+msgid "This preference controls hiding of bibliographic records in the OPAC. Enter \"1\" in the field mapped to the suppress index (942$n in MARC21, no official field in UNIMARC) in each bibliographic record you want to hide from the OPAC. The indexer then hides it from display in OPAC but will still display it in the staff interface."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:252
+msgid "An :ref:`authorized value <authorized-values-label>` should be set for the MARC21 942$n field (or the equivalent UNIMARC field) to eliminate errors. You can use the YES\\_NO authorized value category, or create a new one titled SUPPRESS, for example, with a value of 0 for don't suppress and 1 for suppress."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:260
+msgid "If this preference is set to 'hide' and you have the 942$n field set to 1, it will hide the entire bibliographic record, not just an individual item."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:265
+msgid "Suppressed records will show a note in the staff interface indicating that they are suppressed from view in the OPAC."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:268
+msgid "|suppressedstaff|"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:270
+msgid "This note can be styled by using the :ref:`IntranetUserCSS` preference to stand out more if you'd like."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:273
+msgid "|suppressedstyled|"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:275
+msgid "Fot the example above, the following snippet was added to :ref:`IntranetUserCSS`"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:286
+msgid "OpacSuppressionByIPRange"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:287
+msgid "Asks: Restrict the suppression to IP addresses outside of the IP range \\_\\_\\_ (Leave blank if not used. Define a range like 192.168..)"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:292
+msgid "If you want to further control suppression you can set an IP address range to still show suppressed items to. Define a range like 192.168.. If you don't want to limit suppression in this way, leave the IP field blank."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:297
+msgid "OpacSuppressionRedirect"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:298
+msgid "Asks: Redirect the opac detail page for suppressed records to \\_\\_\\_"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:302
+msgid "the 404 error page ('Not found')."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:304
+msgid "an explanatory page ('This record is blocked')."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:306
+msgid "Default: an explanatory page ('This record is blocked')"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:310
+msgid "This preference lets you decide what the patrons will see in the OPAC when a record is suppressed. You can either show the patron a 404 error page or an explanatory page when they try to see a suppressed record. You can change the message of the explanatory page with the the :ref:`OpacSuppressionMessage` system preference."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:317
+msgid "OpacSuppressionMessage"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:318
+msgid "Asks: Display the following message on the redirect page for suppressed bibliographic records \\_\\_\\_."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:323
+msgid "If you chose to show an explanatory page when a patron tries to access a suppressed bibliographic record, you can customize the message with HTML."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:329
+msgid "SeparateHoldings and SeparateHoldingsBranch"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:331
+msgid "SeparateHoldings default: Don't separate"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:333
+msgid "SeparateHoldingsBranch default: home library"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:335
+msgid "Asks: \\_\\_\\_ items display into two tabs, where the first tab contains items whose \\_\\_\\_ is the logged in user's library. The second tab will contain all other items."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:339
+msgid "SeparateHoldings values:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:341
+msgid "Don't separate"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:343
+msgid "Separate"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:345
+msgid "SeparateHoldingsBranch values:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:347
+msgid "holding library"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:349
+msgid "home library"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:353
+msgid "This preference lets you decide if you would like to have the holding information on the bibliographic detail page in the staff client split in to multiple tabs. The default is to show all holdings on one tab."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:358
+msgid "|image19|"
+msgstr "|image19|"
+
+#: ../../source/catalogingpreferences.rst:363
+msgid "URLLinkText"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:365
+msgid "Default: Online Resource"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:367
+msgid "Asks: Show \\_\\_\\_ as the text of links embedded in MARC records."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:371
+msgid "If the 856 field does not have a subfield 3 or y defined, the OPAC will say 'Click here to access online.^ If you would like the field to say something else enter that in this field."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:378
+msgid "UseControlNumber"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:380
+msgid "Default: Don't use"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:382
+msgid "Asks: \\_\\_\\_ record control number ($w subfields) and control number (001) for linking of bibliographic records."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:387
+msgid "Don't use"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:389
+msgid "When clicking on links to titles that appear next to 'Continues' and 'Continued by' in the detail display Koha will perform a title search"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:393
+msgid "Use"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:395
+msgid "When clicking on links to titles that appear next to 'Continues' and 'Continued by' in the detail display Koha will perform a control number (MARC field 001) search"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:399
+#: ../../source/catalogingpreferences.rst:666
+#: ../../source/catalogingpreferences.rst:927
+#: ../../source/catalogingpreferences.rst:1060
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:401
+msgid "Unless you are going in and manually changing 773$w to match your rigorously-defined bibliographic relationships, you should set this preference to \"Don't use\" and instead set :ref:`EasyAnalyticalRecords` to \"Display\""
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:408
+msgid "If you have a serial called \"Journal of Interesting Things\" which has a separate record from when it was called \"Transactions of the Interesting Stuff Society,\" you could add linking fields to indicate the relationship between the two records. UseControlNumber allows you to use your local accession numbers for those links. In MARC21, the relevant sections of the two records might look like this:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:427
+msgid "With UseControlNumber set to 'Use', the 78x links will use the Control Numbers is subfield $w, instead of doing a title search on \"Journal of Interesting Things\" and \"Transactions of the Interesting Stuff Society\" respectively."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:435
+msgid "Exporting"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:440
+msgid "BibtexExportAdditionalFields"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:442
+msgid "Asks: Include following fields when exporting BibTeX"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:446
+msgid "Use one line per tag in the format BT\\_TAG: TAG$SUBFIELD ( e.g. lccn: 010$a )"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:449
+msgid "To specify multiple marc tags/subfields as targets for a repeating BibTex tag, use the following format: BT\\_TAG: [TAG2$SUBFIELD1, TAG2$SUBFIELD2] ( e.g. notes: [501$a, 505$g] )"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:453
+msgid "All values of repeating tags and subfields will be printed with the given BibTeX tag."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:456
+msgid "Use ^@^ ( with quotes ) as the BT\\_TAG to replace the bibtex record type with a field value of your choosing."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:461
+#: ../../source/catalogingpreferences.rst:498
+#: ../../source/catalogingpreferences.rst:511
+msgid "Requires YAML syntax to work"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:463
+#: ../../source/catalogingpreferences.rst:500
+msgid "This means"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:465
+#: ../../source/catalogingpreferences.rst:502
+msgid "Make sure there is NO space between the field name and the colon"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:467
+#: ../../source/catalogingpreferences.rst:504
+msgid "Make sure there IS a space between the colon and the value"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:469
+#: ../../source/catalogingpreferences.rst:506
+msgid "If there are more than one values for the same field, put them in square brakets, separated by comma and space"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:472
+#: ../../source/catalogingpreferences.rst:509
+msgid "Make sure each pair is on its own line"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:477
+msgid "RisExportAdditionalFields"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:479
+msgid "Asks: Include following fields when exporting RIS"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:483
+msgid "Use one line per tag in the format RIS\\_TAG: TAG$SUBFIELD ( e.g. LC: 010$a )"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:486
+msgid "To specificy multiple marc tags/subfields as targets for a repeating RIS tag, use the following format: RIS\\_TAG: [TAG2$SUBFIELD1, TAG2$SUBFIELD2] ( e.g. NT: [501$a, 505$g] )"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:490
+msgid "All values of repeating tags and subfields will be printed with the given RIS tag."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:493
+msgid "Use of TY ( record type ) as a key will *replace* the default TY with the field value of your choosing."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:516
+msgid "Importing"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:521
+msgid "AdditionalFieldsInZ3950ResultSearch"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:523
+msgid "Asks: Display the MARC field/subfields \\_\\_\\_ in the 'Additional fields' column of Z39.50 search results (use comma as delimiter e.g.: \"001, 082$ab, 090$ab\")."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:527
+msgid "This preference lets you define additional fields and subfields to display on the Z39.50 result list."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:532
+msgid "AggressiveMatchOnISBN"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:534
+#: ../../source/catalogingpreferences.rst:560
+#: ../../source/catalogingpreferences.rst:1123
+msgid "Default: don't"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:536
+msgid "Asks: When matching on ISBN with the record import tool, \\_\\_\\_ attempt to match aggressively by trying all variations of the ISBNs in the imported record as a phrase in the ISBN fields of already cataloged records."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:543
+#: ../../source/catalogingpreferences.rst:1130
+msgid "do"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:545
+#: ../../source/catalogingpreferences.rst:1132
+msgid "don't"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:549
+msgid "This preference allows you to choose to alter the ISBN matching rule used when staging records for import to be more aggressive. This means that all text will be stripped from the ISBN field so that a pure number match is possible. If this preference is set to \"Don't\" then Koha will find a match only if the ISBN fields are identical."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:558
+msgid "AggressiveMatchOnISSN"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:562
+msgid "Asks: When matching on ISSN with the record import tool, \\_\\_\\_ attempt to match aggressively by trying all variations of the ISSNs in the imported record as a phrase in the ISSN fields of already cataloged records."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:569
+msgid "Interface"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:574
+msgid "advancedMARCeditor"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:576
+#: ../../source/catalogingpreferences.rst:1150
+msgid "Default: Don't display"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:578
+msgid "Asks: \\_\\_\\_ descriptions of fields and subfields in the MARC editor."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:582
+msgid "This preference determines whether or not MARC field names will be present when editing or creating MARC records."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:589
+msgid "|image20|"
+msgstr "|image20|"
+
+#: ../../source/catalogingpreferences.rst:593
+msgid "|image21|"
+msgstr "|image21|"
+
+#: ../../source/catalogingpreferences.rst:598
+msgid "DefaultClassificationSource"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:600
+msgid "Default: Dewey Decimal System"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:602
+msgid "Asks: Use \\_\\_\\_ as the default classification source."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:606
+msgid "ANSCR (Sound Recordings)"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:608
+msgid "Dewey Decimal Classification"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:610
+msgid "Library of Congress Classification"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:612
+msgid "Other/Generic Classification Scheme"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:614
+msgid "SuDoc Classification (U.S. GPO)"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:616
+msgid "Universal Decimal Classification"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:618
+#: ../../source/catalogingpreferences.rst:699
+#: ../../source/catalogingpreferences.rst:790
+#: ../../source/catalogingpreferences.rst:813
+#: ../../source/catalogingpreferences.rst:855
+#: ../../source/catalogingpreferences.rst:953
+#: ../../source/catalogingpreferences.rst:1021
+#: ../../source/catalogingpreferences.rst:1048
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:620
+msgid "Adding another classification under Administration > Classification Sources will make it show up in this list as well."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:626
+msgid "DefaultSaveRecordFileID"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:628
+msgid "Asks: When saving in a MARC/MARCXML file in the advanced cataloging editor or exporting from the detail page in the staff interface, use the \\_\\_\\_ in the file name."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:632
+msgid "Default: bibliographic record number"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:636
+msgid "bibliographic record number"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:638
+msgid "control number"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:642
+msgid "This preference determines what is the default file name that is used when downloading a MARC record."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:645
+msgid "Choosing 'bibliographic record number' will result in a file name like bib-123456.mrc where 123456 is the biblionumber."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:648
+msgid "Choosing 'contol number' will result in a file name like record-123456.mrc where 123456 is the record control number (in MARC21, this is the 001 field)."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:654
+msgid "EasyAnalyticalRecords"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:656
+msgid "Default: Don't Display"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:658
+msgid "Asks: \\_\\_\\_ easy ways to create analytical record relationships"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:664
+msgid "Don't Display"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:668
+msgid "If you decide to use this feature you'll want to make sure that your :ref:`UseControlNumber` preference is set to \"Don't use\" or else the \"Show analytics\" links in the staff client and the OPAC will be broken."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:675
+msgid "An analytic entry in a catalog is one that describes a part of a larger work that is also described in the catalog. In bibliographic cataloging, analytic entries may be made for chapters in books or special issues of articles in periodicals. In archival cataloging, analytic entries may be made for series or items within a collection. This feature in Koha allows for an easy way of linking analytic entries to the host records, and this system preference adds several new menu options to the staff cataloging detail pages to allow that to happen."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:688
+msgid "EnableAdvancedCatalogingEditor"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:690
+msgid "Default: Don't enable"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:692
+msgid "Asks: \\_\\_\\_ the advanced cataloging editor."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:696
+msgid "This preference will allow you to choose between a basic editor and a advanced editor for cataloging."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:701
+msgid "This feature does not currently include any support for UNIMARC or NORMARC fixed fields."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:707
+msgid "Record Structure"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:712
+msgid "AlternateHoldingsField and AlternateHoldingsSeparator"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:714
+msgid "Asks: Display MARC subfield \\_\\_\\_ as holdings information for records that do not have items, with the subfields separated by \\_\\_\\_."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:719
+msgid "Sometimes libraries migrate to Koha with their holding info in the 852 field (OCLC holdings information field) and choose not to transfer that information into the 952 (Koha holdings information field) because they don't plan on circulating those items. For those libraries or other libraries that have data in the 852 fields of their records that they want to display, these preferences let you choose to display holdings info from a field other than the 952 field. The AlternateHoldingsField preference can contain multiple subfields to look in; for instance 852abhi would look in 852 subfields a, b, h, and i."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:730
+msgid "With AlternateHoldingsField set to 852abhi and AlternateHoldingsSeparator set to a space the holdings would look like the following:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:734
+msgid "|image22|"
+msgstr "|image22|"
+
+#: ../../source/catalogingpreferences.rst:739
+msgid "autoBarcode"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:741
+msgid "Default: generated in the form <branchcode>yymm0001"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:743
+msgid "Asks: Barcodes are \\_\\_\\_"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:747
+msgid "generated in the form <branchcode>yymm0001"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:749
+msgid "generated in the form <year>-0001, <year>-0002"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:751
+msgid "generated in the form 1, 2, 3"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:753
+msgid "incremental EAN-13 barcodes"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:755
+msgid "not generated automatically"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:759
+msgid "This setting is for libraries wishing to generate barcodes from within Koha (as opposed to scanning in pre-printed barcodes or manually assigning them). The default behavior makes it so that when you click in the barcode field (952$p in MARC21) it will populate with the automatic barcode you have chosen. If you would rather it only enter an automatic barcode when you click on the plugin (the ... to the right of the field) you can change the plugin used for that field in the framework. Set the plugin for 952$p (if using MARC21 or equivalent field mapped to items.barcode in your local MARC format) for your frameworks to barcode\\_manual.pl instead of barcode.pl. Learn more about editing frameworks under the :ref:`MARC Bibliographic Frameworks <marc-bibliographic-frameworks-label>` section of this manual."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:775
+msgid "DefaultCountryField008"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:777
+msgid "Default: Empty defaults to xxu for United States"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:779
+msgid "Asks: Fill in the default country code for field 008 Range 15-17 of MARC21 - Place of publication, production, or execution. \\_\\_\\_."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:784
+msgid "This preference will allow you to set the country code for your MARC21 008 field by default. If this is left empty it will default to United States (xxu). See the `MARC Code List for Countries <http://www.loc.gov/marc/countries/countries_code.html>`__ for additional values for this preference."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:792
+#: ../../source/catalogingpreferences.rst:815
+#: ../../source/catalogingpreferences.rst:955
+msgid "This preference won't have any effect if your records are in UNIMARC."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:798
+msgid "DefaultLanguageField008"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:800
+msgid "Default: Empty defaults to eng"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:802
+msgid "Asks: Fill in the default language for field 008 Range 35-37 of MARC21 records \\_\\_\\_."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:807
+msgid "This preference will allow you to set the language for your MARC21 008 field by default. If this is left empty it will default to English (eng). See the `MARC Code List for Languages <http://www.loc.gov/marc/languages/language_code.html>`__ for additional values for this preference."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:821
+msgid "item-level\\_itypes"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:823
+msgid "Default: specific item"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:825
+msgid "Asks: Use the item type of the \\_\\_\\_ as the authoritative item type (for determining circulation and fines rules, etc)."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:830
+msgid "biblio record"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:832
+msgid "specific item"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:836
+msgid "This preference determines whether the item type Koha uses for issuing rules will be an attribute of the bibliographic record or the item record. Most libraries refer to the item record for item types. It also determines if the item type icon appears on the OPAC search results. If you have the preference set to 'biblio record' then Koha displays the item type icon on the search results to the left of the result info."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:844
+msgid "|image23|"
+msgstr "|image23|"
+
+#: ../../source/catalogingpreferences.rst:849
+msgid "itemcallnumber"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:851
+msgid "Default: 082ab"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:853
+msgid "Asks: Map the MARC subfield to an item's callnumber."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:857
+msgid "This can contain multiple subfields to look in; for instance 082ab would look in 082 subfields a and b."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:862
+msgid "This setting determines which MARC field will be used to determine the call number that will be entered into item records automatically (952$o). The value is set by providing the MARC field code (050, 082, 090, 852 are all common in MARC21) and the subfield codes without the delimiters ($a, $b would be ab)."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:868
+msgid "The field can also contain several MARC fields in priority order. For example, 082ab,050ab,080ab,090ab will look in priority in 082ab, if 082 is not filled in, it will look in 050ab, etc."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:872
+msgid "**Important** When entering more than one MARC field, separate them with a comma, but do not put spaces after the commas."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:876
+#: ../../source/catalogingpreferences.rst:1009
+#: ../../source/catalogingpreferences.rst:1035
+msgid "Examples:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:878
+msgid "Dewey: 082ab or 092ab; LOC: 050ab or 090ab; from the item record: 852hi"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:884
+msgid "MarcFieldForCreatorId, MarcFieldForCreatorName, MarcFieldForModifierId, MarcFieldForModifierName"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:886
+msgid "Asks: Store record's creator borrowernumber in MARC subfield \\_\\_\\_ and record's creator name in MARC subfield \\_\\_\\_ Store record's last modifier borrowernumber in MARC subfield \\_\\_\\_ and record's last modifier name in MARC subfield \\_\\_\\_ NOTE: Use a dollar sign between field and subfield like 123$a."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:893
+msgid "This preference allows you to define which MARC subfields to use to automatically save the details of the logged in user.  You can save details for the record creator and the most recent modifier."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:900
+msgid "marcflavour"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:902
+msgid "Default: MARC21"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:904
+msgid "Asks: Interpret and store MARC records in the \\_\\_\\_ format."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:908
+msgid "MARC21"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:910
+msgid "The standard style for the US, Canada, Australia, New Zealand, United Kingdom, Germany and other countries"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:913
+msgid "UNIMARC"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:915
+msgid "The standard style used in France, Italy, Portugal, Russia, and other countries"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:918
+msgid "NORMARC"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:920
+msgid "The standard style for Norway"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:924
+msgid "This preference defines global MARC style (MARC21, UNIMARC or NORMARC) used for encoding."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:929
+msgid "Changing the value of this preference will not convert your records from one MARC style to an other."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:935
+msgid "MARCOrgCode"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:937
+msgid "Default: OSt"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:939
+msgid "Asks: Fill in the MARC organization code \\_\\_\\_ by default in new MARC21 records (leave blank to disable)."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:944
+msgid "The MARC Organization Code is used to identify libraries with holdings of titles and more."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:947
+msgid "Learn more and find your library's MARC21 code on the `MARC Code list for Organizations <http://www.loc.gov/marc/organizations/orgshome.html>`__ or in Canada on the `Canadian Symbols Directory <http://www.collectionscanada.gc.ca/illcandir-bin/illsear/l=0/c=1>`__."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:961
+msgid "NewItemsDefaultLocation"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:963
+msgid "Asks: When items are created, give them the temporary location of \\_\\_\\_ (should be a location code, or blank to disable)."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:968
+msgid "This allows you to set a specific location for all new items."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:970
+msgid "Make sure to use location codes, from the :ref:`LOC authorized values list<existing-values-label>`"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:973
+msgid "You can use the :ref:`UpdateItemLocationOnCheckin` system preference along with this one to update the location upon checkin"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:979
+msgid "PrefillItem"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:981
+msgid "Default: the new item is not prefilled with last created item values."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:983
+msgid "Asks: When a new item is added \\_\\_\\_"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:987
+msgid "the new item is not prefilled with last created item values."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:989
+msgid "the new item is prefilled with last created item values."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:993
+msgid "This preference controls the behavior used when adding new items. Using the options here you can choose to have your next new item prefill with the values used in the last item was added to save time typing values or to have the item form appear completely blank. Using :ref:`SubfieldsToUseWhenPrefill` you can control specifically which fields are prefilled."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1003
+msgid "SubfieldsToAllowForRestrictedBatchmod"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1005
+msgid "Asks: Define a list of subfields for which editing is authorized when `items\\_batchmod\\_restricted <#items_batchmod_restricted>`__ permission is enabled, separated by spaces. \\_\\_\\_"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1011
+#: ../../source/catalogingpreferences.rst:1037
+msgid "UNIMARC: \"995$f 995$h 995$j\""
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1013
+#: ../../source/catalogingpreferences.rst:1039
+msgid "MARC21: \"952$a 952$b 952$c\""
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1017
+msgid "This preference lets you define what fields can be edited via the :ref:`batch item modification tool <batch-item-modification-label>` if the items\\_batchmod\\_restricted permission is enabled."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1023
+msgid "The FA framework is excluded from the permission. If the pref is empty, no fields are restricted."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1029
+msgid "SubfieldsToAllowForRestrictedEditing"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1031
+msgid "Asks: Define a list of subfields for which editing is authorized when edit\\_items\\_restricted permission is enabled, separated by spaces. \\_\\_\\_"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1043
+msgid "This preference lets you define what fields can be edited via cataloging if the `edit\\_items\\_restricted <#edit_items_restricted>`__ permission is enabled"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1050
+msgid "The Fast Add (FA) framework is excluded from the permission. If the pref is empty, no fields are restricted."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1056
+msgid "SubfieldsToUseWhenPrefill"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1058
+msgid "Asks: Define a list of subfields to use when prefilling items \\_\\_\\_"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1062
+msgid "Separate values with a space."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1066
+msgid "When the :ref:`PrefillItem` preference is set to prefill item values with those from the last added item, this preference can control which fields are prefilled (and which are not). Enter a space separated list of fields that you would like to prefill when adding a new item."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1075
+msgid "UNIMARCField100Language"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1077
+msgid "Default: fre"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1079
+msgid "Asks: Use the language (ISO 690-2) \\_\\_\\_ as default language in the UNIMARC field 100 when creating a new record or in the field plugin."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1085
+msgid "z3950NormalizeAuthor and z3950AuthorAuthFields"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1087
+msgid "Defaults: Don't copy and 701,702,700"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1089
+msgid "Asks: \\_\\_\\_ authors from the UNIMARC \\_\\_\\_ tags (separated by commas) to the correct author tags when importing a record using Z39.50."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1092
+msgid "Description for z3950NormalizeAuthor:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1094
+msgid "This preference allows for 'Personal Name Authorities' to replace authors as the bibliographic authority. This preference should only be considered by libraries using UNIMARC."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1098
+msgid "Values for z3950NormalizeAuthor:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1100
+msgid "Copy"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1102
+msgid "Don't copy"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1104
+msgid "Description for z3950AuthorAuthFields:"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1106
+msgid "This preference defines which MARC fields will be used for 'Personal Name Authorities' to replace authors as the bibliographic authorities. This preference only applies to those using UNIMARC encoding. The MARC fields selected here will only be used if 'z3950NormalizeAuthor' is set to \"Copy\". The default field are 700, 701, and 702."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1116
+msgid "Spine Labels"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1121
+msgid "SpineLabelAutoPrint"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1125
+msgid "Asks: When using the quick spine label printer, \\_\\_\\_ automatically pop up a print dialog."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1137
+msgid "SpineLabelFormat"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1139
+msgid "Default: <itemcallnumber><copynumber>"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1141
+msgid "Asks: Include the following fields on a quick-printed spine label: (Enter in columns from the biblio, biblioitems or items tables, surrounded by < and >.)"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1148
+msgid "SpineLabelShowPrintOnBibDetails"
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1152
+msgid "Asks: \\_\\_\\_ buttons on the bib details page to print item spine labels."
+msgstr ""
+
+#: ../../source/catalogingpreferences.rst:1158
+msgid "|image24|"
+msgstr "|image24|"
+
+#~ msgid "|image1181|"
+#~ msgstr "|image1181|"
+
+#~ msgid "|image1182|"
+#~ msgstr "|image1182|"
+

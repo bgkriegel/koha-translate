@@ -1,0 +1,376 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2018, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-08-15 23:00+0000\n"
+"Last-Translator: Frank Chou <frank@sris.com.tw>\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1629068424.294669\n"
+"X-Pootle-Path: /zh_TW/man20.11/ILL_requests.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/ILL_requests.rst:6
+msgid "ILL requests / Interlibrary loans"
+msgstr "ILL 館際互借申請 / 館際互借送出"
+
+#: ../../source/ILL_requests.rst:8
+msgid "The ILL (Interlibrary loans) requests module adds the ability to request and manage loans or copies of material from external sources. Patrons can submit a request via the OPAC from the :ref:`your interlibrary loan requests <your-interlibrary-loan-requests-label>` tab of their account.  Library staff can then review and process those requests.  Alternatively staff can place requests themselves from the staff client."
+msgstr "ILL (館際互借) 需求模組加入了可申請及管理館際互借或從外部資源取得複本的功能。讀者經由 OPAC他們帳戶的標籤 :ref:`您的館際互借申請 <your-interlibrary-loan-requests-label>`提出申請單，經由圖書館管理者複審及處理。不同的管理者可從館員工作台提出申請。"
+
+#: ../../source/ILL_requests.rst:13
+msgid "Set up"
+msgstr "設定"
+
+#: ../../source/ILL_requests.rst:15
+msgid "Before using the ILL requests module you will want to make sure that you have completed all of the set up."
+msgstr "在使用館際互借模組前，您必須確認您完成了所有的設定。"
+
+#: ../../source/ILL_requests.rst:17
+msgid "The ILL requests module can be configured for different types of requests and workflows known as backends. Currently available backends are documented on the Koha community wiki at https://wiki.koha-community.org/wiki/ILL_backends. You will need to configure at least one backend."
+msgstr "館際互借模組可以在後端定義不同的申請模式以及工作流程。請參考在 https://wiki.koha-community.org/wiki/ILL_backends 的文件。您至少要定義一個後端。"
+
+#: ../../source/ILL_requests.rst:19
+msgid "Next, set your :ref:`system preferences for interlibrary loans <interlibrary-loans-label>`."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:21
+msgid "Library staff responsible for ILL requests need the following permission set on their account: *ill: Create and modify Interlibrary loan requests*."
+msgstr "負責館際互借的圖書館館員需要得到以下的授權以設定他們的帳號：*ill: Create and modify Interlibrary loan requests*"
+
+#: ../../source/ILL_requests.rst:23
+msgid "The ILL requests module uses system defined statuses. You can add custom statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values <authorized-values-label>`."
+msgstr "館際互借申請模組使用系統判定狀態。您可以新增自定狀態以符合您的館際互借工作流程如 ILLSTATUS :ref:`容許值 <authorized-values-label>`。"
+
+#: ../../source/ILL_requests.rst:28
+msgid "ILL email notifications"
+msgstr ""
+
+#: ../../source/ILL_requests.rst:30
+msgid "Email notifications can be sent to ILL staff when a patron makes a request to modify or cancel an existing request.  The notice templates are ILL_REQUEST_CANCEL and ILL_REQUEST_MODIFIED.  The ILL staff email address can be configured per library.  If this is not set the :ref:`ILLDefaultStaffEmail` system preference will be used."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:33
+msgid "Notifications can also be sent to patrons for requests that are either available for pick-up or are unavailable and have been cancelled.  The notice templates are ILL_PICKUP_READY and ILL_REQUEST_UNAVAIL.  The notifications are enabled from the :ref:`patron categories <patron-categories-label>` default patron messaging preferences.  You can customise the notice text for these notices in :ref:`Notices & slips <notices-and-slips-label>` in the Tools module."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:39
+msgid "Create ILL requests"
+msgstr "新增館際互借申請"
+
+#: ../../source/ILL_requests.rst:41
+msgid "*Get there:* More > ILL requests"
+msgstr "*Get there:* More > ILL requests"
+
+#: ../../source/ILL_requests.rst:43
+msgid "|image1386|"
+msgstr "|image1386|"
+
+#: ../../source/ILL_requests.rst:45
+msgid "Choose ‘New ILL request’ and then Freeform."
+msgstr "選擇 ‘New ILL request’ and then Freeform."
+
+#: ../../source/ILL_requests.rst:48
+msgid "The images shown here are for the FreeFrom backend only."
+msgstr "此圖示僅供 FreeFrom backend 使用"
+
+#: ../../source/ILL_requests.rst:50
+msgid "|image1387|"
+msgstr "|image1387|"
+
+#: ../../source/ILL_requests.rst:52
+msgid "Enter a Type: Book, Article, Journal, Other."
+msgstr "輸入一種型態: 書籍, 文章, 論文或其它"
+
+#: ../../source/ILL_requests.rst:54
+msgid "In the next two sections enter as much as information as you can including chapter/article/part if applicable."
+msgstr "在之後的兩個項目，請儘量輸入足夠的資訊，可以的話請包含章節/文章/part。"
+
+#: ../../source/ILL_requests.rst:56
+msgid "|image1388|"
+msgstr "|image1388|"
+
+#: ../../source/ILL_requests.rst:58
+msgid "Add custom fields, for example if you wished to add a note."
+msgstr "新增自定欄位，比如您希望加入一個註記。"
+
+#: ../../source/ILL_requests.rst:60
+msgid "Under the borrower options enter the library branch you would like the request to be sent to."
+msgstr "在瀏覽器選項之下，輸入那個圖書館您將要送出申請。"
+
+#: ../../source/ILL_requests.rst:62
+#, fuzzy
+msgid "Click on ‘Create’ and you will be shown a Request details summary page."
+msgstr "點擊 ‘新增’ 顯示申請細節摘要頁。點擊 ‘確認要求’ 按鈕後出現下列確認訊息："
+
+#: ../../source/ILL_requests.rst:65
+msgid "If you have enabled the :ref:`ILLCheckAvailability` system preference and installed plugins for the staff interface you will be presented with search results.  The user can click on a link to a relevant resource if found or proceed with the ILL request.  If no results are found the ILL is completed in the usual way."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:69
+msgid "You can now process your request as explained in Managing ILL requests section or return to the list of ILL requests."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:75
+msgid "Viewing ILL requests"
+msgstr "檢視館際互借申請"
+
+#: ../../source/ILL_requests.rst:77
+#, fuzzy
+msgid "From the main ILL requests screen you can view, filter and sort your ILL requests.  You can use the :ref:`ILLHiddenRequestStatuses` preference to hide completed statuses by default.  You can also click on the ‘List requests’ button at any time to return to this list."
+msgstr "請再點擊 ‘確認要求’ 一次。在館際互借申請首頁，將顯示所有您的館際互借申請及其狀態。您也可選擇 ‘檢視要求’ 瀏覽 ‘新增要求’ 的狀態。"
+
+#: ../../source/ILL_requests.rst:80
+msgid "|image1435|"
+msgstr "|image1435|"
+
+#: ../../source/ILL_requests.rst:82
+msgid "There is a large amount of data available in the Requests table so it is advisable to make use of :ref:`Table settings <column-settings-label>` section of the Administration module (table id: ill-requests) to view only the information you need. The first half of the table displays data related to the ILL item itself such as title, volume, page numbers."
+msgstr ""
+"請求表單內資料眾多，建議使用 :ref:`欄位設定 <column-settings-label>` 以欄位方式檢視需要的資料。表單(table id: "
+"ill-requests)的前半段顯示與 ILL 有關的欄位，如題名、卷、頁碼。"
+
+#: ../../source/ILL_requests.rst:88
+msgid "|image1436|"
+msgstr "|image1436|"
+
+#: ../../source/ILL_requests.rst:90
+msgid "The second half of the table displays data related to the request such as notes and comments."
+msgstr "表單的第二個部份顯示與說明和評論有關的資料。"
+
+#: ../../source/ILL_requests.rst:97
+msgid "Managing ILL requests"
+msgstr "管理館際互借申請"
+
+#: ../../source/ILL_requests.rst:99
+msgid "Click on the ‘Manage request’ button in the final column. Depending on the current status of the request you may see some or all of the following options:"
+msgstr "點擊 ‘Manage request’ 最後一欄的按鈕。取決於申請狀態，您可能看到如下的按鈕："
+
+#: ../../source/ILL_requests.rst:102
+msgid "Edit request"
+msgstr "編輯請求"
+
+#: ../../source/ILL_requests.rst:104
+#, fuzzy
+msgid "you can edit the borrowernumber, biblionumber, branch and can add notes.  If you have added custom ILL statuses you can also edit these."
+msgstr "您可編輯讀者號，書目號以及圖書館，並可加入註記。"
+
+#: ../../source/ILL_requests.rst:106
+msgid "Confirm request"
+msgstr "確認申請"
+
+#: ../../source/ILL_requests.rst:108
+msgid "place the request with a document supply service using a backend such as BLDSS."
+msgstr "送出申請及透過後端一份文件供應服務，像是BLDSS。"
+
+#: ../../source/ILL_requests.rst:109 ../../source/ILL_requests.rst:170
+msgid "Place request with partners"
+msgstr "送出申請給合作的圖書館。"
+
+#: ../../source/ILL_requests.rst:111
+msgid "place the request via email with a :ref:`partner library <place-request-with-partners-label>`"
+msgstr "透過電子郵件送出申請：:ref:`partner library <place-request-with-partners-label>`"
+
+#: ../../source/ILL_requests.rst:112
+msgid "Switch provider"
+msgstr ""
+
+#: ../../source/ILL_requests.rst:114
+msgid "this allows you to move the request to a different provider (backend)."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:115
+msgid "Delete"
+msgstr "刪除"
+
+#: ../../source/ILL_requests.rst:117
+msgid "fully delete the request. Details of deleted requests are not retained in Koha."
+msgstr "完全刪除申請。刪除原因並不會儲存在Koha系統。"
+
+#: ../../source/ILL_requests.rst:118
+msgid "Revert request"
+msgstr "還原申請"
+
+#: ../../source/ILL_requests.rst:120
+msgid "following a status of ‘Requested’ or ‘Requested from partners’ library staff can cancel the request from the external source. The status reverts to ‘New’"
+msgstr "依照 ‘請求’ 或 ‘由夥伴請求’ 的狀態，館員可以由外部取消請求。狀能回復為 ‘新增’"
+
+#: ../../source/ILL_requests.rst:122
+msgid "Mark completed"
+msgstr "註記完成"
+
+#: ../../source/ILL_requests.rst:124
+msgid "used when the ILL request has been fulfilled."
+msgstr "當館際互借申請已填妥使用。"
+
+#: ../../source/ILL_requests.rst:125
+msgid "Edit item metadata"
+msgstr "編輯館藏的元數據"
+
+#: ../../source/ILL_requests.rst:127
+#, fuzzy
+msgid "Dependent on the backend used for the request you may be able to edit, add or delete some or all of the request metadata.  For example, if the metdata has originated from a requestor using the FreeForm backend this may need to be edited, whereas metadata from an external recognised source such as BLDSS should not."
+msgstr "依照請求後端使用的情形，可能編輯、新增或刪除請求的元資料。例如，源自 FreeForm 後端的請求就必須編輯它，來自 BLDSS 等地的外部資料，就無法編輯它。"
+
+#: ../../source/ILL_requests.rst:132
+msgid "Display supplier metadata"
+msgstr "顯示供應商的元資料"
+
+#: ../../source/ILL_requests.rst:134
+msgid "Displays any extra metadata that might have been provided by your ILL supplier that has not been included in the standard request fields."
+msgstr "顯示來自 ILL 供應商的額外元資料，即不在標準請求欄位內元資料。"
+
+#: ../../source/ILL_requests.rst:136
+#, fuzzy
+msgid "ILL request log"
+msgstr "新增館際互借申請"
+
+#: ../../source/ILL_requests.rst:138
+msgid "Displays a history of changes made to the request."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:139
+msgid "Comments"
+msgstr "評論"
+
+#: ../../source/ILL_requests.rst:141
+msgid "It is possible to add comments to an ILL request and these can be used by ILL staff to keep track of work undertaken. Comments are read only and are stored in chronological order. They display the borrower details and date of the comment. If present, the number of comments is displayed in the List requests view."
+msgstr "可以在 ILL 請求中增加評論，讓 ILL 同仁追踪工作的進度。評論以時間依序儲存。包括借閱者詳情及評論的日期。顯示的時候，評論的數量顯示在請求清單中。"
+
+#: ../../source/ILL_requests.rst:146
+msgid "Checkout"
+msgstr ""
+
+#: ../../source/ILL_requests.rst:148
+msgid "This option is only available if you have the :ref:`CirculateILL` preference enabled.  See the :ref:`Circulating ILL materials <circulating-ILL-material-label>` section."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:153
+msgid "Request statuses"
+msgstr "請求狀態"
+
+#: ../../source/ILL_requests.rst:155
+#, fuzzy
+msgid "The full list of installed ILL statuses are:"
+msgstr "完整的館際互借狀態列表："
+
+#: ../../source/ILL_requests.rst:157
+msgid "New request"
+msgstr "新增請求"
+
+#: ../../source/ILL_requests.rst:158
+msgid "Requested"
+msgstr "已申請"
+
+#: ../../source/ILL_requests.rst:159
+msgid "Requested from partners"
+msgstr "來自合作圖書館的申請"
+
+#: ../../source/ILL_requests.rst:160
+msgid "Request reverted"
+msgstr "請求回復"
+
+#: ../../source/ILL_requests.rst:161
+msgid "Cancellation requested – a patron has requested cancellation from the OPAC."
+msgstr "取消申請 - 一位讀者已取消申請。"
+
+#: ../../source/ILL_requests.rst:162
+msgid "Completed"
+msgstr "完成"
+
+#: ../../source/ILL_requests.rst:163
+msgid "Checked out"
+msgstr ""
+
+#: ../../source/ILL_requests.rst:164
+msgid "Returned to Library"
+msgstr ""
+
+#: ../../source/ILL_requests.rst:172
+msgid "If you have a network of partner libraries which permit ILL requests you can manage this through Koha. First you need to create your partner library accounts:"
+msgstr "可透過 Koha 管理 ILL 的合作館。首先您必須新增合作圖書館帳號："
+
+#: ../../source/ILL_requests.rst:174
+msgid "You will need to set up a :ref:`patron category <patron-categories-label>` with the code ILLLIBS."
+msgstr "您需要設定 :ref:`patron category <patron-categories-label>` 及ILLLIBS(館際互借後端)代碼。"
+
+#: ../../source/ILL_requests.rst:176
+msgid "You will need to create a patron account with this category for each partner library."
+msgstr "您需要為每個合作圖書館新建一個讀者帳號。"
+
+#: ../../source/ILL_requests.rst:178
+msgid "Each library must have an email address as this will be the mechanism for sending the inter-library loan request.  The notice template is ILL_PARTNER_REQ and the text can be customised from :ref:`Notices & slips <notices-and-slips-label>` in the Tools module."
+msgstr "每個圖書館都必須提供一組電子郵件信箱做為收發館際合作申請使用。通知信的模版是 ILL_PARTNER_REQ , 其內容可在工具模組的 :ref:`通知與收條 <notices-and-slips-label>` 客製。"
+
+#: ../../source/ILL_requests.rst:181
+msgid "You can now use the 'Place request with partners' option when processing requests."
+msgstr "您可以使用 'Place request with partners' 選項當在處理申請時。"
+
+#: ../../source/ILL_requests.rst:184
+msgid "If you have enabled the :ref:`ILLCheckAvailability` preference enabled you can use plugins to search the catalogues of your partner libraries using Z39.50 prior to confirming the request with a partner."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:190
+msgid "Circulating ILL materials"
+msgstr ""
+
+#: ../../source/ILL_requests.rst:192
+msgid "If you have enabled the :ref:`CirculateILL` preference you can checkout ILL items directly from the ILL request."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:194
+msgid "When you create a *Book* type request a brief catalogue record is created automatically based on the Fast Add MARC framework. Once a request has a suitable status, a Checkout button is displayed on the Manage request toolbar. Clicking this will enable the user to check out the item either to the user who made the request or an in-house statistical patron."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:197
+msgid "To checkout an item:"
+msgstr ""
+
+#: ../../source/ILL_requests.rst:199
+msgid "Click on the Checkout button."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:201
+msgid "Select an item type when prompted.  An item is created automatically which is attached to the biblio record that was created for the request.  The barcode of the item is in the format ILL-requestid."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:204
+msgid "Next, at the patron checkout screen select a due date.  If you do not select a due date the relevant circulation rule will be used to calculate the due date."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:207
+msgid "Once the item is checked out the status of the request is changed to 'Checked out' and after it has been checked in the status updates to 'Returned to library'."
+msgstr ""
+
+#: ../../source/ILL_requests.rst:210
+msgid "Bibliographic records created as part of an ILL request will have an extra tab in the holdings table for that allows you to link back to the request in the ILL module."
+msgstr ""
+
+#~ msgid "Next, set your system preferences."
+#~ msgstr "接著，設定您的系統偏好。"
+
+#~ msgid "Set the :ref:`ILLModule` preference to ‘Enable’."
+#~ msgstr "設定 :ref:`ILLModule` 成 ‘Enable’ ．"
+
+#~ msgid "If you wish to include a copyright declaration in your ILL workflow you can this in the :ref:`ILLModuleCopyrightClearance` preference."
+#~ msgstr "如果您要包含著作權聲明在您的館際互借工作流程，您可以在這裡設定： :ref:`ILLModuleCopyrightClearance` preference."
+
+#~ msgid "**Note**"
+#~ msgstr "**Note**"
+
+#~ msgid "|image1389|"
+#~ msgstr "|image1389|"
+
+#~ msgid "Click ‘Confirm request’ again to create your request."
+#~ msgstr "再按一次 ‘確認請求’ 就能請增您的請求。"

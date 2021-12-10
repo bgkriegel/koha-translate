@@ -1,0 +1,273 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/i18npreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/i18npreferences.rst:6
+msgid "I18N/L10N"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:8
+msgid "These preferences control your Internationalization and Localization settings."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:11
+msgid "*Get there:* More > Administration > Global System Preferences > I18N/L10N"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:17
+msgid "AddressFormat"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:19
+msgid "Default: US style ([Street number], [Address] - [City], [Zip/Postal Code], [Country])"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:22
+msgid "Asks: Format postal addresses using \\_\\_\\_"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:24 ../../source/i18npreferences.rst:67
+#: ../../source/i18npreferences.rst:100 ../../source/i18npreferences.rst:132
+#: ../../source/i18npreferences.rst:148 ../../source/i18npreferences.rst:174
+#: ../../source/i18npreferences.rst:202 ../../source/i18npreferences.rst:219
+msgid "Values:"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:26
+msgid "German style ([Address] [Street number] - [Zip/Postal Code] [City] - [Country])"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:29
+msgid "French style ([Street number] [Address] - [ZIP/Postal Code] [City] - [Country])"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:32
+msgid "US style ([Street number], [Address] - [City], [Zip/Postal Code], [Country])"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:35 ../../source/i18npreferences.rst:51
+#: ../../source/i18npreferences.rst:83 ../../source/i18npreferences.rst:110
+#: ../../source/i18npreferences.rst:187 ../../source/i18npreferences.rst:225
+msgid "Description:"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:37
+msgid "This preference will let you control how Koha displays patron addresses given the information entered in the various fields on their record."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:44
+msgid "alphabet"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:46
+msgid "Default: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:48
+msgid "Asks: Use the alphabet \\_\\_\\_ for lists of browsable letters. This should be a space separated list of uppercase letters."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:53
+msgid "This preference allows you define your own alphabet for browsing patrons in Koha."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:56
+msgid "|image60|"
+msgstr "|image60|"
+
+#: ../../source/i18npreferences.rst:61
+msgid "CalendarFirstDayOfWeek"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:63
+msgid "Default: Sunday"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:65
+msgid "Asks: Use \\_\\_\\_ as the first day of week in the calendar."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:69
+msgid "Sunday"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:71
+msgid "Monday"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:73
+msgid "Tuesday"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:75
+msgid "Wednesday"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:77
+msgid "Thursday"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:79
+msgid "Friday"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:81
+msgid "Saturday"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:85
+msgid "Using this preference you can control what day shows as the first day of the week in the calendar pop ups throughout Koha and on the Calendar tool. If you change this preference and don't see a change in your browser try clearing your cache since it makes changes to the Javascript on these pages."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:94
+msgid "dateformat"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:96
+msgid "Default: mm/dd/yyyy"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:98
+msgid "Asks: Format dates like \\_\\_\\_"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:102
+msgid "dd.mm.yyyy"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:104
+msgid "dd/mm/yyyy"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:106
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:108
+msgid "yyyy/mm/dd"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:112
+msgid "This preference controls how the date is displayed. The options are the United States method, mm/dd/yyyy (04/24/2010), the metric method, dd/mm/yyyy (24/04/2010) or ISO, which is the International Standard of Organization, yyyy/mm/dd (2010/04/24). The International Standard of Organization would primarily be used by libraries with locations in multiple nations that may use different date formats, to have a single display type, or if the library would be in a region that does not use the United States or metric method. More information regarding the ISO date format can be found at http://www.iso.org/iso/iso_catalogue.htm."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:126
+msgid "language"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:128 ../../source/i18npreferences.rst:146
+msgid "Default: English"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:130
+msgid "Asks: Enable the following languages on the staff interface"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:134 ../../source/i18npreferences.rst:150
+msgid "English"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:136
+msgid "To install additional languages please refer to http://wiki.koha-community.org/wiki/Installation_of_additional_languages_for_OPAC_and_INTRANET_staff_client"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:142
+msgid "OPACLanguages"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:144
+msgid "Asks: Enable the following languages on the OPAC"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:154
+msgid "To install additional languages you need to run misc/translator/translate install. For example, to install French you would run the following command"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:162
+msgid "to make the templates. Once they exist and are in the right place, they will show up as an option in this preference."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:168
+msgid "opaclanguagesdisplay"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:170 ../../source/i18npreferences.rst:213
+msgid "Default: Don't allow"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:172
+msgid "Asks: \\_\\_\\_ patrons to change the language they see on the OPAC."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:176 ../../source/i18npreferences.rst:223
+msgid "Allow"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:178
+msgid "Patrons can choose their language from a list at the bottom of the public catalog"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:181
+msgid "|image61|"
+msgstr "|image61|"
+
+#: ../../source/i18npreferences.rst:183 ../../source/i18npreferences.rst:221
+msgid "Don't allow"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:185
+msgid "The public catalog will not give an option to choose a language"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:189
+msgid "Using the :ref:`OpacLangSelectorMode` preference you can decide where these language options will appear in the public catalog."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:196
+msgid "TimeFormat"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:198
+msgid "Default: 24 hour format"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:200
+msgid "Asks: Format times in \\_\\_\\_"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:204
+msgid "12 hour format (eg 02:18PM)"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:206
+msgid "24 hour format (eg 14:18)"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:211
+msgid "TranslateNotices"
+msgstr ""
+
+#: ../../source/i18npreferences.rst:215
+msgid "Asks: \\_\\_\\_ notices to be translated. If set, notices will be translatable from the \"Notices and Slips\" interface. The language used to send a notice to a patron will be the one defined for the patron."
+msgstr ""
+
+#: ../../source/i18npreferences.rst:227
+msgid "If set to 'Allow' it is possible to choose a 'Preferred language for notices' when creating a new patron account in the staff interface or for the patron to do this themselves from their messaging options when logged into their account on the opac."
+msgstr ""
+

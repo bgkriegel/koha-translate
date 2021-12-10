@@ -1,0 +1,1297 @@
+# Compendium of zh_TW.
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2019-12-26 12:11+0000\n"
+"Last-Translator: Anthony MAO <mao@lins.fju.edu.tw>\n"
+"Language-Team: Koha Translation Team\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1577362294.266111\n"
+"X-Pootle-Path: /zh_TW/man18.05/implementation_checklist.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/implementation_checklist.rst:6
+#, fuzzy
+msgid "Implementation checklist"
+msgstr "應用核對清單"
+
+#: ../../source/implementation_checklist.rst:8
+msgid "The following guide will walk you through the areas of Koha you need to look at in order to prepare to start using the system."
+msgstr "以下的指南帶您巡視 Koha，做為啟用前的準備。"
+
+#: ../../source/implementation_checklist.rst:11
+msgid "It is not an exhaustive list of everything you need to do. Please consider your own library practices and what other checks are necessary for your own libary and context."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:18
+#, fuzzy
+msgid "Data migration"
+msgstr "資料轉換"
+
+#: ../../source/implementation_checklist.rst:20
+msgid "Before you can start using Koha you'll need to have some data. This can be done by entering it all by hand, but most people already have their data in electronic format of some sort and just need to reformat it a bit for importing into Koha."
+msgstr "使用 Koha 前應已有相當資料。可以人工逐筆鍵入，但多數情況是已有電子格式的資料祗需重新格式它們就能匯入 Koha。"
+
+#: ../../source/implementation_checklist.rst:25
+#, fuzzy
+msgid "Create a list of libraries and enter their info and codes into :ref:`libraries <libraries-label>`"
+msgstr "新增圖書館清單並建入其資訊及代碼 :ref:`圖書館 <libraries-label>`"
+
+#: ../../source/implementation_checklist.rst:28
+#, fuzzy
+msgid "Define your list of :ref:`item types <item-types-label>`"
+msgstr "設定您的 :ref:`館藏類型`"
+
+#: ../../source/implementation_checklist.rst:30
+#, fuzzy
+msgid "Define your patron categories and enter the categories and their codes into :ref:`patron categories <patron-categories-label>`"
+msgstr "設定讀者類型並鍵入代碼於 :ref:`讀者類型`"
+
+#: ../../source/implementation_checklist.rst:33
+#, fuzzy
+msgid "Enter any additional patron information fields you use in your library in the :ref:`patron attributes <patron-attribute-types-label>`"
+msgstr "鍵入其他的讀者資訊於 :ref:`讀者屬性 <patron-attribute-types-label>`"
+
+#: ../../source/implementation_checklist.rst:36
+#, fuzzy
+msgid "This requires that you first enable the :ref:`ExtendedPatronAttributes` system preference if you have custom fields"
+msgstr "若已客製化欄位則先設定 :ref:`ExtendedPatronAttributes` 系統偏好"
+
+#: ../../source/implementation_checklist.rst:39
+#, fuzzy
+msgid "Define all of your :ref:`authorized values <authorized-values-label>`"
+msgstr "設定您所有的 :ref:`容許值`"
+
+#: ../../source/implementation_checklist.rst:41
+msgid "Collection codes (:ref:`CCODE <existing-values-label>`)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:43
+msgid "Shelving locations (:ref:`LOC <existing-values-label>`)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:45
+msgid "Item statuses"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:47
+msgid "Lost status (:ref:`LOST <existing-values-label>`)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:49
+msgid "Not for loan status (:ref:`NOT\\_LOAN <existing-values-label>`)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:51
+msgid "Damaged status (:ref:`DAMAGED <existing-values-label>`)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:53
+msgid "Withdrawn status (:ref:`WITHDRAWN <existing-values-label>`)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:55
+msgid "Plus any others that are needed in your library"
+msgstr "加上圖書館所需的其他資料"
+
+#: ../../source/implementation_checklist.rst:57
+#, fuzzy
+msgid "Optionally define :ref:`cities and towns <cities-and-towns-label>`"
+msgstr "選擇性地設定 :ref:`縣市/鄉鎮/郵遞區號 <cities-and-towns-label>` 組合"
+
+#: ../../source/implementation_checklist.rst:59
+msgid ":ref:`Map your bibliographic data <koha-to-marc-mapping-label>` from your legacy system to Koha fields and migrate (remembering to use the collection, shelving, item type and library codes you entered in the above setting areas)"
+msgstr ":ref:`對映您的書目資料 <koha-to-marc-mapping-label>` 由原來的系統至 Koha 欄位並轉換 (記得使用在設定區鍵入的館藏、排架、館藏類型與圖書館代碼)"
+
+#: ../../source/implementation_checklist.rst:64
+msgid ":ref:`Map your patron data <patron-import-label>` from your legacy system to the Koha fields and migrate (remembering to use the patron and library codes you defined above)"
+msgstr ":ref:`對映您的讀者資料 <patron-import-label>` 由原來的系統至 Koha 欄位並轉換 (記得使用稍早設定的讀者與圖書館代碼)"
+
+#: ../../source/implementation_checklist.rst:68
+msgid "Test your migrated data to be sure that everything is as you expect it to be, some things to test include:"
+msgstr "測試匯入的資料，包括："
+
+#: ../../source/implementation_checklist.rst:71
+msgid "Check some of your titles with diacritics and make sure that they migrated properly."
+msgstr "檢查讀音符號，是否正常。"
+
+#: ../../source/implementation_checklist.rst:74
+msgid "Check titles in a series and make sure that series information migrated properly."
+msgstr "檢查集叢題名並確認集叢資訊正確地匯入。"
+
+#: ../../source/implementation_checklist.rst:77
+msgid "Make sure that your patrons have their contact information in the right fields."
+msgstr "確認讀者的連絡資訊在正確的欄位。"
+
+#: ../../source/implementation_checklist.rst:80
+msgid "If your serials data was migrated search for these records in the catalog and confirm that they look right."
+msgstr "搜尋目錄裡已匯入的集叢資料確認人其正確性。"
+
+#: ../../source/implementation_checklist.rst:83
+msgid "If your serials data was migrated search for these records in the serials module and confirm that they look right."
+msgstr "搜尋目錄裡已匯入的集叢資料確認人其正確性。"
+
+#: ../../source/implementation_checklist.rst:86
+msgid "Check marc records to verify a variety of items are cataloged correctly"
+msgstr "檢查機讀編目格式確認館藏都已正確編目"
+
+#: ../../source/implementation_checklist.rst:89
+msgid "Check cataloging process to see if all necessary fields are available"
+msgstr "檢查編目程序查看必要欄位都沒少"
+
+#: ../../source/implementation_checklist.rst:92
+msgid "If fines are migrated, check to see that they are applied correctly"
+msgstr "檢查罰款的正確性"
+
+#: ../../source/implementation_checklist.rst:95
+msgid "If holds are migrated, check to see they are accurate in catalog and patron record"
+msgstr "檢查預約資料裡的書目記錄與讀者記錄"
+
+#: ../../source/implementation_checklist.rst:101
+#, fuzzy
+msgid "Admin configuration"
+msgstr "管理組態"
+
+#: ../../source/implementation_checklist.rst:103
+msgid "Most of these preferences won't need to be changed to use your Koha system, but there are a few that you might want to customize."
+msgstr "大部份的偏好不需要改變，祗有少數幾個偏好需要客製化。"
+
+#: ../../source/implementation_checklist.rst:106
+#, fuzzy
+msgid "If your library uses CAS authentication, you'll want to set the various :ref:`CAS system preferences <cas-authentication-label>`"
+msgstr "若使用CAS認證，則需要設定 :ref:`CAS系統偏好 <cas-authentication-label>`"
+
+#: ../../source/implementation_checklist.rst:109
+#, fuzzy
+msgid "Administration system preferences"
+msgstr "管理系統偏好"
+
+#: ../../source/implementation_checklist.rst:111
+msgid ":ref:`KohaAdminEmailAddress` : This is the email address that will be used by the system in 'from' lines and to send errors to if there is no email set for the branch"
+msgstr ":ref:`KohaAdminEmailAddress`：若分館無電子郵件帳號則系統採用此電子郵件 '帳號' 並送出錯誤的訊息"
+
+#: ../../source/implementation_checklist.rst:115
+msgid ":ref:`noItemTypeImages` : Decide if you want to show item type icons in the staff client and opac"
+msgstr ":ref:`noItemTypeImages`：設定在館員介面與 OPAC 顯示館藏圖示"
+
+#: ../../source/implementation_checklist.rst:118
+#, fuzzy
+msgid ":ref:`csvdelimiter` : This value will be put in between fields when exporting data from Koha"
+msgstr ":ref:`delimiter`：匯出資料時，用於區隔欄位的值"
+
+#: ../../source/implementation_checklist.rst:121
+msgid ":ref:`virtualshelves` : Decide if you want the staff and/or patrons to use lists in Koha"
+msgstr ":ref:`virtualshelves`：決定館員與讀者使用虛擬書架的權限"
+
+#: ../../source/implementation_checklist.rst:124
+msgid ":ref:`AutoLocation` : Require staff to log in to the staff client from a specific IP range"
+msgstr ":ref:`AutoLocation`：限制從指定的 IP 登入館員介面"
+
+#: ../../source/implementation_checklist.rst:127
+msgid ":ref:`IndependentBranches` : Prevent librarians from editing content that belongs to other branches"
+msgstr ":ref:`IndependentBranches`：禁止圖書館員編輯其他分館的內容"
+
+#: ../../source/implementation_checklist.rst:130
+#, fuzzy
+msgid "Go through the :ref:`log system preferences <logs-label>` and decide which actions you want to keep track of in the :ref:`logs <log-viewer-label>`"
+msgstr "進入 :ref:`記錄系統偏好 <logs-label>` 並設定需要追蹤的記錄"
+
+#: ../../source/implementation_checklist.rst:133
+#, fuzzy
+msgid "Decide if you'd like to share your library's information with the Koha community by setting the :ref:`sharing system preferences <share-anonymous-usage-statistics-label>`."
+msgstr "經由 :ref:`共享系統偏好 <share-anonymous-usage-statistics-label>` 與 Koha 社群共享您圖書館的資訊。"
+
+#: ../../source/implementation_checklist.rst:137
+#, fuzzy
+msgid "Decide what :ref:`cron jobs <cron-jobs-label>` you need to run and when."
+msgstr "決定開啟 `工作排程 <#cronjobsch>`__ 的時機。"
+
+#: ../../source/implementation_checklist.rst:139
+#, fuzzy
+msgid "If you're using the :ref:`long overdue cron job <cron-long-overdues-label>` be sure to set your :ref:`DefaultLongOverdueChargeValue`, :ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` and :ref:`DefaultLongOverdueDays <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` preferences."
+msgstr "使用長期逾期的工作排程應設定您的 :ref:`DefaultLongOverdueChargeValue`、:ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-&-defaultlongoverduedays-label>` &amp; :ref:`DefaultLongOverdueDays <defaultlongoverduelostvalue-&-defaultlongoverduedays-label>` 偏好。"
+
+#: ../../source/implementation_checklist.rst:148
+#, fuzzy
+msgid "Localization configuration"
+msgstr "在地組態/中文化"
+
+#: ../../source/implementation_checklist.rst:150
+msgid "Koha is used worldwide and so you need to make sure you set your localization preferences so that options throughout Koha appear properly for your location/language."
+msgstr "Koha 的用戶遍及全世界，需要設定在地的偏好，才能以在地的語言與位置呈現其內容。"
+
+#: ../../source/implementation_checklist.rst:154
+#, fuzzy
+msgid "Localization/internationalization system preferences"
+msgstr "在地化/國際化系統偏好"
+
+#: ../../source/implementation_checklist.rst:156
+msgid ":ref:`dateformat` : Decide how dates are displayed throughout Koha"
+msgstr ":ref:`dateformat`：顯示日期的格式"
+
+#: ../../source/implementation_checklist.rst:158
+msgid ":ref:`opaclanguagesdisplay` : Decide if patrons can choose what language the OPAC appears in"
+msgstr ":ref:`opaclanguagesdisplay`：讀者從 OPAC 選擇其語系的權限"
+
+#: ../../source/implementation_checklist.rst:161
+#, fuzzy
+msgid ":ref:`OPACLanguages` : Decide which languages the patrons can choose from"
+msgstr ":ref:`opaclanguages`：決定讀者可以選擇的語系"
+
+#: ../../source/implementation_checklist.rst:164
+#, fuzzy
+msgid ":ref:`language` : Decide which languages appear in the staff interface"
+msgstr ":ref:`language`：館員介面可以顯示的語系"
+
+#: ../../source/implementation_checklist.rst:166
+msgid ":ref:`CalendarFirstDayOfWeek` : Define your first day of the week"
+msgstr ":ref:`CalendarFirstDayOfWeek `：設定每週的第一天"
+
+#: ../../source/implementation_checklist.rst:171
+msgid "Circulation configuration"
+msgstr "流通組態"
+
+#: ../../source/implementation_checklist.rst:173
+msgid "Before you start circulating your collection you'll need to set up your rules and preferences for circulation."
+msgstr "流通館藏之前，必須設定流通的規則與偏好。"
+
+#: ../../source/implementation_checklist.rst:176
+#, fuzzy
+msgid "Define your :ref:`circulation and fines rules <circulation-and-fines-rules-label>`"
+msgstr "設定您的 :ref:`流通與罰款規則 <circulation-and-fine-rules-label>`"
+
+#: ../../source/implementation_checklist.rst:178
+msgid "Enter the :ref:`days your library is closed <calendar-label>` for fines and due date calculations"
+msgstr "鍵入 :ref:`圖書館閉館日 <calendar-label>` 供計算罰款與到期日之用"
+
+#: ../../source/implementation_checklist.rst:181
+#, fuzzy
+msgid "Circulation system preferences"
+msgstr "流通系統偏好"
+
+#: ../../source/implementation_checklist.rst:183
+msgid ":ref:`CircControl` : Define whether circ rules are based on item's location, patron's location or transaction location"
+msgstr ":ref:`CircControl`：指定流通規則以館藏所屬圖書館、讀者所屬圖書館或借出圖書館為準"
+
+#: ../../source/implementation_checklist.rst:186
+msgid ":ref:`useDaysMode` : Define how due dates are calculated"
+msgstr ":ref:`useDaysMode`：設定計算到期日的方法"
+
+#: ../../source/implementation_checklist.rst:188
+msgid ":ref:`finesCalendar` : Define how fines are calculated (for every late date or only for days the library is open)"
+msgstr ":ref:`finesCalendar `：設定計算罰款的方法(包括所有的逾期日，或僅包括開館日)"
+
+#: ../../source/implementation_checklist.rst:191
+msgid ":ref:`SpecifyDueDate` : Decide if staff are allowed to override due dates on checkout"
+msgstr ":ref:`SpecifyDueDate`：借出時，允許館員調整到期日"
+
+#: ../../source/implementation_checklist.rst:194
+msgid ":ref:`SpecifyReturnDate` : Decide if you want to let the staff specify an arbitrary return date on checkin"
+msgstr ":ref:`SpecifyReturnDate`：允許館員指定到期日"
+
+#: ../../source/implementation_checklist.rst:197
+msgid ":ref:`itemBarcodeFallbackSearch` : Decide if you want staff to be able to checkout using a keyword search (title, call number, etc)"
+msgstr ":ref:`itemBarcodeFallbackSearch`：館員可以用鍵詞搜尋 (題名、索書號等) 借出館藏"
+
+#: ../../source/implementation_checklist.rst:201
+msgid ":ref:`AutomaticItemReturn` : Decide if items are sent back to the owning branch when checked in"
+msgstr ":ref:`AutomaticItemReturn`：還入館藏時，送回所屬圖書館"
+
+#: ../../source/implementation_checklist.rst:204
+msgid ":ref:`todaysIssuesDefaultSortOrder` : Decide how items checked out today display on the patron record"
+msgstr ":ref:`todaysIssuesDefaultSortOrder`：當天借出的館藏顯示於讀者記錄內"
+
+#: ../../source/implementation_checklist.rst:207
+msgid ":ref:`previousIssuesDefaultSortOrder` : Decide how items checked out prior to today display on the patron record"
+msgstr ":ref:`previousIssuesDefaultSortOrder `：過去的借出記錄顯示於讀者記錄內"
+
+#: ../../source/implementation_checklist.rst:210
+msgid ":ref:`noissuescharge` : Define the maximum amount a patron can owe before checkouts are blocked"
+msgstr ":ref:`noissuescharge`：設定讀者的罰款上限，然後禁止借出"
+
+#: ../../source/implementation_checklist.rst:213
+msgid ":ref:`ReturnBeforeExpiry` : Decide if patrons need to return items before their accounts expire"
+msgstr ":ref:`ReturnBeforeExpiry`：讀者證到期前，必須還回所有借出的館藏"
+
+#: ../../source/implementation_checklist.rst:216
+msgid ":ref:`AllowHoldsOnDamagedItems` : Decide if patrons can place holds on items that are marked as damaged"
+msgstr ":ref:`AllowHoldsOnDamagedItems`：讀者可以預約標記為毀損的館藏"
+
+#: ../../source/implementation_checklist.rst:219
+#: ../../source/implementation_checklist.rst:225
+#: ../../source/implementation_checklist.rst:231
+#, fuzzy
+msgid ":ref:`AllowHoldPolicyOverride` : Decide if you want the staff to be able to override this setting"
+msgstr ":ref:`AllowHoldPolicyOverride`：借出時，館員可以調整以上的設定"
+
+#: ../../source/implementation_checklist.rst:222
+msgid ":ref:`maxreserves` : Decide how many items a patron can have on hold at once"
+msgstr ":ref:`maxreserves`：設定讀者的預約量"
+
+#: ../../source/implementation_checklist.rst:228
+msgid ":ref:`maxoutstanding` : Define the maximum amount a patron can owe before holds are blocked"
+msgstr ":ref:`maxoutstanding`：設定讀者的罰款上限，然後禁止預約"
+
+#: ../../source/implementation_checklist.rst:234
+msgid ":ref:`ReservesMaxPickUpDelay` : Define the number of days before a hold expires"
+msgstr ":ref:`ReservesMaxPickUpDelay`：設定預約到館提取的天數，過期即取消其提取權利"
+
+#: ../../source/implementation_checklist.rst:237
+msgid ":ref:`WebBasedSelfCheck` : Decide if you want to use the built in web-based self-checkout system"
+msgstr ":ref:`WebBasedSelfCheck`：使用預設的自助借出系統"
+
+#: ../../source/implementation_checklist.rst:240
+msgid ":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>` : Decide if the self-checkout system requires login"
+msgstr ":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>`：決定是否需要登入自助借出系統"
+
+#: ../../source/implementation_checklist.rst:243
+#, fuzzy
+msgid ":ref:`ShowPatronImageInWebBasedSelfCheck`: Decide if you want patron images to show on the self checkout screen"
+msgstr ":ref:`ShowPatronImageInWebBasedSelfCheck`：讀者照片是否顯示在自助借出系統螢幕"
+
+#: ../../source/implementation_checklist.rst:246
+msgid ":ref:`AllowNotForLoanOverride` : Decide if you want the staff to be able to checkout items marked as 'not for loan'"
+msgstr ":ref:`AllowNotForLoanOverride`：館員是否可借出標示為 '不外借' 的館藏"
+
+#: ../../source/implementation_checklist.rst:249
+msgid ":ref:`AllowRenewalLimitOverride` : Decide if you want staff to override the limit put on renewals"
+msgstr ":ref:`AllowRenewalLimitOverride`：館員是否有權禁止讀者續借"
+
+#: ../../source/implementation_checklist.rst:252
+msgid ":ref:`AllowFineOverride` : Decide if you want staff to be able to override fine limits"
+msgstr ":ref:`AllowFineOverride`：館員是否有權調整罰款上限"
+
+#: ../../source/implementation_checklist.rst:255
+msgid ":ref:`AllowTooManyOverride` : Descide if you want staff to be able to check out more than the limit to a patron"
+msgstr ":ref:`AllowTooManyOverride`：館員是否有權調整讀者的借出數量上限"
+
+#: ../../source/implementation_checklist.rst:258
+msgid ":ref:`RenewalPeriodBase` : Decide what date renewals are based on"
+msgstr ":ref:`RenewalPeriodBase`：設定續借的基準日"
+
+#: ../../source/implementation_checklist.rst:260
+#, fuzzy
+msgid ":ref:`finesMode` : Switch to 'Calculate and Charge' before you go live if you charge fines"
+msgstr ":ref:`finesMode`：系統上線前，切換至 '計算與收費'，重新計算罰款"
+
+#: ../../source/implementation_checklist.rst:263
+#, fuzzy
+msgid ":ref:`NoticeBcc`: If you want to receive a copy of every notice, enter your email address"
+msgstr "`OverdueNoticeBcc <#OverdueNoticeBcc>`__：在此鍵入電子郵件帳號，讀者可以收到每個逾期通知"
+
+#: ../../source/implementation_checklist.rst:266
+#, fuzzy
+msgid ":ref:`emailLibrarianWhenHoldIsPlaced`: Decide if you want an email every time a hold is placed"
+msgstr ":ref:`emailLibrarianWhenHoldIsPlaced`：在此鍵入電子郵件帳號，讀者可以收到每個預約到館通知"
+
+#: ../../source/implementation_checklist.rst:269
+msgid ":ref:`ReservesControlBranch` : Decide which branch's hold rules are considered first"
+msgstr ":ref:`ReservesControlBranch`：設定使用預約規則的分館"
+
+#: ../../source/implementation_checklist.rst:272
+#, fuzzy
+msgid ":ref:`AudioAlerts`: Decide if you want to have sounds for circulation actions"
+msgstr ":ref:`開啟音效 <audioalerts-label>`：流通作業時是否發出音效"
+
+#: ../../source/implementation_checklist.rst:275
+msgid "Set the sounds and actions in the :ref:`audio alerts <audio-alerts-label>` section of the administration module"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:278
+msgid ":ref:`FilterBeforeOverdueReport` : If you have a large amount of overdues, you might want to turn this preference on so as to allow you to filter before results appear"
+msgstr ":ref:`FilterBeforeOverdueReport`：大量逾期時，可能需要關閉此偏好，才能節省製作報表時間"
+
+#: ../../source/implementation_checklist.rst:282
+#, fuzzy
+msgid ":ref:`DisplayClearScreenButton` : If you have a lot of staff members sharing one circulation computer you might want to enable this so that staff can clear the screen in between checkouts to protect patrons' privacy"
+msgstr ":ref:`DisplayClearScreenButton`：多個館員共用同一部電腦辦理流通業務時，最好啟用此偏好，在交班時清空螢幕，以保護讀的隱私"
+
+#: ../../source/implementation_checklist.rst:287
+msgid ":ref:`CircAutoPrintQuickSlip` : Decide how you want Koha to react if you scan in a blank barcode on the checkout screen"
+msgstr ":ref:`CircAutoPrintQuickSlip`：借出時讀入無效條碼，Koha 的處理方式"
+
+#: ../../source/implementation_checklist.rst:290
+msgid ":ref:`SuspendHoldsIntranet` and/or :ref:`SuspendHoldsOpac` : Decide if you want patrons and/or staff to be able to suspend holds"
+msgstr ":ref:`SuspendHoldsIntranet` 與 :ref:`SuspendHoldsOpac`：設定讀者與館員對延遲預約的反應"
+
+#: ../../source/implementation_checklist.rst:293
+msgid ":ref:`AutoResumeSuspendedHolds` : If you allow holds to be suspended decide if you want them to automatically resume on the date entered by the staff and/or patron"
+msgstr ":ref:`AutoResumeSuspendedHolds`：允許延遲預約時，設定自動恢復或由館員與讀者指定日期"
+
+#: ../../source/implementation_checklist.rst:298
+msgid ":ref:`OnSiteCheckouts`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:297
+#, fuzzy
+msgid "Decide if you want to allow items to be checked"
+msgstr ":ref:`OnSiteCheckouts`：允許借出館藏供館內使用"
+
+#: ../../source/implementation_checklist.rst:298
+msgid "out for use within the library"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:300
+msgid ":ref:`RecordLocalUseOnReturn` : Set this to record local use of items when you check them in"
+msgstr ":ref:`RecordLocalUseOnReturn`：還入館藏後設定該紀錄為在地使用的館藏"
+
+#: ../../source/implementation_checklist.rst:303
+#, fuzzy
+msgid "Customize your :ref:`Notices and slips <notices-and-slips-label>`"
+msgstr "客製化 :ref:`通知 & 收條`"
+
+#: ../../source/implementation_checklist.rst:305
+#, fuzzy
+msgid "Define your :ref:`overdue notice triggers <overdue-notice/status-triggers-label>`"
+msgstr "設定 :ref:`逾期通知啟動機制 <overdue-notice/status-triggers-label>`"
+
+#: ../../source/implementation_checklist.rst:307
+#: ../../source/implementation_checklist.rst:393
+#: ../../source/implementation_checklist.rst:454
+#: ../../source/implementation_checklist.rst:488
+#: ../../source/implementation_checklist.rst:504
+#: ../../source/implementation_checklist.rst:645
+msgid "Set up your :ref:`cron jobs <cron-jobs-label>`"
+msgstr "設定 :ref:`工作排程 <cron-jobs-label>`"
+
+#: ../../source/implementation_checklist.rst:309
+msgid "Populate :ref:`your holds queue <holds-queue-label>` (every 1-4 hours)"
+msgstr "啟用 :ref:`預約順位 <holds-queue-label>` (1-4 小時一次)"
+
+#: ../../source/implementation_checklist.rst:311
+msgid "Decide :ref:`when holds expire <cron-expired-holds-label>` (daily)"
+msgstr "決定 :ref:`預約失效 <cron-expired-holds-label>` (逐日)"
+
+#: ../../source/implementation_checklist.rst:313
+msgid ":ref:`Calculate fines due <cron-fines-label>` (daily)"
+msgstr ":ref:`計算罰款 <cron-fines-label>` (逐日)"
+
+#: ../../source/implementation_checklist.rst:315
+msgid "Fines on hourly loans will calculate when you check the items in"
+msgstr "於還入時計算以時借出的館藏"
+
+#: ../../source/implementation_checklist.rst:318
+msgid ":ref:`Mark long overdue items as lost <cron-long-overdues-label>` (daily)"
+msgstr ":ref:`逾期過久的館藏標記為遺失 <cron-long-overdues-label>`(逐日)"
+
+#: ../../source/implementation_checklist.rst:320
+msgid "Decide when the system :ref:`sends out messages <cron-message-queue-label>` (1-4 hours)"
+msgstr "設定系統 :ref:`送出訊息的時間 <cron-message-queue-label>` (1-4 小時)"
+
+#: ../../source/implementation_checklist.rst:323
+msgid "Decide when the system :ref:`queues overdue notices <cron-overdue-notice-label>` (daily)"
+msgstr "設定 :ref:`逾期通知順位 <cron-overdue-notice-label>` (逐日)"
+
+#: ../../source/implementation_checklist.rst:326
+msgid "Set up :ref:`hold notices that didn't send for printing <cron-print-hold-notices-label>` (daily after overdues and message queue)"
+msgstr "設定 :ref:`不列印預約通知 <cron-print-hold-notices-label>` (逾期與訊息序位後逐日)"
+
+#: ../../source/implementation_checklist.rst:329
+msgid "Decide when the system :ref:`queues the advanced notice of items due <cron-advanced-notice-label>` (daily)"
+msgstr "設定 :ref:`提早通知館藏將到期 <cron-advanced-notice-label>` (逐日)"
+
+#: ../../source/implementation_checklist.rst:332
+msgid "Find holds that need to be :ref:`resumed and remove suspension <cron-unsuspend-holds-label>` (daily)"
+msgstr "找出需要 :ref:`恢復與移除延遲的預約 <cron-unsuspend-holds-label>` (逐日)"
+
+#: ../../source/implementation_checklist.rst:335
+msgid "If you're allowing automatic renewal of items :ref:`set them to renew <cron-automatic-renewal-label>` (nightly)"
+msgstr "允許自動續借 :ref:`設定他們為續借 <cron-automatic-renewal-label>` (每晚)"
+
+#: ../../source/implementation_checklist.rst:341
+#, fuzzy
+msgid "Patron configuration"
+msgstr "讀者組態"
+
+#: ../../source/implementation_checklist.rst:343
+msgid "You have already imported patron data from your old system, but there are plenty of options available to you regarding patrons and their accounts."
+msgstr "從舊系統匯入讀者資料後，還需設定若干事項。"
+
+#: ../../source/implementation_checklist.rst:347
+msgid "Enter your :ref:`staff members as patrons <add-a-staff-patron-label>`"
+msgstr "以 :ref:`館員身份進入做為讀者 <add-a-staff-patron-label>`"
+
+#: ../../source/implementation_checklist.rst:349
+msgid "Define :ref:`staff members access permissions <patron-permissions-label>`"
+msgstr "設定 :ref:`館員的權限 <patron-permissions-label>`"
+
+#: ../../source/implementation_checklist.rst:351
+#, fuzzy
+msgid "Patron system preferences"
+msgstr "讀者系統偏好"
+
+#: ../../source/implementation_checklist.rst:353
+#, fuzzy
+msgid ":ref:`autoMemberNum` : Decide if the patron barcodes are auto-generated or if you enter them yourself"
+msgstr ":ref:`autoMemberNum`：自動產生讀者條碼或人工鍵入"
+
+#: ../../source/implementation_checklist.rst:356
+msgid ":ref:`MaxFine` : Determine the maximum amount that people can owe in fines"
+msgstr ":ref:`MaxFine`：設定罰款上限"
+
+#: ../../source/implementation_checklist.rst:358
+msgid ":ref:`NotifyBorrowerDeparture` : Decide when to warn staff that the patron account is about to expire"
+msgstr ":ref:`NotifyBorrowerDeparture`：設定提示館員的時間，當讀者證將到期"
+
+#: ../../source/implementation_checklist.rst:361
+msgid ":ref:`intranetreadinghistory` : Decide if the staff can see the patron's reading/checkout history"
+msgstr ":ref:`intranetreadinghistory`：設定館員可檢視讀者借出記錄的權限"
+
+#: ../../source/implementation_checklist.rst:364
+msgid ":ref:`BorrowerMandatoryField` : List fields that you want to appear as mandatory on the patron add/edit form"
+msgstr ":ref:`BorrowerMandatoryField`：設定新增/編輯讀者時的必備欄位"
+
+#: ../../source/implementation_checklist.rst:367
+msgid ":ref:`BorrowersTitles` : Add or change the titles for your patrons"
+msgstr ":ref:`BorrowersTitles`：新增或改變讀者的敬稱"
+
+#: ../../source/implementation_checklist.rst:369
+msgid ":ref:`borrowerRelationship` : Add or change borrower relationships (child to adult and professional to organization)"
+msgstr ":ref:`borrowerRelationship`：新增或改變讀者的敬稱(兒童對成人，以及專業對組織)"
+
+#: ../../source/implementation_checklist.rst:372
+msgid ":ref:`AutoEmailPrimaryAddress` : Determine if the patrons get an email confirming the creation of their account"
+msgstr ":ref:`AutoEmailPrimaryAddress`：新增讀者證時，是否出確認電子郵件"
+
+#: ../../source/implementation_checklist.rst:375
+msgid ":ref:`EnhancedMessagingPreferences` : Decide if staff can choose from a series of notices (other than overdues) for patrons"
+msgstr ":ref:`EnhancedMessagingPreferences`：館員是否可選擇給讀者的通知 (逾期通知之外的通知)"
+
+#: ../../source/implementation_checklist.rst:378
+msgid ":ref:`EnhancedMessagingPreferencesOPAC`: Decide if patrons can choose from a series of notices (other than ovedues) for themselves"
+msgstr ":ref:`EnhancedMessagingPreferencesOPAC`：是否允許讀者自選通知內容 (逾期通知之外的通知)"
+
+#: ../../source/implementation_checklist.rst:381
+#, fuzzy
+msgid ":ref:`patronimages` : Decide if you want to save patron pictures in your system"
+msgstr ":ref:`patronimages`：設定儲存讀者的照片"
+
+#: ../../source/implementation_checklist.rst:384
+msgid ":ref:`ExtendedPatronAttributes` : Decide if you want to enable custom patron fields"
+msgstr ":ref:`ExtendedPatronAttributes`：設定客製化讀者欄位"
+
+#: ../../source/implementation_checklist.rst:387
+msgid ":ref:`minPasswordLength` : Enter the minimum number of characters you want passwords to have"
+msgstr ":ref:`minPasswordLength`：設定密碼的最短長度"
+
+#: ../../source/implementation_checklist.rst:390
+msgid ":ref:`BorrowerUnwantedField` : Decide what fields your library doesn't need to see on the patron entry form"
+msgstr ":ref:`BorrowerUnwantedField`：設定不顯示於讀者款目表單裡顯示的欄位"
+
+#: ../../source/implementation_checklist.rst:395
+#, fuzzy
+msgid "Decide if you would like children to automatically become adults by setting up the :ref:`Update patron categories <cron-update-patron-categories-label>` cron job."
+msgstr "設定 :ref:`兒童讀者自動轉為成人讀者 <cron-update-child-to-adult-patron-type-label>`"
+
+#: ../../source/implementation_checklist.rst:401
+#, fuzzy
+msgid "Cataloging configuration"
+msgstr "編目組態"
+
+#: ../../source/implementation_checklist.rst:403
+msgid "Before you start cataloging in Koha you'll want to set up your preferences and other rules."
+msgstr "編目之前，需要設定以下的偏好與規則。"
+
+#: ../../source/implementation_checklist.rst:406
+#, fuzzy
+msgid "Define your cataloging templates, or :ref:`MARC bibliographic frameworks <marc-bibliographic-frameworks-label>`"
+msgstr "設定編目框架，如 :ref:`MARC 書目框架 <marc-bibliographic-frameworks-label>`"
+
+#: ../../source/implementation_checklist.rst:409
+#, fuzzy
+msgid "Run the :ref:`MARC bibliographic framework test <marc-bibliographic-framework-test-label>` to be sure your changes are valid"
+msgstr "執行 :ref:`MARC書目框架測試 <marc-bibliographic-framework-test-label>`確認修改後框架的有效性"
+
+#: ../../source/implementation_checklist.rst:412
+msgid "Define any :ref:`authorized values <authorized-values-label>` you might want to use in cataloging"
+msgstr "設定編目用的 :ref:`容許值 <authorized-values-label>`"
+
+#: ../../source/implementation_checklist.rst:415
+msgid "Set up :ref:`custom classification sources <classification-sources-label>` (if you use something other than the defaults)"
+msgstr "設定 :ref:`客製化分類法來源 <classification-sources-label>` (若使用預設以外的分類法)"
+
+#: ../../source/implementation_checklist.rst:418
+#, fuzzy
+msgid "Set up :ref:`MARC matching rules <record-matching-rules-label>` for importing records from .mrc files"
+msgstr "設定 :ref:`MARC 匹配規則 <record-matching-rules-label>`供匯入 mrc 檔案或 Z39.50 之用"
+
+#: ../../source/implementation_checklist.rst:421
+msgid "Set up the :ref:`Z39.50 targets <z39.50/sru-servers-label>` you want to search for cataloging (and acquisitions)"
+msgstr "設定編目(與採訪)用的 :ref:`Z39.50 伺服器 <z39.50/sru-servers-label>`"
+
+#: ../../source/implementation_checklist.rst:424
+#, fuzzy
+msgid "Cataloging system preferences"
+msgstr "編目系統偏好"
+
+#: ../../source/implementation_checklist.rst:426
+msgid ":ref:`URLLinkText` : Enter text to display when 856 fields do not have pre-defined labels"
+msgstr ":ref:`URLLinkText`：856欄位沒有預設的標籤時，鍵入顯示的文字"
+
+#: ../../source/implementation_checklist.rst:429
+msgid ":ref:`hide\\_marc <hide-marc-label>` : If you are unfamiliar with MARC you can have the MARC fields number hidden"
+msgstr ":ref:`hide\\_marc <hide-marc-label>`：若不熟悉 MARC 可以隱藏其欄號"
+
+#: ../../source/implementation_checklist.rst:432
+msgid ":ref:`LabelMARCView` : Choose how you want duplicate fields to appear on the editor"
+msgstr ":ref:`LabelMARCView`：設定重複欄位在編輯器的顯示方式"
+
+#: ../../source/implementation_checklist.rst:435
+msgid ":ref:`DefaultClassificationSource` : Choose which classification source is the default in your library"
+msgstr ":ref:`DefaultClassificationSource`：選定預設的分類法來源"
+
+#: ../../source/implementation_checklist.rst:438
+#, fuzzy
+msgid ":ref:`advancedMARCeditor` : Decide if you want to use the advanced MARC editor"
+msgstr ":ref:`advancedMARCeditor`：設定在 MARC 編輯器顯示欄位"
+
+#: ../../source/implementation_checklist.rst:441
+msgid ":ref:`marcflavour` : Choose your MARC format"
+msgstr ":ref:`marcflavour`：選擇 MARC 格式"
+
+#: ../../source/implementation_checklist.rst:443
+msgid ":ref:`itemcallnumber` : Enter which field and subfields to look into for the call number"
+msgstr ":ref:`itemcallnumber`：設定索書號用到的欄位與分欄"
+
+#: ../../source/implementation_checklist.rst:446
+#, fuzzy
+msgid ":ref:`MARCOrgCode` : Enter your MARC organizational code (not the same as your OCLC number)"
+msgstr ":ref:`MARCOrgCode`：設定 MARC 機構代碼 (不等於 OCLC 給的代碼)"
+
+#: ../../source/implementation_checklist.rst:449
+msgid ":ref:`autoBarcode` : Decide if Koha generates item barcodes for you"
+msgstr ":ref:`autoBarcode`：設定自動產生條碼"
+
+#: ../../source/implementation_checklist.rst:451
+#, fuzzy
+msgid ":ref:`OpacSuppression <opacsuppression-preferences-label>` : Decide if you want to hide records marked as suppressed from the OPAC search results"
+msgstr ":ref:`OpacSuppression <opacsuppression-preferences-label>` : 設定是否於 OPAC 搜尋結果設定隱藏的館藏"
+
+#: ../../source/implementation_checklist.rst:456
+#, fuzzy
+msgid "Decide when the system :ref:`checks URLs in catalog records <cron-check-url-quick-label>` to see if they are still valid"
+msgstr "系統 :ref:`檢查書目記錄內網址有效性 <cron-check-urls-label>` 的間隔"
+
+#: ../../source/implementation_checklist.rst:462
+#, fuzzy
+msgid "Authorities configuration"
+msgstr "權威組態"
+
+#: ../../source/implementation_checklist.rst:464
+msgid "Koha has the ability to keep track of your authority records and how they're linked to your bibliographic records. Before using authorities you should configure several preferences."
+msgstr "Koha 能追蹤權威記錄及其連結的書目記錄。使用之前應組態若干偏好。"
+
+#: ../../source/implementation_checklist.rst:468
+#, fuzzy
+msgid "Set :ref:`authority frameworks <authority-types-label>`, or templates"
+msgstr "設定 :ref:`權威記錄框架 <authority-types-label>` 的模版"
+
+#: ../../source/implementation_checklist.rst:470
+#, fuzzy
+msgid "Authority system preferences"
+msgstr "權威記錄系統偏好"
+
+#: ../../source/implementation_checklist.rst:472
+msgid ":ref:`BiblioAddsAuthorities` : Decide if Koha creates authorities when cataloging"
+msgstr ":ref:`BiblioAddsAuthorities`：設定編目時產生權威記錄"
+
+#: ../../source/implementation_checklist.rst:475
+#, fuzzy
+msgid ":ref:`AuthorityMergeLimit`: Decide if updates to authorities trigger updates to the bibliographic records that link to them"
+msgstr "`dontmerge <#dontmerge>`__：更新權威記錄，同時更新連結它的書目記錄"
+
+#: ../../source/implementation_checklist.rst:478
+msgid ":ref:`AutoCreateAuthorities` : Decide when authorities are created"
+msgstr ":ref:`AutoCreateAuthorities`：設定新增權威記錄的時機"
+
+#: ../../source/implementation_checklist.rst:480
+msgid ":ref:`LinkerModule` : Decide which match the authority linker should use"
+msgstr ":ref:`LinkerModule`：設定匹配權威連結的使用時機"
+
+#: ../../source/implementation_checklist.rst:482
+msgid ":ref:`LinkerOptions` : Decide if you want authority linking to be broader or more specific"
+msgstr ":ref:`LinkerOptions`：設定權威連結至較廣或較狹"
+
+#: ../../source/implementation_checklist.rst:485
+msgid ":ref:`CatalogModuleRelink` : Decide if you want to enable authority linking while cataloging"
+msgstr ":ref:`CatalogModuleRelink`：設定在編目時啟用權威連結"
+
+#: ../../source/implementation_checklist.rst:490
+msgid "Choose when the system looks for authorities updates to :ref:`merge changes into bibliographic records <cron-update-authorities-label>`"
+msgstr "設定系統查看權威記錄的更新，以 :ref:`合併改變入書目記錄 <cron-update-authorities-label>`"
+
+#: ../../source/implementation_checklist.rst:496
+#, fuzzy
+msgid "Searching configuration"
+msgstr "搜尋組態"
+
+#: ../../source/implementation_checklist.rst:498
+#, fuzzy
+msgid "There are several system preferences related to searching, it is not always recommended to make too many changes to these preferences since they are set to get you the most relevant results. If you would like to change the default way that Koha handles searching, view the :ref:`searching system preferences <searchingsystem-preferences-label>` tab."
+msgstr "若干系統偏好與搜尋有關，不建議修改太多的偏好，原始設定讓您取得最相關的結果。從:ref:`搜尋系統偏好 <searchingsystem-preferences-label>` 分頁，可修改偏好。"
+
+#: ../../source/implementation_checklist.rst:506
+#, fuzzy
+msgid "Searching system preferences"
+msgstr "搜尋系統偏好"
+
+#: ../../source/implementation_checklist.rst:508
+msgid ":ref:`AdvancedSearchTypes` : Decide which authorized value fields you want patrons and staff to be able to limit their advanced searches by"
+msgstr ":ref:`AdvancedSearchTypes`：設定讀者與館員可以限制其進階搜尋的容許值欄位"
+
+#: ../../source/implementation_checklist.rst:511
+msgid ":ref:`AdvancedSearchLanguages` : Decide which languages you want people to be able to limit to via the search engine"
+msgstr ":ref:`AdvancedSearchLanguages`：決定讀者使用搜尋引擎時可用的語系"
+
+#: ../../source/implementation_checklist.rst:514
+msgid ":ref:`UseAuthoritiesForTracings` : Decide how you want Koha to handle subject searches in the OPAC"
+msgstr ":ref:`UseAuthoritiesForTracings`：設定在 OPAC 處理主題搜尋的方式"
+
+#: ../../source/implementation_checklist.rst:517
+msgid ":ref:`TraceCompleteSubfields` : Decide how you want Koha to handle subject searches in the OPAC"
+msgstr ":ref:`TraceCompleteSubfields`：在 OPAC 處理主題搜尋的方式"
+
+#: ../../source/implementation_checklist.rst:521
+msgid ":ref:`TraceSubjectSubdivisions`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:520
+msgid "Decide how you want Koha to handle"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:521
+msgid "subject searches in the OPAC"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:523
+msgid ":ref:`displayFacetCount` : Decide whether to show facet counts on search results"
+msgstr ":ref:`displayFacetCount`：設定搜尋結果的層面計算值"
+
+#: ../../source/implementation_checklist.rst:529
+#, fuzzy
+msgid "OPAC configuration"
+msgstr "OPAC 組態"
+
+#: ../../source/implementation_checklist.rst:531
+msgid "There are a lot of ways you can customize your OPAC in Koha."
+msgstr "很多組態 OPAC 的方法。"
+
+#: ../../source/implementation_checklist.rst:533
+msgid "Decide how you want your OPAC to look & what content you want on the main page"
+msgstr "決定 OPAC 的外觀及顯示在主頁的內容"
+
+#: ../../source/implementation_checklist.rst:536
+msgid "Create a library branded stylesheet using CSS"
+msgstr "以 CSS 新增圖書館的樣式表"
+
+#: ../../source/implementation_checklist.rst:538
+msgid "**Important**"
+msgstr "**重要**"
+
+#: ../../source/implementation_checklist.rst:540
+msgid "Do not edit the default CSS files, instead create a new one, that way the system can always fall back on the original CSS."
+msgstr "不要編輯預設的 CSS 檔案，複製預設的 CSS 再修改它，保留預設的 CSS ，系統才能回到它。"
+
+#: ../../source/implementation_checklist.rst:543
+msgid "Create a custom XSLT stylesheet to change the way search results and bib records appear in the OPAC"
+msgstr "新增客製化的 XSLT 樣式表改變在 OPAC 的搜尋結果與書目記錄顯示方式"
+
+#: ../../source/implementation_checklist.rst:546
+#, fuzzy
+msgid "OPAC system preferences"
+msgstr "OPAC 系統偏好"
+
+#: ../../source/implementation_checklist.rst:548
+#, fuzzy
+msgid ":ref:`OPACBaseURL` : Enter your library's URL"
+msgstr ":ref:`OPACBaseURL` 鍵入圖書館的網址"
+
+#: ../../source/implementation_checklist.rst:550
+msgid ":ref:`opacuserlogin` : Decide if you want to allow patrons to login to the OPAC to access customized functionality (searching will be allowed without logging in)"
+msgstr ":ref:`opacuserlogin`：允許讀者登入OPAC使用客製化功能 (未登入也能搜尋)"
+
+#: ../../source/implementation_checklist.rst:554
+msgid ":ref:`RequestOnOpac` : Decide if patrons can place holds via the OPAC"
+msgstr ":ref:`RequestOnOpac`：允許讀者經由 OPAC 預約"
+
+#: ../../source/implementation_checklist.rst:556
+msgid ":ref:`OpacPasswordChange` : Decide if patrons can change their password (don't allow this if you're using LDAP)"
+msgstr ":ref:`OpacPasswordChange`：允許讀者修改密碼 (仍不允許修改 LDAP 的密碼)"
+
+#: ../../source/implementation_checklist.rst:559
+msgid ":ref:`OpacRenewalAllowed` : Decide if patrons can renew their checked out items via the OPAC"
+msgstr ":ref:`OpacRenewalAllowed`：允許讀者從 OPAC 修改密碼 (仍不允許修改 LDAP 的密碼)"
+
+#: ../../source/implementation_checklist.rst:562
+#, fuzzy
+msgid ":ref:`opacreadinghistory` : Decide if patrons can view their reading/ checkout history via the OPAC"
+msgstr ":ref:`opacreadinghistory`：允許讀者經由 OPAC 檢視其借出記錄"
+
+#: ../../source/implementation_checklist.rst:565
+#, fuzzy
+msgid ":ref:`OPACComments` : Decide if you want to allow patrons to comment on bibliographic records via the OPAC"
+msgstr ":ref:`reviewson`：允許讀者經由 OPAC 提出對書目記錄的評論"
+
+#: ../../source/implementation_checklist.rst:568
+msgid ":ref:`OpacStarRatings` : Decide if patrons can leave star ratings"
+msgstr ":ref:`OpacStarRatings`：允許讀者提出星級評鑑"
+
+#: ../../source/implementation_checklist.rst:570
+#, fuzzy
+msgid ":ref:`virtualshelves` : Decide if you want patrons to be able to create lists"
+msgstr ":ref:`virtualshelves` ：允許讀者新增虛擬書架"
+
+#: ../../source/implementation_checklist.rst:573
+#, fuzzy
+msgid ":ref:`OpacAllowPublicListCreation`: If patrons can create lists then decide if they are allowed to create public lists"
+msgstr ":ref:`OpacAllowPublicListCreation`：在允許讀者新增虛擬書架的前提下，允許新增公共書架"
+
+#: ../../source/implementation_checklist.rst:576
+msgid ":ref:`suggestion` : Decide if you want patrons to be able to submit purchase suggestions"
+msgstr ":ref:`suggestion`：允許讀者提出採訪建議"
+
+#: ../../source/implementation_checklist.rst:579
+msgid ":ref:`OPACViewOthersSuggestions` : Decide if you want patrons to be able to see purchase suggestions made by other patrons"
+msgstr ":ref:`OPACViewOthersSuggestions`：允許讀者看到別人提出的採訪建議"
+
+#: ../../source/implementation_checklist.rst:582
+msgid ":ref:`opacbookbag` : Decide if patrons can save items into their cart"
+msgstr ":ref:`opacbookbag`：允許讀者儲存館藏在借出籃"
+
+#: ../../source/implementation_checklist.rst:584
+msgid ":ref:`AnonSuggestions` : Decide if you want non logged in users to be able to make purchase suggestions"
+msgstr ":ref:`AnonSuggestions`：允許未登入的讀者提出採訪建議"
+
+#: ../../source/implementation_checklist.rst:587
+msgid ":ref:`LibraryName` : Enter your library name for display in the <title> tag and on the top of the OPAC"
+msgstr ":ref:`LibraryName`：鍵入圖書館名稱以顯示在 <title> 標籤與 OPAC 上方"
+
+#: ../../source/implementation_checklist.rst:590
+msgid ":ref:`OpacNav` : Enter HTML that will appear to the left on the main OPAC page"
+msgstr ":ref:`OpacNav`：以 HTML 語法鍵入內容，顯示在 OPAC 首面的左上角"
+
+#: ../../source/implementation_checklist.rst:593
+msgid ":ref:`OpacNavBottom` : Enter HTML that will appear below OpacNav"
+msgstr ":ref:`OpacNavBottom` : 以 HTML 語法鍵入內容，顯示在 OPAC nav的下方"
+
+#: ../../source/implementation_checklist.rst:595
+msgid ":ref:`OPACNoResultsFound` : Enter the HTML that will appear when no results are found"
+msgstr ":ref:`OPACNoResultsFound`：以 HTML 語法鍵入內容，搜尋不到內容時，顯示之用"
+
+#: ../../source/implementation_checklist.rst:598
+msgid ":ref:`OPACResultsSidebar` : Enter the HTML that will appear below the facets on your search results"
+msgstr ":ref:`OPACResultsSidebar`：以 HTML 語法鍵入內容，顯示在搜尋結果的層面之下"
+
+#: ../../source/implementation_checklist.rst:601
+msgid ":ref:`OPACMySummaryHTML` : Enter the HTML that will appear in the far right of the circulation summary in the OPAC"
+msgstr ":ref:`OPACMySummaryHTML`：以 HTML 語法鍵入內容，顯示在 OPAC 流通摘要的右方"
+
+#: ../../source/implementation_checklist.rst:604
+msgid "Customize your stylesheets:"
+msgstr "客製化樣式表："
+
+#: ../../source/implementation_checklist.rst:606
+msgid ":ref:`OPACUserCSS` : Enter any additional fields you want to define styles for"
+msgstr ":ref:`OPACUserCSS`：鍵入額外的欄位供樣式表使用"
+
+#: ../../source/implementation_checklist.rst:609
+msgid ":ref:`opaclayoutstylesheet` : Point to a CSS file on your Koha server"
+msgstr ":ref:`opaclayoutstylesheet`：指向伺服器裡的 CSS 檔案"
+
+#: ../../source/implementation_checklist.rst:611
+msgid ":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-label>` : Decide if you want search terms to be highlighted on the search results"
+msgstr ":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-label>`：在搜尋結果以強調方式顯示搜尋字詞"
+
+#: ../../source/implementation_checklist.rst:614
+msgid ":ref:`hidelostitems` : Decide if you want to show patrons items you have marked as lost"
+msgstr ":ref:`hidelostitems`：顯示已標示為遺失的館藏"
+
+#: ../../source/implementation_checklist.rst:617
+#, fuzzy
+msgid ":ref:`BiblioDefaultView` : Decide what view is the default for bibliographic records on the OPAC"
+msgstr ":ref:`BiblioDefaultView`：設定 OPAC 書目記錄的預設格式"
+
+#: ../../source/implementation_checklist.rst:620
+msgid ":ref:`OPACShelfBrowser` : Decide if you want to enable the shelf browse functionality"
+msgstr ":ref:`OPACShelfBrowser`：設定書架瀏覽功能"
+
+#: ../../source/implementation_checklist.rst:623
+msgid ":ref:`OPACURLOpenInNewWindow` : Decide if URLs clicked in the OPAC are opened in a new window"
+msgstr ":ref:`OPACURLOpenInNewWindow`：在新視窗開啟 OPAC 的網址連結"
+
+#: ../../source/implementation_checklist.rst:626
+msgid ":ref:`SearchMyLibraryFirst` : If you have a multi-branch system decide if you want patrons to search their library first"
+msgstr ":ref:`SearchMyLibraryFirst`：在多分館系統裡，優先搜尋讀者所屬圖書館"
+
+#: ../../source/implementation_checklist.rst:629
+msgid ":ref:`OpacAuthorities` : Decide if you want patrons to be able to search your authority file"
+msgstr ":ref:`OpacAuthorities`：讓讀者搜尋自己的權威記錄檔案"
+
+#: ../../source/implementation_checklist.rst:632
+msgid ":ref:`OpacBrowser` : Decide if you want patrons to browse your authority file (French libraries only)"
+msgstr ":ref:`OpacBrowser`：讓讀者瀏覽權威檔 (祗限法文圖書館)"
+
+#: ../../source/implementation_checklist.rst:635
+msgid ":ref:`OPACSearchForTitleIn` : Choose which libraries you want patrons to be able to re-run their search in"
+msgstr ":ref:`OPACSearchForTitleIn`：設定讀者再搜尋時的圖書館"
+
+#: ../../source/implementation_checklist.rst:638
+msgid ":ref:`OpacAddMastheadLibraryPulldown` : If you're a multi-branch system you can add a pull down to the search bar for patrons to search which library to search"
+msgstr ":ref:`OpacAddMastheadLibraryPulldown`：在多分館系統裡的搜尋區使用下拉選單，讓讀者選定搜尋的圖書館"
+
+#: ../../source/implementation_checklist.rst:642
+msgid ":ref:`EnableOpacSearchHistory` : Decide if you want the system to keep a search history"
+msgstr ":ref:`EnableOpacSearchHistory`：設定系統保留搜尋記錄"
+
+#: ../../source/implementation_checklist.rst:647
+msgid "If you have the :ref:`OpacBrowser` preference set decide :ref:`when you want the contents to rebuild <cron-authorities-browser-label>` (French libraries only)"
+msgstr "若您把 :ref:`OpacBrowser` 偏好設為 :ref:`當您要重建內容 <cron-authorities-browser-label>` (祗限法文圖書館)"
+
+#: ../../source/implementation_checklist.rst:651
+msgid "If you have :ref:`custom RSS feeds <custom-rss-feeds-label>`, decide when you want the :ref:`feed to be populated <cron-rss-feeds-label>`"
+msgstr "若您有 :ref:`客製化 RSS <custom-rss-feeds-label>`，則可決定 :ref:`送出 <cron-rss-feeds-label>` 的時機"
+
+#: ../../source/implementation_checklist.rst:657
+#, fuzzy
+msgid "Editable OPAC regions"
+msgstr "可編輯的 OPAC 區塊"
+
+#: ../../source/implementation_checklist.rst:659
+#, fuzzy
+msgid "Using the :ref:`news tool <news-label>` you can customize various blocks of the OPAC. The following graphic shows what each display location updates in the Bootstrap theme."
+msgstr "經由 OPAC 系統偏好可以客製化多個區塊，以下圖示顯示在 Bootstrap 主題下可以更新的區塊。"
+
+#: ../../source/implementation_checklist.rst:663
+msgid "|image1068|"
+msgstr "|image1068|"
+
+#: ../../source/implementation_checklist.rst:665
+#, fuzzy
+msgid "|image1069|"
+msgstr "|image1069|"
+
+#: ../../source/implementation_checklist.rst:667
+#, fuzzy
+msgid "Some of the regions are system preferences:"
+msgstr "期刊系統偏好"
+
+#: ../../source/implementation_checklist.rst:669
+#, fuzzy
+msgid ":ref:`OpacNav`"
+msgstr ":ref:`OCLC`"
+
+#: ../../source/implementation_checklist.rst:671
+msgid ":ref:`OpacNavBottom`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:673
+msgid "And 'quotes of the day' are managed in the :ref:`Quote of the day editor <quote-of-the-day-(qotd)-editor-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:679
+#, fuzzy
+msgid "Enhanced content configuration"
+msgstr "強化內容組態"
+
+#: ../../source/implementation_checklist.rst:681
+#, fuzzy
+msgid "Koha allows you to pull in content from outside sources to enhance your bibliographic records. All of this content can be toggled on and off using the :ref:`enhanced content system preferences <enhanced-content-system-preferences-label>`."
+msgstr "Koha 允許引入外部資源強化書目記錄。所有的內容都可以強化內容系統偏好切換它。"
+
+#: ../../source/implementation_checklist.rst:685
+msgid ":ref:`FRBR/Editions <frbrizeeditions-label>`"
+msgstr ":ref:`FRBR/版本 <frbrizeeditions-label>`"
+
+#: ../../source/implementation_checklist.rst:687
+#, fuzzy
+msgid "If you would like to have your OPAC and/or staff interdace show an 'Editions' tab on the bibliographic record, you want to enable one or the other FRBR preferences and then the ISBN service :ref:`ThingISBN`."
+msgstr "開啟 FRBR 偏好及 ISBN 服務 ThingISBN，就能在 OPAC 與館員介面的書目記錄裡顯示 '版本' 分頁。"
+
+#: ../../source/implementation_checklist.rst:691
+msgid ":ref:`Amazon <amazon-system-preferences-label>` : This service is free and just requires that you visit http://aws.amazon.com to sign up"
+msgstr ":ref:`Amazon <amazon-system-preferences-label>` : 此免費的服務要求您先登入 http://aws.amazon.com"
+
+#: ../../source/implementation_checklist.rst:694
+msgid "Using the Amazon preferences you can choose to show cover images from Amazon."
+msgstr "使用 Amazon 偏好，就能使用它提供的封面。"
+
+#: ../../source/implementation_checklist.rst:697
+msgid ":ref:`Babelthèque <babeltheque-system-preferences-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:699
+#, fuzzy
+msgid "This is a paid service. Contact Babelthèque to learn how to enable this content in the OPAC."
+msgstr "此為付費服務。連繫 Babelthèque 以便在 OPAC 啟用其內容。"
+
+#: ../../source/implementation_checklist.rst:702
+msgid ":ref:`Baker and Taylor <baker-and-taylor-label>`"
+msgstr ":ref:`Baker and Taylor <baker-and-taylor-label>`"
+
+#: ../../source/implementation_checklist.rst:704
+#, fuzzy
+msgid "This is a paid service from Baker & Taylor. Contact Baker & Taylor for the information to enter into these preferences."
+msgstr "此為 Baker &amp; Taylor 提供的付費服務。連繫 Baker &amp; Taylor 以便取得該等偏好的設定資訊。"
+
+#: ../../source/implementation_checklist.rst:707
+#, fuzzy
+msgid ":ref:`HTML5 media <html5-media-label>`"
+msgstr ":ref:`HTML5 Media`"
+
+#: ../../source/implementation_checklist.rst:709
+msgid "This allows libraries to embed streaming media in their catalog"
+msgstr "允許圖書館將串流媒體嵌入目錄內"
+
+#: ../../source/implementation_checklist.rst:711
+msgid ":ref:`Google <googlejackets-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:713
+#, fuzzy
+msgid "This service is free and does not require registration, simply enable :ref:`GoogleJackets` and you're set to go."
+msgstr "免費且不需登入的服務，啟用 GoogleJackets 就可以了。"
+
+#: ../../source/implementation_checklist.rst:716
+#, fuzzy
+msgid ":ref:`LibraryThing <librarything-label>`"
+msgstr ":ref:`標籤 <tagging-label>`"
+
+#: ../../source/implementation_checklist.rst:718
+#, fuzzy
+msgid "With the exception of :ref:`ThingISBN`, you will need to contact LibraryThing for the information to enter into these preferences"
+msgstr "除了 ThingISBN 之外，其他服務都需連絡 LibraryThing，取得鍵入此偏好的資訊"
+
+#: ../../source/implementation_checklist.rst:721
+#, fuzzy
+msgid "Enabling :ref:`ThingISBN` will help to populate the editions tab on the bibliographic record display if you have enabled FRBR."
+msgstr "先啟用 FRBR 再啟用 ThingISBN，就能在書目記錄頁面看到版本分頁。"
+
+#: ../../source/implementation_checklist.rst:724
+#, fuzzy
+msgid ":ref:`Novelist Select <novelist-select-label>`"
+msgstr ":ref:`Novelist Select`"
+
+#: ../../source/implementation_checklist.rst:726
+#, fuzzy
+msgid "This is a paid service from Ebsco. Contact Ebsco for the information to enter into these preferences"
+msgstr "來自 Ebsco 的付費服務。連繫 Ebsco 公司取得鍵入此偏好的資訊"
+
+#: ../../source/implementation_checklist.rst:729
+#, fuzzy
+msgid ":ref:`Open Library <open-library-label>`"
+msgstr ":ref:`Open Library`"
+
+#: ../../source/implementation_checklist.rst:731
+msgid "Open Library project is an open system that you can pull cover images (and in the future additional content) from"
+msgstr "開放圖書館計畫是個開放的計畫，可從此擷取封面 (未來可能增加其他服務)"
+
+#: ../../source/implementation_checklist.rst:734
+#, fuzzy
+msgid ":ref:`Overdrive <overdrive-label>`"
+msgstr ":ref:`Overdrive`"
+
+#: ../../source/implementation_checklist.rst:736
+#, fuzzy
+msgid "This is a paid service that libraries can subscribe to for ebook content. If the library subscribes to Overdrive they can integrate that content in to Koha for free."
+msgstr "圖書館可訂閱此付費服務取得電子書內容。若訂閱 Overdrive 則可將該內容整合入 Koha。"
+
+#: ../../source/implementation_checklist.rst:740
+#, fuzzy
+msgid ":ref:`Syndetics <syndetics-label>`"
+msgstr ":ref:`Syndetics`"
+
+#: ../../source/implementation_checklist.rst:742
+#, fuzzy
+msgid "This is a paid service from Syndetics to add content for your bibliographic records. Contact Syndetics for the information to enter into these preferences."
+msgstr "由 Syndetics 提供的付費服務，為書目記錄增加內容。連繫 Syndetics 公司，取得鍵入此偏好所需的資訊。"
+
+#: ../../source/implementation_checklist.rst:746
+msgid ":ref:`Tagging <tagging-label>`"
+msgstr ":ref:`標籤 <tagging-label>`"
+
+#: ../../source/implementation_checklist.rst:748
+msgid "Choose whether or not you want to allow patrons to add tags to records in Koha."
+msgstr "設定讀者新增標籤的權限。"
+
+#: ../../source/implementation_checklist.rst:754
+#, fuzzy
+msgid "Acquisitions configuration"
+msgstr "採訪組態"
+
+#: ../../source/implementation_checklist.rst:756
+msgid "When using acquisitions in Koha you first need to define some defaults."
+msgstr "必須先設定採訪偏好，才能使用採訪模組。"
+
+#: ../../source/implementation_checklist.rst:758
+msgid "Set up your :ref:`funds and budgets <budgets-label>`"
+msgstr "設定 :ref:`基金與預算 <budgets-label>`"
+
+#: ../../source/implementation_checklist.rst:760
+msgid "Choose your :ref:`default currency <currencies-and-exchange-rates-label>` and enter others if you order from multiple countries"
+msgstr "指定 :ref:`預設幣別 <currencies-and-exchange-rates-label>`，再加入其他幣別"
+
+#: ../../source/implementation_checklist.rst:763
+msgid "Enter in your :ref:`vendor information <vendors-label>`"
+msgstr "鍵入 :ref:`供應商資訊 <vendors-label>`"
+
+#: ../../source/implementation_checklist.rst:765
+#, fuzzy
+msgid "Create an :ref:`framework with the code ACQ <marc-bibliographic-frameworks-label>` (if you're going to enter item records at the time of ordering or receiving)"
+msgstr "新增 :ref:`代碼為 ACQ 的框架 <marc-bibliographic-frameworks-label>` (才能在發出訂單或收到貨品時鍵入館藏記錄)"
+
+#: ../../source/implementation_checklist.rst:768
+#, fuzzy
+msgid "Acquisitions system preferences"
+msgstr "採訪系統偏好"
+
+#: ../../source/implementation_checklist.rst:770
+msgid ":ref:`AcqCreateItem` : Decide if an item record is created during acquisition"
+msgstr ":ref:`AcqCreateItem`：在採訪階段新增館藏資訊"
+
+#: ../../source/implementation_checklist.rst:773
+msgid ":ref:`CurrencyFormat` : Decide how you want monetary amounts to display"
+msgstr ":ref:`CurrencyFormat`：顯示金額的方式"
+
+#: ../../source/implementation_checklist.rst:775
+#, fuzzy
+msgid ":ref:`TaxRates` : Enter your sales tax (if you are billed for tax)"
+msgstr ":ref:`gist`：鍵入營業稅率 (若您收取它)"
+
+#: ../../source/implementation_checklist.rst:777
+msgid ":ref:`OrderPdfFormat` : Decide what format you want your print orders to use"
+msgstr ":ref:`OrderPdfFormat`：列印訂單的格式"
+
+#: ../../source/implementation_checklist.rst:783
+#, fuzzy
+msgid "Serials configuration"
+msgstr "期刊組態"
+
+#: ../../source/implementation_checklist.rst:785
+msgid "When you use serials there are a few options you can set before hand."
+msgstr "必須先設定期刊偏好，才能使用期刊模組。"
+
+#: ../../source/implementation_checklist.rst:787
+#, fuzzy
+msgid "Serials system preferences"
+msgstr "期刊系統偏好"
+
+#: ../../source/implementation_checklist.rst:789
+msgid ":ref:`RenewSerialAddsSuggestion` : Decide if you want renewing serials to add a suggestion for easy purchasing"
+msgstr ":ref:`RenewSerialAddsSuggestion`：將續訂期刊加入採訪建議，簡化購買程序"
+
+#: ../../source/implementation_checklist.rst:792
+msgid ":ref:`RoutingSerials` : Decide if you want to route serials around your library"
+msgstr ":ref:`RoutingSerials`：設定期刊的傳閱清單"
+
+#: ../../source/implementation_checklist.rst:795
+msgid ":ref:`RoutingListAddReserves` : Decide if holds are placed on serials when there is a routing list in place"
+msgstr ":ref:`RoutingListAddReserves`：預約傳閱中的期刊"
+
+#: ../../source/implementation_checklist.rst:798
+#, fuzzy
+msgid "Cataloging system references"
+msgstr "編目系統偏好"
+
+#: ../../source/implementation_checklist.rst:800
+#, fuzzy
+msgid ":ref:`StaffSerialIssueDisplayCount` : Decide how many of the most recent issues to display in the staff interface"
+msgstr ":ref:`StaffSerialIssueDisplayCount`：在館員介面顯示最新期刊的期數"
+
+#: ../../source/implementation_checklist.rst:803
+msgid ":ref:`OPACSerialIssueDisplayCount` : Decide how many of the most recent issues to display in the OPAC"
+msgstr ":ref:`OPACSerialIssueDisplayCount`：在 OPAC 顯示最新期刊的期數"
+
+#: ../../source/implementation_checklist.rst:806
+msgid ":ref:`SubscriptionHistory` : Decide how you want the subscription information to display in the OPAC"
+msgstr ":ref:`SubscriptionHistory`：在 OPAC 顯示訂閱資料的內容"
+
+#: ../../source/implementation_checklist.rst:812
+#, fuzzy
+msgid "Planning for go-live"
+msgstr "準備啟用"
+
+#: ../../source/implementation_checklist.rst:814
+msgid "Once you have all of your settings ready, you need to prepare for making your system live:"
+msgstr "設定完成後，準備啟用Koha系統："
+
+#: ../../source/implementation_checklist.rst:817
+#, fuzzy
+msgid "Decide if you need training by an outside service provider or if your staff can do the training themselves."
+msgstr "教育訓練，外聘講師或自我訓練。"
+
+#: ../../source/implementation_checklist.rst:820
+msgid "Make sure that there is time for your staff to play with your test system and get comfortable with it"
+msgstr "足夠的時間供館員試用，習慣新系統"
+
+#: ../../source/implementation_checklist.rst:823
+#, fuzzy
+msgid "If this is a migration, work with your previous company to extract data right before you go-live"
+msgstr "資料轉移時，與舊系統的廠商保持連繫，取出完整的資料，並匯入新系統"
+
+#: ../../source/implementation_checklist.rst:826
+msgid "Decide on URLs for your new Koha OPAC and staff interface and arrange for these to be cut-over if using existing system URLs, or created if they are new URLs"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:830
+#, fuzzy
+msgid "Make sure that if you're hosting your own system you have a process in place to back-up your system data."
+msgstr "必須有備份計畫"
+
+#~ msgid "`Collection codes <#ccode>`__"
+#~ msgstr "`館藏代碼 <#ccode>`__"
+
+#~ msgid "`Shelving locations <#shelvelocvals>`__"
+#~ msgstr "`排架位置 <#shelvelocvals>`__"
+
+#~ msgid "Item statuses (`lost <#lost>`__, `not for loan <#notforloan>`__, `damaged <#damageauth>`__, `withdrawn <#withdrawnauth>`__)"
+#~ msgstr "館藏狀態 (`遺失 <#lost>`__、`不外借 <#notforloan>`__、`毀損 <#damageauth>`__、`撤銷 <#withdrawnauth>`__)"
+
+#~ msgid "Decide how often your :ref:`system rebuilds the search index <cron-rebuild-index-label>` (4-10 min)"
+#~ msgstr "指定 :ref:`系統重建搜尋索引 <cron-rebuild-index-label>` 的頻率(4-10分鐘)"
+
+#~ msgid ":ref:`TraceSubjectSubdivisions` : Decide how you want Koha to handle subject searches in the OPAC"
+#~ msgstr ":ref:`TraceSubjectSubdivisions`：在 OPAC 處理主題搜尋的方式"
+
+#~ msgid ":ref:`opaccredits` : Enter HTML to appear at the bottom of every page in the OPAC"
+#~ msgstr ":ref:`opaccredits`：以 HTML 語法鍵入內容，顯示在 OPAC 的每個頁面的下緣"
+
+#~ msgid ":ref:`OpacMainUserBlock` : Enter HTML that will appear in the center of the main OPAC page"
+#~ msgstr ":ref:`OpacMainUserBlock`：以 HTML 語法鍵入內容，顯示在 OPAC 首面的中央"
+
+#~ msgid ":ref:`OpacNavRight` : Enter HTML that will appear below the login box on the right"
+#~ msgstr ":ref:`OpacNavRight`：以 HTML 語法鍵入內容，顯示在登入盒右下方"
+
+#~ msgid ":ref:`opacheader` : Enter the HTML that will appear above the search box on the OPAC"
+#~ msgstr ":ref:`opacheader`：以 HTML 語法鍵入內容，顯示在 OPAC 搜尋盒的上方"
+
+#~ msgid ":ref:`Babelthèque`"
+#~ msgstr ":ref:`Babelthèque`"
+
+#~ msgid ":ref:`Google`"
+#~ msgstr ":ref:`Google`"
+
+#~ msgid ":ref:`I Dream Books <idreamlibraries-label>`"
+#~ msgstr ":ref:`I Deam Books <idreamlibraries-label>`"
+
+#~ msgid "This is a free service that compiles reviews for popular titles from many different sources."
+#~ msgstr "通俗圖書的評論，此免費服務取材自多個來源。"
+
+#~ msgid ":ref:`LibraryThing`"
+#~ msgstr ":ref:`LibraryThing`"
+
+#~ msgid "Come up with URLs for your new Koha OPAC & Staff Client"
+#~ msgstr "設定 OPAC 與館員介面的網址"
+
+#~ msgid "Set up :ref:`Koha to Keyword mapping <keywords-to-marc-mapping-label>` for deciding how to display marc fields to the screen (still in beta - only one field)"
+#~ msgstr "設定 :ref:`Koha 對映至鍵詞 <keywords-to-marc-mapping-label>` ，在螢幕顯示機讀編目格式欄位 (還在測試中)"
+
+#~ msgid "XISBN is used to populate the editions tab on the bib record display if you have enabled FRBR. This service is free for up to 999 queries a day."
+#~ msgstr "先啟用 FRBR 再啟用 XISBN，就能在書目記錄頁面看到版本分頁。每日查詢量在999筆以下者，免費。"
+

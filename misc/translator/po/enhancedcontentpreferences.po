@@ -1,0 +1,1483 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-01 20:19-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/enhancedcontentpreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/enhancedcontentpreferences.rst:6
+msgid "Enhanced content"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:8
+msgid "*Get there:* More > Administration > Global system preferences > Enhanced content"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:11
+#: ../../source/enhancedcontentpreferences.rst:96
+#: ../../source/enhancedcontentpreferences.rst:142
+#: ../../source/enhancedcontentpreferences.rst:319
+#: ../../source/enhancedcontentpreferences.rst:359
+#: ../../source/enhancedcontentpreferences.rst:391
+#: ../../source/enhancedcontentpreferences.rst:417
+#: ../../source/enhancedcontentpreferences.rst:462
+#: ../../source/enhancedcontentpreferences.rst:587
+#: ../../source/enhancedcontentpreferences.rst:642
+#: ../../source/enhancedcontentpreferences.rst:714
+#: ../../source/enhancedcontentpreferences.rst:719
+#: ../../source/enhancedcontentpreferences.rst:925
+#: ../../source/enhancedcontentpreferences.rst:948
+#: ../../source/enhancedcontentpreferences.rst:966
+#: ../../source/enhancedcontentpreferences.rst:1258
+#: ../../source/enhancedcontentpreferences.rst:1327
+#: ../../source/enhancedcontentpreferences.rst:1351
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:13
+msgid "Always read the terms of service associated with external data sources to be sure that you are using the products within the allowed limits."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:17
+#: ../../source/enhancedcontentpreferences.rst:159
+#: ../../source/enhancedcontentpreferences.rst:355
+#: ../../source/enhancedcontentpreferences.rst:1006
+#: ../../source/enhancedcontentpreferences.rst:1616
+#: ../../source/enhancedcontentpreferences.rst:1629
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:19
+msgid "You cannot have more than one service for cover images (including local cover images) set up. If you set up more than one you will get multiple cover images. Instead choose only one source for cover images."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:27
+msgid "Adlibris"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:32
+msgid "AdlibrisCoversEnabled"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:34
+#: ../../source/enhancedcontentpreferences.rst:64
+#: ../../source/enhancedcontentpreferences.rst:106
+#: ../../source/enhancedcontentpreferences.rst:183
+#: ../../source/enhancedcontentpreferences.rst:237
+#: ../../source/enhancedcontentpreferences.rst:622
+#: ../../source/enhancedcontentpreferences.rst:1093
+#: ../../source/enhancedcontentpreferences.rst:1184
+#: ../../source/enhancedcontentpreferences.rst:1212
+#: ../../source/enhancedcontentpreferences.rst:1307
+#: ../../source/enhancedcontentpreferences.rst:1362
+#: ../../source/enhancedcontentpreferences.rst:1389
+#: ../../source/enhancedcontentpreferences.rst:1417
+#: ../../source/enhancedcontentpreferences.rst:1443
+#: ../../source/enhancedcontentpreferences.rst:1468
+msgid "Default: Don't show"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:36
+msgid "Asks: \\_\\_\\_ cover images in OPAC results and detail listing from Swedish retailer Adlibris."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:39
+#: ../../source/enhancedcontentpreferences.rst:68
+#: ../../source/enhancedcontentpreferences.rst:130
+#: ../../source/enhancedcontentpreferences.rst:188
+#: ../../source/enhancedcontentpreferences.rst:242
+#: ../../source/enhancedcontentpreferences.rst:290
+#: ../../source/enhancedcontentpreferences.rst:375
+#: ../../source/enhancedcontentpreferences.rst:440
+#: ../../source/enhancedcontentpreferences.rst:489
+#: ../../source/enhancedcontentpreferences.rst:519
+#: ../../source/enhancedcontentpreferences.rst:547
+#: ../../source/enhancedcontentpreferences.rst:594
+#: ../../source/enhancedcontentpreferences.rst:627
+#: ../../source/enhancedcontentpreferences.rst:676
+#: ../../source/enhancedcontentpreferences.rst:700
+#: ../../source/enhancedcontentpreferences.rst:739
+#: ../../source/enhancedcontentpreferences.rst:766
+#: ../../source/enhancedcontentpreferences.rst:789
+#: ../../source/enhancedcontentpreferences.rst:837
+#: ../../source/enhancedcontentpreferences.rst:860
+#: ../../source/enhancedcontentpreferences.rst:942
+#: ../../source/enhancedcontentpreferences.rst:987
+#: ../../source/enhancedcontentpreferences.rst:1019
+#: ../../source/enhancedcontentpreferences.rst:1050
+#: ../../source/enhancedcontentpreferences.rst:1075
+#: ../../source/enhancedcontentpreferences.rst:1097
+#: ../../source/enhancedcontentpreferences.rst:1131
+#: ../../source/enhancedcontentpreferences.rst:1189
+#: ../../source/enhancedcontentpreferences.rst:1217
+#: ../../source/enhancedcontentpreferences.rst:1321
+#: ../../source/enhancedcontentpreferences.rst:1341
+#: ../../source/enhancedcontentpreferences.rst:1367
+#: ../../source/enhancedcontentpreferences.rst:1394
+#: ../../source/enhancedcontentpreferences.rst:1422
+#: ../../source/enhancedcontentpreferences.rst:1448
+#: ../../source/enhancedcontentpreferences.rst:1473
+#: ../../source/enhancedcontentpreferences.rst:1506
+#: ../../source/enhancedcontentpreferences.rst:1551
+#: ../../source/enhancedcontentpreferences.rst:1568
+#: ../../source/enhancedcontentpreferences.rst:1586
+msgid "Values:"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:41
+#: ../../source/enhancedcontentpreferences.rst:70
+#: ../../source/enhancedcontentpreferences.rst:132
+#: ../../source/enhancedcontentpreferences.rst:190
+#: ../../source/enhancedcontentpreferences.rst:244
+#: ../../source/enhancedcontentpreferences.rst:629
+#: ../../source/enhancedcontentpreferences.rst:1099
+#: ../../source/enhancedcontentpreferences.rst:1191
+#: ../../source/enhancedcontentpreferences.rst:1219
+#: ../../source/enhancedcontentpreferences.rst:1292
+#: ../../source/enhancedcontentpreferences.rst:1323
+#: ../../source/enhancedcontentpreferences.rst:1369
+#: ../../source/enhancedcontentpreferences.rst:1396
+#: ../../source/enhancedcontentpreferences.rst:1424
+#: ../../source/enhancedcontentpreferences.rst:1450
+#: ../../source/enhancedcontentpreferences.rst:1475
+msgid "Don't show"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:43
+#: ../../source/enhancedcontentpreferences.rst:72
+#: ../../source/enhancedcontentpreferences.rst:134
+#: ../../source/enhancedcontentpreferences.rst:192
+#: ../../source/enhancedcontentpreferences.rst:246
+#: ../../source/enhancedcontentpreferences.rst:631
+#: ../../source/enhancedcontentpreferences.rst:1101
+#: ../../source/enhancedcontentpreferences.rst:1193
+#: ../../source/enhancedcontentpreferences.rst:1221
+#: ../../source/enhancedcontentpreferences.rst:1294
+#: ../../source/enhancedcontentpreferences.rst:1325
+#: ../../source/enhancedcontentpreferences.rst:1371
+#: ../../source/enhancedcontentpreferences.rst:1398
+#: ../../source/enhancedcontentpreferences.rst:1426
+#: ../../source/enhancedcontentpreferences.rst:1452
+#: ../../source/enhancedcontentpreferences.rst:1477
+msgid "Show"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:48
+msgid "AdlibrisCoversURL"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:50
+msgid "Default: http://www.adlibris.com/se/organisationer/showimagesafe.aspx"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:52
+msgid "Asks: \\_\\_\\_ for the Adlibris cover service."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:57
+msgid "All"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:62
+msgid "FRBRizeEditions"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:66
+msgid "Asks: \\_\\_\\_ other editions of an item on the staff client"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:74
+msgid "|image46|"
+msgstr "|image46|"
+
+#: ../../source/enhancedcontentpreferences.rst:76
+#: ../../source/enhancedcontentpreferences.rst:110
+#: ../../source/enhancedcontentpreferences.rst:164
+#: ../../source/enhancedcontentpreferences.rst:194
+#: ../../source/enhancedcontentpreferences.rst:248
+#: ../../source/enhancedcontentpreferences.rst:276
+#: ../../source/enhancedcontentpreferences.rst:332
+#: ../../source/enhancedcontentpreferences.rst:381
+#: ../../source/enhancedcontentpreferences.rst:446
+#: ../../source/enhancedcontentpreferences.rst:477
+#: ../../source/enhancedcontentpreferences.rst:499
+#: ../../source/enhancedcontentpreferences.rst:525
+#: ../../source/enhancedcontentpreferences.rst:561
+#: ../../source/enhancedcontentpreferences.rst:576
+#: ../../source/enhancedcontentpreferences.rst:600
+#: ../../source/enhancedcontentpreferences.rst:633
+#: ../../source/enhancedcontentpreferences.rst:654
+#: ../../source/enhancedcontentpreferences.rst:682
+#: ../../source/enhancedcontentpreferences.rst:706
+#: ../../source/enhancedcontentpreferences.rst:745
+#: ../../source/enhancedcontentpreferences.rst:772
+#: ../../source/enhancedcontentpreferences.rst:795
+#: ../../source/enhancedcontentpreferences.rst:810
+#: ../../source/enhancedcontentpreferences.rst:843
+#: ../../source/enhancedcontentpreferences.rst:866
+#: ../../source/enhancedcontentpreferences.rst:886
+#: ../../source/enhancedcontentpreferences.rst:910
+#: ../../source/enhancedcontentpreferences.rst:953
+#: ../../source/enhancedcontentpreferences.rst:971
+#: ../../source/enhancedcontentpreferences.rst:1000
+#: ../../source/enhancedcontentpreferences.rst:1036
+#: ../../source/enhancedcontentpreferences.rst:1081
+#: ../../source/enhancedcontentpreferences.rst:1145
+#: ../../source/enhancedcontentpreferences.rst:1161
+#: ../../source/enhancedcontentpreferences.rst:1195
+#: ../../source/enhancedcontentpreferences.rst:1223
+#: ../../source/enhancedcontentpreferences.rst:1246
+#: ../../source/enhancedcontentpreferences.rst:1312
+#: ../../source/enhancedcontentpreferences.rst:1347
+#: ../../source/enhancedcontentpreferences.rst:1373
+#: ../../source/enhancedcontentpreferences.rst:1400
+#: ../../source/enhancedcontentpreferences.rst:1428
+#: ../../source/enhancedcontentpreferences.rst:1454
+#: ../../source/enhancedcontentpreferences.rst:1479
+#: ../../source/enhancedcontentpreferences.rst:1512
+#: ../../source/enhancedcontentpreferences.rst:1528
+#: ../../source/enhancedcontentpreferences.rst:1592
+msgid "Description:"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:78
+msgid "Using the rules set forth in the Functional Requirements for Bibliographic records, this option, when enabled, pulls all editions of the same title available in your collection regardless of material type. Items will appear under an 'Editions' tab on the detail page for the title in question.. According to *Libraries Unlimited's Online Dictionary for Library and Information Science* (http://lu.com/odlis/), FRBRizing the catalog involves collating MARC records of similar materials. FRBRization brings together entities (sets of Works, Expressions, or Manifestations), rather than just sets of Items. It can aid patrons in selecting related items, expressions, and manifestations that will serve their needs. When it is set to \"Show\", the OPAC will query one or more ISBN web services for associated ISBNs and display an Editions tab on the details pages. Once this preference is enabled, the library must select one of the ISBN options (such as :ref:`ThingISBN`). This option is only for the Staff Client - the :ref:`OPACFRBRizeEditions` option must be enabled to have the Editions tab appear on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:98
+#: ../../source/enhancedcontentpreferences.rst:144
+msgid "Requires that you turn on one or more of the ISBN services (such as :ref:`ThingISBN`)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:104
+msgid "OPACFRBRizeEditions"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:108
+msgid "Asks: \\_\\_\\_ other editions of an item on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:112
+msgid "Using the rules set forth in the Functional Requirements for Bibliographic records, this option, when enabled, pulls all editions of the same title available in your collection regardless of material type. Items will appear under an 'Editions' tab on the detail page for the title in question.. According to *Libraries Unlimited's Online Dictionary for Library and Information Science* (http://lu.com/odlis/), FRBRizing the catalog involves collating MARC records of similar materials. FRBRization brings together entities (sets of Works, Expressions, or Manifestations), rather than just sets of Items. It can aid patrons in selecting related items, expressions, and manifestations that will serve their needs. When it is set to \"Show\", the OPAC will query one or more ISBN web services for associated ISBNs and display an Editions tab on the details pages. Once this preference is enabled, the library must select one of the ISBN options (such as :ref:`ThingISBN`). This option is only for the OPAC - the :ref:`FRBRizeEditions` option must be turned \"On\" to have the Editions tab appear on the Staff Client."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:136
+msgid "|image47|"
+msgstr "|image47|"
+
+#: ../../source/enhancedcontentpreferences.rst:138
+msgid "This preference pulls all editions of the same title available in your collection regardless of material type. Items will appear under an 'Editions' tab on the detail page for the title in question."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:150
+msgid "Amazon"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:155
+msgid "AmazonAssocTag"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:157
+msgid "Asks: Put the associate tag \\_\\_\\_ on links to Amazon."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:161
+msgid "This can net your library referral fees if a patron decides to buy an item after clicking through to Amazon from your site."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:166
+msgid "An Amazon Associates Tag allows a library to earn a percentage of all purchases made on Amazon when a patron accesses Amazon's site via links on the library's website. More information about the Amazon Associates program is available at Amazon's Affiliate Program's website, https://affiliate-program.amazon.com/. Before a tag can be obtained, however, the library must first apply for an Amazon Web Services (AWS) account. Applications are free of charge and can be made at http://aws.amazon.com. Once an AWS account has been established, the library can then obtain the Amazon Associates Tag."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:176
+msgid "Sign up at: https://affiliate-program.amazon.com/"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:181
+msgid "AmazonCoverImages"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:185
+msgid "Asks: \\_\\_\\_ cover images from Amazon on search results and item detail pages on the staff interface."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:196
+msgid "This preference makes it possible to either allow or prevent Amazon cover images from being displayed in the Staff Client. Cover images are retrieved by Amazon, which pulls the content based on the first ISBN number in the item's MARC record. Amazon offers this service free of charge. If the value for this preference is set to \"Show\", the cover images will appear in the Staff Client, and if it is set to \"Don't show\", the images will not appear. Finally, if you're using Amazon cover images, all other cover image services must be disabled. If they are not disabled, they will prevent AmazonCoverImages from functioning properly."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:210
+msgid "AmazonLocale"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:212
+msgid "Default: American"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:214
+msgid "Asks: Use Amazon data from its \\_\\_\\_ website."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:216
+msgid "Value:"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:218
+msgid "American"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:220
+msgid "British"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:222
+msgid "Canadian"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:224
+msgid "French"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:226
+msgid "German"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:228
+msgid "Indian"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:230
+msgid "Japanese"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:235
+msgid "OPACAmazonCoverImages"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:239
+msgid "Asks: \\_\\_\\_ cover images from Amazon on search results and item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:250
+msgid "This preference makes it possible to either allow or prevent Amazon cover images from being displayed in the OPAC. Cover images are retrieved by Amazon, which pulls the content based on the first ISBN number in the item's MARC record. Amazon offers this service free of charge. If the value for this preference is set to \"Show\", the cover images will appear in the OPAC, and if it is set to \"Don't show\", the images will not appear. Finally, if you're using Amazon cover images, all other cover image services must be disabled. If they are not disabled, they will prevent AmazonCoverImages from functioning properly."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:264
+#: ../../source/enhancedcontentpreferences.rst:269
+msgid "Babelthèque"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:271
+msgid "Default: Don't"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:273
+msgid "Asks: \\_\\_\\_ include information (such as reviews and citations) from Babelthèque in item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:278
+msgid "This preference makes it possible to display a Babelthèque tab in the OPAC, allowing patrons to access tags, reviews, and additional title information provided by Babelthèque. The information which Babelthèque supplies is drawn from the French language-based `Babelio.com <http://www.babelio.com/>`__, a French service similar to LibraryThing for Libraries. More information about Babelthèque is available through its website, `http://www.babeltheque.com <http://www.babeltheque.com/>`__. Libraries that wish to allow access to this information must first register for the service at http://www.babeltheque.com. Please note that this information is only provided in French."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:292
+msgid "Do"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:294
+msgid "|image48|"
+msgstr "|image48|"
+
+#: ../../source/enhancedcontentpreferences.rst:296
+msgid "Don't"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:301
+msgid "Babeltheque\\_url\\_js"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:303
+msgid "Asks: \\_\\_\\_ Defined the url for the Babelthèque javascript file (eg. http://www.babeltheque.com/bw\\_XX.js)"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:309
+msgid "Babeltheque\\_url\\_update"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:311
+msgid "Asks: \\_\\_\\_ Defined the url for the Babelthèque update periodically (eq. http://www.babeltheque.com/.../file.csv.bz2)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:317
+msgid "Baker & Taylor"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:321
+msgid "This is a pay service, you must contact Baker & Taylor to subscribe to this service before setting these options."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:327
+msgid "BakerTaylorBookstoreURL"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:329
+msgid "Asks: Baker and Taylor \"My Library Bookstore\" links should be accessed at https:// \\_\\_\\_ isbn"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:334
+msgid "Some libraries generate additional funding for the library by selling books and other materials that are purchased from or have been previously leased from Baker & Taylor. These materials can be accessed via a link on the library's website. This service is often referred to as \"My Library Bookstore.\" In order to participate in this program, the library must first register and pay for the service with Baker & Taylor. Additional information about this and other services provided by Baker & Taylor is available at the Baker & Taylor website, https://www.baker-taylor.com/. The BakerTaylorBookstoreURL preference establishes the URL in order to link to the library's Baker & Taylor-backed online bookstore, if such a bookstore has been established. The default for this field is left blank; if no value is entered, the links to My Library Bookstore will remain inactive. If enabling this preference, enter the library's Hostname and Parent Number in the appropriate location within the URL. The \"key\" value (key=) should be appended to the URL, and https:// should be prepended."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:352
+msgid "This should be filled in with something like koha.mylibrarybookstore.com/MLB/actions/searchHandler.do?nextPage=bookDetails&parentNum=10923&key="
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:357
+msgid "Leave it blank to disable these links."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:361
+#: ../../source/enhancedcontentpreferences.rst:419
+msgid "Be sure to get this information from Baker & Taylor when subscribing."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:367
+msgid "BakerTaylorEnabled"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:369
+#: ../../source/enhancedcontentpreferences.rst:514
+#: ../../source/enhancedcontentpreferences.rst:938
+#: ../../source/enhancedcontentpreferences.rst:981
+#: ../../source/enhancedcontentpreferences.rst:1070
+msgid "Default: Don't add"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:371
+msgid "Asks: \\_\\_\\_ Baker and Taylor links and cover images to the OPAC and staff client. This requires that you have entered in a username and password (which can be seen in image links)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:377
+#: ../../source/enhancedcontentpreferences.rst:521
+#: ../../source/enhancedcontentpreferences.rst:944
+#: ../../source/enhancedcontentpreferences.rst:991
+#: ../../source/enhancedcontentpreferences.rst:1077
+msgid "Add"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:379
+#: ../../source/enhancedcontentpreferences.rst:523
+#: ../../source/enhancedcontentpreferences.rst:946
+#: ../../source/enhancedcontentpreferences.rst:989
+#: ../../source/enhancedcontentpreferences.rst:1079
+msgid "Don't add"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:383
+msgid "This preference makes it possible to display Baker & Taylor content (book reviews, descriptions, cover images, etc.) in both the Staff Client and the OPAC. Libraries that wish to display Baker & Taylor content must first register and pay for this service with Baker & Taylor (https://www.baker-taylor.com/). If Baker & Taylor content is enabled be sure to turn off other cover and review services to prevent interference."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:393
+msgid "To use this you will need to also set the :ref:`BakerTaylorUsername and BakerTaylorPassword <bakertaylorusername-and-bakertaylorpassword-label>` system preferences"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:399
+msgid "BakerTaylorUsername and BakerTaylorPassword"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:401
+msgid "Asks: Access Baker and Taylor using username \\_\\_\\_ and password \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:403
+#: ../../source/enhancedcontentpreferences.rst:1274
+msgid "Descriptions:"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:405
+msgid "This setting in only applicable if the library has a paid subscription to the external Content CafÃ© service from Baker & Taylor. Use the box provided to enter in the library's Content CafÃ© username and password. Also, ensure that the :ref:`BakerTaylorBookstoreURL` and :ref:`BakerTaylorEnabled` settings are properly set. The Content CafÃ© service is a feed of enhanced content such as cover art, professional reviews, and summaries that is displayed along with Staff Client/OPAC search results. For more information on this service please see the Baker & Taylor website: https://www.baker-taylor.com/"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:425
+msgid "Coce Cover images cache"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:427
+msgid "Coce is a remote image URL cache. With this option, cover images are not fetched directly from Amazon, Google, and so on. Their URLs are requested via a web service to Coce which manages a cache of URLs."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:434
+msgid "Coce"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:436
+#: ../../source/enhancedcontentpreferences.rst:1125
+msgid "Default: Don't enable"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:438
+msgid "Asks: \\_\\_\\_ a Coce image cache service."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:442
+#: ../../source/enhancedcontentpreferences.rst:1133
+msgid "Don't enable"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:444
+#: ../../source/enhancedcontentpreferences.rst:1135
+msgid "Enable"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:448
+msgid "Coce has many benefits when it comes to choosing and displaying cover images in Koha:"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:451
+msgid "If a book cover is not available from a provider, but is available from another one, Koha will be able to display a book cover, which isn't the case now"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:455
+msgid "Since URLs are cached, it isn't necessary for each book cover to request, again and again, the provider, and several of them if necessary."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:459
+msgid "Amazon book covers are retrieved with Amazon Product Advertising API, which means that more covers are retrieved (ISBN13)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:464
+msgid "Coce does not come bundled with Koha. Your Koha install will not already have a Coce server set up. Before enabling this functionality you will want to be sure to have a Coce server set up. Instructions on installing and setting up Coce can be found on the official github page at https://github.com/fredericd/coce."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:473
+msgid "CoceHost"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:475
+msgid "Asks: Coce server URL \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:479
+msgid "This will be the full URL (starting with http://) to your Coce server."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:485
+msgid "CoceProviders"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:487
+msgid "Asks: Use the following providers to fetch the covers \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:491
+msgid "[Select all]"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:493
+msgid "Amazon Web Services"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:495
+msgid "Google Books"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:497
+#: ../../source/enhancedcontentpreferences.rst:1063
+msgid "Open Library"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:501
+msgid "The providers chosen here will be used to gather cover images for display in your Koha catalog."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:507
+msgid "Google"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:512
+msgid "GoogleJackets"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:516
+msgid "Asks: \\_\\_\\_ cover images from Google Books to search results and item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:527
+msgid "This setting controls the display of applicable cover art from the free Google Books database, via the Google Books API. Please note that to use this feature, all other cover services should be turned off."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:535
+msgid "HTML5 Media"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:540
+msgid "HTML5MediaEnabled"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:542
+msgid "Default: not at all"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:544
+msgid "Asks: Show a tab with a HTML5 media player for files catalogued in field 856 \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:549
+msgid "in OPAC and staff client"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:551
+msgid "in the OPAC"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:553
+msgid "|image49|"
+msgstr "|image49|"
+
+#: ../../source/enhancedcontentpreferences.rst:555
+msgid "in the staff client"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:557
+msgid "|image50|"
+msgstr "|image50|"
+
+#: ../../source/enhancedcontentpreferences.rst:559
+msgid "not at all"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:563
+msgid "If you have media elements in the 856 of your MARC record this preference can run/show those media files in a separate tab using HTML5."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:570
+msgid "HTML5MediaExtensions"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:572
+msgid "Default: webm\\|ogg\\|ogv\\|oga\\|vtt"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:574
+msgid "Asks: Media file extensions \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:578
+msgid "Enter in file extensions separated with bar (\\|)"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:583
+msgid "HTML5MediaYouTube"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:585
+msgid "Default: Don't embed"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:589
+msgid "To turn this on first enable :ref:`HTML5MediaEnabled`"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:592
+msgid "Asks: \\_\\_\\_ YouTube links as videos."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:596
+msgid "Don't embed"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:598
+msgid "Embed"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:602
+msgid "This preference will allow MARC21 856$u that points to YouTube to appear as a playable video on the pages defined in :ref:`HTML5MediaEnabled`."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:609
+msgid "LibraryThing"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:611
+msgid "LibraryThing for Libraries is a pay service. You must first contact LibraryThing directly for pricing and subscription information. Learn more at http://www.librarything.com/forlibraries. Also, for further configuration instructions please see the LibraryThing Wiki: http://www.librarything.com/wiki/index.php/Koha"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:620
+msgid "LibraryThingForLibrariesEnabled"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:624
+msgid "Asks: \\_\\_\\_ reviews, similar items, and tags from Library Thing for Libraries on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:635
+msgid "This setting is only applicable if the library has a paid subscription to the external LibraryThing for Libraries service. This service can provide patrons with the display of expanded information on catalog items such as book recommendations. It also can offer advanced features like tagged browsing, patron written reviews, and a virtual library display accessed from the details tab."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:644
+msgid "If this is set to 'show' you will need to enter a value in the :ref:`LibraryThingForLibrariesID` system preference."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:650
+msgid "LibraryThingForLibrariesID"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:652
+msgid "Asks: Access Library Thing for Libraries using the customer ID \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:656
+msgid "This setting is only applicable if the library has a paid subscription to the external LibraryThing for Libraries service. Use the box provided to enter in the library's LibraryThing for Libraries ID as provided to the library by LibraryThing. The ID number is a series of numbers in the form ###-#########, and can be found on the library's account page at LibraryThing for Libraries. This service can provide patrons with the display of expanded information on catalog items such as book recommendations and cover art. It also can offer advanced features like tagged browsing, patron written reviews, and a virtual library display accessed from the details tab."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:670
+msgid "LibraryThingForLibrariesTabbedView"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:672
+msgid "Default: in line with bibliographic information"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:674
+msgid "Asks: Show Library Thing for Libraries content \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:678
+msgid "in line with bibliographic information"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:680
+msgid "in tabs"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:684
+msgid "This setting is only applicable if the library has a paid subscription to the external LibraryThing for Libraries service. This service can provide patrons with the display of expanded information on catalog items such as book recommendations and cover art. It also can offer advanced features like tagged browsing, patron written reviews, and a virtual library display accessed from the details tab."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:694
+msgid "ThingISBN"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:696
+#: ../../source/enhancedcontentpreferences.rst:1337
+msgid "Default: Don't use"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:698
+msgid "Asks: \\_\\_\\_ the ThingISBN service to show other editions of a title"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:702
+#: ../../source/enhancedcontentpreferences.rst:1343
+msgid "Don't use"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:704
+#: ../../source/enhancedcontentpreferences.rst:1345
+msgid "Use"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:708
+msgid "Set to 'Use' to display an \"Editions\" tab on the item's detail page. Editions are listed, complete with cover art (if you have one of the cover services enabled) and bibliographic information. The feed comes from LibraryThing's ThingISBN web service. This is a free service to non-commercial sites with fewer than 1,000 requests per day."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:716
+msgid "Requires :ref:`FRBRizeEditions` and/or :ref:`OPACFRBRizeEditions` set to 'show'"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:721
+msgid "This is separate from Library Thing for Libraries and does not have a cost associated with it."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:727
+msgid "Local or remote cover images"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:732
+msgid "AllowMultipleCovers"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:734
+msgid "Default: Don't allow"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:736
+msgid "Asks: \\_\\_\\_ multiple images to be attached to each bibliographic record."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:741
+#: ../../source/enhancedcontentpreferences.rst:1508
+#: ../../source/enhancedcontentpreferences.rst:1553
+#: ../../source/enhancedcontentpreferences.rst:1570
+msgid "Allow"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:743
+#: ../../source/enhancedcontentpreferences.rst:1510
+#: ../../source/enhancedcontentpreferences.rst:1557
+#: ../../source/enhancedcontentpreferences.rst:1574
+msgid "Don't allow"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:747
+msgid "If this preference is set to 'Allow' then you can upload multiple images that will appear in the images tab on the bib record in the OPAC and the staff client. This preference requires that either one or both :ref:`LocalCoverImages` and :ref:`OPACLocalCoverImages` are set to 'Display.^"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:754
+msgid "|image54|"
+msgstr "|image54|"
+
+#: ../../source/enhancedcontentpreferences.rst:760
+msgid "CustomCoverImages"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:762
+#: ../../source/enhancedcontentpreferences.rst:785
+#: ../../source/enhancedcontentpreferences.rst:833
+#: ../../source/enhancedcontentpreferences.rst:856
+msgid "Default: Don't display"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:764
+msgid "Asks: \\_\\_\\_ custom remote url images in the staff client."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:768
+#: ../../source/enhancedcontentpreferences.rst:791
+#: ../../source/enhancedcontentpreferences.rst:839
+#: ../../source/enhancedcontentpreferences.rst:862
+msgid "Display"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:770
+#: ../../source/enhancedcontentpreferences.rst:793
+#: ../../source/enhancedcontentpreferences.rst:841
+#: ../../source/enhancedcontentpreferences.rst:864
+msgid "Don't display"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:774
+msgid "If you use :ref:`CustomCoverImagesURL`, this preference indicates if you want these cover images to appear in the staff interface."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:777
+msgid "Use :ref:`OPACCustomCoverImages` if you want those images to appear in the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:783
+msgid "OPACCustomCoverImages"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:787
+msgid "Asks: \\_\\_\\_ custom remote url images at the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:797
+msgid "If you use :ref:`CustomCoverImagesURL`, this preference indicates if you want these cover images to appear in the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:800
+msgid "Use :ref:`CustomCoverImages` if you want those images to appear in the staff interface."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:806
+msgid "CustomCoverImagesURL"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:808
+msgid "Asks: Using the following URL: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:812
+msgid "You can use codes to substitute bibliographic information in the URL: {isbn}, {issn}, {normalized_isbn}"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:815
+msgid "For example: http://www.mylibrarysite.com/covers/{isbn}.png"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:818
+msgid "You can also use MARC fields and subfields in the URL like so: {024$a}"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:821
+msgid "For example: http://www.mylibrarysite.com/covers/{024$a}.png"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:824
+msgid "Make sure to enable :ref:`CustomCoverImages` if you want those images to appear in the staff interface and :ref:`OPACCustomCoverImages` if you want those images to appear in the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:831
+msgid "LocalCoverImages"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:835
+msgid "Asks: \\_\\_\\_ local cover images on intranet search and details pages."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:845
+msgid "Setting this preference to 'Display' allows you to upload your own cover images to bib records and display them on the detail page in the staff client. At this time the cover will only show under the 'Images' tab on the holdings table on the detail display, not next to the title at the top left or on the search results."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:854
+msgid "OPACLocalCoverImages"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:858
+msgid "Asks: \\_\\_\\_ local cover images on OPAC search and details pages."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:868
+msgid "Setting this preference to 'Display' allows you to upload your own cover images to bib records and display them on the detail page and search results in the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:875
+msgid "Manual"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:880
+msgid "KohaManualBaseURL"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:882
+msgid "Default: https://koha-community.org/manual/"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:884
+msgid "Asks: Location of the Koha manual \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:888
+msgid "You can specify the location of the Koha manual to use. This is the URL that will be used for the help pages when you click 'Help' at the top right corner of the page."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:892
+msgid "By default, the Koha manual is used, but you can use this system preference to substitute for your own help pages."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:895
+msgid "If the URL starts with '/', the value of :ref:`staffClientBaseURL` will be used as a prefix."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:898
+msgid "Note that it will be suffixed by the version / the language / the format (/17.11/en/html)"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:904
+msgid "KohaManualLanguage"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:906
+msgid "Default: English"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:908
+msgid "Asks: Language of the online manual ­\\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:912
+msgid "By default, the language of the Koha interface will be used as the manual language. However, if the manual is not translated in that language, this system preference specifies the fallback language."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:920
+msgid "Novelist Select"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:922
+msgid "Novelist Select is not a free service. Contact your Ebsco representative to get your log in information to embed this content in the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:927
+msgid "Novelist Select does not include cover images for the search results and bibliographic detail pages. You can choose any other cover image service for this content or you can contract with Ebsco to get access to the :ref:`Baker & Taylor Content Cafe <baker-and-taylor-label>` for an added fee."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:936
+msgid "NovelistSelectEnabled"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:940
+msgid "Asks: \\_\\_\\_ Novelist Select content to the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:950
+msgid "Enabling this requires that you have entered in a user profile and password in the :ref:`NovelistSelectProfile and NovelistSelectPassword` preferences"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:955
+#: ../../source/enhancedcontentpreferences.rst:973
+msgid "Novelist Select from Ebsco is a subscription service that can provide additional content in the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:961
+msgid "NovelistSelectProfile and NovelistSelectPassword"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:963
+msgid "Asks: Access Novelist Select using user profile \\_\\_\\_ and password \\_\\_\\_."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:968
+msgid "This information will be visible if someone views the source code on your OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:979
+msgid "NovelistSelectStaffEnabled"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:983
+msgid "Asks: \\_\\_\\_ Novelist Select content to the Staff client (requires that you have entered in a user profile and password, which can be seen in image links)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:996
+msgid "NovelistSelectStaffProfile"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:998
+msgid "Asks: Access Novelist Select using user profile \\_\\_\\_ on the staff client"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1002
+msgid "Without this value being set, Novelist features will be disabled on the staff client until a correct profile is obtained from Novelist and entered into the field."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1008
+msgid "This value must be set independently of the OPAC profile for Novelist"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1013
+msgid "NovelistSelectStaffView"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1015
+msgid "Default: in a tab"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1017
+msgid "Asks: Display Novelist Select staff content \\_\\_\\_."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1021
+#: ../../source/enhancedcontentpreferences.rst:1052
+msgid "above the holdings table"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1023
+#: ../../source/enhancedcontentpreferences.rst:1054
+msgid "below the holdings table"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1025
+msgid "in a tab"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1030
+msgid "NovelistSelectView"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1032
+msgid "Default: in an OPAC tab"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1034
+msgid "Asks: Display Novelist Select content \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1038
+msgid "Novelist Select provides a lot of content, for that reason you have four choices of where to display this content. The default view is in a tab in the holdings table."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1042
+msgid "|image55|"
+msgstr "|image55|"
+
+#: ../../source/enhancedcontentpreferences.rst:1044
+msgid "The content is the same if you choose to show it above the holdings table or below it. If shown in the right column of the page it's the same content, but displays a bit differently since space is limited."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1048
+msgid "|image56|"
+msgstr "|image56|"
+
+#: ../../source/enhancedcontentpreferences.rst:1056
+msgid "in an OPAC tab"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1058
+msgid "under the Save Record dropdown on the right"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1068
+msgid "OpenLibraryCovers"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1072
+msgid "Asks: \\_\\_\\_ cover images from Open Library to search results and item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1083
+msgid "This setting controls the display of applicable cover art from the free Open Library database, via the Open Library API. Please note that to use this feature, all other cover services should be turned off."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1091
+msgid "OpenLibrarySearch"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1095
+msgid "Asks: \\_\\_\\_ search results from Open Library on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1103
+msgid "|image1187|"
+msgstr "|image1187|"
+
+#: ../../source/enhancedcontentpreferences.rst:1108
+msgid "Overdrive"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1110
+msgid "OverDrive is an pay service. You must first contact OverDrive directly for pricing and subscription information. Enabling this service will integrate Overdrive results in to your OPAC searches. You will have to apply for these 3 pieces of information through an application as an API developer. Overdrive API applications are evaluated once a week so you may not be able to use this feature immediately after signing up. To learn more please contact your OverDrive representative."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1118
+msgid "|image57|"
+msgstr "|image57|"
+
+#: ../../source/enhancedcontentpreferences.rst:1123
+msgid "OverDriveCirculation"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1127
+msgid "Asks: \\_\\_\\_ users to access their OverDrive circulation history, and circulate items. If you enable access, you must register auth return url of http(s)://my.opac.hostname/cgi-bin/koha/external/overdrive/auth.pl with OverDrive."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1140
+msgid "OverDriveClientKey and OverDriveClientSecret"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1142
+msgid "Asks: Include OverDrive availability information with the client key \\_\\_ and client secret \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1147
+msgid "OverDrive customers can get this information by visiting the `OverDrive Developer Portal <https://developer.overdrive.com/docs/getting-started>`__ and following the instructions found there to apply as an API developer. Once this data and the :ref:`OverDriveLibraryID` are populated you will see OverDrive results on your OPAC searches."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1157
+msgid "OverDriveLibraryID"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1159
+msgid "Asks: Show items from the OverDrive catalog of library # \\_\\_\\_"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1163
+msgid "OverDrive customers can get this information by visiting the `OverDrive Developer Portal <https://developer.overdrive.com/docs/getting-started>`__ and following the instructions found there to apply as an API developer. Once this data and the :ref:`OverDriveClientKey and OverDriveClientSecret <overdriveclientkey-and-overdriveclientsecret-label>` are populated you will see OverDrive results on your OPAC searches."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1174
+msgid "Syndetics"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1176
+msgid "Syndetics is a pay service. You must first contact Syndetics directly for pricing and subscription information."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1182
+msgid "SyndeticsAuthorNotes"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1186
+msgid "Asks: \\_\\_\\_ notes about the author of a title from Syndetics on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1197
+msgid "When this option is set to \"Show\", Syndetics provides notes and short author biographies for more that 300,000 authors, in both fiction and nonfiction. With this option enabled the library can display Syndetics Author Notes on the OPAC. According to the Syndetics Solutions website (http://www.bowker.com/syndetics/), Author Notes include lists of contributors for many multi-author texts and compilations. The :ref:`SyndeticsClientCode` must be entered and the :ref:`SyndeticsEnabled` option must be activated before this service can be used."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1210
+msgid "SyndeticsAwards"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1214
+msgid "Asks: \\_\\_\\_ information from Syndetics about the awards a title has won on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1225
+msgid "When this option is set to \"Show\", Syndetics provides its clients with a list of awards that any title has won. With this service enabled the library can display those awards for each book on its website. For each book or item that comes up during a user search, the list of awards for that title will be displayed. When a user clicks on a given award, information about that award is presented along with a list of the other titles that have won that award. If the user clicks on any title in the list, they will see holdings information about that title in their region. This option is a paid subscription service. The :ref:`SyndeticsClientCode` must be entered and the :ref:`SyndeticsEnabled` option must be activated before this service can be used."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1242
+msgid "SyndeticsClientCode"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1244
+msgid "Asks: Use the client code \\_\\_\\_ to access Syndetics."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1248
+msgid "Once the library signs up for Syndetics' services, Syndetics will provide the library with an access code. (Visit the Syndetics homepage at http://www.bowker.com/syndetics/ for more information.) This is the code that must be entered to access Syndetics' subscription services. Syndetics is a paid subscription service. This value must be entered before :ref:`SyndeticsEditions` can be enabled. If the code is lost, corrupted, or forgotten, a new one can be obtained from http://www.bowker.com/syndetics/."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1260
+msgid "You will need to get your client code directly from Syndetics."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1265
+msgid "SyndeticsCoverImages and SyndeticsCoverImageSize"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1267
+msgid "SyndeticsCoverImages Default: Don't show"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1269
+msgid "SyndeticsCoverImageSize Default: medium"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1271
+msgid "Asks: \\_\\_\\_ cover images from Syndetics on search results and item detail pages on the OPAC in a \\_\\_\\_ size."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1276
+msgid "When enabled, SyndeticsCoverImages, allows libraries to display Syndetics' collection of full-color cover images for books, videos, DVDs and CDs on their OPAC. For each book or item that comes up during a user search, the cover image for that title will be displayed. Since these cover images come in three sizes, the optimum size must be selected using the SyndeticsCoverImageSize preference after SyndeticsCoverImages are enabled. Syndetics cover images come in two sizes: mid-size (187 x 187 pixels), and large (400 x 400 pixels). Syndetics is a paid subscription service. The :ref:`SyndeticsClientCode` must be entered and the :ref:`SyndeticsEnabled` option must be activated before this service can be used. Other cover image preferences should also be disabled to avoid interference."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1290
+msgid "SyndeticsCoverImages Values:"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1296
+msgid "SyndeticsCoverImageSize Values:"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1298
+msgid "medium"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1300
+msgid "large"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1305
+msgid "SyndeticsEditions"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1309
+msgid "Asks: \\_\\_\\_ information about other editions of a title from Syndetics on item detail pages on the OPAC"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1314
+msgid "When enabled this option shows information on other editions of a title from Syndetics on the item detail pages of the OPAC. Syndetics is a paid subscription service. The :ref:`SyndeticsClientCode` must be entered and the :ref:`SyndeticsEnabled` option must be activated before this service can be used."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1329
+msgid "Requires :ref:`OPACFRBRizeEditions` set to 'show'"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1335
+msgid "SyndeticsEnabled"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1339
+msgid "Asks: \\_\\_\\_ content from Syndetics."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1349
+msgid "When this option is enabled any of the Syndetics options can be used."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1353
+msgid "Requires that you enter your :ref:`SyndeticsClientCode` before this content will appear."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1360
+msgid "SyndeticsExcerpt"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1364
+msgid "Asks: \\_\\_\\_ excerpts from of a title from Syndetics on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1375
+msgid "This preference allows Syndetics to display excerpts given to them from selected publishers. The excerpts are available from prominently reviewed new titles, both fiction and non-fiction. The excerpts include poems, essays, recipes, forwards and prefaces. Automatic links provided by the ISBNs within local MARC records are required to integrate Syndetics secured, high-speed Internet servers to the library OPACs. For more information see (http://www.bowker.com/syndetics/)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1387
+msgid "SyndeticsReviews"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1391
+msgid "Asks: \\_\\_\\_ reviews of a title from Syndetics on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1402
+msgid "Syndetics Reviews is an accumulation of book reviews available from a variety of journals and serials. The reviews page displays colored images of reviewed books dust jackets, partnered with the names of the journal or serial providing the review. Clicking on an icon opens a window revealing the book title, author's name, book cover icon and the critic's opinion of the book. Automatic links provided by the ISBNs within local MARC records are required to integrate Syndetics secured, high-speed Internet servers to the library OPACs. For more information see (http://www.bowker.com/syndetics/)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1415
+msgid "SyndeticsSeries"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1419
+msgid "Asks: \\_\\_\\_ information on other books in a title's series from Syndetics on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1430
+msgid "Each fiction title within a series is linked to the complete series record. The record displays each title in reading order and also displays the publication order, if different. Alternate series titles are also displayed. Automatic links provided by the ISBNs within local MARC records are required to integrate Syndetics secured, high- speed Internet servers to the library OPACs. For more information see (http://www.bowker.com/syndetics/)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1441
+msgid "SyndeticsSummary"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1445
+msgid "Asks: \\_\\_\\_ a summary of a title from Syndetics on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1456
+msgid "Providing more than 5.6 million summaries and annotations derived from book jackets, edited publisher copy, or independently written annotations from Book News, Inc. Covering fiction and non-fiction, this summaries option provides annotations on both trade and scholarly titles. For more information see (http://www.bowker.com/syndetics/)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1466
+msgid "SyndeticsTOC"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1470
+msgid "Asks: \\_\\_\\_ the table of contents of a title from Syndetics on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1481
+msgid "This preference allows staff and patrons to review the Table of Contents from a wide variety of publications from popular self-help books to conference proceedings. Specific Information access is the main purpose for this option, allowing patrons guidance to their preferred section of the book. Special arrangements with selected book services is used to obtain the table of contents for new publications each year. Automatic links provided by the ISBNs within local MARC records are required to integrate Syndetics secured, high-speed Internet servers to the library OPACs. For more information see (http://www.bowker.com/syndetics/)."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1495
+msgid "Tagging"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1500
+msgid "TagsEnabled"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1502
+#: ../../source/enhancedcontentpreferences.rst:1547
+#: ../../source/enhancedcontentpreferences.rst:1564
+msgid "Default: Allow"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1504
+msgid "Asks: \\_\\_\\_ patrons and staff to put tags on items."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1514
+msgid "Set to 'Allow' enable tagging. A tag is metadata, a word added to identify an item. Tags allow patrons to classify materials on their own. TagsEnabled is the main switch that permits the tagging features. TagsEnable must be set to 'Allow' to allow for other tagging features."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1523
+msgid "TagsExternalDictionary"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1525
+msgid "Asks: Allow tags in the dictionary of the ispell executable \\_\\_\\_ on the server to be approved without moderation."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1530
+msgid "The dictionary includes a list of accepted and rejected tags. The accepted list includes all the tags that have been pre-allowed. The rejected list includes tags that are not allowed. This preference identifies the \"accepted\" dictionary used. Ispell is an open source dictionary which can be used as a list of accepted terms. Since the dictionary allows for accurately spelled obscenities, the libraries policy may dictate that modifications are made to the Ispell dictionary if this preference is use. For more information about Ispell http://www.gnu.org/software/ispell/ispell.html. Enter the path on your server to a local ispell executable, used to set $Lingua::Ispell::path."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1545
+msgid "TagsInputOnDetail"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1549
+msgid "Asks: \\_\\_\\_ patrons to input tags on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1555
+msgid "|image59|"
+msgstr "|image59|"
+
+#: ../../source/enhancedcontentpreferences.rst:1562
+msgid "TagsInputOnList"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1566
+msgid "Asks: \\_\\_\\_ patrons to input tags on search results on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1572
+msgid "|image58|"
+msgstr "|image58|"
+
+#: ../../source/enhancedcontentpreferences.rst:1579
+msgid "TagsModeration"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1581
+msgid "Default: Don't require"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1583
+msgid "Asks: \\_\\_\\_ that tags submitted by patrons be reviewed by a staff member before being shown."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1588
+msgid "Don't require"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1590
+msgid "Require"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1594
+msgid "When set to 'Require,^ all tags to be first filtered by the tag moderator. Only approved tags will be visible to patrons. When set to 'Don't require' tags will bypass the tag moderator and patrons' tags to be immediately visible. When this preference is enabled the moderator, a staff member, would approve the tag in the Staff Client. The moderator will have the option to approve or reject each pending tag suggestion."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1602
+msgid "When moderation is required all tags go through the tag moderation tool before becoming visible."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1605
+msgid "*Get there:* More > Tools > :ref:`Tags <tag-moderation-label>`"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1610
+msgid "TagsShowOnDetail"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1612
+msgid "Default: 10"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1614
+msgid "Asks: Show \\_\\_\\_ tags on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1618
+#: ../../source/enhancedcontentpreferences.rst:1631
+msgid "Set the value to 0 (zero) to turn this feature off."
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1623
+msgid "TagsShowOnList"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1625
+msgid "Default: 6"
+msgstr ""
+
+#: ../../source/enhancedcontentpreferences.rst:1627
+msgid "Asks: Show \\_\\_\\_ tags on search results on the OPAC."
+msgstr ""
+

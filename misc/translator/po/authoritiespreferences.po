@@ -1,0 +1,423 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-01 20:19-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/authoritiespreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/authoritiespreferences.rst:6
+msgid "Authorities"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:8
+msgid "*Get there:* More > Administration > Global System Preferences > Authorities"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:14
+msgid "General"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:19
+msgid "AuthDisplayHierarchy"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:21
+msgid "Default: Don't display"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:23
+msgid "Asks: \\_\\_\\_ broader term/narrower term hierarchies when viewing authorities."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:26
+#: ../../source/authoritiespreferences.rst:101
+#: ../../source/authoritiespreferences.rst:116
+#: ../../source/authoritiespreferences.rst:148
+#: ../../source/authoritiespreferences.rst:214
+#: ../../source/authoritiespreferences.rst:259
+#: ../../source/authoritiespreferences.rst:289
+#: ../../source/authoritiespreferences.rst:311
+#: ../../source/authoritiespreferences.rst:381
+msgid "Values:"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:28
+msgid "Display"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:30
+msgid "|image14|"
+msgstr "|image14|"
+
+#: ../../source/authoritiespreferences.rst:32
+msgid "Don't display"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:34
+#: ../../source/authoritiespreferences.rst:54
+#: ../../source/authoritiespreferences.rst:77
+#: ../../source/authoritiespreferences.rst:127
+#: ../../source/authoritiespreferences.rst:177
+#: ../../source/authoritiespreferences.rst:198
+#: ../../source/authoritiespreferences.rst:226
+#: ../../source/authoritiespreferences.rst:265
+#: ../../source/authoritiespreferences.rst:295
+#: ../../source/authoritiespreferences.rst:333
+#: ../../source/authoritiespreferences.rst:350
+#: ../../source/authoritiespreferences.rst:387
+msgid "Description:"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:36
+msgid "If your authority records includes 5xx fields with linked references to broader and/or narrower see also references this preference will turn on a display of those authorities at the top of the record."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:43
+msgid "AuthorityControlledIndicators"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:45
+msgid "Asks: Use the following text to edit how authority records control indicators of attached biblio fields (and possibly subfield $2). Lines starting with a comment symbol (#) are skipped. Each line should be of the form: (marc21|unimarc), tag, ind1:(auth1|auth2|some_value), ind2:(auth1|auth2|thesaurus|some_value). Here auth1 and auth2 refer to the indicators of the authority record, tag is a biblio field number or an asterisk (*), and some_value is a fixed value (one character). The MARC21 option thesaurus refers to indicators controlled by authority field 008/11 and 040$f."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:56
+msgid "Used when merging authorities."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:58
+msgid "Controls how the indicators of linked authority records affect the corresponding biblio indicators. Currently, the default value is fine-tuned for MARC21 and copies the authority indicators for UNIMARC."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:62
+msgid "For example, a MARC21 field 100 in a biblio record should pick its first indicator from the linked authority record. The second indicator is not controlled by the authority. This report supports such MARC conventions."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:69
+msgid "AuthorityMergeLimit"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:71
+msgid "Asks: When modifying an authority record, do not update attached bibliographic records if the number exceeds \\_\\_\\_ records. (Above this limit, the :ref:`merge_authority cron job<cron-update-authorities-label>` will update them.)"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:75
+msgid "Default: 50"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:79
+msgid "This system preference determines the maximum number of bibliographic records that can be updated when an authority record changes."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:82
+msgid "This helps prevent overusing resources if an authority record is linked to many bibliographic records."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:85
+msgid "Make sure to enable the :ref:`merge_authority cron job<cron-update-authorities-label>` to catch the updates that wouldn't otherwise be transferred to bibliographic records."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:92
+msgid "AuthorityMergeMode"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:94
+msgid "Default: loose"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:96
+msgid "Asks: When updating biblio records from an attached authority record (\"merging\"), handle subfields of relevant biblio record fields in \\_\\_\\_ mode. In strict mode subfields that are not found in the authority record, are deleted. Loose mode will keep them. Loose mode is the historical behavior and still the default."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:103
+msgid "loose"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:105
+msgid "strict"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:110
+msgid "AutoCreateAuthorities"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:112
+msgid "Default: do not generate"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:114
+msgid "Asks: When editing records, \\_\\_\\_ authority records that are missing."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:118
+msgid "do not generate"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:120
+msgid "generate"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:122
+#: ../../source/authoritiespreferences.rst:171
+#: ../../source/authoritiespreferences.rst:192
+#: ../../source/authoritiespreferences.rst:345
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:124
+msgid "`BiblioAddsAuthorities <#biblioaddsauthorities>`__ must be set to \"allow\" for this to have any effect"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:129
+msgid "When this and `BiblioAddsAuthorities <#biblioaddsauthorities>`__ are both turned on, automatically create authority records for headings that don't have any authority link when cataloging. When BiblioAddsAuthorities is on and AutoCreateAuthorities is turned off, do not automatically generate authority records, but allow the user to enter headings that don't match an existing authority. When BiblioAddsAuthorities is off, this has no effect."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:140
+msgid "BiblioAddsAuthorities"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:142
+msgid "Default: allow"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:144
+msgid "Asks: When editing records, \\_\\_\\_ them to automatically create new authority records if needed, rather than having to reference existing authorities."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:150
+msgid "allow"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:152
+msgid "This setting allows you to type values in the fields controlled by authorities and then adds a new authority if one does not exist"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:155
+msgid "don't allow"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:157
+msgid "This setting will lock the authority controlled fields, forcing you to search for an authority versus allowing you to type the information in yourself."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:164
+msgid "MARCAuthorityControlField008"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:166
+msgid "Default: \\|\\| aca\\|\\|aabn \\| a\\|a d"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:168
+msgid "Asks: Use the following text for the contents of MARC21 authority control field 008 position 06-39 (fixed length data elements)."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:173
+msgid "Do not include the date (position 00-05) in this preference, Koha will calculate automatically and put that in before the values in this preference."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:179
+msgid "This preference controls the default value in the 008 field on Authority records. It does not effect bibliographic records."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:185
+msgid "UNIMARCAuthorityField100"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:187
+msgid "Default: afrey50 ba0"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:189
+msgid "Asks: Use the following text for the contents of UNIMARC authority field 100 position (fixed length data elements)."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:194
+msgid "Do not include the date (position 00-07) in this preference, Koha will calculate automatically and put that in before the values in this preference."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:200
+msgid "This preference controls the default value in the 100 field on Authority records cataloged in UNIMARC. It does not effect bibliographic records."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:207
+msgid "UseAuthoritiesForTracings"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:209
+msgid "Default: Don't use"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:211
+msgid "Asks: \\_\\_\\_ authority record numbers instead of text strings for searches from subject tracings."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:216
+msgid "Don't use"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:218
+msgid "Search links look for subject/author keywords (example: opac-search.pl?q=su:Business%20networks)"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:221
+msgid "Use"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:223
+msgid "Search links look for an authority record (example: opac-search.pl?q=an:354)"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:228
+msgid "For libraries that have authority files, they may want to make it so that when a link to an authorized subject or author is clicked on the OPAC or staff client it takes the searcher only to a list of results with that authority record. Most libraries do not have complete authority files and so setting this preference to 'Don't use' will allow searchers to click on links to authors and subject headings and perform a keyword search against those fields, finding all possible relevant results instead."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:240
+msgid "Linker"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:242
+msgid "These preferences will control how Koha links bibliographic records to authority records. All bibliographic records added to Koha after these preferences are set will link automatically to authority records, for records added before these preferences are set there is a script (misc/link\\_bibs\\_to\\_authorities.pl) that your system administrator can run to link records together."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:252
+msgid "CatalogModuleRelink"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:254
+#: ../../source/authoritiespreferences.rst:284
+msgid "Default: Do not"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:256
+msgid "Asks: \\_\\_\\_ automatically relink headings that have previously been linked when saving records in the cataloging module."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:261
+#: ../../source/authoritiespreferences.rst:291
+#: ../../source/authoritiespreferences.rst:383
+msgid "Do"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:263
+#: ../../source/authoritiespreferences.rst:293
+#: ../../source/authoritiespreferences.rst:385
+msgid "Do not"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:267
+msgid "Longtime users of Koha don't expect the authority and bib records to link consistently. This preference makes it possible to disable authority relinking in the cataloging module only (i.e. relinking is still possible if link\\_bibs\\_to\\_authorities.pl is run). Note that though the default behavior matches the previous behavior of Koha (retaining links to outdated authority records), it does not match the intended behavior (updating biblio/authority link after bibliographic record is edited). Libraries that want the intended behavior of authority control rather than the way Koha used to handle linking should set CatalogModuleRelink to 'Do'. Once setting this to 'Do' the following preferences can also be set."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:282
+msgid "LinkerKeepStale"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:286
+msgid "Asks: \\_\\_\\_ keep existing links to authority records for headings where the linker is unable to find a match."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:297
+msgid "When set to 'Do', the linker will never remove a link to an authority record, though, depending on the value of :ref:`LinkerRelink`, it may change the link."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:304
+msgid "LinkerModule"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:306
+msgid "Default: Default"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:308
+msgid "Asks: Use the \\_\\_\\_ linker module for matching headings to authority records."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:313
+msgid "Default"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:315
+msgid "Retains Koha's previous behavior of only creating links when there is an exact match to one and only one authority record; if the :ref:`LinkerOptions` preference is set to 'broader\\_headings', it will try to link headings to authority records for broader headings by removing subfields from the end of the heading"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:322
+msgid "First match"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:324
+msgid "Creates a link to the first authority record that matches a given heading, even if there is more than one authority record that matches"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:328
+msgid "Last match"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:330
+msgid "Creates a link to the last authority record that matches a given heading, even if there is more than one record that matches"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:335
+msgid "This preference tells Koha which match to use when searching for authority matches when saving a record."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:341
+msgid "LinkerOptions"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:343
+msgid "Asks: Set the following options for the authority linker \\_\\_\\_"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:347
+msgid "This feature is experimental and shouldn't be used in a production environment until further expanded upon."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:352
+msgid "This is a pipe separated (\\|) list of options. At the moment, the only option available is \"broader\\_headings.\" With this option set to \"broader\\_headings\", the linker will try to match the following heading as follows:"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:361
+msgid "First: Camins-Esakov, Jared--Coin collections--Catalogs--Early works to 1800"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:364
+msgid "Next: Camins-Esakov, Jared--Coin collections--Catalogs"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:366
+msgid "Next: Camins-Esakov, Jared--Coin collections"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:368
+msgid "Next: Camins-Esakov, Jared (matches! if a previous attempt had matched, it would not have tried this)"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:374
+msgid "LinkerRelink"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:376
+msgid "Default: Do"
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:378
+msgid "Asks: \\_\\_\\_ relink headings that have previously been linked to authority records."
+msgstr ""
+
+#: ../../source/authoritiespreferences.rst:389
+msgid "When set to 'Do', the linker will confirm the links for headings that have previously been linked to an authority record when it runs, correcting any incorrect links it may find. When set to 'Do not', any heading with an existing link will be ignored, even if the existing link is invalid or incorrect."
+msgstr ""
+

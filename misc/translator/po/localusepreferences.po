@@ -1,0 +1,121 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-01 20:19-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/localusepreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/localusepreferences.rst:6
+msgid "Local Use"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:8
+msgid "These preferences are defined locally."
+msgstr ""
+
+#: ../../source/localusepreferences.rst:10
+msgid "*Get there:* More > Administration > Global System Preferences > Local Use"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:13
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:15
+msgid "Sometimes preferences which are either new or outdated will appear in this tab, if you didn't add any preferences to this tab then it's best to ignore preferences listed here."
+msgstr ""
+
+#: ../../source/localusepreferences.rst:22
+msgid "INTRAdidyoumean"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:24
+#: ../../source/localusepreferences.rst:34
+#: ../../source/localusepreferences.rst:59
+#: ../../source/localusepreferences.rst:69
+#: ../../source/localusepreferences.rst:79
+msgid "Default: blank"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:26
+msgid "Asks: Did you mean? configuration for the Intranet. Do not change, as this is controlled by /cgi-bin/koha/admin/didyoumean.pl."
+msgstr ""
+
+#: ../../source/localusepreferences.rst:32
+msgid "OPACdidyoumean"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:36
+msgid "Asks: Did you mean? configuration for the OPAC. Do not change, as this is controlled by /cgi-bin/koha/admin/didyoumean.pl."
+msgstr ""
+
+#: ../../source/localusepreferences.rst:42
+msgid "printcirculationships"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:44
+msgid "Default: ON"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:46
+msgid "Asks: If ON, enable printing circulation receipts"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:48
+msgid "Values:"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:50
+msgid "ON"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:52
+msgid "OFF"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:57
+msgid "UsageStatsID"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:61
+#: ../../source/localusepreferences.rst:71
+msgid "Asks: This preference is part of Koha but it should not be deleted or updated manually."
+msgstr ""
+
+#: ../../source/localusepreferences.rst:67
+msgid "UsageStatsLastUpdateTime"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:77
+msgid "UsageStatsPublicID"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:81
+msgid "Asks: Public ID for Hea website"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:86
+msgid "Version"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:88
+msgid "Default: automatically generated"
+msgstr ""
+
+#: ../../source/localusepreferences.rst:90
+msgid "Asks: The Koha database version. WARNING: Do not change this value manually. It is maintained by the webinstaller"
+msgstr ""
+

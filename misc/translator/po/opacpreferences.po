@@ -1,0 +1,3133 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-06-16 06:30+0000\n"
+"Last-Translator: Frank Chou <frank@sris.com.tw>\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
+"X-Pootle-Path: /zh_TW/man20.11/opacpreferences.po\n"
+"X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1623825016.716564\n"
+
+#: ../../source/opacpreferences.rst:6 ../../source/opacpreferences.rst:1885
+msgid "OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:8
+msgid "*Get there:* More > Administration > Global system preferences > OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:13
+msgid "Advanced search options"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:18
+msgid "OpacAdvSearchMoreOptions"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:20
+msgid "Default: Select all"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:22
+msgid "Asks: Show search options for the expanded view \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:24 ../../source/opacpreferences.rst:56
+#: ../../source/opacpreferences.rst:95 ../../source/opacpreferences.rst:113
+#: ../../source/opacpreferences.rst:140 ../../source/opacpreferences.rst:171
+#: ../../source/opacpreferences.rst:213 ../../source/opacpreferences.rst:322
+#: ../../source/opacpreferences.rst:376 ../../source/opacpreferences.rst:519
+#: ../../source/opacpreferences.rst:534 ../../source/opacpreferences.rst:557
+#: ../../source/opacpreferences.rst:612 ../../source/opacpreferences.rst:635
+#: ../../source/opacpreferences.rst:672 ../../source/opacpreferences.rst:833
+#: ../../source/opacpreferences.rst:880 ../../source/opacpreferences.rst:907
+#: ../../source/opacpreferences.rst:932 ../../source/opacpreferences.rst:1014
+#: ../../source/opacpreferences.rst:1038 ../../source/opacpreferences.rst:1064
+#: ../../source/opacpreferences.rst:1086 ../../source/opacpreferences.rst:1110
+#: ../../source/opacpreferences.rst:1141 ../../source/opacpreferences.rst:1171
+#: ../../source/opacpreferences.rst:1194 ../../source/opacpreferences.rst:1212
+#: ../../source/opacpreferences.rst:1288 ../../source/opacpreferences.rst:1329
+#: ../../source/opacpreferences.rst:1370 ../../source/opacpreferences.rst:1433
+#: ../../source/opacpreferences.rst:1462 ../../source/opacpreferences.rst:1482
+#: ../../source/opacpreferences.rst:1509 ../../source/opacpreferences.rst:1530
+#: ../../source/opacpreferences.rst:1556 ../../source/opacpreferences.rst:1577
+#: ../../source/opacpreferences.rst:1600 ../../source/opacpreferences.rst:1617
+#: ../../source/opacpreferences.rst:1654 ../../source/opacpreferences.rst:1679
+#: ../../source/opacpreferences.rst:1694 ../../source/opacpreferences.rst:1715
+#: ../../source/opacpreferences.rst:1738 ../../source/opacpreferences.rst:1775
+#: ../../source/opacpreferences.rst:1806 ../../source/opacpreferences.rst:1830
+#: ../../source/opacpreferences.rst:1863 ../../source/opacpreferences.rst:1881
+#: ../../source/opacpreferences.rst:1904 ../../source/opacpreferences.rst:1921
+#: ../../source/opacpreferences.rst:1959 ../../source/opacpreferences.rst:1990
+#: ../../source/opacpreferences.rst:2052 ../../source/opacpreferences.rst:2142
+#: ../../source/opacpreferences.rst:2183 ../../source/opacpreferences.rst:2233
+#: ../../source/opacpreferences.rst:2260 ../../source/opacpreferences.rst:2303
+#: ../../source/opacpreferences.rst:2383 ../../source/opacpreferences.rst:2410
+#: ../../source/opacpreferences.rst:2440 ../../source/opacpreferences.rst:2487
+#: ../../source/opacpreferences.rst:2504 ../../source/opacpreferences.rst:2535
+#: ../../source/opacpreferences.rst:2564 ../../source/opacpreferences.rst:2604
+#: ../../source/opacpreferences.rst:2619 ../../source/opacpreferences.rst:2646
+#: ../../source/opacpreferences.rst:2696 ../../source/opacpreferences.rst:2778
+#: ../../source/opacpreferences.rst:2838 ../../source/opacpreferences.rst:2944
+#: ../../source/opacpreferences.rst:3011 ../../source/opacpreferences.rst:3068
+#: ../../source/opacpreferences.rst:3089 ../../source/opacpreferences.rst:3132
+#: ../../source/opacpreferences.rst:3165 ../../source/opacpreferences.rst:3187
+#: ../../source/opacpreferences.rst:3208
+msgid "Values:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:26 ../../source/opacpreferences.rst:58
+#: ../../source/opacpreferences.rst:1883 ../../source/opacpreferences.rst:2442
+msgid "[Select all]"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:28 ../../source/opacpreferences.rst:60
+msgid "Item types"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:30 ../../source/opacpreferences.rst:62
+msgid "Language"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:32 ../../source/opacpreferences.rst:64
+msgid "Location and availability"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:34 ../../source/opacpreferences.rst:66
+msgid "Publication date"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:36 ../../source/opacpreferences.rst:68
+msgid "Sorting"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:38 ../../source/opacpreferences.rst:70
+msgid "Subtypes"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:40 ../../source/opacpreferences.rst:72
+#: ../../source/opacpreferences.rst:123 ../../source/opacpreferences.rst:151
+#: ../../source/opacpreferences.rst:177 ../../source/opacpreferences.rst:205
+#: ../../source/opacpreferences.rst:287 ../../source/opacpreferences.rst:339
+#: ../../source/opacpreferences.rst:416 ../../source/opacpreferences.rst:443
+#: ../../source/opacpreferences.rst:462 ../../source/opacpreferences.rst:483
+#: ../../source/opacpreferences.rst:540 ../../source/opacpreferences.rst:565
+#: ../../source/opacpreferences.rst:583 ../../source/opacpreferences.rst:620
+#: ../../source/opacpreferences.rst:645 ../../source/opacpreferences.rst:665
+#: ../../source/opacpreferences.rst:707 ../../source/opacpreferences.rst:721
+#: ../../source/opacpreferences.rst:734 ../../source/opacpreferences.rst:755
+#: ../../source/opacpreferences.rst:783 ../../source/opacpreferences.rst:814
+#: ../../source/opacpreferences.rst:839 ../../source/opacpreferences.rst:886
+#: ../../source/opacpreferences.rst:913 ../../source/opacpreferences.rst:945
+#: ../../source/opacpreferences.rst:996 ../../source/opacpreferences.rst:1020
+#: ../../source/opacpreferences.rst:1048 ../../source/opacpreferences.rst:1070
+#: ../../source/opacpreferences.rst:1092 ../../source/opacpreferences.rst:1121
+#: ../../source/opacpreferences.rst:1153 ../../source/opacpreferences.rst:1177
+#: ../../source/opacpreferences.rst:1218 ../../source/opacpreferences.rst:1231
+#: ../../source/opacpreferences.rst:1256 ../../source/opacpreferences.rst:1275
+#: ../../source/opacpreferences.rst:1313 ../../source/opacpreferences.rst:1354
+#: ../../source/opacpreferences.rst:1395 ../../source/opacpreferences.rst:1416
+#: ../../source/opacpreferences.rst:1441 ../../source/opacpreferences.rst:1456
+#: ../../source/opacpreferences.rst:1488 ../../source/opacpreferences.rst:1538
+#: ../../source/opacpreferences.rst:1583 ../../source/opacpreferences.rst:1635
+#: ../../source/opacpreferences.rst:1664 ../../source/opacpreferences.rst:1721
+#: ../../source/opacpreferences.rst:1756 ../../source/opacpreferences.rst:1781
+#: ../../source/opacpreferences.rst:1814 ../../source/opacpreferences.rst:1840
+#: ../../source/opacpreferences.rst:1889 ../../source/opacpreferences.rst:1932
+#: ../../source/opacpreferences.rst:1973 ../../source/opacpreferences.rst:2002
+#: ../../source/opacpreferences.rst:2032 ../../source/opacpreferences.rst:2099
+#: ../../source/opacpreferences.rst:2148 ../../source/opacpreferences.rst:2189
+#: ../../source/opacpreferences.rst:2216 ../../source/opacpreferences.rst:2239
+#: ../../source/opacpreferences.rst:2266 ../../source/opacpreferences.rst:2309
+#: ../../source/opacpreferences.rst:2330 ../../source/opacpreferences.rst:2394
+#: ../../source/opacpreferences.rst:2422 ../../source/opacpreferences.rst:2541
+#: ../../source/opacpreferences.rst:2625 ../../source/opacpreferences.rst:2652
+#: ../../source/opacpreferences.rst:2704 ../../source/opacpreferences.rst:2745
+#: ../../source/opacpreferences.rst:2758 ../../source/opacpreferences.rst:2786
+#: ../../source/opacpreferences.rst:2818 ../../source/opacpreferences.rst:2844
+#: ../../source/opacpreferences.rst:2872 ../../source/opacpreferences.rst:2887
+#: ../../source/opacpreferences.rst:2919 ../../source/opacpreferences.rst:2950
+#: ../../source/opacpreferences.rst:2966 ../../source/opacpreferences.rst:3017
+#: ../../source/opacpreferences.rst:3032 ../../source/opacpreferences.rst:3051
+#: ../../source/opacpreferences.rst:3074 ../../source/opacpreferences.rst:3095
+#: ../../source/opacpreferences.rst:3140 ../../source/opacpreferences.rst:3171
+#: ../../source/opacpreferences.rst:3193 ../../source/opacpreferences.rst:3214
+msgid "Description:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:42
+msgid "The settings in this preference will determine which search fields will show when the patron is using the 'More options' mode on the advanced search page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:49
+msgid "OpacAdvSearchOptions"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:51
+msgid "Default: Item types, Language, Location and availability, Publication date, Sorting"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:54
+msgid "Asks: Show search options \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:74
+msgid "The settings in this preference will determine which search fields will show when the patron is using the 'Fewer options' mode on the advanced search page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:81
+msgid "Appearance"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:83
+msgid "These preferences control how things appear in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:88
+msgid "AuthorisedValueImages"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:90 ../../source/opacpreferences.rst:169
+#: ../../source/opacpreferences.rst:201 ../../source/opacpreferences.rst:532
+#: ../../source/opacpreferences.rst:655 ../../source/opacpreferences.rst:1009
+#: ../../source/opacpreferences.rst:1060 ../../source/opacpreferences.rst:1082
+#: ../../source/opacpreferences.rst:1552 ../../source/opacpreferences.rst:1711
+#: ../../source/opacpreferences.rst:2483
+msgid "Default: Don't show"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:92
+msgid "Asks: \\_\\_\\_ images for authorized values (such as lost statuses and locations) in search results and item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:97 ../../source/opacpreferences.rst:173
+#: ../../source/opacpreferences.rst:215 ../../source/opacpreferences.rst:536
+#: ../../source/opacpreferences.rst:674 ../../source/opacpreferences.rst:1016
+#: ../../source/opacpreferences.rst:1066 ../../source/opacpreferences.rst:1088
+#: ../../source/opacpreferences.rst:1173 ../../source/opacpreferences.rst:1558
+#: ../../source/opacpreferences.rst:1717 ../../source/opacpreferences.rst:2489
+#: ../../source/opacpreferences.rst:3134
+msgid "Don't show"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:99 ../../source/opacpreferences.rst:175
+#: ../../source/opacpreferences.rst:217 ../../source/opacpreferences.rst:538
+#: ../../source/opacpreferences.rst:676 ../../source/opacpreferences.rst:1018
+#: ../../source/opacpreferences.rst:1068 ../../source/opacpreferences.rst:1090
+#: ../../source/opacpreferences.rst:1114 ../../source/opacpreferences.rst:1175
+#: ../../source/opacpreferences.rst:1560 ../../source/opacpreferences.rst:1719
+#: ../../source/opacpreferences.rst:1994 ../../source/opacpreferences.rst:2491
+#: ../../source/opacpreferences.rst:3136
+msgid "Show"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:101
+msgid "*Get there:* More > Administration > :ref:`Authorized values <authorized-values-label>`"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:107
+msgid "BiblioDefaultView"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:109
+msgid "Default: in simple form"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:111
+msgid "Asks: By default, show bib records \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:115
+msgid "as specified in the ISBD template."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:117
+msgid "See :ref:`ISBD` preference for more information"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:119
+msgid "in simple form."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:121
+msgid "in their MARC format."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:125
+msgid "This preference determines the level of bibliographic detail that the patron will see on the OPAC detail page. The simple form displays the graphical interface; MARC format displays the MARC21 cataloging view; ISBD displays the ISBD (International Standard Bibliographic Description, AACR2) view."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:134
+msgid "COinSinOPACResults"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:136 ../../source/opacpreferences.rst:2298
+msgid "Default: Include"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:138
+msgid "Asks: \\_\\_\\_ COinS / OpenURL / Z39.88 in OPAC search results."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:142 ../../source/opacpreferences.rst:2307
+msgid "Don't include"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:144
+msgid "If you choose not to include COinS on the search results, it will still be loaded on the individual bibliographic records."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:147 ../../source/opacpreferences.rst:2305
+msgid "Include"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:149
+msgid "Enabling this feature will slow OPAC search response times."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:153
+msgid "COinS stands for ContextObjects in Spans. COinS is a method to embed bibliographic metadata in the HTML code of web pages. This allows bibliographic software to publish machine-readable bibliographic items and client reference management software (such as Zotero) to retrieve bibliographic metadata. The metadata can also be sent to an OpenURL resolver. This allows, for instance, searching for a copy of a book in one's own library."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:164
+msgid "DisplayOPACiconsXSLT"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:166
+msgid "Asks: \\_\\_\\_ the format, audience, and material type icons and descriptions in XSLT MARC 21 results and detail pages in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:179
+msgid "This system preference is used to show or hide the format, audience and material type information pulled from the control fields of the MARC 21 bibliographic record."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:183
+msgid "|image62|"
+msgstr "|image62|"
+
+#: ../../source/opacpreferences.rst:185 ../../source/opacpreferences.rst:267
+#: ../../source/opacpreferences.rst:271 ../../source/opacpreferences.rst:304
+#: ../../source/opacpreferences.rst:308 ../../source/opacpreferences.rst:478
+#: ../../source/opacpreferences.rst:593 ../../source/opacpreferences.rst:660
+#: ../../source/opacpreferences.rst:865 ../../source/opacpreferences.rst:892
+#: ../../source/opacpreferences.rst:965 ../../source/opacpreferences.rst:1790
+#: ../../source/opacpreferences.rst:2205 ../../source/opacpreferences.rst:2284
+#: ../../source/opacpreferences.rst:2315 ../../source/opacpreferences.rst:2580
+#: ../../source/opacpreferences.rst:2714 ../../source/opacpreferences.rst:2801
+#: ../../source/opacpreferences.rst:2897 ../../source/opacpreferences.rst:2904
+#: ../../source/opacpreferences.rst:2928 ../../source/opacpreferences.rst:3105
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:187
+msgid "See the :ref:`XSLT material type icons <material-type-cataloging-guide-label>` for more information on these icons."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:190 ../../source/opacpreferences.rst:253
+#: ../../source/opacpreferences.rst:348 ../../source/opacpreferences.rst:354
+#: ../../source/opacpreferences.rst:359 ../../source/opacpreferences.rst:380
+#: ../../source/opacpreferences.rst:386 ../../source/opacpreferences.rst:392
+#: ../../source/opacpreferences.rst:397 ../../source/opacpreferences.rst:407
+#: ../../source/opacpreferences.rst:412 ../../source/opacpreferences.rst:474
+#: ../../source/opacpreferences.rst:598 ../../source/opacpreferences.rst:1116
+#: ../../source/opacpreferences.rst:1501 ../../source/opacpreferences.rst:1515
+#: ../../source/opacpreferences.rst:1548 ../../source/opacpreferences.rst:1562
+#: ../../source/opacpreferences.rst:1702 ../../source/opacpreferences.rst:1744
+#: ../../source/opacpreferences.rst:2038 ../../source/opacpreferences.rst:2106
+#: ../../source/opacpreferences.rst:2246 ../../source/opacpreferences.rst:2288
+#: ../../source/opacpreferences.rst:2559 ../../source/opacpreferences.rst:2587
+#: ../../source/opacpreferences.rst:2640 ../../source/opacpreferences.rst:2659
+#: ../../source/opacpreferences.rst:2676 ../../source/opacpreferences.rst:2682
+#: ../../source/opacpreferences.rst:2825 ../../source/opacpreferences.rst:2853
+#: ../../source/opacpreferences.rst:2893 ../../source/opacpreferences.rst:2924
+#: ../../source/opacpreferences.rst:3110 ../../source/opacpreferences.rst:3150
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:192
+msgid "This is only used in XSLT displays, so :ref:`OPACXSLTResultsDisplay` and/or :ref:`OPACXSLTDetailsDisplay` must be set to use an XSLT stylesheet for this to show (default or custom)"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:199
+msgid "hidelostitems"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:203
+msgid "Asks: \\_\\_\\_ lost items on search and detail pages."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:207
+msgid "Items that are marked lost by the library can either be shown or not shown on the OPAC. By setting the value to \"Don't show,\" the lost item is not shown on the OPAC. By setting the value \"Show,\" the lost item is shown on the OPAC for patrons to view with a status of 'lost.^"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:219
+msgid "|image63|"
+msgstr "|image63|"
+
+#: ../../source/opacpreferences.rst:224
+msgid "HighlightOwnItemsOnOPAC and HighlightOwnItemsOnOPACWhich"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:226
+msgid "HighlightOwnItemsOnOPAC Default: Don't emphasize"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:228
+msgid "HighlightOwnItemsOnOPACWhich Default: patron's home library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:230
+msgid "Asks: \\_\\_\\_ results from the \\_\\_\\_ by moving the results to the front and increasing the size or highlighting the rows for those results."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:233
+msgid "HighlightOwnItemsOnOPAC Values:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:235
+msgid "Don't emphasize"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:237
+msgid "Emphasize"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:239
+msgid "HighlightOwnItemsOnOPACWhich Values:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:241
+msgid "OPAC's branch based via the URL"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:243
+msgid "The library is chosen based on the Apache environment variable BRANCHCODE. For example, this could be added to the OPAC section of koha-httpd.conf: SetEnv BRANCHCODE \"CPL\""
+msgstr ""
+
+#: ../../source/opacpreferences.rst:247
+msgid "patron's home library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:249
+msgid "The items emphasized will be those of the same library as the patron's library. If no one is logged into the OPAC, no items will be highlighted."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:255
+msgid "This preference will only effect sites that are not using an XSLT stylesheet. XSLT stylesheets are defined in the :ref:`OPACXSLTResultsDisplay` and :ref:`OPACXSLTDetailsDisplay` preferences."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:263
+msgid "LibraryName"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:265
+msgid "Asks: Show \\_\\_\\_ as the name of the library on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:269
+msgid "This value will appear in the title bar of the browser"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:273
+msgid "Add a news item with the opacheader display location with the :ref:`news tool <news-label>` if you'd like to add a library name above your search box on the OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:277
+msgid "|image64|"
+msgstr "|image64|"
+
+#: ../../source/opacpreferences.rst:282
+msgid "OpacAdditionalStylesheet"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:284
+msgid "Asks: Include the additional CSS stylesheet \\_\\_\\_ to override specified settings from the default stylesheet."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:289
+msgid "The preference can look for stylesheets in the template directory for your OPAC language, for instance: /koha-tmpl/opac-tmpl/prog/en/css. If you upload a custom file, opac-mystyles.css to this directory, you can specify it by entering opac-mystyles.css in your opaccolorstylesheet system preference. This adds your custom stylesheet as a linked stylesheet alongside the OPAC's default CSS files. This method is preferable because linked stylesheets are cached by the user's browser, meaning upon repeat visits to your site the user's browser will not have to re-download the stylesheet, instead using the copy in the browser's cache."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:300
+msgid "If you would rather, you can upload your CSS to another server and enter the full URL pointing to it's location remember to begin the URL with http://"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:306
+msgid "Leave this field blank to disable it"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:310
+msgid "This file will add a linked CSS, not replace the existing default CSS."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:316
+msgid "OpacAddMastheadLibraryPulldown"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:318
+msgid "Default: Don't add"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:320
+msgid "Asks: \\_\\_\\_ a library select pulldown menu on the OPAC masthead."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:324
+msgid "Add"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:326
+msgid "|image65|"
+msgstr "|image65|"
+
+#: ../../source/opacpreferences.rst:328
+msgid "Don't Add"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:330
+msgid "|image66|"
+msgstr "|image66|"
+
+#: ../../source/opacpreferences.rst:335
+msgid "OPACBaseURL"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:337
+msgid "Asks: The OPAC is located at \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:341
+msgid "This preference is looking for the URL of your public catalog (OPAC) with the http:// in front of it (enter http://www.mycatalog.com instead of www.mycatalog.com). Once it is filled in Koha will use it to generate permanent links in your RSS feeds, for your social network share buttons and in your staff client when generating links to bib records in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:350
+msgid "Do not include a trailing slash in the URL this will break links created using this URL. (example: http://www.google.com not http://www.google.com/)"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:356
+msgid "This must be filled in with the URL of your public catalog for RSS, unAPI, and search plugins to work."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:361
+msgid "This must be filled in with the URL of your public catalog to show 'OPAC View' links from bib records in the staff client:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:364
+msgid "|image67|"
+msgstr "|image67|"
+
+#: ../../source/opacpreferences.rst:370
+msgid "OPACDisplay856uAsImage"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:372
+msgid "Default: Neither details or results page"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:374
+msgid "Asks: Display the URI in the 856u field as an image on: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:378
+msgid "Both results and details pages"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:382
+msgid "Both :ref:`OPACXSLTDetailsDisplay` and :ref:`OPACXSLTResultsDisplay` need to have values in order for this preference to work."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:388 ../../source/opacpreferences.rst:399
+#: ../../source/opacpreferences.rst:414
+msgid "This is only implemented for MARC21 and NORMARC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:390
+msgid "Detail page only"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:394
+msgid ":ref:`OPACXSLTDetailsDisplay` needs to have a value in it for this preference to work."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:401
+msgid "|image70|"
+msgstr "|image70|"
+
+#: ../../source/opacpreferences.rst:403
+msgid "Neither details or results page"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:405
+msgid "Results page only"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:409
+msgid ":ref:`OPACXSLTResultsDisplay` needs to have a value in it for this preference to work."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:418
+msgid "In addition to this option being set, the corresponding XSLT option must be turned on. Also, the corresponding 856q field must have a valid MIME image extension (e.g., \"jpg\") or MIME image type (i.e. starting with \"image/\"), or the generic indicator \"img\" entered in the field. When all of the requirements are met, an image file will be displayed instead of the standard link text. Clicking on the image will open it in the same way as clicking on the link text. When you click on the image it should open to full size, in the current window or in a new window depending on the value in the system pref :ref:`OPACURLOpenInNewWindow`."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:429
+msgid "|image71|"
+msgstr "|image71|"
+
+#: ../../source/opacpreferences.rst:434
+msgid "OpacExportOptions"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:436
+msgid "Default:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:438
+msgid "|image1192|"
+msgstr "|image1192|"
+
+#: ../../source/opacpreferences.rst:440
+msgid "Asks: Select export options that should be available from OPAC detail page: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:445
+msgid "In the OPAC on the right of each bib record there is a menu that allows for saving the record in various formats. This patch will allow you to define which options are in the pull down menu. Available options are: BIBTEX (bibtex), Dublin Core (dc), MARCXML (marcxml), MARC-8 encoded MARC (marc8), Unicode/UTF-8 encoded MARC (utf8), Unicode/UTF-8 encoded MARC without local use -9xx, x9x, xx9- fields and subfields (marcstd), MODS (mods), and RIS (ris)."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:456
+msgid "OPACFallback"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:458 ../../source/opacpreferences.rst:1190
+msgid "Default: bootstrap"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:460
+msgid "Asks: Use the \\_\\_\\_ theme as the fallback theme on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:464
+msgid "The purpose of this preference is to provide a way to choose to what theme to fallback on when you have a partial theme in place."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:470
+msgid "OpacFavicon"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:472
+msgid "Asks: Use the image at \\_\\_\\_ for the OPAC's favicon."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:476
+msgid "This should be a complete URL, starting with http://"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:480
+msgid "Turn your logo into a favicon with the `Favicon Generator <http://antifavicon.com/>`__."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:485
+msgid "The favicon is the little icon that appears next to the URL in the address bar in most browsers. The default value for this field (if left blank) is the small 'K' in the Koha logo."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:489
+msgid "|image72|"
+msgstr "|image72|"
+
+#: ../../source/opacpreferences.rst:494
+msgid "OpacHighlightedWords and NotHighlightedWords"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:496
+msgid "OpacHighlightedWords Default: Don't highlight"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:498
+msgid "NotHighlightedWords Default: and\\|or\\|not"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:500
+msgid "Asks: \\_\\_\\_ words the patron searched for in their search results and detail pages; To prevent certain words from ever being highlighted, enter a list of stopwords here \\_\\_\\_ (separate columns with \\|)"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:504
+msgid "OpacHighlightedWords Values:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:506
+msgid "Don't highlight"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:508
+msgid "Highlight"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:513
+msgid "OPACHoldingsDefaultSortField"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:515
+msgid "Default: First column of the table"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:517
+msgid "Asks: \\_\\_\\_ is the default sort field for the holdings table"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:521
+msgid "First column of the table"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:523
+msgid "Holding library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:525
+msgid "Home library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:530
+msgid "OpacKohaUrl"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:542
+msgid "When this preference is set to 'Show' text will appear in the bottom right of the OPAC footer stating 'Powered by Koha' and linking to the official Koha website."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:546
+msgid "|image75|"
+msgstr "|image75|"
+
+#: ../../source/opacpreferences.rst:551
+msgid "OpacLangSelectorMode"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:553
+msgid "Default: only footer"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:555
+msgid "Asks: Display language selector on \\_\\_\\_."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:559
+msgid "both top and footer"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:561
+msgid "only footer"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:563
+msgid "top"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:567
+msgid "If you have the :ref:`opaclanguagesdisplay` preference set to display language options in the public catlaog, then this preference will allow you to control where the language selector shows. You can choose to show it only on the top or bottom or in both places."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:576
+msgid "opaclayoutstylesheet"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:578
+msgid "Default: opac.css"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:580
+msgid "Asks: Use the CSS stylesheet /css/ \\_\\_\\_ on all pages in the OPAC, instead of the default"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:585
+msgid "This setting's function is to point to the \\*.css file used to define the OPAC layout. A \\*.css file is a cascading stylesheet which is used in conjunction with HTML to set how the HTML page is formatted and will look on the OPAC. There are two stylesheets that come with the system; opac.css and opac2.css. A custom stylesheet may also be used. The stylesheets listed in the opaclayoutstylesheet preference are held on the Koha server."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:595
+msgid "Leave this field blank to disable it and let Koha use the default file instead"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:600
+msgid "Using a custom value in this preference causes Koha to completely ignore the default layout stylesheet."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:606
+msgid "OpacLocationBranchToDisplay"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:608
+msgid "Default: holding library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:610
+msgid "Asks: Display the \\_\\_\\_ for items on the OPAC record details page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:614 ../../source/opacpreferences.rst:992
+msgid "holding library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:616
+msgid "home and holding library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:618 ../../source/opacpreferences.rst:936
+#: ../../source/opacpreferences.rst:994
+msgid "home library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:622
+msgid "Defines whether to display the holding library, the home library, or both for the opac details page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:628
+msgid "OpacLocationOnDetail"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:630
+msgid "Default: below the holding library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:632
+msgid "Asks: Display the shelving location \\_\\_\\_ for items on the OPAC record details page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:637
+msgid "below both home and holding libraries"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:639
+msgid "on a separate column"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:641
+msgid "below the holding library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:643
+msgid "below the home library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:647
+msgid "Defines where the shelving location should be displayed, under the home library, the holding library, or both, or in a separate column."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:653
+msgid "OpacMaintenance"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:657
+msgid "Asks: \\_\\_\\_ a warning that the OPAC is under maintenance, instead of the OPAC itself."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:662
+msgid "this shows the same warning as when the database needs to be upgraded, but unconditionally."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:667
+msgid "This preference allows the system administrator to turn off the OPAC during maintenance and display a message to users. When this preference is switched to \"Show\" the OPAC is not usable. The text of this message is not editable at this time."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:678
+msgid "When this preference is set to show the maintenance message the ability to search the OPAC is disabled and a message appears. The default message can be altered by using the :ref:`OpacMaintenanceNotice` preference."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:683
+msgid "|image76|"
+msgstr "|image76|"
+
+#: ../../source/opacpreferences.rst:688
+msgid "OpacMaintenanceNotice"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:690
+msgid "Asks: Show the following HTML when OpacMaintenance is enabled"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:692
+msgid "Descritpion:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:694
+msgid "This preference will allow you to set the text the OPAC displays when the :ref:`OpacMaintenance` preference is set to 'Show.^"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:701
+msgid "OpacMaxItemsToDisplay"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:703 ../../source/opacpreferences.rst:1412
+msgid "Default: 50"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:705
+msgid "Asks: Display up to \\_\\_\\_ items on the biblio detail page"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:709
+msgid "This preference will help with slow load times on the bibliographic detail pages by limiting the number of items to display by default. If the biblio has more items than this, a link is displayed instead that allows the user to choose to display all items."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:717
+msgid "OpacMetaDescription"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:719
+msgid "Asks: This description will show in search engine results (160 characters)."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:723
+msgid "This preference adds functionality to add a meta description tag with content (up to 160 characters). This is used by search engines to add a description to the library in search results."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:729
+msgid "OpacMoreSearches"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:731
+msgid "Asks: Add additional elements to the \"More Searches\" bar on the OPAC, with the following HTML (leave blank to disable)"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:736
+msgid "This preference allows you to add more links/searches under the search box at the top of the OPAC.  By default (and depending on system preferences) there is a link for Advanced Search, Course reserves, Authority search, and Tag cloud.  Any new searches will be added to the left of the already present links."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:741
+msgid "An example of the HTML that ould be added to this system preference:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:743
+msgid "<a href=\"Koha-community.org\">Koha Community</a>"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:745
+msgid "On the OPAC, this will display the text Koha Community and link to the Koha Community website."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:750
+msgid "OPACMySummaryHTML"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:752
+msgid "Asks: Include a \"Links\" column on the \"your summary\" tab when a user is logged in to the OPAC, with the following HTML (leave blank to disable)."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:757
+msgid "In this preference you can enter HTML that will appear on the 'Checked Out' tab on the 'your summary' section when logged in to the OPAC. The placeholders {BIBLIONUMBER}, {TITLE}, {ISBN} and {AUTHOR} will be replaced with information from the displayed record. This can be used to enter in 'share' links for social networks or generate searches against other library catalogs."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:764
+msgid "|image78|"
+msgstr "|image78|"
+
+#: ../../source/opacpreferences.rst:766
+msgid "Sample Data:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:779
+msgid "OPACMySummaryNote"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:781
+msgid "Asks: Note to display on the patron summary page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:785
+msgid "This preference will display text above the patron's summary and below the welcome message when the patron logs in to the OPAC and view their 'your summary' tab."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:789
+msgid "|image1193|"
+msgstr "|image1193|"
+
+#: ../../source/opacpreferences.rst:794
+msgid "OpacNav"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:796
+msgid "Default: Important links here."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:798
+msgid "Asks: Show the following HTML on the left hand column of the main page and patron account on the OPAC (generally navigation links)"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:801
+msgid "|image79|"
+msgstr "|image79|"
+
+#: ../../source/opacpreferences.rst:803
+msgid "Learn more in the :ref:`OPAC editable regions <editable-opac-regions-label>` section."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:808
+msgid "OpacNavBottom"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:810
+msgid "Asks: Show the following HTML on the left hand column of the main page and patron account on the OPAC, after :ref:`OpacNav`, and before patron account links if available:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:816
+msgid "When a patron is logged in to their account they see a series of tabs to access their account information. :ref:`OpacNav` appears above this list of tabs and OpacNavBottom will appear below them. When not on the patron account pages the HTML in OpacNavBottom will just appear right below :ref:`OpacNav`."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:822
+msgid "|image80|"
+msgstr "|image80|"
+
+#: ../../source/opacpreferences.rst:827
+msgid "OpacNoItemTypeImages"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:829
+msgid "Asks: Show itemtype icons in the OPAC: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:831
+msgid "Default: Yes"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:835
+msgid "Yes"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:837
+msgid "No"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:841
+msgid "This preference allows the system administrator to determine if users will be able to set and see an item type icon in the catalog in the staff interface."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:844
+msgid "If images of item types are disabled, text labels for item types will still appear in the staff interface."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:847
+msgid "The :ref:`noItemTypeImages` system preference is used to show or hide the itemtype images in the staff interface."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:853
+msgid "OPACNoResultsFound"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:855
+msgid "No Default"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:857
+msgid "Asks: Display this HTML when no results are found for a search in the OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:860
+msgid "This HTML will display below the existing notice that no results were found for your search."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:863
+msgid "|image82|"
+msgstr "|image82|"
+
+#: ../../source/opacpreferences.rst:867
+msgid "You can insert placeholders {QUERY\\_KW} that will be replaced with the keywords of the query."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:873
+msgid "OPACPlayMusicalInscripts"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:875
+msgid "Default: Don't play"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:877
+msgid "Asks: \\_\\_\\_ MIDI representation of musical inscripts on the OPAC record details page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:882
+msgid "Don't play"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:884
+msgid "Play"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:888
+msgid "This preference controls whether a short audio clip is available to play when musical incipits are added to the detailed view of a bibliographic record."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:894
+msgid "The :ref:`OPACShowMusicalInscripts` preference must be set to 'Show' for these clips to display."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:900
+msgid "OpacPublic"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:902
+msgid "Default: Enable"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:904
+msgid "Asks: \\_\\_\\_ Koha OPAC as public. Private OPAC requires authentication before accessing the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:909 ../../source/opacpreferences.rst:1579
+msgid "Don't enable"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:911 ../../source/opacpreferences.rst:1581
+msgid "Enable"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:915
+msgid "This preference determines if your OPAC is accessible and searchable by anyone or only by members of the library. If set to 'Don't enable' only members who are logged into the OPAC can search. Most libraries will leave this setting at its default of 'Enable' to allow their OPAC to be searched by anyone and only require login for access to personalized content."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:925
+msgid "OPACResultsLibrary"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:927
+msgid "Default: home library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:929
+msgid "Asks: For search results in the OPAC, show the item's \\_\\_\\_. Please note that this feature is currently available for MARC21 and UNIMARC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:934
+msgid "current location"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:941
+msgid "OPACResultsSidebar"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:943
+msgid "Asks: Include the following HTML under the facets in OPAC search results"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:947
+msgid "The HTML entered in this preference will appear on the search results pages below the list of facets on the left side of the screen."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:953
+msgid "OPACSearchForTitleIn"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:955
+msgid "Default: <li><a href=\"http://worldcat.org/search?q={TITLE}\" target=\"\\_blank\">Other Libraries (WorldCat)</a></li> <li><a href=\"http://www.scholar.google.com/scholar?q={TITLE}\" target=\"\\_blank\">Other Databases (Google Scholar)</a></li> <li><a href=\"http://www.bookfinder.com/search/?author={AUTHOR}&title={TITLE}&st=xl&ac=qr\" target=\"\\_blank\">Online Stores (Bookfinder.com)</a></li>"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:962
+msgid "Asks: Include a \"More Searches\" box on the detail pages of items on the OPAC, with the following HTML (leave blank to disable)"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:967
+msgid "The placeholders {BIBLIONUMBER}, {CONTROLNUMBER}, {TITLE}, {ISBN}, {ISSN} and {AUTHOR} will be replaced with information from the displayed record."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:974
+msgid "OpacSeparateHoldings and OpacSeparateHoldingsBranch"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:976
+msgid "OpacSeparateHoldings default: Don't separate"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:978
+msgid "OpacSeparateHoldingsBranch default: home library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:980
+msgid "Asks: \\_\\_\\_ items display into two tabs, where the first tab contains items whose \\_\\_\\_ is the logged in user's library. The second tab will contain all other items."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:984
+msgid "OpacSeparateHoldings values:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:986
+msgid "Don't separate"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:988
+msgid "Separate"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:990
+msgid "OpacSeparateHoldingsBranch values:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:998
+msgid "This preference lets you decide if you would like to have the holding information on the bibliographic detail page in the OPAC split in to multiple tabs. The default is to show all holdings on one tab."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1002
+msgid "|image83|"
+msgstr "|image83|"
+
+#: ../../source/opacpreferences.rst:1007
+msgid "OPACShowCheckoutName"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1011
+msgid "Asks: \\_\\_\\_ the name of the patron that has an item checked out on item detail pages on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1022
+msgid "This preference allows all patrons to see who has the item checked out if it is checked out. In small corporate libraries (where the OPAC is behind a firewall and not publicly available) this can be helpful so coworkers can just contact the patron with the book themselves. In larger public and academic libraries setting this to 'Show' would pose serious privacy issues."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1032
+msgid "OPACShowHoldQueueDetails"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1034
+msgid "Default: Don't show any hold details"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1036
+msgid "Asks: \\_\\_\\_ to patrons in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1040
+msgid "Don't show any hold details"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1042
+msgid "Show holds"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1044
+msgid "Show holds and their priority level"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1046
+msgid "Show priority level"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1050
+msgid "This preference allows you to choose the type of hold information to make available to patrons when logged in to their account on the OPAC.  If you select to include hold priority information the list of holds will initially be sorted by priority."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1058
+msgid "OPACShowMusicalInscripts"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1062
+msgid "Asks: \\_\\_\\_ musical inscripts on the OPAC record details page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1072
+msgid "This preference allows musical incipits to be displayed in the detailed view of a bibliographic record on the OPAC.  MARC data for the incipit is added to the 031 MARC21 tag of the record.  Audio clips can also be displayed if the :ref:`OPACPlayMusicalInscripts` preference set to 'Play'."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1080
+msgid "OpacShowRecentComments"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1084
+msgid "Asks: \\_\\_\\_ a link to recent comments in the OPAC masthead."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1094
+msgid "If you have chosen to allow comments in your OPAC by setting :ref:`OPACComments` to 'Allow' you can include a link to the recent comments under the search box at the top of your OPAC with this preference."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1099
+msgid "|image88|"
+msgstr "|image88|"
+
+#: ../../source/opacpreferences.rst:1104
+msgid "OPACShowUnusedAuthorities"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1106 ../../source/opacpreferences.rst:1166
+#: ../../source/opacpreferences.rst:1271 ../../source/opacpreferences.rst:1986
+#: ../../source/opacpreferences.rst:3127
+msgid "Default: Show"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1108
+msgid "Asks: \\_\\_\\_ unused authorities in the OPAC authority browser."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1112
+msgid "Do not show"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1118
+msgid "Requires that the :ref:`OpacAuthorities` preference is set to 'Allow'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1123
+msgid "When patrons search your authority file via the OPAC they will see all authorities in your system even if you don't have them linked to any bibliographic records. This preference lets you determine what the default behavior is when searching authorities via the OPAC. If you choose 'Do not show' it will only show patrons authority records that are linked to bib records in the search results. Otherwise the system will show all authority records even if they aren't linked to records."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1135
+msgid "OpacStarRatings"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1137
+msgid "Default: no"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1139
+msgid "Asks: Show star-ratings on \\_\\_\\_ pages."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1143
+msgid "no"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1145
+msgid "only details"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1147
+msgid "|image89|"
+msgstr "|image89|"
+
+#: ../../source/opacpreferences.rst:1149
+msgid "results and details"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1151
+msgid "|image90|"
+msgstr "|image90|"
+
+#: ../../source/opacpreferences.rst:1155
+msgid "Star ratings are a way for your patrons to leave ratings without having to leave a full review. Patrons who are not logged in will only be able to see the stars, once logged in patrons can click on the stars on the details page to leave their own rating. Clicking on the stars on the search results will not submit a rating."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1164
+msgid "OpacSuggestionManagedBy"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1168
+msgid "Asks: \\_\\_\\_ the name of the staff member who managed a suggestion in OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1179
+msgid "If you're :ref:`allowing patrons to make purchase suggestions <suggestion-label>` then they will see the 'your purchase suggestions' tab when logged in. This tab shows the patron the librarian who approved or rejected the purchase suggestion. This preference controls if the patron sees the librarian's name or not."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1188
+msgid "opacthemes"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1192
+msgid "Asks: Use the \\_\\_\\_ theme on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1196
+msgid "bootstrap"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1198
+msgid "Bootstrap Theme"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1200
+msgid "This theme is completely responsive"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1205
+msgid "OPACURLOpenInNewWindow"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1207
+msgid "Default: don't"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1209
+msgid "Asks: When patrons click on a link to another website from your OPAC (like Amazon or OCLC), \\_\\_\\_ open the website in a new window."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1214
+msgid "do"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1216
+msgid "don't"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1220
+msgid "This preference determines if URLs in the OPAC will open in a new window or not. When clicking on a link in the OPAC, a patron does not need to worry about navigating away from their search results."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1227
+msgid "OPACUserCSS"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1229
+msgid "Asks: Include the following CSS on all pages in the OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1233
+msgid "OPACUserCSS allows the administrator to enter styles that will overwrite the OPAC's default CSS as defined in 'opaclayoutstylesheet' or 'opacstylesheet'. Styles may be entered for any of the selectors found in the default style sheet. The default stylesheet will likely be found at http://your\\_koha\\_address/opac-tmpl/bootstrap/css/opac.css. Unlike :ref:`OpacAdditionalStylesheet` and :ref:`opaclayoutstylesheet` this preference will embed the CSS directly on your OPAC pages."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1246
+msgid "OPACUserJS"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1248
+msgid "Asks: Include the following JavaScript on all pages in the OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1250
+msgid "|image91|"
+msgstr "|image91|"
+
+#: ../../source/opacpreferences.rst:1252
+msgid "|image92|"
+msgstr "|image92|"
+
+#: ../../source/opacpreferences.rst:1254
+msgid "|image93|"
+msgstr "|image93|"
+
+#: ../../source/opacpreferences.rst:1258
+msgid "This preference allows the administrator to enter JavaScript or JQuery that will be embedded across all pages of the OPAC. Administrators may use this preference to customize some of the interactive sections of Koha, customizing the text for the login prompts, for example. Sample JQuery scripts used by Koha libraries can be found on the wiki: http://wiki.koha-community.org/wiki/JQuery_Library."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1269
+msgid "OPACUserSummary"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1273
+msgid "Asks: \\_\\_\\_ a summary of a logged in user's checkouts, overdues, holds and fines on the mainpage"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1277
+msgid "When activated, this preference system replaces the login form on the OPAC main page by a summary when the user is logged in."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1282
+msgid "OPACXSLTDetailsDisplay"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1284 ../../source/opacpreferences.rst:1325
+#: ../../source/opacpreferences.rst:1366
+msgid "Default: default"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1286
+msgid "Asks: Display OPAC details using XSLT stylesheet at \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1290 ../../source/opacpreferences.rst:1331
+#: ../../source/opacpreferences.rst:1372
+msgid "leave empty to not use the XSLT stylesheet"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1292 ../../source/opacpreferences.rst:1333
+#: ../../source/opacpreferences.rst:1374
+msgid "In previous versions of Koha this was the setting that read 'normally'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1295 ../../source/opacpreferences.rst:1336
+#: ../../source/opacpreferences.rst:1377
+msgid "enter \"default\" for the default one"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1297 ../../source/opacpreferences.rst:1338
+#: ../../source/opacpreferences.rst:1379
+msgid "put a path to define a XSLT file"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1299 ../../source/opacpreferences.rst:1340
+#: ../../source/opacpreferences.rst:1381
+msgid "ex: /path/to/koha/and/your/stylesheet.xsl"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1301 ../../source/opacpreferences.rst:1342
+#: ../../source/opacpreferences.rst:1383
+msgid "If in a multi-language system you can enter {langcode} in the path to tell Koha to look in the right language folder"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1304
+msgid "ex: /home/koha/src/koha-tmpl/opac-tmpl/bootstrap/{langcode}/xslt/MARC21slim2OPACDetail.xsl"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1307 ../../source/opacpreferences.rst:1348
+#: ../../source/opacpreferences.rst:1389
+msgid "ex. http://mykohaopac.org/{langcode}/stylesheet.xsl"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1309 ../../source/opacpreferences.rst:1350
+#: ../../source/opacpreferences.rst:1391
+msgid "put an URL for an external specific stylesheet"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1311 ../../source/opacpreferences.rst:1352
+#: ../../source/opacpreferences.rst:1393
+msgid "ex: http://mykohaopac.org/stylesheet.xsl"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1315
+msgid "XSLT stylesheets allow for the customization of the details shows on the screen when viewing a bib record. This preference will allow you either use the default look that comes with Koha or design your own stylesheet."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1323
+msgid "OPACXSLTListsDisplay"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1327
+msgid "Asks: Display lists in the OPAC using XSLT stylesheet at \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1345 ../../source/opacpreferences.rst:1386
+msgid "ex: /home/koha/src/koha-tmpl/opac-tmpl/bootstrap/{langcode}/xslt/MARC21slim2OPACResults.xsl"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1356
+msgid "XSLT stylesheets allow for the customization of the details shows on the screen when viewing lists. This preference will allow you either use the default look that comes with Koha or design your own stylesheet."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1364
+msgid "OPACXSLTResultsDisplay"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1368
+msgid "Asks: Display OPAC results using XSLT stylesheet at \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1397
+msgid "XSLT stylesheets allow for the customization of the details shows on the screen when viewing the search results. This preference will allow you either use the default look that comes with Koha or design your own stylesheet."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1405
+msgid "Features"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1410
+msgid "numSearchRSSResults"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1414
+msgid "Asks: Display \\_\\_\\_ search results in the RSS feed."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1418
+msgid "By default the RSS feed that is automatically generated for every search results page will list 50 items. This can sometimes be too much for some RSS feed readers and for some people this isn't enough. This preference allows you to adjust this number to show the best number of results for your patrons."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1427
+msgid "OPACAcquisitionDetails"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1429 ../../source/opacpreferences.rst:1675
+#: ../../source/opacpreferences.rst:1733
+msgid "Default: Don't display"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1431
+msgid "Asks: \\_\\_\\_ the acquisition details on OPAC detail pages."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1435 ../../source/opacpreferences.rst:1683
+#: ../../source/opacpreferences.rst:1740
+msgid "Display"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1437
+msgid "|image1194|"
+msgstr "|image1194|"
+
+#: ../../source/opacpreferences.rst:1439 ../../source/opacpreferences.rst:1681
+#: ../../source/opacpreferences.rst:1751
+msgid "Don't display"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1443
+msgid "This preference shows the patrons how many items are on order in the Holdings tab if you have the :ref:`AcqCreateItem` set to 'cataloging the record'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1450
+msgid "OpacAuthorities"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1452 ../../source/opacpreferences.rst:1478
+#: ../../source/opacpreferences.rst:1595 ../../source/opacpreferences.rst:1690
+#: ../../source/opacpreferences.rst:1773 ../../source/opacpreferences.rst:1859
+#: ../../source/opacpreferences.rst:1900 ../../source/opacpreferences.rst:1919
+#: ../../source/opacpreferences.rst:2048 ../../source/opacpreferences.rst:2229
+#: ../../source/opacpreferences.rst:2379 ../../source/opacpreferences.rst:2671
+#: ../../source/opacpreferences.rst:2776
+msgid "Default: Allow"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1454
+msgid "Asks: \\_\\_\\_ patrons to search your authority records."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1458
+msgid "This preference displays the link on the OPAC for the authority search. By setting the preference to \"Allow\" patrons can use this search link of the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1464 ../../source/opacpreferences.rst:1484
+#: ../../source/opacpreferences.rst:1511 ../../source/opacpreferences.rst:1602
+#: ../../source/opacpreferences.rst:1619 ../../source/opacpreferences.rst:1696
+#: ../../source/opacpreferences.rst:1779 ../../source/opacpreferences.rst:1832
+#: ../../source/opacpreferences.rst:1865 ../../source/opacpreferences.rst:1906
+#: ../../source/opacpreferences.rst:1923 ../../source/opacpreferences.rst:2054
+#: ../../source/opacpreferences.rst:2083 ../../source/opacpreferences.rst:2235
+#: ../../source/opacpreferences.rst:2262 ../../source/opacpreferences.rst:2385
+#: ../../source/opacpreferences.rst:2537 ../../source/opacpreferences.rst:2566
+#: ../../source/opacpreferences.rst:2621 ../../source/opacpreferences.rst:2648
+#: ../../source/opacpreferences.rst:2780 ../../source/opacpreferences.rst:2840
+msgid "Allow"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1466
+msgid "A link labeled 'Authority search' will appear at the top of your OPAC under the search box"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1469
+msgid "|image94|"
+msgstr "|image94|"
+
+#: ../../source/opacpreferences.rst:1471 ../../source/opacpreferences.rst:1486
+#: ../../source/opacpreferences.rst:1513 ../../source/opacpreferences.rst:1606
+#: ../../source/opacpreferences.rst:1700 ../../source/opacpreferences.rst:1777
+#: ../../source/opacpreferences.rst:1838 ../../source/opacpreferences.rst:1867
+#: ../../source/opacpreferences.rst:1910 ../../source/opacpreferences.rst:1930
+#: ../../source/opacpreferences.rst:2059 ../../source/opacpreferences.rst:2085
+#: ../../source/opacpreferences.rst:2237 ../../source/opacpreferences.rst:2264
+#: ../../source/opacpreferences.rst:2389 ../../source/opacpreferences.rst:2539
+#: ../../source/opacpreferences.rst:2568 ../../source/opacpreferences.rst:2623
+#: ../../source/opacpreferences.rst:2650 ../../source/opacpreferences.rst:2784
+#: ../../source/opacpreferences.rst:2842
+msgid "Don't allow"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1476
+msgid "opacbookbag"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1480
+msgid "Asks: \\_\\_\\_ patrons to store items in a temporary \"Cart\" on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1490
+msgid "This preference allows the user to temporarily save a list of items found on the catalog. By using the book bag, or cart, the user can print out or email a list of items found. The user does not need to be logged in. This list is temporary and will be emptied, or cleared, at the end of the session."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1499
+msgid "OpacBrowser"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1503
+msgid "This preference only applies to installations using UNIMARC at this time."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1505 ../../source/opacpreferences.rst:1825
+#: ../../source/opacpreferences.rst:2256 ../../source/opacpreferences.rst:2530
+#: ../../source/opacpreferences.rst:2555 ../../source/opacpreferences.rst:2617
+#: ../../source/opacpreferences.rst:2635 ../../source/opacpreferences.rst:2836
+msgid "Default: Don't allow"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1507
+msgid "Asks: \\_\\_\\_ patrons to browse subject authorities on OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1517 ../../source/opacpreferences.rst:1564
+msgid "run the :ref:`authorities browser cron job <cron-authorities-browser-label>` to create the browser list"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1523
+msgid "OpacBrowseResults"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1525
+msgid "Default: enable"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1527
+msgid "Asks: \\_\\_\\_ browsing and paging search results from the OPAC detail page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1532
+msgid "disable"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1534
+msgid "enable"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1536
+msgid "|image95|"
+msgstr "|image95|"
+
+#: ../../source/opacpreferences.rst:1540
+msgid "This preference will control the option to return to your results and/or browse them from the detail page in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1546
+msgid "OpacCloud"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1550
+msgid "This preference only applies to French systems at this time."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1554
+msgid "Asks: \\_\\_\\_ a subject cloud on OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1570
+msgid "OPACDetailQRCode"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1572
+msgid "Default: Don't enable"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1574
+msgid "Asks: \\_\\_\\_ the option to show a QR Code on the OPAC bibliographic detail page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1585
+msgid "With this preference enabled a new option 'Send to device' displays in the list of options on the OPAC details page.  When this link is clicked a QR code will be displayed which can be scanned using a compatible device in order to save the bibliographic details to that device."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1593
+msgid "OPACFinesTab"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1597
+msgid "Asks: \\_\\_\\_ patrons to access the Fines tab on the 'your summary' page on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1604 ../../source/opacpreferences.rst:1698
+#: ../../source/opacpreferences.rst:1908 ../../source/opacpreferences.rst:2387
+#: ../../source/opacpreferences.rst:2493 ../../source/opacpreferences.rst:2518
+#: ../../source/opacpreferences.rst:2782
+msgid ":ref:`opacuserlogin` needs to be set to 'allow'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1611
+msgid "OpacHoldNotes"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1613
+msgid "Default: Do not allow"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1615
+msgid "Asks: \\_\\_\\_ users to add a note when placing a hold."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1621
+msgid "|image96|"
+msgstr "|image96|"
+
+#: ../../source/opacpreferences.rst:1623
+msgid "Do not allow"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1628
+msgid "OPACISBD"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1630
+msgid "Default: See `ISBD view configuration <https://wiki.koha-community.org/wiki/ISBD_view_configuration>` on the wiki."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1633
+msgid "Asks: Use the following as the OPAC ISBD template:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1637
+msgid "This determines how the ISBD information will display in the OPAC. Elements in the list can be reordered to produce a different ISBD view. ISBD, the International Standard Bibliographic Description, was first introduced by IFLA (International Federation of Library Associations) in 1969 in order to provide guidelines for descriptive cataloging. The purpose of ISBD is to aid the international exchange of bibliographic records for a variety of materials."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1648
+msgid "OpacItemLocation"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1650
+msgid "Asks: Show \\_\\_\\_ for items on the OPAC search results."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1652
+msgid "Default: library and call number"
+msgstr "預設值: 圖書館及索書號"
+
+#: ../../source/opacpreferences.rst:1656
+msgid "library and call number"
+msgstr "圖書館及索書號"
+
+#: ../../source/opacpreferences.rst:1658
+msgid "library, collection code, and call number"
+msgstr "圖書館, 收藏代碼以及索書號"
+
+#: ../../source/opacpreferences.rst:1660
+msgid "only library"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1662
+msgid "library, location, and call number"
+msgstr "圖書館, 位置以及索書號"
+
+#: ../../source/opacpreferences.rst:1666
+msgid "This setting allows users of the OPAC results XSLT stylesheet to choose to display collection code or location in addition to library and call number."
+msgstr "此設定允許OPAC results XSLT樣式表的讀者可以選擇展示收藏代碼或圖書館的位置及索書號."
+
+#: ../../source/opacpreferences.rst:1673
+msgid "OpacNewsLibrarySelect"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1677
+msgid "Asks: \\_\\_\\_ a branch selection list for news items in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1688
+msgid "OpacPasswordChange"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1692
+msgid "Asks: \\_\\_\\_ patrons to change their own password on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1704
+msgid "Enabling this will break LDAP authentication."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1709
+msgid "OPACpatronimages"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1713
+msgid "Asks: \\_\\_\\_ patron images on the patron information page in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1723
+msgid "If :ref:`patronimages` is set to allow the upload of patron images via the staff client, then setting this preference to 'show' will show the patron what image you have on file for them when they view their personal information on their account in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1731
+msgid "OPACPopupAuthorsSearch"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1735
+msgid "Asks: \\_\\_\\_ the list of authors/subjects in a popup for a combined search on OPAC detail pages."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1742
+msgid "Subject search pop up"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1746
+msgid "This will only display the pop up if you are not using an XSLT stylesheet. Review your :ref:`OPACXSLTDetailsDisplay` to find out what stylesheet you're using."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1753
+msgid "Authors and subjects will display as search links instead of pop up menus."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1758
+msgid "If this preference is set to 'Display' then clicking a subject or author from the details page in the OPAC will present the searcher with a pop up box. From this box you can check off any of the subjects or authors listed and search them all at once by clicking 'Search' at the bottom of the pop up. The default behavior is for Koha to search just the clicked author or subject."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1768
+msgid "OpacReportProblem"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1770
+msgid "Asks: \\_\\_\\_ patrons to submit problem reports for OPAC pages to the library or Koha administrator."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1783
+msgid "This system preference controls the 'Report a problem' feature on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1785
+msgid "This feature enables patrons to send problem reports from the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1787
+msgid "Problem reports are managed in the :ref:`OPAC problem reports <opac-problem-reports-tool>` tool"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1792
+msgid "This system preference requires that :ref:`KohaAdminEmailAddress` have a value."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1799
+msgid "OpacResetPassword"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1801
+msgid "Default: not allowed"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1803
+msgid "Asks: Library users are \\_\\_\\_ to recover their password via e-mail in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1808
+msgid "allowed"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1810
+msgid "|image1195|"
+msgstr "|image1195|"
+
+#: ../../source/opacpreferences.rst:1812
+msgid "not allowed"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1816
+msgid "This preference controls whether you present users of the public catalog with a 'Forgot your password' link or not. Learn more in the :ref:`OPAC section <resetting-your-password-label>` of this manual."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1823
+msgid "OpacTopissue"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1827
+msgid "Asks: \\_\\_\\_ patrons to access a list of the most checked out items on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1834
+msgid "A link to 'Most Popular' will appear at the top of your OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1836
+msgid "|image99|"
+msgstr "|image99|"
+
+#: ../../source/opacpreferences.rst:1842
+msgid "This preference allows the administrator to choose to show the \"Most Popular\" link at the top of the OPAC under the search box. The \"Most Popular\" page shows the top circulated items in the library, as determined by the number of times a title has been circulated. This allows users to see what titles are popular in their community. It is recommended that you leave this preference set to 'Don't allow' until you have been live on Koha for a couple of months, otherwise the data that it shows will not be an accurate portrayal of what's popular in your library."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1852
+msgid "|image100|"
+msgstr "|image100|"
+
+#: ../../source/opacpreferences.rst:1857
+msgid "opacuserlogin"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1861
+msgid "Asks: \\_\\_\\_ patrons to log in to their accounts on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1869
+msgid "The OPAC will still be searchable if patrons can't log in, this just disables the patron account access via the OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1875
+msgid "QuoteOfTheDay"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1877
+msgid "Asks: Show quote of the day in the \\_\\_\\_ main page"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1879
+msgid "Default: (none)"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1887
+msgid "staff interface"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1891
+msgid "This system preference allows you to choose where the quotes from the :ref:`quote of the day editor <quote-of-the-day-(qotd)-editor-label>` tool will appear."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1898
+msgid "RequestOnOpac"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1902
+msgid "Asks: \\_\\_\\_ patrons to place holds on items from the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1915
+msgid "OPACComments"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1917
+msgid "Asks: \\_\\_\\_ patrons to make comments on items on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1925
+msgid "Patrons comments/reviews all require moderation before they appear in the OPAC"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1928
+msgid ":ref:`opacuserlogin` needs to be set to 'Allow'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1934
+msgid "This system preference determines if patrons are allowed to submit comments on titles they have read on the OPAC. If this preference is set to \"Allow\" reviews are first sent to the staff interface for staff approval before the review is displayed in the OPAC. The staff member who reviews and approves comments may find the pending comments on the :ref:`comments tool <comments-label>`. The staff member can then choose to approve or delete the comments."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1942
+msgid "See also :"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1944
+msgid ":ref:`ShowReviewer`"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1946
+msgid ":ref:`ShowReviewerPhoto`"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1948
+msgid ":ref:`OpacShowRecentComments`"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1953
+msgid "ShowReviewer"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1955
+msgid "Default: full name"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1957
+msgid "Asks: Show \\_\\_\\_ of commenter with comments in OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1961
+msgid "first name"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1963
+msgid "first name and last initial"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1965
+msgid "full name"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1967
+msgid "last name"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1969
+msgid "no name"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1971
+msgid "username"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1975
+msgid "If you would like to protect your patron's privacy in the OPAC you can choose to hide their names or parts of their names from any of the comments they leave on bib records in your system. :ref:`OPACComments` needs to be set to 'Allow' for this to preference to come in to play"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1984
+msgid "ShowReviewerPhoto"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1988
+msgid "Asks: \\_\\_\\_ reviewer's photo beside comments in OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1992
+msgid "Hide"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:1996
+msgid ":ref:`OPACComments` needs to be set to 'Allow' and :ref:`ShowReviewer` needs to be set to 'Show' for this to preference to come in to play"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2000
+msgid "|image101|"
+msgstr "|image101|"
+
+#: ../../source/opacpreferences.rst:2004
+msgid "This system preference allows libraries to show avatars next to patron's comments in the OPAC. These avatars are pulled from the `Libravatar <https://www.libravatar.org>`__ library, an open source powered product that allows Internet users to choose a small icon to display next to their name on various different websites. The library has no control over the images the patron chooses to display."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2014
+msgid "SocialNetworks"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2016
+msgid "Default: Disable"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2018
+msgid "Asks: Show \\_\\_\\_ social network links in opac detail pages"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2020
+msgid "Options:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2022
+msgid "Email"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2024
+msgid "Facebook"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2026
+msgid "LinkedIn"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2028
+msgid "Twitter"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2030
+msgid "|image102|"
+msgstr "|image102|"
+
+#: ../../source/opacpreferences.rst:2034
+msgid "This preference will enable a line of social network share buttons below the right hand column on the detail pages of records in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2040
+msgid "In order for these share buttons to work when clicked you must have filled in your :ref:`OPACBaseURL` preference."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2046
+msgid "suggestion"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2050
+msgid "Asks: \\_\\_\\_ patrons to make purchase suggestions on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2056
+msgid ":ref:`opacuserlogin` needs to be set to 'allow' unless :ref:`AnonSuggestions` is set to 'allow'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2064
+msgid "Payments"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2066
+msgid "These preferences will allow you control the tools you use to accept online payments from your patrons via the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2072
+msgid "EnablePayPalOpacPayments and PayPalSandboxMode"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2074
+msgid "EnablePayPalOpacPayments Default: Don't allow"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2076
+msgid "PayPalSandboxMode Default: Sandbox"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2078
+msgid "Asks: \\_\\_\\_ patrons to make payments from the OPAC via PayPal in \\_\\_\\_ mode."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2081
+msgid "EnablePayPalOpacPayments values:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2087
+msgid "PayPalSandboxMode values:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2089
+msgid "Production"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2091
+msgid "Visit https://developer.paypal.com/ to get information for accepting payments in production"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2094
+msgid "Sandbox"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2096
+msgid "Visit https://developer.paypal.com/developer/accounts/ to get information for your sandbox account"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2101
+msgid "This preference will allow you to accept credit card payments via the OPAC for fines via PayPal. You will need to set up your PayPal account and it is recommended that you run tests before using this in production."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2108
+msgid "PayPayl's terms of service state that you cannot charge your patrons for the processing fees and so this plugin will not add additional fees to the charges."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2115
+msgid "PayPalChargeDescription"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2117
+msgid "Default: Koha fee payment"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2119
+msgid "Asks: The patron should see the charge description as \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2121
+msgid "Description"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2123
+msgid "This preference controls what the patron will see on their PayPal account/bank account for this charge."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2129
+msgid "PayPalPwd"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2131
+msgid "Asks: The password for the PayPal account to receive payments is \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2136
+msgid "PayPalReturnURL"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2138
+msgid "Asks: After payment or cancellation, PayPal should return to the \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2140
+msgid "Default: :ref:`OPACBaseURL`"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2144
+msgid ":ref:`OPACBaseURL`"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2146
+msgid "configured return URL"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2150
+msgid "This system preference lets you decide where a patron is redirected after they are done with their transaction, either the :ref:`OPACBaseURL` or the URL specified in the PayPal configuration"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2157
+msgid "PayPalSignature"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2159
+msgid "Asks: The signature for the PayPal account to receive payments is \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2164
+msgid "PayPalUser"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2166
+msgid "Asks: The email address to receive PayPal payments is \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2171
+msgid "Policy"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2176
+msgid "BlockExpiredPatronOpacActions"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2178
+msgid "Default: Don't block"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2180
+msgid "Asks: \\_\\_\\_ expired patrons from OPAC actions such as placing a hold or renewing."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2185
+msgid "Block"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2187
+msgid "Don't block"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2191
+msgid "This preference lets you set a default value for how Koha handles permissions for patrons who are expired. This preference can be overwritten by the setting on :ref:`individual patron categories <patron-categories-label>`."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2199
+msgid "MaxOpenSuggestions"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2201 ../../source/opacpreferences.rst:2365
+msgid "Default: blank"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2203
+msgid "Asks: Limit patrons to \\_\\_\\_ open suggestions. Leave empty for no limit."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2207
+msgid "This setting does not affect anonymous suggestions."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2212
+msgid "MaxTotalSuggestions and NumberOfSuggestionDays"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2214
+msgid "Asks: Number of total suggestions allowed \\_\\_\\_ in \\_\\_\\_ days."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2218
+msgid "This system preference is used to limit the number of suggestions a patron can make in a certain number of days."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2221
+msgid "For example, if you want to limit patrons to 10 suggestions per week, enter 10 and 7."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2227
+msgid "OpacAllowPublicListCreation"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2231
+msgid "Asks: \\_\\_\\_ opac users to create public lists."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2241
+msgid "Public lists are visible to anyone who visits your OPAC. With this preference you can control whether or now patrons are allowed to create these public lists. If this is set to \"Don't allow\" then only staff will be able to create public lists."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2248
+msgid "This preference will only be taken in to account if you have :ref:`virtualshelves` set to 'Allow'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2254
+msgid "OpacAllowSharingPrivateLists"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2258
+msgid "Asks: \\_\\_\\_ opac users to share private lists with other patrons."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2268
+msgid "This feature will add the option for patrons to share their lists with other patrons. When this is set to 'Allow' patrons will see a share link at the top of their list. When they click that link it will ask for the email of the patron they would like to share with. Koha will then email the patron an invitation to see the list."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2277
+msgid "OPACFineNoRenewals"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2279
+msgid "Default: 99999"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2281
+msgid "Asks: Only allow patrons to renew their own books on the OPAC if they have less than \\_\\_\\_ USD in fines"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2286
+msgid "Leave this field blank to disable"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2290
+msgid "To allow renewals in the OPAC, :ref:`opacuserlogin` needs to be set to 'allow'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2296
+msgid "OPACFineNoRenewalsIncludeCredits"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2300
+msgid "Asks: \\_\\_\\_ outstanding/unapplied credits when applying the OPACFineNoRenewals rule to users"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2311
+msgid "This preference controls whether the :ref:`OPACFineNoRenewals` function uses the account balance (which combines outstanding credits and debits) or account amount outstanding (which excludes any credits) to make the calculation."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2317
+msgid "Generally you would set this system preference to align with the :ref:`AccountAutoReconcile` system preference.  If you have AccountAutoReconcile set to ‘Do’ you should leave this system preference as ‘Include’.  If you have AccountAutoReconcile set to ‘Do not’ it would make sense to have this set as ‘Don’t include’."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2326
+msgid "OpacHiddenItems"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2328
+msgid "Asks: Allows to define custom rules for hiding specific items at opac."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2332
+msgid "In this field you can enter criteria for items you would like to hide from display in the OPAC. This field takes any combination of item fields (from the items table in the Koha database) for blocking. For example a value of:"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2342
+msgid "Will block items with an itype code of 07 or 10 as well as items that have a shelving location of STAFF or ISO."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2347
+msgid "Requires YAML syntax to work"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2349
+msgid "This means"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2351
+msgid "Make sure there is NO space between the field name and the colon"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2353
+msgid "Make sure there IS a space between the colon and the value"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2355
+msgid "If there are more than one values for the same field, put them in square brakets, separated by comma and space"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2358
+msgid "Make sure each pair is on its own line"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2363
+msgid "OpacHiddenItemsExceptions"
+msgstr "OpacHiddenItemsExceptions"
+
+#: ../../source/opacpreferences.rst:2367
+msgid "Asks: List of borrower categories, separated by (pipe) \\|, that can see items otherwise hidden by OpacHiddenItems"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2370
+msgid "Description: Patron category codes listed here separated by a pipe | will be able to view items on the OPAC that would otherwise be hidden by the OpacHiddenItems system preference."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2377
+msgid "OpacRenewalAllowed"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2381
+msgid "Asks: \\_\\_\\_ patrons to renew their own books on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2391
+msgid "Staff will still be able to renew items for patrons via the staff client"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2396
+msgid "This preference allows the administration to choose if patrons can renew their checked out materials via their checked out history in the OPAC. It allows patrons to renew their materials without having to contact the library or having to return to the library."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2404
+msgid "OpacRenewalBranch"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2406
+msgid "Default: the branch the item was checked out from"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2408
+msgid "Asks: Use \\_\\_\\_ as branchcode to store in the statistics table"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2412
+msgid "NULL"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2414
+msgid "'OPACRenew'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2416
+msgid "the item's home branch"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2418
+msgid "the patron's home branch"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2420
+msgid "the branch the item was checked out from"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2424
+msgid "This value is used in the statistics table to help with reporting. The statistics table in Koha keeps track of all checkouts and renewals, this preference defines which branch is entered in to the table when a patron renews an item for themselves via the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2432
+msgid "OPACSuggestionMandatoryFields"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2434 ../../source/opacpreferences.rst:2471
+msgid "Default: Blank"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2436
+msgid "Asks: Fields that should be mandatory for patron purchase suggestions: \\_\\_\\_ Note: if none of the above options are selected, 'Title' field would be mandatory anyway, by default."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2444
+msgid "Author"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2446
+msgid "Collection title"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2448
+msgid "Copyright or publication date"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2450
+msgid "ISBN, ISSN or other standard number"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2452
+msgid "Item type"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2454
+msgid "Library or branch"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2456
+msgid "Note"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2458
+msgid "Patron reason"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2460
+msgid "Publication place"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2462
+msgid "Publisher name"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2464
+msgid "Title"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2469
+msgid "OPACSuggestionUnwantedFields"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2473
+msgid "Asks: Fields that should be hidden for patron purchase suggestions: \\_\\_\\_ Note: Do not make OPACSuggestionMandatoryFields unwanted fields."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2476
+msgid "Values: As for :ref:`OPACSuggestionMandatoryFields` shown above."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2481
+msgid "OPACViewOthersSuggestions"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2485
+msgid "Asks: \\_\\_\\_ purchase suggestions from other patrons on the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2498
+msgid "SearchMyLibraryFirst"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2500
+msgid "Default: Don't limit"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2502
+msgid "Asks: \\_\\_\\_ patrons' searches to the library they are registered at."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2506
+msgid "Don't limit"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2508
+msgid "Searching the OPAC will show results from all libraries"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2510
+msgid "If you're a one branch system, choose 'Don't limit'"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2512
+msgid "Limit"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2514
+msgid "Patrons will still be able to search other libraries via the Advanced search page - but will be limited to searches for their library only from the basic search box"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2523
+msgid "Privacy"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2528
+msgid "AllowPatronToSetCheckoutsVisibilityForGuarantor"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2532
+msgid "Asks: \\_\\_\\_ patrons to choose their own privacy settings for showing the patron's checkouts to the patron's guarantor\"."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2543
+msgid "By default staff can see checkouts to family members via the staff client. This preference will allow guarantees (children) to grant permission to guarantors (guardians) to view their current checkouts via the public catalog. This preference requires that you allow patrons to choose their own privacy with the :ref:`OPACPrivacy` preference."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2553
+msgid "AnonSuggestions"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2557
+msgid "Asks: \\_\\_\\_ patrons that aren't logged in to make purchase suggestions."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2561
+msgid "If set to 'Allow', suggestions are connected to the :ref:`AnonymousPatron`"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2573
+msgid "AnonymousPatron"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2575 ../../source/opacpreferences.rst:3030
+msgid "Default: 0"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2577
+msgid "Asks: Use borrowernumber \\_\\_\\_ as the Anonymous Patron (for anonymous suggestions and reading history)"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2582
+msgid "Before setting this preference :ref:`create a patron <add-a-new-patron-label>` to be used for all anonymous suggestions and/or reading history items. This patron can be any type and should be named something to make it clear to you that they're anonymous (ex. Anonymous Patron)."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2589
+msgid "Remember to use the borrowernumber not the patron's cardnumber for this value. The borrowernumber can be found on the patron record under 'Library use' on the right."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2593
+msgid "|image1196|"
+msgstr "|image1196|"
+
+#: ../../source/opacpreferences.rst:2598
+msgid "EnableOpacSearchHistory"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2600
+msgid "Default: Keep"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2602
+msgid "Asks: \\_\\_\\_ patron search history in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2606
+msgid "Don't keep"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2608
+msgid "Keep"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2613
+msgid "OPACHoldsHistory"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2615
+msgid "Asks: \\_\\_\\_ patrons to see the list of their past holds."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2627
+msgid "This system preference determines if patrons are allowed to see their :ref:`holds history on the OPAC <your-holds-history-label>`."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2633
+msgid "OPACPrivacy"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2637
+msgid "Asks: \\_\\_\\_ patrons to choose their own privacy settings for their reading history."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2642
+msgid "This requires :ref:`opacreadinghistory` set to 'Allow' and :ref:`AnonymousPatron` to be set to your anonymous patron's borrowernumber."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2654
+msgid "The default privacy setting for each patron category can be set in the :ref:`patrons categories <patron-categories-label>` area. If you set this preference to 'allow' then patrons can change that for themselves via the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2661
+msgid "If patron has chosen to have their reading history anonymized and you have :ref:`StoreLastBorrower` set to \"Don't store\" then as soon as the item is checked in the last borrower will be anonymized."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2669
+msgid "opacreadinghistory"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2673
+msgid "Asks: \\_\\_\\_ patrons to see what books they have checked out in the past."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2678
+msgid "Enabling this will make it so that patrons can view their circulation history in the OPAC unless you have :ref:`OPACPrivacy` set to 'Allow'."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2684
+msgid "This data is stored in the system regardless of your choice, unless your patrons have chosen to never have their reading history kept."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2690
+msgid "TrackClicks"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2692
+msgid "Default: Don't track"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2694
+msgid "Asks: \\_\\_\\_ links that patrons click on."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2698
+msgid "Don't track"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2700
+msgid "Track"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2702
+msgid "Track anonymously"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2706
+msgid "By setting this preference to one of the track options you will allow Koha to track every link clicked in Koha. This data will be stored in a database table so that you can run reports against that data. If you choose to 'Track' clicks then Koha will record both the link clicked and the logged in user who clicked the link. If you choose to 'Track anonymously' then the borrowernumber will not be recorded, but the rest of the data will."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2716
+msgid "Remember to update your local privacy policies and link to them from the OPAC to notify your users that you are tracking their information."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2723
+msgid "Restricted Page"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2725
+msgid "Using the following preference you can create a page within your Koha system that is accessible by only specific IP addresses. This can be used to house links to databases that can only be accessed from with the library or other licensed content."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2733
+msgid "RestrictedPageContent"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2735
+msgid "Asks: HTML content of your restricted page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2740
+msgid "RestrictedPageLocalIPs"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2742
+msgid "Asks: Access from IP addresses beginning with \\_\\_\\_ do not need to be authenticated"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2747
+msgid "You can enter individual IPs as a comma separated list (ex: '127.0.0,127.0.1') or just the beginning of the IP range allowed (ex: '127.0.^)"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2754
+msgid "RestrictedPageTitle"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2756
+msgid "Asks: Use \\_\\_\\_ as title of your restricted page"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2760
+msgid "This title will appear in the breadcrumb and on the top of the restricted page."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2766
+msgid "Self registration and modification"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2771
+msgid "OPACPatronDetails"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2773
+msgid "Asks: \\_\\_\\_ patrons to notify the library of changes to their contact information from the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2788
+msgid "If patrons are allowed to notify the library of changes to their account then staff will need to approve the changes via the staff înterface. Notification of patron account requests will appear on the dashaboard below the list of modules with other pending actions."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2793
+msgid "|image97|"
+msgstr "|image97|"
+
+#: ../../source/opacpreferences.rst:2795
+msgid "Once you click the notification you will be presented with the changes the patron would like to make to their account and from there you can choose how to proceed."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2799
+msgid "|image98|"
+msgstr "|image98|"
+
+#: ../../source/opacpreferences.rst:2803
+msgid "You can control which fields patrons see and can modify via the OPAC by setting the :ref:`PatronSelfRegistrationBorrowerMandatoryField` and :ref:`PatronSelfRegistrationBorrowerUnwantedField` preferences."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2812
+msgid "PatronSelfModificationBorrowerUnwantedField"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2814
+msgid "Asks: The following `database columns <http://schema.koha-community.org/master/tables/borrowers.html>`__ will not appear on the patron self-modification screen: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2820
+msgid "This preference allows you to define which fields patrons can edit if you're allowing them to update their personal information via the public catalog with the :ref:`OPACPatronDetails` preference."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2827 ../../source/opacpreferences.rst:2895
+#: ../../source/opacpreferences.rst:2926
+msgid "Separate columns with \\|"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2832
+msgid "PatronSelfRegistration"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2834
+msgid "Asks: \\_\\_\\_ library patrons to register an account via the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2846
+msgid "Setting this preference to 'Allow' will provide a link on the OPAC to register for a new account. Using the other :ref:`self registration <self-registration-label>` system preferences you can control how this preference will function."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2851
+msgid "|image103|"
+msgstr "|image103|"
+
+#: ../../source/opacpreferences.rst:2855
+msgid "Patrons registering via the OPAC will not need to be approved by a librarian. For this reason it is recommended that you set up a provisional :ref:`patron category <patron-categories-label>` with no :ref:`circulation rights <circulation-and-fines-rules-label>`. That way patrons will have to come in to the library to verify their identity before given circulation rights at the library. Once the patron confirms their identity the library staff can change the category to one with permissions to check items out and place holds."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2867
+msgid "PatronSelfRegistrationAdditionalInstructions"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2869
+msgid "Asks: Display the following additional instructions for patrons who self register via the OPAC ( HTML is allowed ):"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2874
+msgid "This preference takes any HTML you'd like to display on the page the patron sees after successfully registering for their library card."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2880
+msgid "PatronSelfRegistrationBorrowerMandatoryField"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2882
+msgid "Asks: The following database columns must be filled in on the patron entry screen: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2885
+msgid "Default: surname\\|firstname"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2889
+msgid "This preference allows you to define what fields patrons must fill in on their self registration form. If any of the required fields are blank Koha will not let the patron register."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2899 ../../source/opacpreferences.rst:2930
+msgid "For help with field names, ask your system administrator or `view the database structure <http://schema.koha-community.org/master/tables/borrowers.html>`__ associated with the borrowers table."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2906
+msgid "If you're going to require that patrons verify their accounts via email with the :ref:`PatronSelfRegistrationVerifyByEmail` preference the email field will automatically be marked as required."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2914
+msgid "PatronSelfRegistrationBorrowerUnwantedField"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2916
+msgid "Asks: The following database columns will not appear on the patron entry screen: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2921
+msgid "Using this preference you can hide fields from the patron registration and update form in the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2938
+msgid "PatronSelfRegistrationConfirmEmail"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2940
+msgid "Asks: \\_\\_\\_ users to confirm their email address by entering it twice."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2942
+msgid "Default: Do not require"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2946
+msgid "Do not require"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2948 ../../source/opacpreferences.rst:3093
+msgid "Require"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2952
+msgid "If this preference is set to 'Require', users will have to enter their email address twice."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2955
+msgid "Make sure to enable this system preference if :ref:`PatronSelfRegistrationVerifyByEmail` is enabled."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2961
+msgid "PatronSelfRegistrationDefaultCategory"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2963
+msgid "Asks: Use the patron category code \\_\\_\\_ as the default patron category for patrons registered via the OPAC."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2968
+msgid "Enter in the patron :ref:`category code <patron-categories-label>` for the category that all new patrons registered via the OPAC will be put in to."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2973
+msgid "Do not use a regular :ref:`patron category <patron-categories-label>` for this, as any patron who has not completed the registration verification process will be deleted by the :ref:`cleanup\\_database.pl script <cron-clean-up-database-label>` after the number of days indicated in :ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay`, including regular patrons who have not registered online."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2983
+msgid "Patrons registering via the OPAC will not need to be approved by a librarian. For this reason it is recommended that you set up a provisional :ref:`patron category <patron-categories-label>` with no :ref:`circulation rights <circulation-and-fines-rules-label>`. That way, patrons will have to come in to the library to verify their identity before being given circulation rights at the library. Once the patron confirms their identiy, the library staff can change the category to one with permissions to check items out and place holds."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2994
+msgid "If you leave this blank or enter in an invalid code, your patrons will still be able to register but will not be given a username. There will be no errors on the page to explain this, so be sure to enter a valid patron category code."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:2999
+msgid "This system preference is required by :ref:`PatronSelfRegistration`."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3004
+msgid "PatronSelfRegistrationEmailMustBeUnique"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3006
+msgid "Asks: \\_\\_\\_ patron's email (borrowers.email) as unique on self registering. An email won't be accepted if it already exists in the database."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3009
+msgid "Default: Do not consider"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3013
+msgid "Do not consider"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3015
+msgid "Consider"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3019
+msgid "If enabled, this system preference will prevent user from creating several accounts with the same email address."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3025
+msgid "PatronSelfRegistrationExpireTemporaryAccountsDelay"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3027
+msgid "Asks: Delete patrons still in the category indicated by :ref:`PatronSelfRegistrationDefaultCategory` \\_\\_\\_ days after account creation."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3034
+msgid "This preference links to the :ref:`cleanup\\_database cron job <cron-clean-up-database-label>`. If that cron is set to run nightly with the --del-exp-selfreg parameter, it will clean up any registrations that have not been verified via email in the number of days entered on this preference."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3040
+msgid "This preference is dependent on the :ref:`PatronSelfRegistrationVerifyByEmail` system preference."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3046
+msgid "PatronSelfRegistrationLibraryList"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3048
+msgid "Asks: Enable the self registration for the following libraries: \\_\\_\\_ (separate branchcode with \\|). If empty, all libraries will be listed."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3053
+msgid "If only some libraries in your system are accepting self-registrated patrons, enter the list of :ref:`codes <libraries-label>` here and separate each with a pipe (\\|)."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3057
+msgid "If this system preference is left empty, all libraries will be listed."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3062
+msgid "PatronSelfRegistrationPrefillForm"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3064
+msgid "Asks: \\_\\_\\_ password and login form after a patron has self registered."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3066
+msgid "Default: Display and prefill"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3070
+msgid "Do not display and prefill"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3072
+msgid "Display and prefill"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3076
+msgid "This system preference is used to prefill (or not) the login form on the OPAC after self registration, so the patron doesn't have to type in the information."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3083
+msgid "PatronSelfRegistrationVerifyByEmail"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3085
+msgid "Asks: \\_\\_\\_ that a self-registering patron verify themselves via email."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3087
+msgid "Default: Don't require"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3091
+msgid "Don't require"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3097
+msgid "If you require patrons to verify their accounts via email they will not be able to log in to the OPAC until they acknowledge the email sent by Koha. If you don't require this then patrons will be able to log in as soon as they fill in the registration form. You can set the :ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay` preference to delete the un-verified self registrations after a certain number of days."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3107
+msgid "If you're going to require that patrons verify their accounts via email then the email field will automatically be marked as required."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3112
+msgid "If you require email verification, also set :ref:`PatronSelfRegistrationConfirmEmail` to 'Require' to prevent patrons from entering an erroneous email address and never being able to confirm their account."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3120
+msgid "Shelf Browser"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3125
+msgid "OPACShelfBrowser"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3129
+msgid "Asks: \\_\\_\\_ a shelf browser on item details pages, allowing patrons to see what's near that item on the shelf."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3138
+msgid "|image104|"
+msgstr "|image104|"
+
+#: ../../source/opacpreferences.rst:3142
+msgid "This preference allows patrons to view what is located on the shelf near the item they looked up. The shelf browser option appears on the details page to the right of each items' call number. Clicking the 'Browse Shelf' link allows for a virtual shelf browsing experience via the OPAC and lets patrons see other books that may relate to their search and items that sit on the shelf near the item they are looking at."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3152
+msgid "This uses up a fairly large amount of resources on your server, and should be avoided if your collection has a large number of items."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3158
+msgid "ShelfBrowserUsesCcode"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3160
+msgid "Default: Don't use"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3162
+msgid "Asks: \\_\\_\\_ the item collection code when finding items for the shelf browser."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3167 ../../source/opacpreferences.rst:3189
+#: ../../source/opacpreferences.rst:3210
+msgid "Don't use"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3169 ../../source/opacpreferences.rst:3191
+#: ../../source/opacpreferences.rst:3212
+msgid "Use"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3173
+msgid "If your library uses collection codes then you might want the shelf browser to take into consideration what collection the books belong to when populating the virtual shelf browser."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3180
+msgid "ShelfBrowserUsesHomeBranch"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3182 ../../source/opacpreferences.rst:3204
+msgid "Default: Use"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3184
+msgid "Asks: \\_\\_\\_ the item home branch when finding items for the shelf browser."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3195
+msgid "If you have a multiple branch system you may want to make sure that Koha takes into consideration what branch owns the books when populating the virtual shelf browser for accuracy."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3202
+msgid "ShelfBrowserUsesLocation"
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3206
+msgid "Asks: \\_\\_\\_ the item location when finding items for the shelf browser."
+msgstr ""
+
+#: ../../source/opacpreferences.rst:3216
+msgid "If your library uses shelving locations then you might want the shelf browser to take into consideration what shelving location the books belong to when populating the virtual shelf browser."
+msgstr ""
+
+#~ msgid "|image1452|"
+#~ msgstr "|image1452|"

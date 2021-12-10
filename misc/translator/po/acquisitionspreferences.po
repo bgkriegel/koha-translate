@@ -1,0 +1,705 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/acquisitionspreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/acquisitionspreferences.rst:6
+msgid "Acquisitions"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:8
+msgid "*Get there:* More > Administration > Global system preferences > Acquisitions"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:13
+msgid "EDIFACT"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:18
+msgid "EdifactInvoiceImport"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:20
+msgid "Asks: \\_\\_\\_ automatically import EDIFACT invoice message files when they are downloaded."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:23
+msgid "Default: Do"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:25
+#: ../../source/acquisitionspreferences.rst:52
+#: ../../source/acquisitionspreferences.rst:90
+#: ../../source/acquisitionspreferences.rst:144
+#: ../../source/acquisitionspreferences.rst:179
+#: ../../source/acquisitionspreferences.rst:203
+#: ../../source/acquisitionspreferences.rst:225
+#: ../../source/acquisitionspreferences.rst:247
+#: ../../source/acquisitionspreferences.rst:270
+#: ../../source/acquisitionspreferences.rst:423
+#: ../../source/acquisitionspreferences.rst:521
+#: ../../source/acquisitionspreferences.rst:551
+msgid "Values:"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:27
+#: ../../source/acquisitionspreferences.rst:92
+msgid "Do"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:29
+#: ../../source/acquisitionspreferences.rst:94
+msgid "Don't"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:31
+#: ../../source/acquisitionspreferences.rst:60
+#: ../../source/acquisitionspreferences.rst:96
+#: ../../source/acquisitionspreferences.rst:110
+#: ../../source/acquisitionspreferences.rst:126
+#: ../../source/acquisitionspreferences.rst:152
+#: ../../source/acquisitionspreferences.rst:185
+#: ../../source/acquisitionspreferences.rst:231
+#: ../../source/acquisitionspreferences.rst:255
+#: ../../source/acquisitionspreferences.rst:280
+#: ../../source/acquisitionspreferences.rst:308
+#: ../../source/acquisitionspreferences.rst:355
+#: ../../source/acquisitionspreferences.rst:429
+#: ../../source/acquisitionspreferences.rst:450
+#: ../../source/acquisitionspreferences.rst:472
+#: ../../source/acquisitionspreferences.rst:505
+#: ../../source/acquisitionspreferences.rst:527
+#: ../../source/acquisitionspreferences.rst:561
+msgid "Description:"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:33
+msgid "This feature allows libraries to delay the importing of EDI invoices until a time of their choosing. If the syspref is set to 'Don't' the invoices are imported into the database but the invoice processing is skipped. Instead, any invoice file listed in EDIfact messages with a status of 'New' will have an 'Import' button to process the invoice manually."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:41
+msgid "Policy"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:46
+msgid "AcqCreateItem"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:48
+msgid "Asks: Create an item when \\_\\_\\_."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:50
+msgid "Default: placing an order"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:54
+msgid "cataloging a record"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:56
+msgid "placing an order"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:58
+msgid "receiving an order"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:62
+msgid "This preference lets you decide when you'd like to create an item record in Koha."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:65
+msgid "If you choose to add an item record when 'placing an order', you will enter item information in as you :ref:`add records in your basket <create-a-basket-label>`."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:68
+msgid "If you choose to add the item when 'receiving an order' you will be asked for item record information when you're :ref:`receiving orders <receiving-orders-label>` in acquisitions."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:72
+msgid "If you choose to add the item when 'cataloging a record' then item records will not be created in acquisitions at all. You will need to go to the :ref:`cataloging module <cataloging-label>` to :ref:`add the items <adding-items-label>`."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:77
+msgid "Note that this setting can be overridden when :ref:`creating a basket <create-a-basket-label>`."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:83
+msgid "AcqEnableFiles"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:85
+msgid "Asks: \\_\\_\\_ enable the ability to upload and attach arbitrary files to invoices."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:88
+msgid "Default: Don't"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:98
+msgid "This preference controls whether or not you allow the :ref:`uploading of invoice files <attaching-files-to-invoices-label>` via the acquisitions module."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:105
+msgid "AcqItemSetSubfieldsWhenReceiptIsCancelled"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:107
+msgid "Asks: Upon cancelling a receipt, update the item's subfields if they were created when placing an order (e.g. o=5\\|a=\"bar foo\"\"). \\_\\_\\_"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:112
+msgid "This preference is used in conjunction with the :ref:`AcqItemSetSubfieldsWhenReceived` preference. If you have the system set to enter default values when you receive you will want to have those values revert back if the receipt is cancelled. This preference allows you to do that."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:121
+msgid "AcqItemSetSubfieldsWhenReceived"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:123
+msgid "Asks: Upon receiving items, update their subfields if they were created when placing an order (e.g. o=5\\|a=\"foo bar\"). \\_\\_\\_"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:128
+msgid "This preference allows you to set default values for items that you receive via acquisitions. Enter the data as subfield=value and split your values with a bar ( \\| ). For example you can remove the Ordered status on the item automatically when you receive it just by entering 7=0 in this preference. That will set the Not for Loan status (subfield 7) to 0 which is available."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:138
+msgid "AcqViewBaskets"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:140
+msgid "Asks: Show baskets \\_\\_\\_"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:142
+msgid "Default: created or managed by staff member"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:146
+msgid "in system, regardless of owner"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:148
+msgid "from staff member's library"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:150
+msgid "created or managed by staff member"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:154
+msgid "When in acquisitions, this preference allows you to control whose baskets you can see when looking at a vendor."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:157
+msgid "The default value of 'created or managed by staff member' makes it so that you only see the baskets you created."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:160
+msgid "Choosing to see baskets 'from staff member's library' will show you the baskets created by anyone at the branch you're logged in at."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:163
+msgid "Finally, you can choose to set this preference to show you all baskets regardless of who created it ('in system, regardless of owner')."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:166
+msgid "Regardless of which value you choose for this preference, superlibrarians can see all baskets created in the system."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:172
+msgid "AcqWarnOnDuplicateInvoice"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:174
+msgid "Asks: \\_\\_\\_ when the librarian tries to create an invoice with a duplicate number."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:177
+msgid "Default: Do not warn"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:181
+msgid "Do not warn"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:183
+msgid "Warn"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:187
+msgid "When set to 'Warn', Koha will let staff know if an invoice with the same number has already been created. The staff member will have a choice to either receive on the existing invoice or create a new one with the same number."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:192
+msgid "|acqwarnonduplicateinvoice|"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:197
+msgid "BasketConfirmations"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:199
+msgid "Asks: When closing or reopening a basket, \\_\\_\\_."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:201
+msgid "Default: always ask for confirmation"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:205
+msgid "always ask for confirmation"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:207
+msgid "do not ask for confirmation"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:209
+msgid "Descriptions:"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:211
+msgid "This preference adds the option to skip confirmations on closing and reopening a basket. If you skip the confirmation, you do not create a new basket group."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:218
+msgid "ClaimsBccCopy"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:220
+msgid "Asks: \\_\\_\\_ blind copy (BCC) to logged in user when sending serial or acquisitions claims notices."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:223
+msgid "Default: Don't send"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:227
+msgid "Don't send"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:229
+msgid "Send"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:233
+msgid "This system preference allows you to choose whether or not you want to send a copy of the claim email to the staff member when :ref:`claiming a late serial issue <claim-late-serials-label>` or a :ref:`late acquisitions order <claims-and-late-orders-label>`."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:241
+msgid "CurrencyFormat"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:243
+msgid "Asks: Display currencies using the following format \\_\\_\\_"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:245
+msgid "Default: 360,000.00 (US)"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:249
+msgid "360'000.00 (CH)"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:251
+msgid "360 000,00 (FR)"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:253
+msgid "360,000.00 (US)"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:257
+msgid "This system preference controls how prices are displayed in Koha."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:262
+msgid "EmailPurchaseSuggestions and EmailAddressForSuggestions"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:264
+msgid "Asks: Choose email address that new purchase suggestions will be sent to: \\_\\_\\_. If you choose EmailAddressForSuggestions you have to enter a valid email address: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:268
+msgid "Default: none"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:272
+msgid "none"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:274
+msgid "email address of branch"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:276
+msgid "EmailAddressForSuggestions"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:278
+msgid "KohaAdminEmailAddress"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:282
+msgid "If you want Koha to send purchase suggestions via email, choose which email address it should send them to"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:285
+msgid "none will deactivate this feature"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:287
+msgid "email address of branch will use the email address entered in the :ref:`libraries settings <libraries-label>`"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:290
+msgid "if you choose EmailAddressForSuggestions, enter the email address in the input field"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:293
+msgid "if you choose KohaAdminEmailAddress, the email will be sent to the main email address, as entered in :ref:`KohaAdminEmailAddress`"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:296
+msgid "You can customize the message that is sent with the :ref:`Notices and slips tool <notices-and-slips-label>`, the letter code is NEW\\_SUGGESTION"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:303
+msgid "MarcFieldsToOrder"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:305
+msgid "Asks: Set the mapping values for a new order line created from a MARC record in a staged file."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:310
+msgid "This preference includes MARC fields to check for order information to use when you :ref:`order from a new .mrc file <order-from-a-new-file-label>` or when you :ref:`order from a staged file <order-from-a-staged-file-label>` in acquisitions. You can use the following fields:"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:315
+#: ../../source/acquisitionspreferences.rst:381
+msgid "price,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:317
+msgid "quantity,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:319
+msgid "budget\\_code,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:321
+msgid "discount,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:323
+msgid "sort1, and"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:325
+msgid "sort2."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:327
+#: ../../source/acquisitionspreferences.rst:393
+msgid "For example:"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:337
+#: ../../source/acquisitionspreferences.rst:404
+msgid "Requires YAML syntax to work"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:339
+#: ../../source/acquisitionspreferences.rst:406
+msgid "This means"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:341
+#: ../../source/acquisitionspreferences.rst:408
+msgid "Make sure there is NO space between the field name and the colon"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:343
+#: ../../source/acquisitionspreferences.rst:410
+msgid "Make sure there IS a space between the colon and the value"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:345
+#: ../../source/acquisitionspreferences.rst:412
+msgid "Make sure each pair is on its own line"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:350
+msgid "MarcItemFieldsToOrder"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:352
+msgid "Asks: Set the mapping values for new item records created from a MARC record in a staged file."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:357
+msgid "This preference automatically generates items in Koha with populated information based on a 9XX field and subfield. You can use the following fields:"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:361
+msgid "homebranch,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:363
+msgid "holdingbranch,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:365
+msgid "itype,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:367
+msgid "nonpublic\\_note,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:369
+msgid "public\\_note,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:371
+msgid "loc,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:373
+msgid "ccode,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:375
+msgid "notforloan,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:377
+msgid "uri,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:379
+msgid "copyno,"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:383
+msgid "replacementprice, and"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:385
+msgid "itemcallnumber."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:387
+msgid "You can also use the following special fields:"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:389
+msgid "quantity, and"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:391
+msgid "budget_code."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:417
+msgid "OrderPriceRounding"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:419
+msgid "Asks: \\_\\_\\_ to nearest cent."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:421
+msgid "Default: Don't round"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:425
+msgid "Don't round"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:427
+msgid "Round"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:431
+msgid "This system preference determines whether full precision values or rounded values should be used in price calculations."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:434
+msgid "This is particularly important when your tax rates have more decimals than your currency"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:440
+msgid "PurgeSuggestionsOlderThan"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:442
+msgid "Asks: Keep accepted or rejected purchase suggestions for a period of \\_\\_\\_ days."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:447
+msgid "Leave this field empty if you don't want to activate this automatic feature."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:452
+msgid "Enter the number of days after which you want to automatically delete accepted or rejected purchase suggestions."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:455
+msgid "For example: [30] Sets purgation of suggestions for those older than 30 days."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:459
+msgid "This system preference is used when the cronjob :ref:`purge_suggestions.pl <cron-clean-up-old-suggestions-label>` is active and called without a specific number of days."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:466
+msgid "TaxRates"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:468
+msgid "Asks: Tax rates are \\_\\_\\_"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:470
+msgid "Default: 0"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:474
+msgid "This preference allows the library to define goods and services tax rates for acquisitions."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:477
+msgid "The first item in the list will be selected by default."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:481
+msgid "Enter this value as a number (.06) versus a percent (6%)."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:483
+msgid "For more than one value, separate with \\| (pipe)."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:485
+msgid "For example"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:487
+msgid "0|0.05|0.1496"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:489
+msgid "will give you choices of tax rates of 0%, 5% and 14.96%"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:493
+msgid "The database only accepts values up to 4 decimals, further values will be rounded."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:499
+msgid "UniqueItemFields"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:501
+msgid "Asks: The following database columns should be unique in an item: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:503
+msgid "Default: barcode"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:507
+msgid "If this preference is left blank when adding items in acquisitions there will be no check for uniqueness. This means that a duplicate barcode can be created in acquisitions which will cause errors later when checking items in and out."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:515
+msgid "UseACQFrameworkForBiblioRecords"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:517
+msgid "Asks: \\_\\_\\_ the framework 'ACQ' for bibliographic records fields"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:519
+msgid "Default: Don't use"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:523
+msgid "Don't use"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:525
+msgid "Use"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:529
+msgid "This system preference allows you to use the :ref:`ACQ bibliographic framework <marc-bibliographic-frameworks-label>` to customize the bibliographic record fields that are shown when ordering from acquisitions"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:534
+msgid "Note that this does not affect the item fields (in MARC21, field 952), which are always taken from the ACQ framework regardless of this system preference"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:540
+msgid "Printing"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:545
+msgid "OrderPdfFormat"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:547
+msgid "Asks: Use the \\_\\_\\_ layout when printing basket groups."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:549
+msgid "Default: English 3-page"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:555
+msgid "Values will depend on the installed languages in your Koha installation."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:557
+msgid "2-page"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:559
+msgid "3-page"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:563
+msgid "This preference determines how :ref:`basket groups <create-a-basket-group-label>` are printed when exported as PDFs."
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:566
+msgid "A 2-page layout will have vendor information on the first page and ordered titles on the second page"
+msgstr ""
+
+#: ../../source/acquisitionspreferences.rst:569
+msgid "A 3-page layout will additionally have a page with basket informations"
+msgstr ""
+

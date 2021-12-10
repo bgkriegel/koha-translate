@@ -1,0 +1,288 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-01 20:19-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/logspreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/logspreferences.rst:6
+msgid "Logs"
+msgstr ""
+
+#: ../../source/logspreferences.rst:8
+msgid "Logs keep track of transaction on the system. You can decide which actions you want to log and which you don't using these preferences. Logs can then be viewed in the :ref:`Log Viewer` under Tools."
+msgstr ""
+
+#: ../../source/logspreferences.rst:12
+msgid "*Get there:* More > Administration > Global System Preferences > Logs"
+msgstr ""
+
+#: ../../source/logspreferences.rst:17
+msgid "Debugging"
+msgstr ""
+
+#: ../../source/logspreferences.rst:22
+msgid "DumpSearchQueryTemplate"
+msgstr ""
+
+#: ../../source/logspreferences.rst:24
+msgid "Asks: \\_\\_\\_ dump search query as a template parameter."
+msgstr ""
+
+#: ../../source/logspreferences.rst:26 ../../source/logspreferences.rst:50
+#: ../../source/logspreferences.rst:66
+msgid "Default: Don't"
+msgstr ""
+
+#: ../../source/logspreferences.rst:28 ../../source/logspreferences.rst:55
+#: ../../source/logspreferences.rst:71
+msgid "Value:"
+msgstr ""
+
+#: ../../source/logspreferences.rst:30 ../../source/logspreferences.rst:57
+#: ../../source/logspreferences.rst:73
+msgid "Don't"
+msgstr ""
+
+#: ../../source/logspreferences.rst:32 ../../source/logspreferences.rst:59
+#: ../../source/logspreferences.rst:75
+msgid "Do"
+msgstr ""
+
+#: ../../source/logspreferences.rst:34 ../../source/logspreferences.rst:97
+#: ../../source/logspreferences.rst:133
+msgid "Description:"
+msgstr ""
+
+#: ../../source/logspreferences.rst:36
+msgid "This enhancement allows you to view the search query used by Zebra or Elasticsearch, to help with troubleshooting."
+msgstr ""
+
+#: ../../source/logspreferences.rst:39
+msgid "Make sure to enable :ref:`DumpTemplateVarsIntranet` and/or :ref:`DumpTemplateVarsOpac` otherwise this system preference will have no effect."
+msgstr ""
+
+#: ../../source/logspreferences.rst:43
+msgid "The dumped query will be in the page source under 'search_query'."
+msgstr ""
+
+#: ../../source/logspreferences.rst:48
+msgid "DumpTemplateVarsIntranet"
+msgstr ""
+
+#: ../../source/logspreferences.rst:52
+msgid "Asks: \\_\\_\\_ dump all Template Toolkit variable to a comment in the HTML source for the staff intranet."
+msgstr ""
+
+#: ../../source/logspreferences.rst:64
+msgid "DumpTemplateVarsOpac"
+msgstr ""
+
+#: ../../source/logspreferences.rst:68
+msgid "Asks: \\_\\_\\_ dump all Template Toolkit variable to a comment in the HTML source for the OPAC."
+msgstr ""
+
+#: ../../source/logspreferences.rst:80
+msgid "Logging"
+msgstr ""
+
+#: ../../source/logspreferences.rst:85
+msgid "AuthFailureLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:87
+msgid "Asks: \\_\\_\\_ authentication failures"
+msgstr ""
+
+#: ../../source/logspreferences.rst:89 ../../source/logspreferences.rst:108
+#: ../../source/logspreferences.rst:125 ../../source/logspreferences.rst:163
+#: ../../source/logspreferences.rst:184 ../../source/logspreferences.rst:214
+#: ../../source/logspreferences.rst:279
+msgid "Default: Don't log"
+msgstr ""
+
+#: ../../source/logspreferences.rst:91 ../../source/logspreferences.rst:112
+#: ../../source/logspreferences.rst:127 ../../source/logspreferences.rst:148
+#: ../../source/logspreferences.rst:167 ../../source/logspreferences.rst:188
+#: ../../source/logspreferences.rst:203 ../../source/logspreferences.rst:218
+#: ../../source/logspreferences.rst:233 ../../source/logspreferences.rst:248
+#: ../../source/logspreferences.rst:268 ../../source/logspreferences.rst:283
+#: ../../source/logspreferences.rst:298 ../../source/logspreferences.rst:313
+msgid "Values:"
+msgstr ""
+
+#: ../../source/logspreferences.rst:93 ../../source/logspreferences.rst:114
+#: ../../source/logspreferences.rst:129 ../../source/logspreferences.rst:150
+#: ../../source/logspreferences.rst:169 ../../source/logspreferences.rst:190
+#: ../../source/logspreferences.rst:205 ../../source/logspreferences.rst:220
+#: ../../source/logspreferences.rst:235 ../../source/logspreferences.rst:250
+#: ../../source/logspreferences.rst:270 ../../source/logspreferences.rst:285
+#: ../../source/logspreferences.rst:300 ../../source/logspreferences.rst:315
+msgid "Don't log"
+msgstr ""
+
+#: ../../source/logspreferences.rst:95 ../../source/logspreferences.rst:116
+#: ../../source/logspreferences.rst:131 ../../source/logspreferences.rst:152
+#: ../../source/logspreferences.rst:171 ../../source/logspreferences.rst:192
+#: ../../source/logspreferences.rst:207 ../../source/logspreferences.rst:222
+#: ../../source/logspreferences.rst:237 ../../source/logspreferences.rst:252
+#: ../../source/logspreferences.rst:272 ../../source/logspreferences.rst:287
+#: ../../source/logspreferences.rst:302 ../../source/logspreferences.rst:317
+msgid "Log"
+msgstr ""
+
+#: ../../source/logspreferences.rst:99
+msgid "This system preference controls whether or not Koha should log when a patron fails to successfully authenticate on the OPAC (or a staff member in the staff interface)."
+msgstr ""
+
+#: ../../source/logspreferences.rst:106
+msgid "AuthoritiesLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:110
+msgid "Asks: \\_\\_\\_ changes to authority records."
+msgstr ""
+
+#: ../../source/logspreferences.rst:121
+msgid "AuthSuccessLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:123
+msgid "Asks: \\_\\_\\_ successful authentications"
+msgstr ""
+
+#: ../../source/logspreferences.rst:135
+msgid "This system preference controls whether or not Koha should log when a patron successfully authenticates on the OPAC (or a staff member in the staff interface)"
+msgstr ""
+
+#: ../../source/logspreferences.rst:142
+msgid "BorrowersLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:144 ../../source/logspreferences.rst:199
+#: ../../source/logspreferences.rst:229 ../../source/logspreferences.rst:244
+#: ../../source/logspreferences.rst:294 ../../source/logspreferences.rst:309
+msgid "Default: Log"
+msgstr ""
+
+#: ../../source/logspreferences.rst:146
+msgid "Asks: \\_\\_\\_ changes to patron records."
+msgstr ""
+
+#: ../../source/logspreferences.rst:154 ../../source/logspreferences.rst:254
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/logspreferences.rst:156
+msgid "Enabling this preference allows the tracking of cardnumber changes for patrons"
+msgstr ""
+
+#: ../../source/logspreferences.rst:161
+msgid "CataloguingLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:165
+msgid "Asks: \\_\\_\\_ any changes to bibliographic or item records."
+msgstr ""
+
+#: ../../source/logspreferences.rst:173
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/logspreferences.rst:175
+msgid "Since this occurs whenever a book is cataloged, edited, or checked in or out it can be very resource intensive - slowing down your system."
+msgstr ""
+
+#: ../../source/logspreferences.rst:182
+msgid "CronjobLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:186
+msgid "Asks: \\_\\_\\_ information from cron jobs."
+msgstr ""
+
+#: ../../source/logspreferences.rst:197
+msgid "FinesLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:201
+msgid "Asks: \\_\\_\\_ when overdue fines are charged or automatically forgiven."
+msgstr ""
+
+#: ../../source/logspreferences.rst:212
+msgid "HoldsLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:216
+msgid "Asks: \\_\\_\\_ any actions on holds (create, cancel, suspend, resume, etc.)."
+msgstr ""
+
+#: ../../source/logspreferences.rst:227
+msgid "IssueLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:231
+msgid "Asks: \\_\\_\\_ when items are checked out."
+msgstr ""
+
+#: ../../source/logspreferences.rst:242
+msgid "LetterLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:246
+msgid "Asks: \\_\\_\\_ when an automatic claim notice is sent."
+msgstr ""
+
+#: ../../source/logspreferences.rst:256
+msgid "This log tracks all notices that go to patrons including the overdue notices."
+msgstr ""
+
+#: ../../source/logspreferences.rst:262
+msgid "RenewalLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:264
+msgid "Default:  Don't log"
+msgstr ""
+
+#: ../../source/logspreferences.rst:266
+msgid "Asks: \\_\\_\\_ when items are renewed."
+msgstr ""
+
+#: ../../source/logspreferences.rst:277
+msgid "ReportsLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:281
+msgid "Asks: \\_\\_\\_ when reports are added, deleted or changed."
+msgstr ""
+
+#: ../../source/logspreferences.rst:292
+msgid "ReturnLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:296
+msgid "Asks: \\_\\_\\_ when items are returned."
+msgstr ""
+
+#: ../../source/logspreferences.rst:307
+msgid "SubscriptionLog"
+msgstr ""
+
+#: ../../source/logspreferences.rst:311
+msgid "Asks: \\_\\_\\_ when serials are added, deleted or changed."
+msgstr ""
+

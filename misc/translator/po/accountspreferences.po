@@ -1,0 +1,207 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 17:20-0300\n"
+"PO-Revision-Date: 2021-03-01 20:19-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /zh_TW/man20.11/accountspreferences.po\n"
+"X-Pootle-Revision: 1\n"
+
+#: ../../source/accountspreferences.rst:6
+msgid "Accounting"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:8
+msgid "*Get there:* More > Administration > Global system preferences > Acquisitions"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:14
+msgid "Features"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:19
+msgid "AutoCreditNumber"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:21
+msgid "Asks: \\_\\_\\_"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:23
+msgid "Default: Do not automatically generate credit numbers"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:25
+#: ../../source/accountspreferences.rst:56
+#: ../../source/accountspreferences.rst:80
+#: ../../source/accountspreferences.rst:105
+#: ../../source/accountspreferences.rst:126
+#: ../../source/accountspreferences.rst:147
+msgid "Values:"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:27
+msgid "Do not automatically generate credit numbers"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:29
+msgid "Automatically generate credit numbers in the form <year>-0001"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:31
+msgid "Automatically generate credit numbers in the form <branchcode>yyyymm0001"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:33
+msgid "Automatically generate credit numbers in the form 1, 2, 3"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:35
+#: ../../source/accountspreferences.rst:62
+#: ../../source/accountspreferences.rst:86
+#: ../../source/accountspreferences.rst:111
+#: ../../source/accountspreferences.rst:132
+#: ../../source/accountspreferences.rst:153
+msgid "Description:"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:37
+msgid "For auditing purposes, it might be necessary to attach a unique number to each credit (payments, writeoffs, refunds, etc.). This system preference allows you to choose the format of this unique number."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:41
+#: ../../source/accountspreferences.rst:66
+msgid "**Important**"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:43
+msgid "Automatic generation also has to be enabled for each :ref:`credit type <credit-types-label>`."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:49
+msgid "EnablePointOfSale"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:51
+msgid "Asks: \\_\\_\\_ the point of sale feature to allow anonymous transactions with the accounting system."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:54
+msgid "Default: Disable"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:58
+msgid "Disable"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:60
+msgid "Enable"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:64
+msgid "This system preference controls the :ref:`point of sale module <point-of-sale-label>`."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:68
+msgid "If you enable this system preference, make sure to enable :ref:`UseCashRegisters` as well."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:74
+msgid "UseCashRegisters"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:76
+msgid "Asks: \\_\\_\\_ cash registers with the accounting system to track payments."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:78
+msgid "Default: Don't use"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:82
+msgid "Don't use"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:84
+msgid "Use"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:88
+msgid "This preference enables the :ref:`cash registers <cashregisters-label>` feature in the administration module."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:94
+msgid "Policy"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:99
+msgid "AccountAutoReconcile"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:101
+msgid "Asks: \\_\\_\\_ reconcile patron balances automatically on each transaction adding debits or credits."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:103
+msgid "Default: Do not"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:107
+#: ../../source/accountspreferences.rst:128
+#: ../../source/accountspreferences.rst:151
+msgid "Do"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:109
+msgid "Do not"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:113
+msgid "This preference controls whether or not credits are automatically used to to reduce the owed amounts in a patron's account."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:119
+msgid "FinePaymentAutoPopup"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:121
+msgid "Asks: \\_\\_\\_ automatically display a print dialog for a payment receipt when making a payment."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:124
+#: ../../source/accountspreferences.rst:145
+msgid "Default: Don't"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:130
+#: ../../source/accountspreferences.rst:149
+msgid "Don't"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:134
+msgid "If activated, when :ref:`making a payment <pay-and-writeoff-fines-label>` in a patron's account, a printing popup will be displayed automatically instead of having to click on the 'print' button."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:141
+msgid "RoundFinesAtPayment"
+msgstr ""
+
+#: ../../source/accountspreferences.rst:143
+msgid "Asks: \\_\\_\\_ round fines to the nearest cent when collecting payments."
+msgstr ""
+
+#: ../../source/accountspreferences.rst:155
+msgid "Enabling this preference allows paying fines of partial cents which may not be visible in the interface."
+msgstr ""
+
