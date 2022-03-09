@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-19 17:04-0300\n"
-"PO-Revision-Date: 2022-02-16 20:42+0000\n"
-"Last-Translator: Marjorie  Barry-Vila <marjorie.barry-vila@ccsr.qc.ca>\n"
+"PO-Revision-Date: 2022-03-08 16:10+0000\n"
+"Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
 "Language-Team: French Canada <koha-translate@lists.koha-community.org>\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1645044163.456019\n"
+"X-POOTLE-MTIME: 1646755816.433337\n"
 "X-Pootle-Path: /fr_CA/21.05/fr-CA-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -2555,10 +2555,10 @@ msgid ""
 "%s An error occurred when adding this quote. %s Quote updated successfully. "
 "%s Quote added successfully. %s %s %s "
 msgstr ""
-"%s %s Une erreur s'est produite lors de la mise à jour de cette citation. "
-"Peut-être qu'elle existait déjà. %s Une erreur est survenue lors de l'ajout "
-"de cette citation. %s La citation a été mise à jour avec succès. %s La "
-"citation a été ajoutée avec succès. %s %s %s "
+"%s %s Une erreur est survenue lors de la mise à jour de cette citation. Elle "
+"existait peut-être déjà. %s Une erreur est survenue lors de l'ajout de cette "
+"citation. %s La citation a été mise à jour avec succès. %s La citation a été "
+"ajoutée avec succès. %s %s %s "
 
 #. %1$s:  SWITCH m.code 
 #. %2$s:  CASE 'error_on_profile_store' 
@@ -3594,8 +3594,8 @@ msgstr ""
 "%s %s Utiliser la valeur par défaut (rembourser les frais de document perdu) "
 "%s Utiliser la valeur par défaut (rembourser les frais de document perdu et "
 "remettre les amendes de retard) %s Utiliser la valeur par défaut (rembourser "
-"les frais de document perdu et ajouter les amendes de retard) %s Utiliser la "
-"valeur par défaut (garder le frais de document perdu) %s "
+"les frais de document perdu et ajouter de nouvelles amendes de retard) %s "
+"Utiliser la valeur par défaut (garder le frais de document perdu) %s "
 
 #. %1$s:  END 
 #. %2$s:  IF ( resultsloo.onholdcount ) 
@@ -8245,7 +8245,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:317
 #, c-format
 msgid "%s on %s"
-msgstr "%s sur %s"
+msgstr "%s le %s"
 
 #. %1$s:  ELSIF ( hardduedatecompare == '0' ) 
 #. %2$s:  hardduedate | $KohaDates 
@@ -9182,8 +9182,8 @@ msgid ""
 "%sChecked out to %s %s Last renewed %s, %s %s Due back on %s %s Not checked "
 "out %s %s &nbsp;"
 msgstr ""
-"%sEmprunté à %s %s Dernier renouvellement %s, %s %s Date d'échéance %s %s "
-"Non emprunté %s %s &nbsp;"
+"%sPrêté à %s %s Dernier renouvellement %s, %s %s Date d'échéance %s %s Non "
+"emprunté %s %s &nbsp;"
 
 #. %1$s:  IF humanbranch 
 #. %2$s:  Branches.GetName( humanbranch ) | html 
@@ -9314,7 +9314,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:45
 #, c-format
 msgid "%sEdit course%sCreate course%s"
-msgstr "%sModifier%sCréer un cours%s"
+msgstr "%sModifier un cours%sCréer un cours%s"
 
 #. %1$s:  IF is_edit || course_reserve 
 #. %2$s:  ELSE 
@@ -10801,9 +10801,9 @@ msgid "(None)"
 msgstr "(Aucun)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:152
-#, fuzzy, c-format
+#, c-format
 msgid "(Not lost)"
-msgstr "Non défini "
+msgstr "(Non perdu)"
 
 #. %1$s:  biblionumber | html 
 #. %2$s:  ELSE 
@@ -11359,7 +11359,7 @@ msgstr "-- Aucun(e) --"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:143
 #, c-format
 msgid "-- Select an option--"
-msgstr "-- Sélectionnez une option --"
+msgstr "-- Sélectionner une option --"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:298
 #, c-format
@@ -13109,7 +13109,7 @@ msgstr "Ajouter des documents"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:25
 #, c-format
 msgid "Add reserves for "
-msgstr "Ajouter des exemplaires pour "
+msgstr "Ajouter des documents à la réserve de "
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/includes/borrower_debarments.inc:66
@@ -15167,7 +15167,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:91
 #, c-format
 msgid "Are you sure you want to delete the following quote?"
-msgstr "Êtes-vous sûr de vouloir supprimer la citation suivante?"
+msgstr "Voulez-vous vraiment supprimer la citation suivante?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:142
@@ -15513,7 +15513,7 @@ msgstr "Êtes-vous sûr de vouloir supprimer cet exemplaire de sa rotation?"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:288
 msgid "Are you sure you want to remove this item from the course?"
-msgstr "Êtes vous sûr de vouloir enlever cet exemplaire du cours?"
+msgstr "Voulez-vous vraiment retirer cet exemplaire du cours?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:506
@@ -15567,8 +15567,8 @@ msgid ""
 "Are you sure you want to write off %s in outstanding fines? This cannot be "
 "undone!"
 msgstr ""
-"Êtes-vous sûr de vouloir amnistier %s du montant total des amendes? Cette "
-"action n'est pas réversible! "
+"Voulez-vous vraiment amnistier %s du montant total des amendes? Cette action "
+"est irréversible!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:476
 #, c-format
@@ -16666,7 +16666,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/includes/labels-toolbar.inc:10
 #, c-format
 msgid "Barcode range"
-msgstr "Intervalle de code-barres"
+msgstr "Intervalle de codes-barres"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1159
 #, c-format
@@ -17243,12 +17243,12 @@ msgstr "Modification de notices en lot &rsaquo; Outils &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:38
 #, c-format
 msgid "Batch remove reserves"
-msgstr "Retrait en lot de réserves de cours"
+msgstr "Retrait en lot de documents"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:22
 #, c-format
 msgid "Batch remove reserves "
-msgstr "Retrait en lot de réserves de cours "
+msgstr "Retrait en lot de documents "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-errors.inc:2
 #, c-format
@@ -19843,8 +19843,8 @@ msgid ""
 "Categories to be assigned to file uploads. Without a category an upload is "
 "considered temporary and may be removed during automated cleanup."
 msgstr ""
-"Catégories à être assignées aux téléchargements de fichiers. Sans une "
-"catégorie, un téléchargement est considéré comme temporaire et peut être "
+"Catégories à être assignées aux téléversements de fichiers. Sans une "
+"catégorie, un téléversement est considéré comme temporaire et peut être "
 "retiré pendant un nettoyage automatique."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:108
@@ -20697,10 +20697,8 @@ msgid ""
 "Checking the box next to the field label will enable changes to that field. "
 "Leave boxes unchecked to make no change."
 msgstr ""
-"En cochant la boîte à droite de l'étiquette de la sous-zone, vous "
-"désactiverez l'entrée et supprimerez toutes les valeurs de cette sous-zone "
-"dans tous les exemplaires sélectionnés. Laisser les zones vides ne fera "
-"aucun changement."
+"Cocher la boîte à côté de l'étiquette du champ pour modifier le champ. "
+"Laisser les boîtes décochées pour ne faire aucun changement."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:225
 #, c-format
@@ -20777,13 +20775,13 @@ msgstr "Historique de prêt "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:42
 #, c-format
 msgid "Checkout history for %s"
-msgstr "Historique de prêt pour %s"
+msgstr "Historique de prêt de %s"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:9
 #, c-format
 msgid "Checkout history for %s &rsaquo; Catalog &rsaquo; Koha"
-msgstr "Historique de prêt pour %s &rsaquo; Catalogue &rsaquo; Koha"
+msgstr "Historique de prêt de %s &rsaquo; Catalogue &rsaquo; Koha"
 
 #. %1$s:  patrons_to_anonymize.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:218
@@ -21742,8 +21740,8 @@ msgstr "Cliquez sur la carte pour définir la géolocalisation pour %s"
 msgid ""
 "Click the \"Choose file\" button and select the csv file to be uploaded."
 msgstr ""
-"Cliquez sur «&nbsp;Choisissez le fichier&nbsp;» et sélectionnez le fichier "
-"CSV à téléverser."
+"Cliquez sur \"Choisissez le fichier\" et sélectionnez le fichier CSV à "
+"téléverser."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:349
 #, c-format
@@ -22261,7 +22259,7 @@ msgstr "La collection a été transférée avec succès"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:66
 #, c-format
 msgid "Collection:"
-msgstr "Collection&nbsp;: "
+msgstr "Collection&nbsp;:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:149
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:121
@@ -23583,13 +23581,13 @@ msgstr "Cours n°"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:36
 #, c-format
 msgid "Course details for "
-msgstr "Détails du cours pour "
+msgstr "Informations du cours "
 
 #. %1$s:  course.course_name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:9
 #, c-format
 msgid "Course details for %s &rsaquo; Course reserves &rsaquo; Koha"
-msgstr "Détails du cours %s &rsaquo; Réserve de cours &rsaquo; Koha"
+msgstr "Informations du cours %s &rsaquo; Réserve de cours &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:67
 #, c-format
@@ -23868,7 +23866,7 @@ msgstr "Créer un lot d'étiquettes"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:92
 #, c-format
 msgid "Create manual credit"
-msgstr "Créer crédit manuel"
+msgstr "Créer un crédit manuel"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/mancredit.tt:10
 #, c-format
@@ -23882,7 +23880,7 @@ msgstr "Créer un crédit manuel &rsaquo; Utilisateurs &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:89
 #, c-format
 msgid "Create manual invoice"
-msgstr "Créer facture manuelle"
+msgstr "Créer une facture manuelle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/maninvoice.tt:11
 #, c-format
@@ -24185,7 +24183,7 @@ msgstr "Bibliothèque actuelle"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:118
 #, c-format
 msgid "Current library:"
-msgstr "Bibliothèque temporaire:"
+msgstr "Bibliothèque dépositaire :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:535
 #, c-format
@@ -25773,7 +25771,7 @@ msgstr "Supprimer les listes publiques "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:126
 #, c-format
 msgid "Delete quote"
-msgstr "Supprimer la(les) citation(s)"
+msgstr "Supprimer la citation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-toolbar.inc:39
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:70
@@ -28700,7 +28698,7 @@ msgstr "Code d'erreur 0 inutilisé"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:155
 msgid "Error deleting quote #%s. Check the logs."
 msgstr ""
-"Erreur lors de la suppression de la citation #%s. Vérifier les journaux."
+"Erreur lors de la suppression de la citation #%s. Vérifier les registres."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:297
@@ -32049,7 +32047,7 @@ msgstr "Bibliothèque dépositaire"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:99
 #, c-format
 msgid "Holding library:"
-msgstr "Emplacement temporaire&nbsp;:"
+msgstr "Bibliothèque dépositaire :"
 
 #. %1$s:  itemloop.size() || 0 | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:274
@@ -32649,7 +32647,7 @@ msgstr "Bibliothèque de rattachement inconnue."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:88
 #, c-format
 msgid "Home library:"
-msgstr "Bibliothèque de rattachement :"
+msgstr "Bibliothèque propriétaire :"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -32998,7 +32996,7 @@ msgstr "ISBN/EAN/ISSN&nbsp;: %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1031
 #, c-format
 msgid "ISBN:"
-msgstr "ISBN&nbsp;: "
+msgstr "ISBN&nbsp;:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:202
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:205
@@ -33108,7 +33106,7 @@ msgstr "ISSN : "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:260
 #, c-format
 msgid "Icon"
-msgstr "Icone"
+msgstr "Icône"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:161
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/localization.tt:63
@@ -34437,18 +34435,18 @@ msgstr "Instructions"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:112
 #, c-format
 msgid "Instructor search:"
-msgstr "Recherche formateurs&nbsp;:"
+msgstr "Recherche d'enseignant&nbsp;:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:52
 #, c-format
 msgid "Instructors"
-msgstr "Formateurs"
+msgstr "Enseignants"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:101
 #, c-format
 msgid "Instructors:"
-msgstr "Formateurs&nbsp;:"
+msgstr "Enseignants&nbsp;:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:86
 #, c-format
@@ -34767,7 +34765,7 @@ msgstr "Référence fournisseur inverse"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:302
 #, c-format
 msgid "Invoice number:"
-msgstr "Référence fournisseur"
+msgstr "Numéro de facture :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:221
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:340
@@ -35125,13 +35123,13 @@ msgstr "Détails de l'exemplaire"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:30
 #, c-format
 msgid "Item details "
-msgstr "Détails de l'exemplaire "
+msgstr "Informations de l'exemplaire "
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:9
 #, c-format
 msgid "Item details for %s &rsaquo; Catalog &rsaquo; Koha"
-msgstr "détails de l'exemplaire pour %s &rsaquo; Catalogue &rsaquo; Koha"
+msgstr "Informations de l'exemplaire de %s &rsaquo; Catalogue &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:965
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1017
@@ -36427,7 +36425,7 @@ msgstr "Dernier emprunt&nbsp;: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:314
 #, c-format
 msgid "Last borrower:"
-msgstr "Dernier emprunteur: "
+msgstr "Dernier emprunteur :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:75
 #, c-format
@@ -39377,7 +39375,7 @@ msgstr "Type de matériaux"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:107
 #, c-format
 msgid "Materials specified:"
-msgstr "Type de matériaux: "
+msgstr "Matériel d'accompagnement :"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -40502,7 +40500,7 @@ msgstr "NON RETOURNÉ "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/picture-upload.tt:129
 #, c-format
 msgid "NOTE:"
-msgstr "NOTE:"
+msgstr "NOTE :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search-results.inc:21
 #, c-format
@@ -41127,9 +41125,9 @@ msgid "New item"
 msgstr "Ajouter un nouvel exemplaire"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:149
-#, fuzzy, c-format
+#, c-format
 msgid "New item lost value:"
-msgstr "Ajouter un type de document"
+msgstr "Nouvelle valeur d'exemplaire perdu:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:114
 #, c-format
@@ -41660,7 +41658,8 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:159
 #, c-format
 msgid "No DEPARTMENT authorized values found! %s Please "
-msgstr "Ajouter une valeur autorisée pour %s "
+msgstr ""
+"Il n'y a aucune valeur autorisée dans la catégorie DEPARTMENT! %s Veuillez "
 
 #. For the first occurrence,
 #. %1$s:  booksellername | html 
@@ -41699,8 +41698,8 @@ msgid ""
 "No TERM authorised values found! Please create one or more authorised values "
 "with the category TERM."
 msgstr ""
-"Aucune valeur autorisée TERM n'a été trouvée! Veuillez créer une ou "
-"plusieurs valeurs autorisées avec la catégorie TERM."
+"Il n'y a aucune valeur autorisée dans la catégorie TERM! Veuillez créer une "
+"ou plusieurs valeurs autorisées dans la catégorie TERM."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:261
 #, c-format
@@ -42571,7 +42570,7 @@ msgstr "No."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:64
 #, c-format
 msgid "No. of items:"
-msgstr "Exemplaires&nbsp;:"
+msgstr "Nombre d'exemplaires&nbsp;:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:60
 #, c-format
@@ -44377,7 +44376,7 @@ msgstr "Date de la commande"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:280
 #, c-format
 msgid "Order date:"
-msgstr "Date de la commande"
+msgstr "Date de la commande :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/showorder.tt:2
 #, c-format
@@ -44800,7 +44799,7 @@ msgstr "Crédits inutilisés : "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/pay.tt:152
 #, c-format
 msgid "Outstanding credits could be applied: "
-msgstr "Des crédits en suspens pourraient être appliqués: "
+msgstr "Des crédits en suspens pourraient être appliqués : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/overdrive.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/overdrive.tt:35
@@ -45026,7 +45025,7 @@ msgstr "Pages :"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:317
 #, c-format
 msgid "Paid for?:"
-msgstr "Payé pour ?"
+msgstr "Payé? :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:80
@@ -47845,7 +47844,7 @@ msgstr "Adresse postale&nbsp;: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:33
 #, c-format
 msgid "Posted on %s%s by "
-msgstr "Posté le %s%s par"
+msgstr "Publié le %s%s par "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -48678,7 +48677,7 @@ msgstr "Date de publication&nbsp;:  "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:60
 #, c-format
 msgid "Publication details:"
-msgstr "Détails de publication:"
+msgstr "Informations de publication :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:156
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:382
@@ -49584,7 +49583,8 @@ msgstr "Rembourser les frais de document perdu"
 #, c-format
 msgid "Refund lost item charge and charge new overdue fine"
 msgstr ""
-"Rembourser les frais de document perdu et ajouter les amendes de retard"
+"Rembourser les frais de document perdu et ajouter de nouvelles amendes de "
+"retard"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:814
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:819
@@ -49910,7 +49910,7 @@ msgstr "Enlever"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/borrower_debarments.inc:45
 #, c-format
 msgid "Remove "
-msgstr "Enlever"
+msgstr "Enlever "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:492
 #, c-format
@@ -49920,7 +49920,7 @@ msgstr "Enlever &quot;En demande&quot;"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:54
 #, c-format
 msgid "Remove all reserves"
-msgstr "Supprimer les réserves de cours"
+msgstr "Enlever tous les documents"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -49982,7 +49982,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:36
 #, c-format
 msgid "Remove items: scan barcodes"
-msgstr "Supprimer les exemplaires de la réserve: scannez les code-barres"
+msgstr "Retirer des exemplaires de la réserve : scanner les codes-barres"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:254
 #, c-format
@@ -50008,8 +50008,7 @@ msgstr "Enlever le profil"
 #, c-format
 msgid "Remove reserves &rsaquo; Course reserves &rsaquo; Koha"
 msgstr ""
-"Supprimer les exemplaires de la réserve &rsaquo; Réserves de cours &rsaquo; "
-"Koha"
+"Retirer des exemplaires de la réserve &rsaquo; Réserve de cours &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:132
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:213
@@ -50377,7 +50376,7 @@ msgstr "Coût de remplacement"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:106
 #, c-format
 msgid "Replacement price:"
-msgstr "Coût de remplacement:"
+msgstr "Coût de remplacement :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:146
 #, c-format
@@ -51028,9 +51027,9 @@ msgid "Resolved claims"
 msgstr "Déclarations de retour résolues"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:15
-#, fuzzy, c-format
+#, c-format
 msgid "Resolved?"
-msgstr "Déclarations de retour résolues"
+msgstr "Résolu?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:290
 #, c-format
@@ -53363,7 +53362,7 @@ msgstr "Sélectionner un modèle"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:72
 #, c-format
 msgid "Select a template to be applied: "
-msgstr "Sélectionnez un modèle à appliquer&nbsp;: "
+msgstr "Sélectionner un modèle à appliquer&nbsp;: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:239
 #, c-format
@@ -54514,7 +54513,7 @@ msgstr "Localisation sélectionnée&nbsp;: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:77
 #, c-format
 msgid "Shelving location:"
-msgstr "Localisation:"
+msgstr "Localisation :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:128
 #, c-format
@@ -54630,9 +54629,9 @@ msgstr "Voir"
 
 #. %1$s:  patron.return_claims.unresolved.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:5
-#, fuzzy, c-format
+#, c-format
 msgid "Show %s unresolved claims"
-msgstr "Déclarations de retour irrésolues"
+msgstr "Afficher les %s réclamations non résolues"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:228
@@ -54697,9 +54696,9 @@ msgstr "Tout afficher"
 
 #. %1$s:  patron.return_claims.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:4
-#, fuzzy, c-format
+#, c-format
 msgid "Show all %s claim(s)"
-msgstr "Afficher toutes les colonnes"
+msgstr "Afficher toutes les %s réclamations"
 
 # Recherche:&nbsp;
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:212
@@ -54743,7 +54742,7 @@ msgstr "afficher tous les détails"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:9
 #, c-format
 msgid "Show all items"
-msgstr "Tous exemplaires"
+msgstr "Afficher tous les exemplaires"
 
 #. For the first occurrence,
 #. %1$s:  hiddencount | html 
@@ -55327,7 +55326,7 @@ msgstr "Notices sources"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:69
 #, c-format
 msgid "Source: "
-msgstr "Source: "
+msgstr "Source : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:638
 #, c-format
@@ -55990,7 +55989,7 @@ msgstr "Statut : "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:109
 #, c-format
 msgid "Statuses %s( %s%s %s %sLost%s %sDamaged%s %sWithdrawn%s )%s"
-msgstr "Statuts %s( %s%s %s %sPerdu%s %sAbîmé%s %sRetiré%s )%s"
+msgstr "Statuts %s( %s%s %s %sPerdu%s %sEndommagé%s %sRetiré%s )%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:209
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:211
@@ -56843,7 +56842,7 @@ msgstr "Gestion des suggestions "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:163
 #, c-format
 msgid "Suggestions pending approval: "
-msgstr "Suggestions en attente d'approbation: "
+msgstr "Suggestions en attente d'approbation : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/suggestions-add-search.inc:6
 #, c-format
@@ -57632,7 +57631,7 @@ msgstr "Session&nbsp;:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:95
 #, c-format
 msgid "Term: "
-msgstr "Session&nbsp;:"
+msgstr "Session&nbsp;: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:171
 #, c-format
@@ -57758,7 +57757,7 @@ msgstr "Texte à afficher"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:74
 #, c-format
 msgid "Text: "
-msgstr "Texte: "
+msgstr "Texte : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:243
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:245
@@ -58349,7 +58348,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:70
 #, c-format
 msgid "The following invalid barcodes were skipped:"
-msgstr "Les code-barres suivants invalides ont été ignorés :"
+msgstr "Les code-barres non valides suivants ont été ignorés :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:111
 #, c-format
@@ -58369,7 +58368,7 @@ msgstr "Les éléments suivants ont été modifiés:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:57
 #, c-format
 msgid "The following items were removed from all courses:"
-msgstr "Les exemplaires suivants ont été enlevés de tous les cours:"
+msgstr "Les exemplaires suivants ont été retirés de tous les cours :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:249
 #, c-format
@@ -59264,12 +59263,12 @@ msgstr "Il n'y a pas de modifications d'utilisateurs en attente."
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:155
 msgid "There are no quotes defined."
-msgstr "Il n'y a aucune citation définie."
+msgstr "Aucune citation n'est définie."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:118
 #, c-format
 msgid "There are no quotes defined. "
-msgstr "Il n'y a aucune citation définie. "
+msgstr "Aucune citation n'est définie. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:162
 #, c-format
@@ -61081,7 +61080,7 @@ msgstr "Sujets"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cashup_summary.inc:18
 #, c-format
 msgid "Total"
-msgstr "Total&nbsp;"
+msgstr "Total"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/ordered.tt:110
 #, c-format
@@ -61176,7 +61175,7 @@ msgstr "Total des prêts en date d'hier"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:307
 #, c-format
 msgid "Total checkouts:"
-msgstr "Total des prêts&nbsp;:"
+msgstr "Nombre total de prêts&nbsp;:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:80
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:67
@@ -62507,12 +62506,12 @@ msgstr "Téléverser le fichier&nbsp;:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:61
 #, c-format
 msgid "Upload image"
-msgstr "Chargement de l'image"
+msgstr "Téléverser une image"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:114
 #, c-format
 msgid "Upload images"
-msgstr "Chargement des images"
+msgstr "Téléverser des images"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:5
 #, c-format
@@ -62527,12 +62526,12 @@ msgstr "Téléverser des images &rsaquo; Outils &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/tools-menu.inc:93
 #, c-format
 msgid "Upload local cover image"
-msgstr "Téléversement d'images de couverture locales"
+msgstr "Téléverser une image de couverture locale"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:54
 #, c-format
 msgid "Upload local cover image "
-msgstr "Téléverser des images de couverture locales "
+msgstr "Téléverser une image de couverture locale "
 
 #. %1$s:  biblionumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:101
@@ -63600,7 +63599,7 @@ msgstr "Voir dossier existant"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:90
 #, c-format
 msgid "View final record"
-msgstr "Voir l'enregistrement final"
+msgstr "Voir la notice finale"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:495
@@ -63772,7 +63771,7 @@ msgstr "Volume numéro"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:758
 #, c-format
 msgid "Volume:"
-msgstr "Volume&nbsp;: "
+msgstr "Volume&nbsp;:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:53
@@ -64423,7 +64422,7 @@ msgstr "Rédiger des nouvelles pour les interfaces OPAC et intranet "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:88
 #, c-format
 msgid "Write off"
-msgstr "Amnistie"
+msgstr "Amnistier"
 
 #. INPUT type=submit name=woall
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/pay.tt:166
@@ -64967,7 +64966,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:75
 #, c-format
 msgid "You are only viewing one item. "
-msgstr "Vous ne visualisez qu'un exemplaire."
+msgstr "Un seul exemplaire est affiché. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:528
 #, c-format
@@ -66772,7 +66771,7 @@ msgstr "créer un nouveau profil CSV"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:162
 #, c-format
 msgid "create one or more authorized values"
-msgstr "Créer une ou plus de valeurs autorisées"
+msgstr "créer une ou plusieurs valeurs autorisées"
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:70
@@ -67679,7 +67678,7 @@ msgstr "etiquette_unique_%s.pdf"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:94
 #, c-format
 msgid "last on: %s"
-msgstr "dernier prêt le&nbsp;: %s"
+msgstr "pour la dernière fois le&nbsp;: %s"
 
 #. INPUT type=text name=from_subfield
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:231
@@ -68879,8 +68878,8 @@ msgid ""
 "with the category DEPARTMENT. %s An administrator must create one or more "
 "authorized values with the category DEPARTMENT. %s "
 msgstr ""
-"Aucune valeur autorisée DEPARTMENT n'a été trouvée! %s Veuillez créer une ou "
-"plusieurs valeurs autorisées avec la catégorie DEPARTMENT. %s"
+"dans la catégorie DEPARTMENT. %s Un administrateur doit créer une ou "
+"plusieurs valeurs autorisées dans la catégorie DEPARTMENT. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:898
 #, c-format

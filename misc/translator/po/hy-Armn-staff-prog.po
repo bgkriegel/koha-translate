@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "POT-Creation-Date: 2022-02-19 17:08-0300\n"
-"PO-Revision-Date: 2022-02-16 16:36+0000\n"
+"PO-Revision-Date: 2022-02-25 07:32+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team <koha-translate@nongnu.org>\n"
 "Language: hy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-Bookmarks: 1755,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-"X-POOTLE-MTIME: 1645029392.852500\n"
+"X-POOTLE-MTIME: 1645774370.332468\n"
 "X-Pootle-Path: /hy/21.05/hy-Armn-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -50634,9 +50634,9 @@ msgid "Resolved claims"
 msgstr "Լուծված պահանջներ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:15
-#, fuzzy, c-format
+#, c-format
 msgid "Resolved?"
-msgstr "Լուծված պահանջներ"
+msgstr "Լուծվա՞ծ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:290
 #, c-format
@@ -54211,9 +54211,9 @@ msgstr "Ցույց տուր"
 
 #. %1$s:  patron.return_claims.unresolved.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:5
-#, fuzzy, c-format
+#, c-format
 msgid "Show %s unresolved claims"
-msgstr "Չլուծված հայցեր"
+msgstr "Ցույց տուր %s չլուծված հայցերը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:228
@@ -54277,9 +54277,9 @@ msgstr "Ցույց տալ ամբողջը"
 
 #. %1$s:  patron.return_claims.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:4
-#, fuzzy, c-format
+#, c-format
 msgid "Show all %s claim(s)"
-msgstr "Ցույց տուր բոլոր սյունակները"
+msgstr "Ցույց տուր բոլոր %s հայցերը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:212
 #, c-format

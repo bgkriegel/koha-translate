@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "POT-Creation-Date: 2022-02-19 17:00-0300\n"
-"PO-Revision-Date: 2022-02-15 16:35+0000\n"
+"PO-Revision-Date: 2022-03-09 11:30+0000\n"
 "Last-Translator: Eugenios Papadopoulos <eugenios.papadopoulos@gmail.com>\n"
 "Language-Team: Koha Translation Team <koha-translate@nongnu.org>\n"
 "Language: el\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1644942913.841389\n"
+"X-POOTLE-MTIME: 1646825450.548684\n"
 "X-Pootle-Path: /el/21.05/el-GR-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -6507,6 +6507,13 @@ msgid ""
 "Sorry, but we did not find any MARC tags in the reference record. %s Sorry, "
 "but we did not find a record for number: %s. %s %s %s "
 msgstr ""
+"%s Αριθμός εγγραφών που παρέχονται για συγχώνευση: %s. Μόνο 2 εγγραφές "
+"δύναται να συγχωνευτούν κάθε φορά. %s Δεν μπορείτε να συγχωνεύσετε μια "
+"εγγραφή με τον εαυτό της. Παρακαλώ επιλέξτε δύο διαφορετικούς καθιερωμένους "
+"όρους. %s Το Προεπιλεγμένο πλαίσιο δεν μπορεί να χρησιμοποιηθεί ή δεν "
+"υπάρχει. παρακαλώ επιλέξτε άλλο πλαίσιο για συγχώνευση. %s Συγνώμη, αλλά δεν "
+"εντοπίστηκε κανένα πεδίο MARC στην αναφορική εγγραφή. %s Συγνώμη, αλλά δεν "
+"βρέθηκε εγγραφή για τον αριθμό: %s. %s %s %s "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1040
@@ -15364,7 +15371,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:262
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:506
 msgid "At least two records must be selected for merging."
-msgstr "Τουλάχιστον δύο εγγραφές πρέπει να επιλεγούν για τη συγχώνευση."
+msgstr "Πρέπει να επιλεγούν τουλάχιστον δύο εγγραφές για τη συγχώνευση."
 
 #. %1$s:  Branches.GetName(subscription.branchcode) || subscription.branchcode | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:684
@@ -21486,7 +21493,7 @@ msgstr "Αντιγραφή σε όλες τις βιβλιοθήκες"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:422
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:314
 msgid "Clone"
-msgstr "Κλώνος"
+msgstr "Κλωνοποίησε"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:25
 #, fuzzy, c-format
@@ -21528,7 +21535,7 @@ msgstr "Κλωνοποίηση αυτού του υποπεδίου"
 #, c-format
 msgid "Cloning circulation and fine rules %s from \"%s\"%s %s to \"%s\"%s "
 msgstr ""
-"Αντιγραφή κανόνων δανεισμού και προστίμων %s από \"%s\"%s %s έως \"%s\"%s"
+"Αντιγραφή κανόνων δανεισμού και προστίμων %s από \"%s\"%s %s σε \"%s\"%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:44
 #, c-format
@@ -32862,7 +32869,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:134
 #, c-format
 msgid "If all unavailable"
-msgstr "Αν είναι όλα μη διαθέσιμα"
+msgstr "Αν όλα είναι μη διαθέσιμα"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:217
 #, c-format
@@ -32872,9 +32879,9 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:323
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:456
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:133
-#, fuzzy, c-format
+#, c-format
 msgid "If any unavailable"
-msgstr "ή οποιοδήποτε διαθέσιμο"
+msgstr "Αν κάποια είναι μη διαθέσιμα"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:150
 #, fuzzy, c-format
@@ -39244,15 +39251,15 @@ msgstr "Συγχώνευση εγγραφών"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/merge.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:30
-#, fuzzy, c-format
+#, c-format
 msgid "Merging records "
-msgstr "Συγχώνευση εγγραφών"
+msgstr "Συγχώνευση εγγραφών "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/merge.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:7
-#, fuzzy, c-format
+#, c-format
 msgid "Merging records &rsaquo; Cataloging &rsaquo; Koha"
-msgstr "Koha &rsaquo; Καταλογογράφηση &rsaquo;"
+msgstr "Συγχώνευση εγγραφών &rsaquo; Καταλογογράφηση &rsaquo; Koha"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities_js.inc:2
@@ -41402,15 +41409,15 @@ msgstr "Δεν έχουν επιλεγεί καθιερωμένοι όροι."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:136
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:513
-#, fuzzy, c-format
+#, c-format
 msgid "No automatic renewal after"
-msgstr "Αυτόματη ανανέωση"
+msgstr "Δεν επιτρέπεται αυτόματη ανανέωση μετά από"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:137
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:514
-#, fuzzy, c-format
+#, c-format
 msgid "No automatic renewal after (hard limit)"
-msgstr "Αυτόματη ανανέωση"
+msgstr "Δεν επιτρέπεται αυτόματη ανανέωση μετά από (σκληρό όριο)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:183
 #, fuzzy, c-format
@@ -43744,13 +43751,13 @@ msgid "Only on-site checkouts are allowed"
 msgstr "Μόνο οι επιτόπιοι δανεισμοί επιτρέπονται"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:906
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Only patrons from libraries in the same item's home library hold groups may "
 "put this book on hold."
 msgstr ""
-"Μόνο μέλη από την οικεία βιβλιοθήκη του τεκμηρίου μπορούν να κάνουν κράτηση "
-"σε αυτό το βιβλίο."
+"Μόνο μέλη σε ομάδες κράτησης με βιβλιοθήκες ίδιες με την οικεία βιβλιοθήκη "
+"του τεκμηρίου μπορούν να κάνουν κράτηση σε αυτό το βιβλίο."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:907
 #, c-format
@@ -67618,24 +67625,24 @@ msgid "s/"
 msgstr "s/"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:68
-#, fuzzy, c-format
+#, c-format
 msgid "same library, all patron categories, all item types"
-msgstr "ίδια βιβλιοθήκη, όλοι οι τύποι μελους, όλοι οι τύποι τεκμηρίου"
+msgstr "ίδια βιβλιοθήκη, όλες οι κατηγορίες μέλους, όλοι οι τύποι τεκμηρίου"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:67
-#, fuzzy, c-format
+#, c-format
 msgid "same library, all patron categories, same item type"
-msgstr "ίδια βιβλιοθήκη, όλοι οι τύποι μελους, ίδιος τύπος τεκμηρίου"
+msgstr "ίδια βιβλιοθήκη, όλες οι κατηγορίας μέλους, ίδιος τύπος τεκμηρίου"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:66
-#, fuzzy, c-format
+#, c-format
 msgid "same library, same patron category, all item types"
-msgstr "ίδια βιβλιοθήκη, ίδιος τύπος μέλους, όλοι οι τύποι τεκμηρίου"
+msgstr "ίδια βιβλιοθήκη, ίδια κατηγορία μέλους, όλοι οι τύποι τεκμηρίου"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:65
-#, fuzzy, c-format
+#, c-format
 msgid "same library, same patron category, same item type"
-msgstr "ίδια βιβλιοθήκη, ίδιος τύπος μέλους, ίδιος τύπος τεκμηρίου"
+msgstr "ίδια βιβλιοθήκη, ίδια κατηγορία μέλους, ίδιος τύπος τεκμηρίου"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:206
 #, fuzzy, c-format

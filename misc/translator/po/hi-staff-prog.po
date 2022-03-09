@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "POT-Creation-Date: 2022-02-19 17:07-0300\n"
-"PO-Revision-Date: 2022-02-18 04:35+0000\n"
+"PO-Revision-Date: 2022-02-24 05:55+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1645158913.995570\n"
+"X-POOTLE-MTIME: 1645682159.113455\n"
 "X-Pootle-Path: /hi/21.05/hi-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -50169,9 +50169,9 @@ msgid "Resolved claims"
 msgstr "हल किए गए दावे"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:15
-#, fuzzy, c-format
+#, c-format
 msgid "Resolved?"
-msgstr "हल किए गए दावे"
+msgstr "हल किया?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:290
 #, c-format
@@ -53727,9 +53727,9 @@ msgstr "दिखाना"
 
 #. %1$s:  patron.return_claims.unresolved.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:5
-#, fuzzy, c-format
+#, c-format
 msgid "Show %s unresolved claims"
-msgstr "हल नही किए गए दावे"
+msgstr "दिखाए %s अनसुलझे दावे "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:228
@@ -53793,9 +53793,9 @@ msgstr "सभी दिखाए"
 
 #. %1$s:  patron.return_claims.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:4
-#, fuzzy, c-format
+#, c-format
 msgid "Show all %s claim(s)"
-msgstr "सभी स्तंभों दिखाएँ"
+msgstr "दिखाएं सभी %s दावा(ए)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:212
 #, c-format

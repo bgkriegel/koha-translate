@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "POT-Creation-Date: 2022-02-19 17:20-0300\n"
-"PO-Revision-Date: 2022-02-21 08:27+0000\n"
+"PO-Revision-Date: 2022-02-24 12:26+0000\n"
 "Last-Translator: Ilona <szczudlo@biblos.pk.edu.pl>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1645432041.951077\n"
+"X-POOTLE-MTIME: 1645705609.491074\n"
 "X-Pootle-Path: /pl/21.05/pl-PL-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -1037,10 +1037,11 @@ msgstr ""
 "%s %s %s %sOpłata za utworzenie konta %sOpłata za odnowienie konta %sOpłata "
 "za zagubiony egzemplarz %sOpłata ręczna %sNowa karta %sNależność %sOpłata za "
 "przetwarzanie zagubionego egzemplarza %sOpłata za wynajem %sDzienna opłata "
-"za wynajem %sOdnowienie wynajmu %sOdnowienie dziennej opłaty za wynajem "
-"%sOpłata za rezerwację %sZamówienie oczekuje zbyt długo %sWypłata %s%s %s %s "
-"%s %s %sPłatność %sWycofaj%sAnuluj %sZasilenie %sZwrot opłaty za utraconą "
-"pozycję %sZwrot opłaty %sZwrot %sOpłata anulowana %s%s %s %s %s %s %s"
+"za wynajem %sOdnowienie wynajmu %sOdnowienie dziennej opłaty za wynajem %"
+"sOpłata za rezerwację %sZamówienie oczekuje zbyt długo %sWypłata %s%s %s %s %"
+"s %s %sPłatność %sWycofanie %sAnulowanie %sZasilenie %sZwrot opłaty za "
+"utraconą pozycję %sZwrot opłaty %sZwrot %sOpłata anulowana %s%s %s %s %s %s "
+"%s"
 
 #. %1$s:  INCLUDE 'doc-head-close.inc' 
 #. %2$s:  BLOCK norms_text 
@@ -10581,7 +10582,7 @@ msgstr "(%s). %s Przyjąć zwrot i wypożyczyć? %s "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:48
 #, c-format
 msgid "(Accruing)"
-msgstr "(Naliczanie)"
+msgstr "(Naliczana)"
 
 #. %1$s:  field.authorised_value_category | html 
 #. %2$s:  ELSE 
@@ -10643,7 +10644,7 @@ msgstr "(Przefiltrowano. "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:52
 #, c-format
 msgid "(Forgiven)"
-msgstr "(Umorzenie należności)"
+msgstr "(Anulowanie należności)"
 
 #. %1$s:  HoldsToPullStartDate | html 
 #. %2$s:  HoldsToPullEndDate | html 
@@ -10721,7 +10722,7 @@ msgstr "(Wymagane)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:49
 #, c-format
 msgid "(Returned)"
-msgstr "(Zwrócony)"
+msgstr "(Zwrócona)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:171
 #, c-format

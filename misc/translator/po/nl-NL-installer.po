@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
-"PO-Revision-Date: 2021-05-10 14:24+0000\n"
+"PO-Revision-Date: 2022-03-08 14:46+0000\n"
 "Last-Translator: Ronald Wijlens <r.j.wijlens@saxion.nl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nl_NL\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1620656690.971545\n"
+"X-POOTLE-MTIME: 1646750783.427729\n"
 "X-Pootle-Path: /nl_NL/21.05/nl-NL-installer.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -3224,9 +3224,8 @@ msgid "The following item, %s, has correctly been renewed and is now due on %s"
 msgstr "Exemplaar %s is correct verlengd en de nieuwe inleverdatum is %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60:mul:3
-#, fuzzy
 msgid "The following item, %s, has not been renewed because:"
-msgstr "Deze records konden niet worden verwijderd:"
+msgstr "Het volgende exemplaar, %s, is niet verlengd omdat:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:1
 #, fuzzy
@@ -3269,9 +3268,8 @@ msgid ""
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56:mul:7
-#, fuzzy
 msgid "The reason given is: %s"
-msgstr "Wisselgeld bedraagt "
+msgstr "De opgegeven reden is: %s"
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:13
 msgid ""
@@ -3280,14 +3278,12 @@ msgid ""
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:3
-#, fuzzy
 msgid "There were %s items that were not renewed."
-msgstr "Deze exemplaren zijn gewijzigd:"
+msgstr "Er zijn %s exemplaren niet verlengd."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:6
-#, fuzzy
 msgid "There were %s items that were renewed."
-msgstr "Deze exemplaren zijn gewijzigd:"
+msgstr "Er zijn %s exemplaren verlengd."
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:212
 #, fuzzy
@@ -3299,9 +3295,8 @@ msgid "This item is on hold for another patron."
 msgstr "Dit exemplaar is gereserveerd voor een andere lener."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60:mul:17
-#, fuzzy
 msgid "This item must be renewed at the library."
-msgstr "Dit exemplaar moet geretourneerd worden naar %s."
+msgstr "Dit exemplaar kan alleen bij de bibliotheek verlengd worden."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:4:mul:4
 #, fuzzy
@@ -3374,14 +3369,12 @@ msgid "Useful patron attribute types:"
 msgstr "Nieuw lenerkenmerktype"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:37:mul:5
-#, fuzzy
 msgid "User:  %s"
-msgstr "Gebruikerid: "
+msgstr "Gebruiker:  %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:1
-#, fuzzy
 msgid "Username: %s"
-msgstr "Gebruikersnaam: "
+msgstr "Gebruikersnaam: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:40
 #, fuzzy
@@ -3483,9 +3476,8 @@ msgid "Volume, Number, Issue"
 msgstr "Deelnummer"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:10
-#, fuzzy
 msgid "Volume: %s"
-msgstr "Volumes: "
+msgstr "Deel: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:50
 #, fuzzy
@@ -3518,9 +3510,8 @@ msgid "We have completed your request for an article from %s (%s)."
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:3
-#, fuzzy
 msgid "We have received your request for an article from %s (%s)."
-msgstr "Het gevraagde record bestaat niet (%s)."
+msgstr "We hebben je verzoek ontvangen voor een artikel van %s (%s)."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:46:mul:3
 msgid ""
@@ -3618,14 +3609,12 @@ msgid ""
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:47:mul:3
-#, fuzzy
 msgid "You have a hold available for pickup as of %s:"
-msgstr "Er zijn geen afhaalbibliotheken beschikbaar. "
+msgstr "Er staat een aanvraag voor je klaar per %s:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60:mul:11
-#, fuzzy
 msgid "You have overdue items."
-msgstr "Lener heeft %s te late exemplaren."
+msgstr "Je hebt te late exemplaren."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60:mul:5
 #, fuzzy
@@ -3690,21 +3679,19 @@ msgid "Your new Koha account details."
 msgstr "Standaard accountdetails"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:3
-#, fuzzy
 msgid ""
 "Your request for an article from %s (%s) has been canceled for the following "
 "reason:"
-msgstr "Je verlenging is mislukt om de volgende reden(en): "
+msgstr ""
+"Je verzoek voor een artikel van %s (%s) is geannuleerd om de volgende reden:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60:mul:15
-#, fuzzy
 msgid "Your total unpaid fines are too high."
-msgstr "U heeft openstaande boetes. Bedrag: %s. "
+msgstr "Je onbetaalde boetes zijn te hoog."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:38:mul:6
-#, fuzzy
 msgid "has returned all items.%s"
-msgstr "%sDit record heeft geen items.%s "
+msgstr "heeft alle exemplaren ingeleverd.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:27:mul:7
 msgid "is ready for pick up from %s."

@@ -18,17 +18,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "POT-Creation-Date: 2022-02-19 17:05-0300\n"
-"PO-Revision-Date: 2022-02-18 13:35+0000\n"
+"PO-Revision-Date: 2022-02-24 09:28+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
-"Language-Team: French (France) (http://www.transifex.com/projects/p/koha/"
-"language/fr_FR/)\n"
+"Language-Team: French (France) "
+"(http://www.transifex.com/projects/p/koha/language/fr_FR/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1645191346.747911\n"
+"X-POOTLE-MTIME: 1645694904.995765\n"
 "X-Pootle-Path: /fr/21.05/fr-FR-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -6995,6 +6995,8 @@ msgid ""
 "%s Receipt summary for %s %sinvoice [ %% invoice | html %%]%s %s Receive "
 "orders from %s %s &rsaquo; Acquisitions &rsaquo; Koha "
 msgstr ""
+"%s Réception de colis pour %s %sfacture [ %% facture | html %%]%s %s "
+"Réception des commandes de %s %s &rsaquo; Acquisitions &rsaquo; Koha "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:994
@@ -30575,9 +30577,10 @@ msgid "Framework description"
 msgstr "Libellé de la grille"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/EXAMPLE.tt:2
-#, fuzzy, c-format
+#, c-format
 msgid "Framework plugin example &rsaquo; Cataloguing &rsaquo; Koha"
-msgstr "Koha &rsaquo; Catalogage &rsaquo; "
+msgstr ""
+"Exemple de plugin de grille de catalogage &rsaquo; Catalogage &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:832
 #, c-format
@@ -49174,6 +49177,8 @@ msgstr "Réception de colis pour "
 msgid ""
 "Receipt summary for : %s %sinvoice, %s%s &rsaquo; Acquisitions &rsaquo; Koha"
 msgstr ""
+"Récapitulatif des reçus pour : %s %sfacture, %s%s &rsaquo; Acquisitions "
+"&rsaquo; Koha"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -54568,9 +54573,9 @@ msgstr "Voir"
 
 #. %1$s:  patron.return_claims.unresolved.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:5
-#, fuzzy, c-format
+#, c-format
 msgid "Show %s unresolved claims"
-msgstr "Réclamations non résolues"
+msgstr "Afficher %s réclamations non résolues"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:228
@@ -54634,9 +54639,9 @@ msgstr "Tout afficher"
 
 #. %1$s:  patron.return_claims.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:4
-#, fuzzy, c-format
+#, c-format
 msgid "Show all %s claim(s)"
-msgstr "Afficher toutes les colonnes"
+msgstr "Afficher toutes les %s réclamations"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:212
 #, c-format
