@@ -1,17 +1,20 @@
+# Compendium of fi.
 msgid ""
 msgstr ""
+"Project-Id-Version: Koha 22.05\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-08-25 11:54+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
+"PO-Revision-Date: 2022-05-11 12:26+0000\n"
+"Last-Translator: Katariina Hanhisalo <katariina.hanhisalo@xamk.fi>\n"
+"Language-Team: Koha Translation Team\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1629892460.478406\n"
-"X-Pootle-Path: /fi/21.05/fi-FI-installer-MARC21.po\n"
+"X-Pootle-Path: /fi/22.05/fi-FI-installer-MARC21.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1652271982.632665\n"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1080
 msgid " Linkage"
@@ -30,8 +33,8 @@ msgid ""
 "'FA', a 'Fast Add' minimal MARC21 framework suitable for ILL or on-the-fly "
 "cataloguing."
 msgstr ""
-"'FA', 'Pikaluettelointi', miniluettelointipohja MARC21-luettelointiin esim. "
-"kaukolainojen luettelointia tai \"lennossa\" luettelointia varten."
+"'FA', 'Pikakuvailu', miniluettelointipohja MARC21-kuvailuun esim. "
+"kaukolainojen kuvailua tai \"lennossa\" kuvailua varten."
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3850
 msgid "0 (OCLC)"
@@ -324,7 +327,7 @@ msgstr "Lisävapaateksti luokan yläpuolella, LCAL (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:731
 msgid "Additional information"
-msgstr "Lisäyhteystiedot"
+msgstr "Lisätiedot"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:268
 msgid "Additional local notes, ANT (RLIN)"
@@ -1148,8 +1151,8 @@ msgid "Codeset name and source"
 msgstr "Koodisto: nimi ja lähde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:9
-msgid "Collection code"
-msgstr "Kokoelmakoodi"
+msgid "Collection"
+msgstr "Kokoelma"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:439
 msgid "Collective title"
@@ -1257,7 +1260,7 @@ msgstr "Contractual producer"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:11
 msgid "Control number of related bibliographic record"
-msgstr "Liittyvän bibliografisen tietueen kontrollinumero"
+msgstr "Liittyvän nimeketietueen kontrollinumero"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:778
 msgid "Control subfield"
@@ -1485,7 +1488,7 @@ msgstr "Huomautus kumuloituvasta hakemistosta"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:963
 msgid "Currency code"
-msgstr "Valuuttakoodi"
+msgstr "Rahayksikkökoodi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:12
 msgid "Current library"
@@ -1573,7 +1576,7 @@ msgstr "Vahingoittunut"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1318
 msgid "Date"
-msgstr "Päivämäärä"
+msgstr "Pvm"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:232
 msgid "Date 1, B.C.E. date"
@@ -1605,7 +1608,7 @@ msgstr "Viimeisin lainauspvm"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:27
 msgid "Date last seen"
-msgstr "Viimeksi nähty pvm"
+msgstr "Viimeisin havaintopvm"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:982
 msgid "Date made out of print"
@@ -2800,7 +2803,7 @@ msgstr "Omistava organisaatio"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:250
 msgid "Holding library"
-msgstr "Sijaintikirjasto"
+msgstr "Nykyinen paikka"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4073
 msgid "Holding library identification number"
@@ -3127,7 +3130,7 @@ msgstr "Myöntävä hallintoalue"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:127
 msgid "Item number"
-msgstr "Kappalenumero"
+msgstr "Nidenumero"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:261
 msgid ""
@@ -3175,7 +3178,7 @@ msgstr "KT  Moniviestimet"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:722
 msgid "Key"
-msgstr "Värit"
+msgstr "Selitteet"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:352
 msgid "Key for music"
@@ -3501,7 +3504,7 @@ msgstr "SIJAINTI [POISTETTU]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2209
 msgid "Label"
-msgstr ""
+msgstr "Otsikko"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:827
 msgid "Landsat number and path number"
@@ -3791,7 +3794,7 @@ msgstr "Pituusasteen ratkaisu"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:2
 msgid "Lost status"
-msgstr "Kadonnut"
+msgstr "Kadonnut-tila"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4090
 msgid "Lost status [LOCAL, KOHA]"
@@ -3911,7 +3914,7 @@ msgstr "Pintamateriaali"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:62
 msgid "Materials specified"
-msgstr "Aineiston osa, jota tiedot koskevat"
+msgstr "Eritellyt materiaalit"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:4
 msgid "Materials specified (bound volume or other part)"
@@ -3951,7 +3954,7 @@ msgstr "Mediatyyppi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:343
 msgid "Medium"
-msgstr "Aineiston yleismääre"
+msgstr "Keskikokoinen"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:702
 msgid "Medium of performance"
@@ -5056,7 +5059,7 @@ msgstr "Alkuperä (VM) [POISTETTU]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:58
 msgid "Public note"
-msgstr "Julkinen huomautus"
+msgstr "Yleinen huomautus"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1415
 msgid "Publication date"
@@ -5151,9 +5154,8 @@ msgid "REPRODUCTION NOTE"
 msgstr "Huomautus jäljenteestä"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:247
-#, fuzzy
 msgid "RESOURCE IDENTIFIER"
-msgstr "Tietueen kontrollinumeron tunniste"
+msgstr "AINEISTON TUNNISTE"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:155
 msgid "RESTRICTIONS ON ACCESS NOTE"
@@ -5241,7 +5243,7 @@ msgstr "Yhteys, sijainti"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:593
 msgid "Relationship"
-msgstr "Yhteys"
+msgstr "Suhde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:602
 msgid "Relationship information"
@@ -5281,7 +5283,7 @@ msgstr "Korvaavan auktoriteettitietueen kontrollinumero"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3248
 msgid "Replacement bibliographic record control number"
-msgstr "Korvaavan bibliografisen tietueen tunnus"
+msgstr "Korvaavan nimeketietueen kontrollinumero"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1358
 msgid "Replacement heading"
@@ -5440,9 +5442,8 @@ msgid "SEE ALSO FROM TRACING-MEDIUM OF PERFORMANCE TERM"
 msgstr "KATSO MYÖS -VIITTAUS - ESIINTYMISKOKOONPANOA ILMAISEVA TERMI"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:110
-#, fuzzy
 msgid "SEE ALSO FROM TRACING-NAMED EVENT"
-msgstr "KATSO MYÖS -VIITTAUS - KOKOUKSEN NIMI"
+msgstr "KATSO MYÖS -VIITTAUS - TAPAHTUMAN NIMI"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:104
 msgid "SEE FROM TRACING--CHRONOLOGICAL SUBDIVISION"
@@ -5497,9 +5498,8 @@ msgid "SEE FROM TRACING-MEDIUM OF PERFORMANCE TERM"
 msgstr "KATSO-VIITTAUS - ESITYSKOKOONPANOA ILMAISEVA TERMI"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:95
-#, fuzzy
 msgid "SEE FROM TRACING-NAMED EVENT"
-msgstr "KATSO-VIITTAUS - KOKOUKSEN NIMI"
+msgstr "KATSO-VIITTAUS - TAPAHTUMAN NIMI"
 
 # Onko noille lontoonkielisille lyhenteille virallinen suomenkielinen lyhenne?
 #: installer/data/mysql/en/marcflavour/marc21/optional/marc21_simple_bib_frameworks.yml:description:10
@@ -5684,9 +5684,8 @@ msgid "SUBJECT ADDED ENTRY--MEETING NAME"
 msgstr "KOKOUKSEN NIMI ASIASANANA"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:215
-#, fuzzy
 msgid "SUBJECT ADDED ENTRY--NAMED EVENT"
-msgstr "KOKOUKSEN NIMI ASIASANANA"
+msgstr "TAPAHTUMAN NIMI ASIASANANA"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:211
 msgid "SUBJECT ADDED ENTRY--PERSONAL NAME"
@@ -5701,9 +5700,8 @@ msgid "SUBJECT ADDED ENTRY--TOPICAL TERM"
 msgstr "KONTROLLOIDUN ASIASANASTON ASIASANA"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:227
-#, fuzzy
 msgid "SUBJECT ADDED ENTRY--TYPE OF ENTITY UNSPECIFIED"
-msgstr "KOKOUKSEN NIMI ASIASANANA"
+msgstr "MÄÄRITTELEMÄTÖN KONTROLLOITU ASIASANA"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:214
 msgid "SUBJECT ADDED ENTRY--UNIFORM TITLE"
@@ -5954,7 +5952,7 @@ msgstr "Ääniominaisuudet"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:12
 msgid "Source"
-msgstr "Tunnuksen antajan koodi"
+msgstr "Lähde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2540
 msgid "Source Contribution"
@@ -6017,9 +6015,8 @@ msgid "Source of date scheme"
 msgstr "Päiväyksen muodon lähde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1336
-#, fuzzy
 msgid "Source of definition"
-msgstr "Hankintapaikka"
+msgstr "Termin lähde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1579
 msgid "Source of description note"
@@ -6042,9 +6039,8 @@ msgid "Source of local subentity code"
 msgstr "Paikallisen osakokonaisuuskoodin lähde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1849
-#, fuzzy
 msgid "Source of name, title, or term"
-msgstr "Asiasanan tai termin lähde"
+msgstr "Nimen, nimekkeen tai termin lähde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1528
 msgid "Source of note information"
@@ -6239,7 +6235,6 @@ msgid "Subscription status code, LANT (RLIN)"
 msgstr "Tilauksen tilakoodi, LANT (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:493
-#, fuzzy
 msgid "Summary number span caption hierarchy"
 msgstr "Tiivistetty numerojakson otsikkohierarkia"
 
@@ -6370,9 +6365,8 @@ msgid "TYPE OF COMPUTER FILE OR DATA NOTE"
 msgstr "HUOMAUTUS ELEKTRONISEN AINEISTON TYYPISTÄ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:33
-#, fuzzy
 msgid "TYPE OF ENTITY"
-msgstr "YKSIKÖN NIMI"
+msgstr "ENTITEETIN TYYPPI"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:162
 msgid "TYPE OF REPORT AND PERIOD COVERED NOTE"
@@ -6679,14 +6673,12 @@ msgid "Type of division"
 msgstr "Lajityyppi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:206
-#, fuzzy
 msgid "Type of entity code"
-msgstr "Julkaisuajan tyyppi"
+msgstr "Entiteettikoodin tyyppi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:205
-#, fuzzy
 msgid "Type of entity term"
-msgstr "Yksikkötyyppi"
+msgstr "Entiteettitermin tyyppi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:664
 msgid "Type of family"
@@ -6758,7 +6750,7 @@ msgstr "Muuttumaton numero"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:56
 msgid "Uniform Resource Identifier"
-msgstr "URI, Uniform Resource Identifier"
+msgstr "URL-osoite"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:4096
 msgid "Uniform Resource Identifier [LOCAL, KOHA]"
@@ -6766,7 +6758,7 @@ msgstr "URI"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_types:1:row:9
 msgid "Uniform Title"
-msgstr "Yhtenäistetty nimeke"
+msgstr "Yhtenäistetty nimeke:"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:406
 msgid "Uniform title"
